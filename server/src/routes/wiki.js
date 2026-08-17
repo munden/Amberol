@@ -34,6 +34,7 @@ import {
   writeRevision,
   diffFields,
   auditFrom,
+  toRevision,
 } from './catalog.js';
 
 const router = Router();
@@ -424,7 +425,7 @@ function revisionsHandler(entity) {
         ORDER BY created_at DESC, id DESC`,
       [entity.entityType, row.id],
     );
-    return sendOne(res, rows.map((r) => camelKeys(r)));
+    return sendOne(res, rows.map(toRevision));
   });
 }
 

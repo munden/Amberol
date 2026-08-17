@@ -232,10 +232,11 @@ function normaliseQ(value) {
   return stripped ? value.trim() : null;
 }
 
-// How close a word has to be before the trigram fallback accepts it. Loose
-// enough that `feding` reaches `Feeding`, tight enough that unrelated words do
-// not flood in.
-const WORD_SIMILARITY_THRESHOLD = 0.4;
+// How close a word has to be before the trigram fallback accepts it. Tuned
+// against the seeded catalog: `feding` reaches `Feeding` (0.67) and `murrey`
+// reaches `Murray` (0.57), while 0.4 let in enough coincidental matches —
+// word_similarity scores any run of text, not only whole words — to bury them.
+const WORD_SIMILARITY_THRESHOLD = 0.5;
 
 const CATALOG_SORTS = {
   relevance: { expr: 'f.rank', desc: true },
@@ -1000,7 +1001,7 @@ router.delete(
 
 // ================================================================= revisions
 
-function toRevision(row) {
+export function toRevision(row) {
   const r = camelKeys(row);
   return {
     id: r.id,

@@ -133,13 +133,13 @@ export function EntityEditor({
 
   return (
     <Modal open={open} onClose={onClose} title={title} wide>
-      {error && (
+      {error ? (
         <div style={{ marginBottom: 'var(--space-4)' }}>
           <Notice tone="danger" title="Not saved">
             {error instanceof Error ? error.message : 'Something went wrong.'}
           </Notice>
         </div>
-      )}
+      ) : null}
       <div style={{ display: 'grid', gap: 'var(--space-4)',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(13rem, 1fr))' }}>
         {fields.map((field) => {

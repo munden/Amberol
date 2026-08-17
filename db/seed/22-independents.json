@@ -3,122 +3,70 @@
     {
       "slug": "ada-jones",
       "name": "Ada Jones",
-      "sort_name": "Jones, Ada",
-      "is_group": false,
-      "nationality": "American",
       "voice_or_instrument": "soprano"
     },
     {
       "slug": "arthur-collins",
       "name": "Arthur Collins",
-      "sort_name": "Collins, Arthur",
-      "is_group": false,
-      "birth_year": 1864,
-      "death_year": 1933,
-      "nationality": "American",
       "voice_or_instrument": "baritone"
     },
     {
       "slug": "billy-murray",
       "name": "Billy Murray",
-      "sort_name": "Murray, Billy",
-      "is_group": false,
-      "birth_year": 1877,
-      "death_year": 1954,
-      "nationality": "American",
-      "voice_or_instrument": "tenor",
-      "summary": "The best-selling American vocalist of the 1900s, whose crisp diction carried comic and ragtime songs through the acoustic horn."
+      "voice_or_instrument": "tenor"
     },
     {
       "slug": "byron-g-harlan",
       "name": "Byron G. Harlan",
-      "sort_name": "Harlan, Byron G.",
-      "is_group": false,
-      "birth_year": 1861,
-      "death_year": 1936,
-      "nationality": "American",
       "voice_or_instrument": "tenor"
     },
     {
       "slug": "frank-c-stanley",
       "name": "Frank C. Stanley",
-      "full_name": "William Stanley Grinsted",
-      "sort_name": "Stanley, Frank C.",
-      "is_group": false,
-      "birth_year": 1868,
-      "death_year": 1910,
-      "nationality": "American",
-      "voice_or_instrument": "bass and banjo"
+      "voice_or_instrument": "bass"
     },
     {
       "slug": "frank-coombs",
       "name": "Frank Coombs",
       "sort_name": "Coombs, Frank",
       "is_group": false,
-      "voice_or_instrument": "baritone"
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone heard on the independent cylinder labels of the 1910s; little has been established about him beyond his recordings."
     },
     {
       "slug": "helen-clark",
       "name": "Helen Clark",
       "sort_name": "Clark, Helen",
-      "is_group": false,
-      "voice_or_instrument": "contralto",
-      "summary": "Contralto best remembered for duets with tenors — on Indestructible almost always with Walter Van Brunt."
+      "voice_or_instrument": "contralto"
     },
     {
       "slug": "henry-burr",
       "name": "Henry Burr",
-      "full_name": "Henry Burr",
-      "sort_name": "Burr, Henry",
-      "aliases": [
-        "Harry McClaskey",
-        "Irving Gillette"
-      ],
-      "is_group": false,
       "birth_year": 1882,
-      "death_year": 1941,
-      "nationality": "Canadian",
-      "voice_or_instrument": "tenor",
-      "summary": "Canadian-born ballad tenor, one of the most heavily recorded singers of the acoustic era and the voice behind a large share of the Indestructible catalogue."
+      "voice_or_instrument": "tenor"
     },
     {
-      "slug": "john-j-kimmel",
+      "slug": "john-kimmel",
       "name": "John J. Kimmel",
-      "sort_name": "Kimmel, John J.",
-      "is_group": false,
-      "nationality": "American",
-      "voice_or_instrument": "accordion",
-      "summary": "Brooklyn-born accordionist of German parentage who became the most recorded player of Irish dance music in the acoustic era."
+      "voice_or_instrument": "accordion"
     },
     {
       "slug": "len-spencer",
       "name": "Len Spencer",
-      "sort_name": "Spencer, Len",
-      "is_group": false,
-      "birth_year": 1867,
-      "death_year": 1914,
-      "nationality": "American",
       "voice_or_instrument": "baritone and monologuist"
     },
     {
       "slug": "peerless-quartet",
-      "name": "Peerless Quartette",
-      "sort_name": "Peerless Quartette",
-      "is_group": true,
-      "summary": "The most prolific male quartet of the acoustic era; it appears on cylinder labels as both Peerless Quartet and Peerless Quartette."
+      "name": "Peerless Quartet",
+      "aliases": [
+        "Peerless Quartette"
+      ],
+      "is_group": true
     },
     {
       "slug": "walter-van-brunt",
-      "name": "Walter Van Brunt",
+      "name": "W. Van Brunt",
       "full_name": "Walter Van Brunt",
-      "sort_name": "Van Brunt, Walter",
-      "aliases": [
-        "Walter Scanlan"
-      ],
-      "is_group": false,
-      "birth_year": 1892,
-      "death_year": 1971,
-      "nationality": "American",
       "voice_or_instrument": "tenor"
     }
   ],
@@ -1719,7 +1667,7 @@
       "confidence": "probable",
       "credits": [
         {
-          "person_slug": "john-j-kimmel",
+          "person_slug": "john-kimmel",
           "role": "instrumentalist",
           "billing_order": 1,
           "detail": "accordion"
@@ -2004,7 +1952,7 @@
       "confidence": "uncertain",
       "credits": [
         {
-          "person_slug": "john-j-kimmel",
+          "person_slug": "john-kimmel",
           "role": "instrumentalist",
           "billing_order": 1,
           "detail": "accordion"

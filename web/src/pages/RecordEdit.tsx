@@ -469,7 +469,7 @@ export default function RecordEdit() {
         )}
       </header>
 
-      {saveError && (
+      {saveError ? (
         <div style={{ marginBottom: 'var(--space-5)' }}>
           <Notice tone="danger" title="The entry was not saved">
             {saveError instanceof Error ? saveError.message : 'Something went wrong.'}
@@ -482,7 +482,7 @@ export default function RecordEdit() {
             )}
           </Notice>
         </div>
-      )}
+      ) : null}
 
       {deleteError && (
         <div style={{ marginBottom: 'var(--space-5)' }}>

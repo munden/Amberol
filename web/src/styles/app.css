@@ -14,6 +14,15 @@
    ===================================================================== */
 
 /* ---------------------------------------------------------------------
+   A note on specificity
+
+   main.tsx imports tokens.css after the module graph has already pulled in
+   this sheet, so tokens.css wins every tie. Anywhere below that restyles a
+   kit class, the class is named twice over (.cylinder.specimen__cyl) to
+   take the tie deliberately rather than by accident of bundling order.
+   --------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------
    Correction to the kit
 
    .eyebrow is set in --brass, which measures 3.2:1 on cream stock and so
@@ -21,7 +30,7 @@
    Edison's own name for it — and clears 5.5:1 in daylight, 7.5:1 in
    lamplight. The look is unchanged; only the ink is darker.
    --------------------------------------------------------------------- */
-.eyebrow { color: var(--gold-moulded); }
+.shell .eyebrow { color: var(--gold-moulded); }
 
 /* =====================================================================
    Shell
@@ -325,15 +334,20 @@
    The cover
    ===================================================================== */
 
-.cover { padding: 0; }
+.plate.cover { padding: var(--space-2); }
 
-/* An engraved keyline inside the plate's corner brackets — the border a
-   period advertisement would have been set inside. */
+/* An engraved double keyline inside the plate's corner brackets — the
+   border a period advertisement would have been set inside. Thick outside,
+   hairline within, with the paper showing between. */
 .cover__keyline {
-  border: 1px solid var(--rule);
-  margin: var(--space-2);
-  padding: var(--space-6) var(--space-4) var(--space-5);
+  border: 3px solid var(--rule-strong);
+  padding: 3px;
   text-align: center;
+}
+
+.cover__page {
+  border: 1px solid var(--rule-strong);
+  padding: var(--space-6) var(--space-4) var(--space-5);
 }
 
 .cover__imprint {
@@ -385,11 +399,15 @@
   color: var(--accent);
 }
 
+/* The announcement paragraph. Set left and opened with a drop capital, as
+   the notice on a supplement cover was, so it reads as printed matter
+   rather than as a centred web tagline. */
 .cover__standfirst {
-  max-width: 54ch;
+  max-width: 46rem;
   margin: var(--space-5) auto 0;
   font-size: var(--text-lg);
   color: var(--fg-soft);
+  text-align: left;
   text-wrap: pretty;
 }
 
@@ -421,13 +439,14 @@
   gap: var(--space-2);
 }
 
-.coupon__input {
+.field.coupon__input {
   flex: 1 1 auto;
   min-width: 0;
   min-height: 3.25rem;
   font-family: var(--font-body);
   font-size: var(--text-lg);
-  /* Brass rules the field; --rule-strong drops under 3:1 in lamplight. */
+  /* Brass rules the field; --rule-strong drops under 3:1 in lamplight,
+     which is below the non-text minimum for a control boundary. */
   border-color: var(--brass);
   border-width: 2px;
 }
@@ -443,33 +462,43 @@
 
 /* ---------------------------------------------------------- the specimen */
 
-/* A labelled figure, as an illustration in a catalogue would be: the
-   cylinder drawn side on, with its particulars set beneath in stamp type. */
+/* A labelled plate, as an illustration in a catalogue would be: three
+   cylinders drawn side on with the bore at the left end, standing in the
+   drawer, and their particulars set beneath in stamp type.
+   The whole thing is drawn by the .cylinder motif — no image is loaded. */
 .specimen {
-  max-width: 30rem;
+  max-width: 34rem;
   margin: var(--space-7) auto 0;
 }
 
-.specimen__body {
-  aspect-ratio: auto;
-  height: 5.5rem;
+.specimen__rack {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  align-items: end;
+}
+
+/* Roughly the real thing: 4¼ inches long by 2¼ across. */
+.cylinder.specimen__cyl {
+  aspect-ratio: 19 / 10;
   border-radius: var(--radius-sm);
 }
 
-.specimen__mandrel {
-  height: 10px;
-  margin: 0 6%;
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+/* The oak shelf the drawer's cylinders rest on. */
+.specimen__shelf {
+  height: 9px;
+  margin-top: -1px;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   background: linear-gradient(180deg,
-    color-mix(in srgb, var(--oak) 70%, black), transparent);
-  opacity: 0.55;
+    color-mix(in srgb, var(--oak-deep) 80%, transparent), transparent);
 }
 
 .specimen figcaption {
   margin-top: var(--space-3);
   font-family: var(--font-stamp);
   font-size: var(--text-xs);
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
+  line-height: var(--leading-snug);
   color: var(--fg-soft);
 }
 

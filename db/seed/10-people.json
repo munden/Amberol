@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "slug": "john-kimmel",
+      "slug": "john-j-kimmel",
       "name": "John J. Kimmel",
       "full_name": "John J. Kimmel",
       "sort_name": "Kimmel, John J.",
@@ -1440,6 +1440,613 @@
       "biography": "The Orpheus Quartet recorded from 1911 to about 1922, chiefly for Victor, where it served as the in-house male quartet alongside the American Quartet. Harry Macdonough sang with it, as did Lambert Murphy, Reinald Werrenrath and William F. Hooley at various points.\n\nIts repertoire leaned to the serious end of the quartet trade: sacred music, art-song arrangements, old favourites and part-songs rather than comic novelties. Records under the name appear on four-minute cylinders as well as discs.",
       "links": [
         { "kind": "discography", "label": "Orpheus Quartet at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/16371/Orpheus_Quartet_Vocal_group", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "edison-concert-band",
+      "name": "Edison Concert Band",
+      "full_name": "Edison Concert Band",
+      "sort_name": "Edison Concert Band",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "brass band",
+      "summary": "Edison's own studio band, the workhorse of the company's instrumental catalogue from the 1900s through the four-minute era.",
+      "biography": "The Edison Concert Band was the National Phonograph Company's house brass and reed band, made up of New York freelance players working under a series of studio conductors. Bands recorded better than anything else in the acoustic period — loud, brassy and full of the transients the horn could catch — so a band record was the standard demonstration piece for a new machine, and every catalogue carried dozens.\n\nThe Edison Concert Band supplied marches, overtures, medleys, dances and descriptive novelties across the whole run of Edison cylinders, including a large body of four-minute Amberol and Blue Amberol issues. Under related billings — Edison Military Band, New York Military Band, National Promenade Band — much the same personnel served different repertoire categories. Its records are among the easiest four-minute cylinders to find and, when in good condition, among the most impressive things to play on an Amberola."
+    },
+    {
+      "slug": "edison-military-band",
+      "name": "Edison Military Band",
+      "full_name": "Edison Military Band",
+      "sort_name": "Edison Military Band",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "The Edison house band under its military billing, used for marches, patriotic selections and descriptive pieces.",
+      "biography": "Edison Military Band is one of the several names the company used for its studio band, applied particularly to marches, patriotic numbers and descriptive military pieces such as battle scenes with bugle calls and effects. The players overlapped substantially with the Edison Concert Band and the New York Military Band.\n\nThe distinction between these house-band credits was a matter of catalogue presentation rather than personnel, which is why a collector will see the same conductor's arrangements attributed to two or three different band names within a single supplement. The credit is recorded as printed."
+    },
+    {
+      "slug": "new-york-military-band",
+      "name": "New York Military Band",
+      "full_name": "New York Military Band",
+      "sort_name": "New York Military Band",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "Edison studio band credit of the Amberol and Blue Amberol years, prolific in marches and popular medleys.",
+      "biography": "The New York Military Band was one of the Edison studio band identities of the 1910s, recording marches, one-steps, medleys and popular selections for Amberol and Blue Amberol cylinders and for Diamond Discs. Like the Edison Concert Band and the Edison Military Band, it drew on the same pool of New York players.\n\nBand records of this kind carried the popular hits of the day to buyers who wanted the tune without the words, and they make up a large share of any four-minute cylinder catalogue."
+    },
+    {
+      "slug": "national-promenade-band",
+      "name": "National Promenade Band",
+      "full_name": "National Promenade Band",
+      "sort_name": "National Promenade Band",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "dance band",
+      "summary": "Edison's dance-band billing of the mid-1910s, supplying one-steps, fox trots, waltzes and hesitations for home dancing.",
+      "biography": "The National Promenade Band was the name Edison put on its dance records during the ballroom craze that swept America from about 1913, when Vernon and Irene Castle made social dancing respectable and every household with a phonograph wanted a one-step.\n\nThe band recorded fox trots, one-steps, hesitation waltzes, tangos and maxixes for Blue Amberol and Diamond Disc, often with the dance type printed prominently on the label so a buyer could choose by step rather than by tune. Four-minute playing time was a genuine selling point here: a two-minute cylinder was over before a dance had properly begun."
+    },
+    {
+      "slug": "american-symphony-orchestra",
+      "name": "American Symphony Orchestra",
+      "full_name": "American Symphony Orchestra",
+      "sort_name": "American Symphony Orchestra",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "orchestra",
+      "summary": "Edison's house orchestra credit for light-classical and overture repertoire on four-minute cylinders and Diamond Discs.",
+      "biography": "The American Symphony Orchestra was an Edison studio ensemble billing rather than a concert orchestra — a pick-up group of New York players recording overtures, light classics, intermezzos and operatic selections for the company's more serious instrumental list.\n\nOrchestral recording was the hardest problem in acoustic engineering: strings were weak, low instruments barely registered, and players had to crowd around the horn in unnatural arrangements, with Stroh violins and tubas substituting for double basses. The results are compromised by modern standards but were sold as the height of fidelity, and the four-minute cylinder allowed a whole overture where a two-minute one had allowed only an excerpt.",
+      "notes": "Not connected with the later concert organisation of the same name founded in New York in 1962."
+    },
+    {
+      "slug": "sousas-band",
+      "name": "Sousa's Band",
+      "full_name": "Sousa's Band",
+      "sort_name": "Sousa's Band",
+      "aliases": ["The Sousa Band"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "John Philip Sousa's touring band, the most famous musical organisation in America and a staple of every cylinder catalogue.",
+      "biography": "Sousa's Band was formed in 1892 when John Philip Sousa left the United States Marine Band to go into business for himself, and for the next forty years it was the most celebrated musical organisation in the country, touring relentlessly at home and abroad and playing to audiences that no orchestra could match.\n\nIts recording history is complicated, and worth understanding. Sousa himself distrusted recording — he coined the phrase \"canned music\" and wrote an essay attacking \"The Menace of Mechanical Music\" — and he very rarely conducted for the horn in person. The great majority of records credited to Sousa's Band were made by the band's players under other conductors, notably Arthur Pryor and Walter B. Rogers. That does not make them less valuable; they are the best surviving evidence of how the band actually sounded.\n\nSousa's Band records appear across the whole cylinder era, including four-minute Amberol and Blue Amberol issues and the celluloid cylinders of Indestructible and U-S Everlasting. Marches dominate, but the band's real repertoire was far broader — overtures, operatic transcriptions, novelties and popular selections of every kind."
+    },
+    {
+      "slug": "arthur-pryors-band",
+      "name": "Arthur Pryor's Band",
+      "full_name": "Arthur Pryor's Band",
+      "sort_name": "Pryor's Band, Arthur",
+      "aliases": ["Pryor's Band"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "The band Arthur Pryor formed in 1903 after leaving Sousa, and one of the most heavily recorded ensembles of the acoustic era.",
+      "biography": "Arthur Pryor formed his own band in 1903, having spent a decade as Sousa's trombone soloist and principal recording conductor. He understood the recording horn better than almost anyone alive, and Pryor's Band became one of the most prolific recording organisations in America, working chiefly for Victor but issued widely elsewhere.\n\nThe band's repertoire ran from marches and Pryor's own compositions — \"The Whistler and His Dog\" above all — to ragtime, cakewalks, overtures and descriptive novelties. Pryor was an early and enthusiastic recorder of syncopated music, and his band's ragtime sides are important documents in their own right.\n\nPryor's Band recordings reached four-minute cylinder buyers through Indestructible and other licensed issues as well as through disc. He led the band until 1933.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Arthur Pryor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Pryor", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "jaudas-society-orchestra",
+      "name": "Jaudas' Society Orchestra",
+      "full_name": "Jaudas' Society Orchestra",
+      "sort_name": "Jaudas' Society Orchestra",
+      "aliases": ["Jaudas Society Orchestra"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "dance orchestra",
+      "summary": "Edison dance orchestra of the 1910s, directed by Eugene Jaudas, recording fox trots, one-steps and waltzes.",
+      "biography": "Jaudas' Society Orchestra was an Edison house dance band of the 1910s, directed by the violinist and conductor Eugene A. Jaudas, who was one of the company's principal studio musicians. It recorded the ballroom repertoire of the period — one-steps, fox trots, hesitation waltzes, maxixes and tangos — for Blue Amberol cylinder and Diamond Disc.\n\nThe orchestra's name evokes the fashionable hotel and society dance bands that the recording companies were competing to imitate, and its records document the transitional moment between the ragtime dance craze and the arrival of jazz."
+    },
+    {
+      "slug": "irving-berlin",
+      "name": "Irving Berlin",
+      "full_name": "Israel Beilin",
+      "sort_name": "Berlin, Irving",
+      "aliases": ["Israel Beilin", "Izzy Baline"],
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1989,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "The most important American songwriter of the twentieth century, whose 'Alexander's Ragtime Band' was one of the biggest-selling records of the cylinder era.",
+      "biography": "Israel Beilin was born in the Russian Empire in 1888 and brought to New York's Lower East Side as a child. He worked as a singing waiter in Chinatown, published his first song in 1907, and in 1911 wrote \"Alexander's Ragtime Band,\" which sold sheet music by the million and became — in the Collins and Harlan recording and many others — one of the defining records of the four-minute cylinder period.\n\nHe could not read music properly and composed at a transposing piano, and he wrote both words and music, which was unusual. Between 1910 and 1930 his songs saturate the cylinder catalogues: \"Everybody's Doin' It Now,\" \"When I Lost You,\" \"Oh! How I Hate to Get Up in the Morning,\" \"A Pretty Girl Is Like a Melody,\" \"Say It with Music,\" \"All By Myself.\" Later came \"Blue Skies,\" \"God Bless America,\" \"White Christmas\" and *Annie Get Your Gun*.\n\nHe lived to 101, dying in 1989. On a four-minute cylinder label his name appears in parentheses after the title more often than almost any other composer's.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Irving Berlin on Wikipedia", "url": "https://en.wikipedia.org/wiki/Irving_Berlin", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "george-m-cohan",
+      "name": "George M. Cohan",
+      "full_name": "George Michael Cohan",
+      "sort_name": "Cohan, George M.",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1942,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Songwriter, playwright and performer whose flag-waving Broadway numbers were Billy Murray's staple repertoire and a mainstay of the cylinder catalogue.",
+      "biography": "George M. Cohan was born in Providence, Rhode Island, in 1878 into a vaudeville family and grew up on the road with the Four Cohans. He became the dominant figure of the early American musical stage: writer, composer, lyricist, director, producer and star, with more than three hundred songs and thirty musicals to his name.\n\nHis songs — \"The Yankee Doodle Boy,\" \"Give My Regards to Broadway,\" \"You're a Grand Old Flag,\" \"Mary's a Grand Old Name,\" \"Harrigan\" and, in 1917, \"Over There\" — are brash, rhythmically square, unashamedly patriotic and perfectly built for the acoustic recording horn. Billy Murray recorded most of them, and they appear on four-minute cylinders in quantity.\n\nCohan himself recorded comparatively little; his stage presence did not transfer well. He received a Congressional Gold Medal for \"Over There\" and \"You're a Grand Old Flag\" and died in 1942.",
+      "links": [
+        { "kind": "encyclopedia", "label": "George M. Cohan on Wikipedia", "url": "https://en.wikipedia.org/wiki/George_M._Cohan", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "john-philip-sousa",
+      "name": "John Philip Sousa",
+      "full_name": "John Philip Sousa",
+      "sort_name": "Sousa, John Philip",
+      "aliases": ["The March King"],
+      "is_group": false,
+      "birth_year": 1854,
+      "death_year": 1932,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "The March King — composer of 'The Stars and Stripes Forever' and leader of the most famous band in America, and a public opponent of recorded music.",
+      "biography": "John Philip Sousa was born in Washington, D.C., in 1854, led the United States Marine Band from 1880 to 1892, and then formed his own touring band. His marches — \"The Stars and Stripes Forever,\" \"Semper Fidelis,\" \"The Washington Post,\" \"El Capitan,\" \"The Liberty Bell\" — are among the most recorded pieces of music in existence, and they were a fixture of every cylinder catalogue from the 1890s onward.\n\nHis relationship with the phonograph was hostile. In 1906 he published \"The Menace of Mechanical Music,\" arguing that canned music would destroy amateur music-making in the home and coarsen public taste, and he testified before Congress on composers' rights, helping to bring about the mechanical royalty provisions of the 1909 Copyright Act. He almost never conducted for the recording horn himself, and records billed as Sousa's Band were generally directed by Arthur Pryor or Walter B. Rogers.\n\nHe died in 1932. His compositions appear as composer credits on four-minute cylinders far more often than his own conducting does.",
+      "links": [
+        { "kind": "encyclopedia", "label": "John Philip Sousa on Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Philip_Sousa", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "arthur-pryor",
+      "name": "Arthur Pryor",
+      "full_name": "Arthur Willard Pryor",
+      "sort_name": "Pryor, Arthur",
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1942,
+      "nationality": "American",
+      "voice_or_instrument": "trombone",
+      "summary": "Trombone virtuoso, bandleader, composer of 'The Whistler and His Dog', and the man who conducted most of the records credited to Sousa's Band.",
+      "biography": "Arthur Pryor was born in St Joseph, Missouri, in 1870, the son of a bandmaster, and became the outstanding trombone soloist of his age — a player whose slide technique and range were considered barely credible by his contemporaries. He joined Sousa's Band in 1892, became its assistant conductor, and directed the great majority of its recording sessions, since Sousa himself would not.\n\nIn 1903 he formed Arthur Pryor's Band and built one of the most prolific recording organisations in America. He was also a composer of real charm: \"The Whistler and His Dog\" is his best-known piece, and he wrote a large body of marches, novelties and cakewalks.\n\nPryor understood the recording process as well as anyone in the business, and his sessions are consistently better balanced than those of conductors who treated the horn as an inconvenience. His compositions and conducting both turn up regularly on four-minute cylinders. He died in 1942.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Arthur Pryor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Pryor", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "victor-herbert",
+      "name": "Victor Herbert",
+      "full_name": "Victor August Herbert",
+      "sort_name": "Herbert, Victor",
+      "is_group": false,
+      "birth_year": 1859,
+      "death_year": 1924,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "The leading American operetta composer of the period, whose selections filled the light-classical shelves of every cylinder catalogue.",
+      "biography": "Victor August Herbert was born in Dublin in 1859, trained as a cellist in Germany, and came to New York in 1886. He conducted the Pittsburgh Symphony, wrote two cello concertos and two grand operas, and became the dominant figure in American operetta with *Babes in Toyland*, *Mlle. Modiste*, *The Red Mill* and *Naughty Marietta*.\n\nHis songs — \"Kiss Me Again,\" \"Ah! Sweet Mystery of Life,\" \"Gypsy Love Song,\" \"Toyland\" — were recorded constantly, and orchestral selections from his operettas were a staple of the four-minute cylinder, which for the first time gave a medley room to breathe. He was also a founder of ASCAP in 1914 and fought hard for composers' performance rights.\n\nHe died in 1924. Herbert occupies the middle ground between the concert hall and Tin Pan Alley that the Edison catalogue, in particular, was designed to serve.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Victor Herbert on Wikipedia", "url": "https://en.wikipedia.org/wiki/Victor_Herbert", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "harry-von-tilzer",
+      "name": "Harry Von Tilzer",
+      "full_name": "Aaron Gumbinsky",
+      "sort_name": "Von Tilzer, Harry",
+      "aliases": ["Harry Gumm", "Aaron Gumbinsky"],
+      "is_group": false,
+      "birth_year": 1872,
+      "death_year": 1946,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "One of Tin Pan Alley's founding figures and its most prolific songwriter, with several thousand published songs to his name.",
+      "biography": "Harry Von Tilzer — born Aaron Gumbinsky in Detroit in 1872 — ran away with a circus as a boy, worked in burlesque, and arrived in New York to become one of the architects of the Tin Pan Alley system: the songwriter as industrial producer, turning out material to order and publishing it himself. He is often credited with coining the name Tin Pan Alley itself.\n\nHis hits include \"A Bird in a Gilded Cage,\" \"Wait 'Til the Sun Shines, Nellie,\" \"I Want a Girl (Just Like the Girl That Married Dear Old Dad)\" and \"Down Where the Wurzburger Flows,\" and he wrote coon songs, waltz ballads, comic numbers and novelties by the thousand. His name appears in the composer credits of four-minute cylinders more often than most.\n\nHe founded the Harry Von Tilzer Music Publishing Company in 1902 and remained in business for decades. His brother Albert was also a successful songwriter. He died in 1946.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Harry Von Tilzer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Harry_Von_Tilzer", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "albert-von-tilzer",
+      "name": "Albert Von Tilzer",
+      "full_name": "Albert Gumbinsky",
+      "sort_name": "Von Tilzer, Albert",
+      "aliases": ["Albert Gumm", "Albert Gumbinsky"],
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1956,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'Take Me Out to the Ball Game' and 'Put Your Arms Around Me, Honey', and Harry Von Tilzer's younger brother.",
+      "biography": "Albert Von Tilzer followed his elder brother Harry into music publishing and songwriting and had a career nearly as prolific. In 1908 he set Jack Norworth's lyric \"Take Me Out to the Ball Game\" — neither man had been to a baseball game — and produced what became the third most frequently sung song in America. Edward Meeker's 1908 Edison cylinder of it is in the National Recording Registry.\n\nHis other successes include \"Put Your Arms Around Me, Honey,\" \"I'll Be with You in Apple Blossom Time\" and \"Oh By Jingo!\" He founded the York Music Company with his brother Jack and worked into the 1930s. He died in 1956.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Albert Von Tilzer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Albert_Von_Tilzer", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "gus-edwards",
+      "name": "Gus Edwards",
+      "full_name": "Gus Edwards",
+      "sort_name": "Edwards, Gus",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1945,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Songwriter and vaudeville impresario whose 'School Days' and 'By the Light of the Silvery Moon' were cylinder-era standards.",
+      "biography": "Gus Edwards was born in Germany in 1878 and brought to New York as a child. He worked as a boy singer, became a songwriter, and then built a second career as vaudeville's great discoverer of juvenile talent — his \"School Days\" revues launched Eddie Cantor, George Jessel, Groucho Marx and Walter Winchell among others.\n\nAs a composer he wrote \"School Days\" (1907), \"By the Light of the Silvery Moon\" (1909, with lyrics by Edward Madden), \"In My Merry Oldsmobile\" and \"Sunbonnet Sue.\" All were recorded repeatedly and appear across the four-minute cylinder catalogues in solo, duet and quartet versions. He died in 1945.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Gus Edwards songs", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "jean-schwartz",
+      "name": "Jean Schwartz",
+      "full_name": "Jean Schwartz",
+      "sort_name": "Schwartz, Jean",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1956,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Hungarian-born Tin Pan Alley composer, best known for 'Chinatown, My Chinatown' and 'Rock-a-Bye Your Baby with a Dixie Melody'.",
+      "biography": "Jean Schwartz was born in Budapest in 1878 and emigrated to New York as a boy, working as a song plugger and pianist before establishing himself as a composer. His long partnership with the lyricist William Jerome produced a string of hits, and he wrote for Broadway revues throughout the 1900s and 1910s.\n\n\"Chinatown, My Chinatown\" (1910), \"Bedelia\" (1903) and \"Rock-a-Bye Your Baby with a Dixie Melody\" (1918) are his best-remembered songs; the first two in particular were recorded constantly on cylinder, and \"Chinatown\" became a jazz-band standard as well. He died in 1956."
+    },
+    {
+      "slug": "charles-k-harris",
+      "name": "Charles K. Harris",
+      "full_name": "Charles Kassell Harris",
+      "sort_name": "Harris, Charles K.",
+      "is_group": false,
+      "birth_year": 1867,
+      "death_year": 1930,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Author of 'After the Ball', the song that created the modern sheet-music industry and remained a cylinder standard for thirty years.",
+      "biography": "Charles K. Harris was born in Poughkeepsie in 1867 and advertised himself in Milwaukee as \"Banjoist and Song Writer — Songs Written to Order.\" In 1892 he wrote, published and promoted \"After the Ball,\" a waltz ballad about a misunderstanding that ruins a life. It sold five million copies of sheet music, made him rich, and demonstrated to the whole trade that a single song could be an industry.\n\nHe wrote hundreds more sentimental narrative ballads — \"Break the News to Mother,\" \"Hello Central, Give Me Heaven\" — in the same vein: a story told over three verses with a chorus that turns the knife. The four-minute cylinder was well suited to them, since a two-minute record had to cut verses that the story needed. He died in 1930."
+    },
+    {
+      "slug": "paul-dresser",
+      "name": "Paul Dresser",
+      "full_name": "Johann Paul Dreiser Jr.",
+      "sort_name": "Dresser, Paul",
+      "aliases": ["Johann Paul Dreiser Jr."],
+      "is_group": false,
+      "birth_year": 1857,
+      "death_year": 1906,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'On the Banks of the Wabash, Far Away' and one of the great sentimental balladeers of the 1890s, whose songs stayed in cylinder catalogues long after his death.",
+      "biography": "Paul Dresser was born in Terre Haute, Indiana, in 1857 — elder brother of the novelist Theodore Dreiser, who changed the spelling of the family name back. He worked in minstrel shows and medicine shows before becoming one of the most successful ballad composers of the 1890s.\n\n\"On the Banks of the Wabash, Far Away\" (1897) became the state song of Indiana; \"My Gal Sal\" and \"Just Tell Them That You Saw Me\" were nearly as popular. His songs are sentimental in the fullest Victorian sense, with a real melodic gift underneath, and they remained in the cylinder catalogues for decades after his death in poverty in 1906 — carried forward into the four-minute era in remade versions by Edison, Indestructible and others."
+    },
+    {
+      "slug": "ernest-r-ball",
+      "name": "Ernest R. Ball",
+      "full_name": "Ernest Roland Ball",
+      "sort_name": "Ball, Ernest R.",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1927,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'When Irish Eyes Are Smiling', 'Mother Machree' and 'Let the Rest of the World Go By' — the Irish-American ballad's central figure.",
+      "biography": "Ernest R. Ball was born in Cleveland in 1878 and trained at the Cleveland Conservatory before going to New York as a vaudeville accompanist. In 1910 he began collaborating with the singer and lyricist Chauncey Olcott, and the results defined the Irish-American sentimental ballad for a century: \"Mother Machree\" (1910), \"When Irish Eyes Are Smiling\" (1912), \"Too-Ra-Loo-Ra-Loo-Ral\" being a Shannon song of the same school.\n\nHe wrote several hundred songs, of which \"Love Me and the World Is Mine\" and \"Let the Rest of the World Go By\" were also large sellers. His music was recorded relentlessly by the ballad tenors of the four-minute era — Manuel Romain, Walter Van Brunt, Henry Burr, Will Oakland — and Irish material was one of the strongest categories in every cylinder catalogue. He collapsed and died backstage in Santa Ana, California, in 1927."
+    },
+    {
+      "slug": "chauncey-olcott",
+      "name": "Chauncey Olcott",
+      "full_name": "John Chancellor Olcott",
+      "sort_name": "Olcott, Chauncey",
+      "aliases": ["John Chancellor Olcott"],
+      "is_group": false,
+      "birth_year": 1858,
+      "death_year": 1932,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Irish-American stage tenor, author of 'My Wild Irish Rose' and lyricist of 'Mother Machree' and 'When Irish Eyes Are Smiling'.",
+      "biography": "Chauncey Olcott was born in Buffalo in 1858 and became the leading Irish romantic tenor of the American stage, starring in a long series of sentimental Irish plays for which he wrote much of the music himself. \"My Wild Irish Rose\" (1899) is his, and he supplied the lyrics for Ernest R. Ball's \"Mother Machree\" (1911) and \"When Irish Eyes Are Smiling\" (1912), the latter written for his show *The Isle o' Dreams*.\n\nHe recorded relatively little himself, but his songs were among the most frequently recorded of the period and appear throughout the four-minute cylinder catalogues in versions by the house tenors of Edison, Indestructible and U-S Everlasting. He died in Monte Carlo in 1932.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Chauncey Olcott on Wikipedia", "url": "https://en.wikipedia.org/wiki/Chauncey_Olcott", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "jerome-kern",
+      "name": "Jerome Kern",
+      "full_name": "Jerome David Kern",
+      "sort_name": "Kern, Jerome",
+      "is_group": false,
+      "birth_year": 1885,
+      "death_year": 1945,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "The composer who brought melodic sophistication to the American musical, and whose songs appear on cylinders from 1914 onward.",
+      "biography": "Jerome Kern was born in New York in 1885 and studied in Germany before beginning work as a song plugger and rehearsal pianist. He first made his name interpolating songs into imported European shows, then in the Princess Theatre musicals of 1915–1918 helped invent the integrated American book musical. *Show Boat* (1927) was the culmination.\n\nHis early hits — \"They Didn't Believe Me\" (1914), \"Look for the Silver Lining,\" \"Till the Clouds Roll By\" — were recorded during the four-minute cylinder's commercial life and appear on Blue Amberols and on Indestructible issues. Kern's harmonic vocabulary was richer than Tin Pan Alley's norm, and singers of the period sometimes struggled with it; the records are correspondingly interesting.\n\nHe wrote for Hollywood in the 1930s and 1940s and died in 1945.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Jerome Kern on Wikipedia", "url": "https://en.wikipedia.org/wiki/Jerome_Kern", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "percy-wenrich",
+      "name": "Percy Wenrich",
+      "full_name": "Percy Wenrich",
+      "sort_name": "Wenrich, Percy",
+      "aliases": ["The Joplin Kid"],
+      "is_group": false,
+      "birth_year": 1887,
+      "death_year": 1952,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Ragtime and popular composer from Joplin, Missouri — 'Put On Your Old Grey Bonnet', 'When You Wore a Tulip', 'Moonlight Bay'.",
+      "biography": "Percy Wenrich was born in Joplin, Missouri, in 1887 and was nicknamed \"the Joplin Kid\" — a happy coincidence, given Scott Joplin's association with the same town. He wrote instrumental rags early on, then moved into popular song and produced a run of hits that are still recognisable: \"Put On Your Old Grey Bonnet\" (1909), \"Moonlight Bay\" (1912) and \"When You Wore a Tulip and I Wore a Big Red Rose\" (1914).\n\nAll three were recorded repeatedly during the four-minute cylinder era, \"Moonlight Bay\" most famously by the American Quartet. Wenrich later performed in vaudeville with his wife Dolly Connolly, who introduced many of his songs. He died in 1952.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Percy Wenrich on Wikipedia", "url": "https://en.wikipedia.org/wiki/Percy_Wenrich", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "egbert-van-alstyne",
+      "name": "Egbert Van Alstyne",
+      "full_name": "Egbert Anson Van Alstyne",
+      "sort_name": "Van Alstyne, Egbert",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1951,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'In the Shade of the Old Apple Tree' and 'Memories', usually in partnership with the lyricist Harry Williams.",
+      "biography": "Egbert Van Alstyne was born in Chicago in 1878 and worked as a theatre pianist before forming a long and productive partnership with the lyricist Harry Williams. Their \"In the Shade of the Old Apple Tree\" (1905) was one of the biggest sellers of the decade and stayed in cylinder catalogues for twenty years; \"Won't You Come Over to My House\" and \"I'm Afraid to Come Home in the Dark\" followed.\n\nLater, with Gus Kahn, he wrote \"Memories\" (1915) and \"Pretty Baby\" (1916). All of these were recorded extensively by the singers and quartets who filled the four-minute cylinder catalogues. He died in 1951."
+    },
+    {
+      "slug": "harry-williams",
+      "name": "Harry Williams",
+      "full_name": "Harry Hiram Williams",
+      "sort_name": "Williams, Harry",
+      "is_group": false,
+      "birth_year": 1879,
+      "death_year": 1922,
+      "nationality": "American",
+      "voice_or_instrument": "lyricist",
+      "summary": "Lyricist of 'In the Shade of the Old Apple Tree' and 'It's a Long, Long Way to Tipperary'-era standards, chiefly in partnership with Egbert Van Alstyne.",
+      "biography": "Harry Hiram Williams was born in 1879 and worked as a lyricist and publisher from 1903 until his death in 1922. His principal collaborator was the composer Egbert Van Alstyne, with whom he wrote \"In the Shade of the Old Apple Tree,\" \"Won't You Come Over to My House\" and \"I'm Afraid to Come Home in the Dark.\"\n\nHe also wrote \"Mickey\" and worked in the motion-picture business in his later years. His words appear in the lyricist credit of a great many four-minute cylinders from the format's most productive decade.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Harry Williams on Wikipedia", "url": "https://en.wikipedia.org/wiki/Harry_Williams_(songwriter)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "theodore-morse",
+      "name": "Theodore Morse",
+      "full_name": "Theodore F. Morse",
+      "sort_name": "Morse, Theodore",
+      "is_group": false,
+      "birth_year": 1873,
+      "death_year": 1924,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'M-O-T-H-E-R', 'Blue Bell' and 'Hail! Hail! The Gang's All Here', frequently in collaboration with his wife Theodora.",
+      "biography": "Theodore F. Morse was born in 1873 and became one of the reliable hit-makers of the Tin Pan Alley generation, often collaborating with his wife Theodora, who wrote lyrics under the name Dorothy Terriss (among others).\n\nHis songs include \"Blue Bell\" (1904), a Haydn Quartet favourite; \"Dear Old Girl\"; \"Hail! Hail! The Gang's All Here\"; and \"M-O-T-H-E-R (A Word That Means the World to Me)\" (1915), a spelling-out sentimental ballad that was recorded again and again during the Blue Amberol years. He died in 1924."
+    },
+    {
+      "slug": "fred-fisher",
+      "name": "Fred Fisher",
+      "full_name": "Alfred Breitenbach",
+      "sort_name": "Fisher, Fred",
+      "aliases": ["Alfred Breitenbach", "Fred Fischer"],
+      "is_group": false,
+      "birth_year": 1875,
+      "death_year": 1942,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "German-born songwriter and publisher — 'Peg o' My Heart', 'Dardanella', 'Chicago' — and a fixture of the late cylinder-era repertoire.",
+      "biography": "Fred Fisher was born Alfred Breitenbach in Cologne in 1875, served in the German navy and the French Foreign Legion by his own account, and reached the United States in 1900. He anglicised his name — dropping the c during the First World War — and became a successful songwriter and publisher.\n\n\"Come, Josephine, in My Flying Machine\" (1910) was an early hit and a Billy Murray and Ada Jones cylinder staple; \"Peg o' My Heart\" (1913), \"There's a Broken Heart for Every Light on Broadway\" (1915), \"Dardanella\" (1919) and \"Chicago (That Toddlin' Town)\" (1922) followed. He sued successfully over \"Dardanella\" in a landmark music-copyright case. He died in 1942.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Fred Fisher on Wikipedia", "url": "https://en.wikipedia.org/wiki/Fred_Fisher", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "shelton-brooks",
+      "name": "Shelton Brooks",
+      "full_name": "Shelton Brooks",
+      "sort_name": "Brooks, Shelton",
+      "is_group": false,
+      "birth_year": 1886,
+      "death_year": 1975,
+      "nationality": "Canadian-American",
+      "voice_or_instrument": "composer",
+      "summary": "Black Canadian-American composer of 'Some of These Days' and 'Darktown Strutters' Ball', two of the most recorded songs of the era.",
+      "biography": "Shelton Brooks was born in Amherstburg, Ontario, in 1886, to a family descended from people who had escaped slavery in the United States, and grew up in Detroit. He worked as a ragtime pianist and vaudeville comedian and wrote two songs that outlived nearly everything else from their moment.\n\n\"Some of These Days\" (1910) became Sophie Tucker's lifelong theme song; \"The Darktown Strutters' Ball\" (1917) became one of the most recorded songs in American history and an early jazz standard. Both were taken up immediately by the recording companies and appear on four-minute cylinders as well as discs.\n\nBrooks continued to perform into old age, appearing on television in the 1960s. He died in 1975.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Shelton Brooks on Wikipedia", "url": "https://en.wikipedia.org/wiki/Shelton_Brooks", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "lewis-f-muir",
+      "name": "Lewis F. Muir",
+      "full_name": "Lewis F. Muir",
+      "sort_name": "Muir, Lewis F.",
+      "is_group": false,
+      "birth_year": 1883,
+      "death_year": 1915,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Ragtime pianist and composer of 'Waiting for the Robert E. Lee' and 'Ragtime Cowboy Joe', dead at thirty-two.",
+      "biography": "Lewis F. Muir was born on 30 May 1883 and worked as a ragtime pianist in St Louis and New York. With the lyricist L. Wolfe Gilbert he wrote \"Waiting for the Robert E. Lee\" (1912), one of the biggest hits of the pre-war years and a song recorded constantly on cylinder and disc; \"Ragtime Cowboy Joe\" (1912) and \"Hitchy Koo\" were nearly as successful.\n\nHis syncopated, singable style sat exactly where popular song and ragtime met, and his songs suited the loud, rhythmic delivery the acoustic horn rewarded. He died on 3 December 1915, aged thirty-two.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Lewis F. Muir on Wikipedia", "url": "https://en.wikipedia.org/wiki/Lewis_F._Muir", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "kerry-mills",
+      "name": "Kerry Mills",
+      "full_name": "Frederick Allen Mills",
+      "sort_name": "Mills, Kerry",
+      "aliases": ["Frederick Allen Mills", "F. A. Mills"],
+      "is_group": false,
+      "birth_year": 1869,
+      "death_year": 1948,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'At a Georgia Camp Meeting' and 'Meet Me in St. Louis, Louis', and a key figure in the cakewalk craze.",
+      "biography": "Frederick Allen Mills, who published as Kerry Mills, was a trained violinist and music teacher who turned to popular composition in the 1890s. \"At a Georgia Camp Meeting\" (1897) was among the most successful cakewalks ever written and became a standard test piece for bands, banjoists and, later, jazz musicians; \"Whistling Rufus\" followed.\n\nIn 1904 he wrote \"Meet Me in St. Louis, Louis\" for the World's Fair, and it became one of the most recorded songs of the decade. His cakewalks are ubiquitous in band and banjo cylinder catalogues, including four-minute issues, where the extra playing time allowed a fuller set of strains. He died in 1948."
+    },
+    {
+      "slug": "jack-norworth",
+      "name": "Jack Norworth",
+      "full_name": "John Godfrey Knauff",
+      "sort_name": "Norworth, Jack",
+      "aliases": ["John Godfrey Knauff"],
+      "is_group": false,
+      "birth_year": 1879,
+      "death_year": 1959,
+      "nationality": "American",
+      "voice_or_instrument": "lyricist",
+      "summary": "Vaudeville performer and lyricist of 'Take Me Out to the Ball Game' and 'Shine On, Harvest Moon'.",
+      "biography": "Jack Norworth was a vaudeville headliner as well as a writer, and for a time was married to and performed with Nora Bayes. In 1908 he scribbled the words of \"Take Me Out to the Ball Game\" on a scrap of paper during a subway ride, having never attended a baseball game; Albert Von Tilzer set it, and it became one of the most sung songs in the English language.\n\nWith Bayes he wrote \"Shine On, Harvest Moon\" the same year — another permanent standard, recorded on cylinder by Ada Jones and Billy Murray among many others. Norworth wrote or co-wrote some 2,500 songs and lived until 1959.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Jack Norworth on Wikipedia", "url": "https://en.wikipedia.org/wiki/Jack_Norworth", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "nora-bayes",
+      "name": "Nora Bayes",
+      "full_name": "Eleanor Goldberg",
+      "sort_name": "Bayes, Nora",
+      "aliases": ["Eleanor Goldberg", "Leonora Goldberg"],
+      "is_group": false,
+      "birth_year": 1880,
+      "death_year": 1928,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "Vaudeville and Ziegfeld star, co-author of 'Shine On, Harvest Moon' and the first great recorded interpreter of 'Over There'.",
+      "biography": "Nora Bayes was one of the biggest stars American vaudeville produced — a commanding, wry, thoroughly modern performer who headlined the Ziegfeld Follies and toured to enormous fees. With her husband Jack Norworth she wrote \"Shine On, Harvest Moon\" in 1908, and the pair performed it together as a signature number.\n\nShe recorded for Victor and Columbia, and her 1917 recording of George M. Cohan's \"Over There\" was among the most important records of the war years. Her material circulated on four-minute cylinders through Columbia's Indestructible issues and in versions by other artists.\n\nBayes married five times, spent money as fast as she made it, and died of cancer in 1928 at forty-eight.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Nora Bayes on Wikipedia", "url": "https://en.wikipedia.org/wiki/Nora_Bayes", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "sam-m-lewis",
+      "name": "Sam M. Lewis",
+      "full_name": "Samuel M. Lewis",
+      "sort_name": "Lewis, Sam M.",
+      "is_group": false,
+      "birth_year": 1885,
+      "death_year": 1959,
+      "nationality": "American",
+      "voice_or_instrument": "lyricist",
+      "summary": "Lyricist, almost always in partnership with Joe Young — 'Rock-a-Bye Your Baby with a Dixie Melody', 'How Ya Gonna Keep 'Em Down on the Farm'.",
+      "biography": "Sam M. Lewis was born in New York in 1885 and formed with Joe Young one of the most productive lyric-writing partnerships of the 1910s and 1920s. Their credits include \"Rock-a-Bye Your Baby with a Dixie Melody\" (1918), \"How Ya Gonna Keep 'Em Down on the Farm (After They've Seen Paree?)\" (1919), \"I'm Sitting on Top of the World\" (1925) and \"Dinah\" (1925).\n\nThe wartime and immediately post-war songs in particular were recorded heavily during the Blue Amberol period, and the Lewis and Young credit is a common sight on late four-minute cylinder labels. He died in 1959."
+    },
+    {
+      "slug": "joe-young",
+      "name": "Joe Young",
+      "full_name": "Joseph Young",
+      "sort_name": "Young, Joe",
+      "is_group": false,
+      "birth_year": 1889,
+      "death_year": 1939,
+      "nationality": "American",
+      "voice_or_instrument": "lyricist",
+      "summary": "Lyricist and Sam M. Lewis's inseparable partner, co-author of many of the biggest songs of the war and post-war years.",
+      "biography": "Joe Young was born in New York in 1889 and worked as a singer and song plugger before turning full time to lyric writing. His partnership with Sam M. Lewis produced a remarkable run of hits between about 1916 and 1930, and the two names appear together so consistently that they are effectively a single credit.\n\nAmong their songs are \"Rock-a-Bye Your Baby with a Dixie Melody,\" \"How Ya Gonna Keep 'Em Down on the Farm,\" \"Five Foot Two, Eyes of Blue\" and \"In a Shanty in Old Shanty Town.\" He died in 1939."
+    },
+    {
+      "slug": "walter-donaldson",
+      "name": "Walter Donaldson",
+      "full_name": "Walter Donaldson",
+      "sort_name": "Donaldson, Walter",
+      "is_group": false,
+      "birth_year": 1893,
+      "death_year": 1947,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'My Blue Heaven', 'Carolina in the Morning' and 'How Ya Gonna Keep 'Em Down on the Farm', spanning the end of the cylinder era.",
+      "biography": "Walter Donaldson was born in Brooklyn in 1893 and became one of the most successful American songwriters of the 1920s. He wrote \"How Ya Gonna Keep 'Em Down on the Farm\" (1919) with Lewis and Young while serving in the army, and followed it with \"My Mammy,\" \"Carolina in the Morning,\" \"My Buddy,\" \"Yes Sir, That's My Baby\" and \"My Blue Heaven.\"\n\nHis songs bridge the acoustic and electrical eras, and the earlier ones appear on late Edison Blue Amberol cylinders — among the last new popular material the four-minute format ever carried before its discontinuation in 1929. He died in 1947.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Walter Donaldson on Wikipedia", "url": "https://en.wikipedia.org/wiki/Walter_Donaldson", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "geoffrey-ohara",
+      "name": "Geoffrey O'Hara",
+      "full_name": "Geoffrey O'Hara",
+      "sort_name": "O'Hara, Geoffrey",
+      "is_group": false,
+      "birth_year": 1882,
+      "death_year": 1967,
+      "nationality": "Canadian-American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'K-K-K-Katy' and 'There Is No Death', and an early recordist of Native American music for the US government.",
+      "biography": "Geoffrey O'Hara was born in Chatham, Ontario, on 2 February 1882 and settled in the United States, where he wrote more than five hundred songs, hymns and choral works. In 1913 the federal government engaged him to make cylinder recordings of Native American music — an early and significant piece of ethnographic field recording.\n\nHis best-known song is the wartime novelty \"K-K-K-Katy\" (1918), a stammering-soldier number that Billy Murray recorded to enormous success and that reached cylinder buyers on Blue Amberol. He also wrote the sacred song \"There Is No Death\" and the popular \"Give a Man a Horse He Can Ride.\" He taught, lectured and worked in music education for decades, and died in 1967.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Geoffrey O'Hara on Wikipedia", "url": "https://en.wikipedia.org/wiki/Geoffrey_O'Hara", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "richard-a-whiting",
+      "name": "Richard A. Whiting",
+      "full_name": "Richard Armstrong Whiting",
+      "sort_name": "Whiting, Richard A.",
+      "is_group": false,
+      "birth_year": 1891,
+      "death_year": 1938,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'Till We Meet Again', one of the biggest-selling songs of the First World War, and later a Hollywood songwriter.",
+      "biography": "Richard A. Whiting was born in Peoria, Illinois, on 12 November 1891 and worked for the Detroit publisher Jerome H. Remick. In 1918, with the lyricist Raymond B. Egan, he wrote \"Till We Meet Again,\" a waltz farewell that became one of the best-selling pieces of sheet music of the entire war and was recorded by practically every artist on every label, including on four-minute cylinders.\n\nHe went on to write \"Ain't We Got Fun?\", \"Sleepy Time Gal,\" \"Hooray for Hollywood\" and \"On the Good Ship Lollipop\" for the films. He was the father of the singer Margaret Whiting, and died in 1938.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Richard A. Whiting on Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_A._Whiting", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "james-royce-shannon",
+      "name": "J. R. Shannon",
+      "full_name": "James Royce Shannon",
+      "sort_name": "Shannon, James Royce",
+      "aliases": ["James Royce Shannon", "James Royce"],
+      "is_group": false,
+      "birth_year": 1881,
+      "death_year": 1946,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'Too-Ra-Loo-Ra-Loo-Ral (That's an Irish Lullaby)' and lyricist of 'The Missouri Waltz'.",
+      "biography": "James Royce Shannon was born on 13 May 1881 and worked in Tin Pan Alley as both composer and lyricist. His \"Too-Ra-Loo-Ra-Loo-Ral (That's an Irish Lullaby),\" written in 1913 for the show *Shameen Dhu*, became one of the permanent fixtures of Irish-American sentiment and was recorded repeatedly during the Blue Amberol years.\n\nHe also supplied the lyrics to \"The Missouri Waltz,\" later the state song of Missouri and a favourite of President Truman's. He died in 1946.",
+      "links": [
+        { "kind": "encyclopedia", "label": "James Royce Shannon on Wikipedia", "url": "https://en.wikipedia.org/wiki/James_Royce_Shannon", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "J. R. Shannon at DAHR", "url": "https://adp.library.ucsb.edu/names/111068", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "ethelbert-nevin",
+      "name": "Ethelbert Nevin",
+      "full_name": "Ethelbert Woodbridge Nevin",
+      "sort_name": "Nevin, Ethelbert",
+      "is_group": false,
+      "birth_year": 1862,
+      "death_year": 1901,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'The Rosary' and 'Mighty Lak' a Rose', two of the most recorded American concert songs of the phonograph's first decades.",
+      "biography": "Ethelbert Nevin was born near Pittsburgh in 1862 and trained in Boston and Berlin. He wrote piano miniatures and songs in a refined salon style, and two of them became phenomena: \"The Rosary\" (1898), a setting of a poem by Robert Cameron Rogers that sold millions of copies of sheet music and was recorded by nearly every serious singer of the era, and \"Mighty Lak' a Rose\" (1901).\n\nBoth belong to the category the four-minute cylinder was ideally suited to — a full-length concert song sung with orchestra, requiring more than two minutes to do properly. Christine Miller's Edison recording of \"The Rosary\" is among the best known. Nevin died in 1901, aged only thirty-eight, before the phonograph made his songs universal."
+    },
+    {
+      "slug": "carrie-jacobs-bond",
+      "name": "Carrie Jacobs-Bond",
+      "full_name": "Carrie Minetta Jacobs Bond",
+      "sort_name": "Jacobs-Bond, Carrie",
+      "is_group": false,
+      "birth_year": 1862,
+      "death_year": 1946,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "Composer of 'A Perfect Day' and 'I Love You Truly', and the first American woman to run her own successful music publishing business.",
+      "biography": "Carrie Jacobs-Bond was born in Janesville, Wisconsin, in 1862, was widowed young and left in poverty, and supported herself by painting china and writing songs. Unable to interest publishers, she founded her own firm, Carrie Jacobs-Bond & Son, in Chicago and made a fortune from it — the first American woman to succeed on that scale in music publishing.\n\n\"I Love You Truly\" (1901) became the standard American wedding song; \"A Perfect Day\" (1910) sold something like eight million copies of sheet music and was recorded by everyone. Both are staples of the four-minute cylinder catalogue, sung by the house sopranos and quartets of Edison and its rivals. She died in 1946.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Carrie Jacobs-Bond on Wikipedia", "url": "https://en.wikipedia.org/wiki/Carrie_Jacobs-Bond", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "stephen-foster",
+      "name": "Stephen Foster",
+      "full_name": "Stephen Collins Foster",
+      "sort_name": "Foster, Stephen",
+      "aliases": ["Stephen C. Foster"],
+      "is_group": false,
+      "birth_year": 1826,
+      "death_year": 1864,
+      "nationality": "American",
+      "voice_or_instrument": "composer",
+      "summary": "The father of American popular song, dead half a century before the four-minute cylinder — and still one of the most frequently credited composers on its labels.",
+      "biography": "Stephen Collins Foster was born in Lawrenceville, Pennsylvania, in 1826 and wrote some two hundred songs before dying destitute in New York in 1864, aged thirty-seven. \"Oh! Susanna,\" \"Camptown Races,\" \"My Old Kentucky Home,\" \"Old Folks at Home,\" \"Jeanie with the Light Brown Hair\" and \"Beautiful Dreamer\" are his.\n\nHe belongs in a four-minute cylinder register because his songs never left the catalogue. Long out of copyright, endlessly arranged for quartet, band, banjo, xylophone and solo voice, they were the safest possible repertoire for a record company: universally known, requiring no royalty, and acceptable to every kind of customer. Edison, Indestructible, U-S Everlasting and Columbia all issued Foster titles on four-minute cylinders, often in multiple versions.\n\nMuch of his output was written for the minstrel stage and carries its dialect and its assumptions, though Foster took the unusual step of softening or removing caricature in later revisions of his own songs. The melodic gift is not in dispute; his place in the four-minute catalogue is simply enormous.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Stephen Foster on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stephen_Foster", "source_name": "Wikipedia" }
       ]
     }
   ]
