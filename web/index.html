@@ -8,6 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>The Amberola Cylinder Register</title>
+    <script>
+      // Applies the stored daylight/lamplight choice before the first paint,
+      // so the page never opens in the wrong theme and correct itself. With
+      // no stored choice the system preference is left to tokens.css.
+      (function () {
+        try {
+          var t = localStorage.getItem('amberola-theme');
+          if (t === 'light' || t === 'dark') {
+            document.documentElement.dataset.theme = t;
+            document
+              .querySelector('meta[name="theme-color"]')
+              .setAttribute('content', t === 'dark' ? '#1c120d' : '#3c2415');
+          }
+        } catch (e) {
+          /* Storage may be blocked; the system preference still applies. */
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

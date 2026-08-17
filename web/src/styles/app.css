@@ -682,9 +682,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: var(--space-7);
   }
-  /* In two columns the first row of each column wants no top rule. */
-  .figure:nth-child(-n + 2) { border-top: 0; }
-  .figure + .figure { border-top: 1px solid color-mix(in srgb, var(--rule) 55%, transparent); }
+  /* Two columns means two first rows, and neither takes a top rule. */
   .figures .figure:nth-child(1),
   .figures .figure:nth-child(2) { border-top: 0; }
 }

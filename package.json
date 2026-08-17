@@ -12,6 +12,7 @@
     "migrate": "npm run migrate --prefix server",
     "seed": "npm run seed --prefix server",
     "reset": "npm run reset --prefix server",
-    "build": "npm run build --prefix web"
+    "build": "npm run build --prefix web",
+    "verify-links": "npm run verify-links --prefix server"
   }
 }

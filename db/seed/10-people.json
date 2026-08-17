@@ -1006,6 +1006,441 @@
       "links": [
         { "kind": "encyclopedia", "label": "Homer Rodeheaver on Wikipedia", "url": "https://en.wikipedia.org/wiki/Homer_Rodeheaver", "source_name": "Wikipedia" }
       ]
+    },
+    {
+      "slug": "vess-ossman",
+      "name": "Vess L. Ossman",
+      "full_name": "Sylvester Louis Ossman",
+      "sort_name": "Ossman, Vess L.",
+      "aliases": ["Sylvester Louis Ossman", "Vess Ossman", "The Banjo King"],
+      "is_group": false,
+      "birth_year": 1868,
+      "death_year": 1923,
+      "nationality": "American",
+      "voice_or_instrument": "banjo",
+      "summary": "The first great recorded banjoist, whose crisp five-string ragtime playing defined the sound of the instrument on cylinder for twenty years.",
+      "biography": "Sylvester Louis Ossman was born in Hudson, New York, on 21 August 1868 and taught himself the five-string banjo as a boy. He began recording in the early 1890s, when the banjo's sharp attack made it one of the very few instruments the acoustic process could capture with any brilliance at all, and he became one of the most recorded musicians of his generation.\n\nHis repertoire was marches, cakewalks and rags — \"A Coon Band Contest,\" \"St. Louis Tickle,\" \"Maple Leaf Rag\" — played with clean articulation and a driving, almost mechanical rhythmic precision. He led the Ossman-Dudley Trio with banjo, mandolin and harp guitar, toured Britain to great acclaim, and recorded for Edison, Victor, Columbia, Indestructible and U-S Everlasting.\n\nThe four-minute cylinder gave him room for longer arrangements and medleys, and his Amberol and Indestructible issues are among the best-sounding instrumental records of the period. By the late 1910s the plectrum and tenor banjo of the dance bands had displaced his classic five-string style; Fred Van Eps, who had learned by studying Ossman's cylinders, took over much of his recording work. Ossman died of a heart attack on 7 December 1923 while on tour in Fairmount, Minnesota.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Vess Ossman on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vess_Ossman", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Vess L. Ossman at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/110647/Ossman_Vess_L", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "fred-van-eps",
+      "name": "Fred Van Eps",
+      "full_name": "Fred Van Eps",
+      "sort_name": "Van Eps, Fred",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1960,
+      "nationality": "American",
+      "voice_or_instrument": "banjo",
+      "summary": "Ossman's successor as the leading recorded banjoist, a technician of great refinement and later a distinguished banjo maker.",
+      "biography": "Fred Van Eps was born in Somerville, New Jersey, on 30 December 1878 and learned to play by slowing down and studying Vess Ossman's cylinders — one of the earliest documented cases of a musician learning from records rather than from a teacher. In 1897 Edison's National Phonograph Company engaged him at West Orange, and he recorded steadily for the next three decades.\n\nHis playing was cleaner and more legato than Ossman's, with a lighter touch and a more even tone; where Ossman drove, Van Eps sang. He recorded rags, marches and popular selections for Edison, Victor, Columbia, Indestructible and U-S Everlasting, led the Van Eps Trio and the Van Eps Banjo Orchestra, and appears on four-minute cylinders throughout the Amberol and Blue Amberol periods.\n\nHe also built banjos of high quality, and the Van Eps Recording Banjo of the 1920s was designed specifically for the demands of the studio. His son George Van Eps became a celebrated jazz guitarist. Fred Van Eps died on 22 November 1960.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Fred Van Eps on Wikipedia", "url": "https://en.wikipedia.org/wiki/Fred_Van_Eps", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "charles-daab",
+      "name": "Charles Daab",
+      "full_name": "Charles Daab",
+      "sort_name": "Daab, Charles",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "xylophone",
+      "summary": "Edison's principal xylophone and glockenspiel soloist of the Amberol years, and one of the era's most-recorded percussionists.",
+      "biography": "Charles Daab was a percussionist who recorded for Edison from around 1910, playing xylophone, orchestra bells and glockenspiel. The xylophone was one of the great beneficiaries of acoustic recording: its bright, sharply defined attack cut through where strings and voices went muddy, and companies used it constantly for novelty and light-instrumental issues.\n\nDaab's Amberol and Blue Amberol cylinders — marches, rags, medleys and fantasias such as \"The Mocking Bird\" — are among the crispest-sounding records of the period, and are still a good demonstration of what a well-preserved celluloid cylinder can do. He also worked with the percussionist William Dorn in duet arrangements.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Charles Daab", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "albert-benzler",
+      "name": "Albert Benzler",
+      "full_name": "Albert Benzler",
+      "sort_name": "Benzler, Albert",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "orchestra bells",
+      "summary": "Edison's most versatile studio musician of the 1900s — bells, chimes, xylophone, piano and organ — who later moved to the U-S Everlasting label.",
+      "biography": "Albert Benzler was on the Edison staff at West Orange between 1904 and 1908 and was one of the most useful men in the building: he recorded orchestra bells, chimes and xylophone solos, played piano and organ accompaniments, and filled in on violin with the Edison Orchestra when needed.\n\nHis bell and xylophone solos are among the prettiest instrumental records of the pre-Amberol catalogue, and several were remade or carried forward into the four-minute era. He subsequently worked for the U.S. Phonograph Company of Cleveland, whose U-S Everlasting cylinders carry a substantial body of his playing — a useful reminder that the smaller cylinder makers recruited directly from Edison's own studio staff.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Albert Benzler", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "william-h-reitz",
+      "name": "William H. Reitz",
+      "full_name": "William H. Reitz",
+      "sort_name": "Reitz, William H.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "xylophone",
+      "summary": "Xylophone and bells soloist of the 1910s, heard on Victor and Edison and in the house orchestras of both.",
+      "biography": "William H. Reitz was one of the studio percussionists whose xylophone solos and obbligatos are scattered across the American catalogues of the 1910s. He recorded solos for Victor and Edison and played in their house orchestras, where the xylophone was used both as a novelty voice and as a practical way of adding definition to an acoustically recorded ensemble.\n\nHis solo records — rags, marches and light novelties — appear among four-minute cylinder issues and share the bright, immediate quality that makes acoustic xylophone recordings unexpectedly satisfying to listen to today."
+    },
+    {
+      "slug": "charles-dalmaine",
+      "name": "Charles D'Almaine",
+      "full_name": "Charles D'Almaine",
+      "sort_name": "D'Almaine, Charles",
+      "is_group": false,
+      "birth_year": 1871,
+      "death_year": 1943,
+      "nationality": "English-American",
+      "voice_or_instrument": "violin",
+      "summary": "One of the first violinists ever recorded, later concertmaster of the Victor Orchestra, and a prolific cylinder soloist.",
+      "biography": "Charles D'Almaine was an English-born violinist who played with the Metropolitan Opera orchestra and became one of the earliest violinists to make commercial records — his first, a \"Miserere,\" was cut in 1899 and issued as Edison cylinder 7324. He joined Victor in 1901 and eventually became concertmaster of the house orchestra there.\n\nThe violin was a difficult instrument for acoustic recording — thin and wiry through the horn, which is why Stroh violins with metal resonators were used in some studios — and D'Almaine's success says a good deal about his tone and his understanding of the medium. He recorded hornpipes, medleys, salon pieces and light classics, and his material appears on both two-minute and four-minute cylinders. He later practised as a chiropractor. He died on 17 June 1943.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Charles D'Almaine on Wikipedia", "url": "https://en.wikipedia.org/wiki/Charles_D'Almaine", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Charles D'Almaine at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/107935/DAlmaine_Charles", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "bohumir-kryl",
+      "name": "Bohumir Kryl",
+      "full_name": "Bohumir Kryl",
+      "sort_name": "Kryl, Bohumir",
+      "aliases": ["The Caruso of the Cornet"],
+      "is_group": false,
+      "birth_year": 1875,
+      "death_year": 1961,
+      "nationality": "Czech-American",
+      "voice_or_instrument": "cornet",
+      "summary": "Czech-American cornet virtuoso and bandmaster, billed as 'the Caruso of the Cornet', and a favourite of the cylinder catalogues.",
+      "biography": "Bohumir Kryl was born in Bohemia on 3 May 1875 and arrived in the United States as a teenager, working — by his own colourful account — as an acrobat and a sculptor's assistant before his cornet playing was discovered. He played with Sousa's Band and with Innes's Band before forming his own touring band, which was among the most successful in America in the 1900s and 1910s.\n\nHis technique was formidable: double and triple tonguing, a huge range, and the kind of showy variation-on-a-theme solo that a brass virtuoso of the period was expected to produce. Cornet solos recorded superbly by the acoustic process, and Kryl's records for Columbia, Victor and the cylinder companies sold in quantity. His band and solo material appears on four-minute cylinders, including on Indestructible.\n\nHe later prospered in business and became a serious art collector. He died on 7 August 1961.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Bohumir Kryl on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bohumir_Kryl", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "herbert-l-clarke",
+      "name": "Herbert L. Clarke",
+      "full_name": "Herbert Lincoln Clarke",
+      "sort_name": "Clarke, Herbert L.",
+      "is_group": false,
+      "birth_year": 1867,
+      "death_year": 1945,
+      "nationality": "American",
+      "voice_or_instrument": "cornet",
+      "summary": "The most celebrated cornet soloist of the band era, long a featured artist with Sousa's Band and a composer of the instrument's standard showpieces.",
+      "biography": "Herbert Lincoln Clarke was born on 12 September 1867 and became the defining cornet virtuoso of the American band tradition. He was soloist and later assistant conductor with Sousa's Band over a period of two decades, and his own compositions — \"The Debutante,\" \"Bride of the Waves,\" \"Sounds from the Hudson,\" \"From the Shores of the Mighty Pacific\" — remain the standard test pieces for cornet players a century later.\n\nHis recorded solos, made for Victor, Columbia and the cylinder companies, show a clean, warm tone and a fluency in double and triple tonguing that has rarely been matched. Because brass recorded so well acoustically, cornet solos were a staple of every cylinder catalogue, and Clarke's are the finest of them. He later conducted bands in Huntsville and Long Beach and wrote a set of technical studies still in universal use. He died on 30 January 1945.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Herbert L. Clarke on Wikipedia", "url": "https://en.wikipedia.org/wiki/Herbert_L._Clarke", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "john-kimmel",
+      "name": "John J. Kimmel",
+      "full_name": "John J. Kimmel",
+      "sort_name": "Kimmel, John J.",
+      "aliases": ["John Kimmble", "John Kimmel"],
+      "is_group": false,
+      "birth_year": 1866,
+      "death_year": 1942,
+      "nationality": "American",
+      "voice_or_instrument": "accordion",
+      "summary": "German-American master of the one-row diatonic accordion whose Irish dance recordings shaped traditional Irish music in America.",
+      "biography": "John J. Kimmel was born in Brooklyn in 1866 to German parents and became, improbably, one of the most influential performers of Irish traditional dance music ever recorded. He played the one-row diatonic button accordion with a clarity of ornament and a rhythmic lift that Irish musicians on both sides of the Atlantic studied and copied.\n\nHis earliest recordings were Edison wax cylinders around 1906, and he went on to record for Victor, Columbia, Zon-o-phone and the cylinder labels through the 1910s and into the 1920s. Reels, jigs and hornpipes were his stock in trade, along with marches and popular medleys. His records circulated widely in Irish-American communities and are a foundation document of the recorded Irish tradition.\n\nHe died in 1942. His name is spelled variously on labels, including as Kimmble, which is worth knowing when searching a catalogue.",
+      "links": [
+        { "kind": "encyclopedia", "label": "John Kimmel on Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Kimmel_(accordionist)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "guido-deiro",
+      "name": "Guido Deiro",
+      "full_name": "Count Guido Pietro Deiro",
+      "sort_name": "Deiro, Guido",
+      "is_group": false,
+      "birth_year": 1886,
+      "death_year": 1950,
+      "nationality": "Italian-American",
+      "voice_or_instrument": "piano accordion",
+      "summary": "The first piano-accordionist to headline American vaudeville and to record commercially, and the man who made the instrument popular in the United States.",
+      "biography": "Guido Deiro was born in Salto Canavese, Italy, on 1 September 1886 and came to the United States in 1907. He was the first piano-accordion soloist on big-time American vaudeville, the first to record commercially, and the first to broadcast — a genuine pioneer whose success created a market for the instrument that lasted half a century.\n\nHe recorded for Columbia from 1911 and later for other labels, in Italian dances, operatic transcriptions, rags and his own compositions such as \"Sharpshooters' March\" and \"Kismet.\" His material appears on four-minute cylinders through Columbia's Indestructible issues. He was briefly married to Mae West. He died on 26 July 1950; his younger brother Pietro carried the family name forward for another four years.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Guido Deiro on Wikipedia", "url": "https://en.wikipedia.org/wiki/Guido_Deiro", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "pietro-deiro",
+      "name": "Pietro Deiro",
+      "full_name": "Pietro Deiro",
+      "sort_name": "Deiro, Pietro",
+      "aliases": ["Daddy of the Accordion"],
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1954,
+      "nationality": "Italian-American",
+      "voice_or_instrument": "piano accordion",
+      "summary": "Guido Deiro's younger brother, one of the most influential accordionists of the first half of the twentieth century and a prolific recording artist.",
+      "biography": "Pietro Deiro was born in Salto Canavese, Italy, on 28 August 1888 and followed his elder brother Guido to America. He became a vaudeville headliner in his own right and recorded prolifically for Victor and Columbia from the 1910s, in Italian folk material, marches, operatic transcriptions and his own compositions.\n\nHe was later known as the \"Daddy of the Accordion\" for his work as a teacher, publisher and advocate of the instrument, and his method books trained several generations of American players. His recordings reached four-minute cylinder buyers through Columbia's Indestructible line. He died in 1954.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Pietro Deiro on Wikipedia", "url": "https://en.wikipedia.org/wiki/Pietro_Deiro", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "eugene-c-rose",
+      "name": "Eugene C. Rose",
+      "full_name": "Eugene C. Rose",
+      "sort_name": "Rose, Eugene C.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "piccolo",
+      "summary": "Flute and piccolo soloist, a member of Sousa's Band at the turn of the century and a regular Edison recording artist.",
+      "biography": "Eugene C. Rose played flute and piccolo with Sousa's Band around 1900–1902 and recorded piccolo solos for Edison from about the same period. The piccolo was another instrument that suited the acoustic horn — piercing, high and full of transient detail — and piccolo solos with orchestra were a standing category in every cylinder catalogue.\n\nRose's polkas, variations and novelty pieces were issued on Edison cylinders and were remade or carried forward into the four-minute format. He also played in Edison's studio orchestra."
+    },
+    {
+      "slug": "charles-schuetze",
+      "name": "Charles Schuetze",
+      "full_name": "Charles Schuetze",
+      "sort_name": "Schuetze, Charles",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "harp",
+      "summary": "Harpist whose solos are among the few recorded harp records of the acoustic cylinder era.",
+      "biography": "Charles Schuetze was one of the very small number of harpists to record commercially in the acoustic period. The harp was a difficult proposition for the recording horn — quiet, diffuse and rich in exactly the overtones the process lost — and harp records are correspondingly scarce and prized.\n\nSchuetze recorded solos and accompaniments for Edison, and his material appears among cylinder issues of the 1900s and 1910s. He also played in ensembles such as the Ossman-Dudley Trio's harp-guitar tradition of plucked-string combinations, though the harp itself remained an unusual sound on record."
+    },
+    {
+      "slug": "samuel-siegel",
+      "name": "Samuel Siegel",
+      "full_name": "Samuel Siegel",
+      "sort_name": "Siegel, Samuel",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "mandolin",
+      "summary": "The leading American mandolin virtuoso of the early recording era, admired for a legato tremolo unusual on the instrument.",
+      "biography": "Samuel Siegel was the outstanding American mandolinist of the period around 1900–1915, a player whose tremolo was smooth enough to sustain a genuine melodic line and whose arrangements raised the mandolin above its usual status as a parlour novelty. He recorded for Edison, Victor and Columbia, solo and in duet with guitarists and banjoists.\n\nPlucked strings recorded well acoustically, and mandolin solos were a regular feature of cylinder catalogues. Siegel's records are the best of them, and his four-minute issues gave him room for the extended variation sets he favoured."
+    },
+    {
+      "slug": "joe-belmont",
+      "name": "Joe Belmont",
+      "full_name": "Joseph Walter Fulton",
+      "sort_name": "Belmont, Joe",
+      "aliases": ["Joseph Walter Fulton", "The Human Bird"],
+      "is_group": false,
+      "birth_year": 1876,
+      "death_year": 1949,
+      "nationality": "American",
+      "voice_or_instrument": "whistler",
+      "summary": "'The Human Bird' — the best-known American whistling artist of the early phonograph, and a baritone besides.",
+      "biography": "Joe Belmont was the stage name of Joseph Walter Fulton, born 22 July 1876, who became the most successful of the whistling recording artists at a time when whistling was a serious professional speciality. Billed as \"The Human Bird,\" he recorded whistling solos with orchestra and piano from the 1890s onward and was among the best-selling artists on record before 1900.\n\nHe was also a competent baritone and sang with the Columbia Quartet. Whistling was ideally suited to acoustic recording — a clean, pure, sharply focused tone with almost no wasted energy — and whistling records remained a catalogue staple well into the four-minute era. Belmont recorded for Edison, Columbia, Victor and the cylinder labels. He died on 29 August 1949.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Joe Belmont on Wikipedia", "url": "https://en.wikipedia.org/wiki/Joe_Belmont_(bird_impressionist)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "sibyl-sanderson-fagan",
+      "name": "Sibyl Sanderson Fagan",
+      "full_name": "Sibyl Sanderson Fagan",
+      "sort_name": "Fagan, Sibyl Sanderson",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "whistler",
+      "summary": "Whistling soloist and bird imitator who recorded for Columbia, Edison, Victor and OKeh from about 1917 into the 1920s.",
+      "biography": "Sibyl Sanderson Fagan was one of the last of the professional whistling artists to build a substantial recording career. She recorded from about 1917 for Columbia and subsequently for OKeh, Edison and Victor, in whistling solos, bird imitations and novelty pieces such as \"The Boy and the Birds\" and \"The Little Whistler.\"\n\nThe whistling craze that had begun in the 1890s with performers like Alice Shaw was fading by the mid-1920s, and Fagan's recording career ended with it. Her Edison sides reached four-minute cylinder buyers on Blue Amberol, and she is one of the few women in the whistling category, which had otherwise become male-dominated."
+    },
+    {
+      "slug": "guido-gialdini",
+      "name": "Guido Gialdini",
+      "full_name": "Guido Gialdini",
+      "sort_name": "Gialdini, Guido",
+      "is_group": false,
+      "nationality": "German",
+      "voice_or_instrument": "whistler",
+      "summary": "European art-whistler of remarkable accuracy, widely issued in America including on Indestructible four-minute cylinders.",
+      "biography": "Guido Gialdini was a *Kunstpfeifer* — an art whistler — who built an international career on an ability to whistle operatic coloratura and light-classical showpieces with the precision of a flute. He recorded in Europe from the mid-1900s and his records were issued in America as well.\n\nHis repertoire ran to Arditi's \"Il Bacio,\" excerpts from *La Traviata*, waltzes and character pieces, and his intonation and breath control were extraordinary. Indestructible issued him on four-minute cylinders, and his records are among the more surprising things a collector will find in a cylinder box — a reminder that whistling was a recognised concert speciality, not a novelty.",
+      "notes": "Sources give his real name as Kurt Abramowitsch and his origin as German; this is repeated in several places but not independently verified here."
+    },
+    {
+      "slug": "charles-kellogg",
+      "name": "Charles Kellogg",
+      "full_name": "Charles Kellogg",
+      "sort_name": "Kellogg, Charles",
+      "aliases": ["The Nature Singer"],
+      "is_group": false,
+      "birth_year": 1868,
+      "death_year": 1949,
+      "nationality": "American",
+      "voice_or_instrument": "bird imitator",
+      "summary": "'The Nature Singer' — a vaudeville bird imitator of uncanny accuracy and, later, a campaigner for the California redwoods.",
+      "biography": "Charles Kellogg was born on 2 October 1868 and grew up in the Sierra Nevada foothills, where he claimed to have learned birdsong before he learned speech. He could reproduce bird calls with a fidelity that astonished ornithologists, and he insisted that he produced them not by whistling but with the syrinx-like use of his own throat.\n\nHe toured vaudeville as \"The Nature Singer\" and recorded for Victor and Edison between 1915 and the mid-1920s, issuing programmes of native birdsong. His Edison material reached four-minute cylinder buyers on Blue Amberol. He also performed a celebrated demonstration in which he extinguished a flame with a sustained tone from a violin, and he spent his later years touring in a truck built from a hollowed redwood log to campaign for the preservation of the forests. He died on 5 September 1949.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Charles Kellogg on Wikipedia", "url": "https://en.wikipedia.org/wiki/Charles_Kellogg_(naturalist)", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Charles Kellogg at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/108446/Kellogg_Charles", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "frank-ferera",
+      "name": "Frank Ferera",
+      "full_name": "Frank Palakiko Ferera",
+      "sort_name": "Ferera, Frank",
+      "is_group": false,
+      "nationality": "Hawaiian-American",
+      "voice_or_instrument": "Hawaiian steel guitar",
+      "summary": "The first star of recorded Hawaiian music and one of the most recorded guitarists of the acoustic era.",
+      "biography": "Frank Ferera was born in Honolulu and came to the American mainland in the wake of the 1915 Panama-Pacific Exposition, which set off a national craze for Hawaiian music that lasted a decade. Between about 1915 and 1930 he became the most recorded Hawaiian musician in the world, working for Victor, Columbia, Edison, Brunswick and a long list of smaller labels.\n\nHe played steel guitar in a sweet, gliding, heavily portamento style that defined the popular idea of Hawaiian music for a generation and fed directly into the development of the steel guitar in country music. He recorded with his wife Helen Louise, with Anthony Franchini, and behind singers including Ernest Hare and Al Bernard.\n\nHis Edison sides were issued on Diamond Disc and dubbed to Blue Amberol, and Hawaiian selections are a substantial category in the late four-minute cylinder catalogue.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Frank Ferera on Wikipedia", "url": "https://en.wikipedia.org/wiki/Frank_Ferera", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Frank Ferera at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/6793/Ferera_Frank_instrumentalist_guitar", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "helen-louise",
+      "name": "Helen Louise",
+      "full_name": "Helen Louise Ferera",
+      "sort_name": "Louise, Helen",
+      "aliases": ["Helen Louise Greenus", "Helen Louise Ferera"],
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "Hawaiian guitar",
+      "summary": "Guitarist who recorded a long series of Hawaiian duets with Frank Ferera, her husband, in the late 1910s.",
+      "biography": "Helen Louise recorded as the duet partner of Frank Ferera during the peak of the Hawaiian music craze, and the credit \"Louise and Ferera\" appears on a large number of records issued between roughly 1915 and 1919 by Victor, Columbia, Edison and others.\n\nThe pair's guitar duets — one playing steel, one rhythm — established the standard texture of commercial Hawaiian records. Her career ended with her death in 1919, and Ferera continued with other partners.",
+      "notes": "Accounts of her death at sea in 1919 are widely repeated but the details vary between sources."
+    },
+    {
+      "slug": "edna-white",
+      "name": "Edna White",
+      "full_name": "Edna White",
+      "sort_name": "White, Edna",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "trumpet",
+      "summary": "Pioneering woman trumpet soloist who recorded for Edison, both alone and with her trumpet quartet.",
+      "biography": "Edna White was one of the very few women to make a career as a brass soloist in the early twentieth century. A cornet and trumpet virtuoso trained at the Institute of Musical Art in New York, she toured in concert, played for troops in France during the First World War, and led the Edna White Trumpet Quartet.\n\nShe recorded for Edison, and her solos and quartet numbers were issued on Diamond Disc and on Blue Amberol cylinder. Brass reproduced exceptionally well acoustically, which makes her records both historically notable and unusually good listening."
+    },
+    {
+      "slug": "american-quartet",
+      "name": "American Quartet",
+      "full_name": "The American Quartet",
+      "sort_name": "American Quartet",
+      "aliases": ["Premier Quartet", "Premier Quartette", "American Quartette"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The most successful male close-harmony group of the acoustic era, led by Billy Murray; the same singers recorded for Edison as the Premier Quartet.",
+      "biography": "The American Quartet was assembled at Victor in 1909 around Billy Murray, and in its classic form comprised John Bieling (first tenor), Murray (second tenor and lead), Steve Porter (baritone) and William F. Hooley (bass). Between 1909 and 1913 that line-up made a series of records — \"Casey Jones,\" \"Oh! You Beautiful Doll,\" \"Moonlight Bay,\" \"Come, Josephine, in My Flying Machine,\" \"It's a Long Way to Tipperary\" — that were among the best-selling American records of the entire acoustic period.\n\nBecause of exclusivity arrangements the same men recorded for Edison under the name **Premier Quartet** (or Quartette), and the two names should be understood as one group. On four-minute cylinders they appear on Edison Amberol and Blue Amberol as the Premier Quartet, and elsewhere under further variants.\n\nMembership shifted over the years — Bieling retired in 1913 with vocal trouble, Hooley died in 1918, and Albert Campbell, John Young, Donald Chalmers, John H. Meyer and Frank Croxton all passed through — but Murray remained the constant and the sound remained recognisable: fast, bright, rhythmically snappy, and built for comedy rather than sentiment. The group wound down in the mid-1920s.",
+      "links": [
+        { "kind": "encyclopedia", "label": "American Quartet on Wikipedia", "url": "https://en.wikipedia.org/wiki/American_Quartet_(ensemble)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "premier-quartet",
+      "name": "Premier Quartet",
+      "full_name": "Premier Quartet",
+      "sort_name": "Premier Quartet",
+      "aliases": ["Premier Quartette", "Edison Premier Quartet"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The name under which the American Quartet recorded for Edison — the same singers, a different label credit.",
+      "biography": "Premier Quartet is the name Edison printed on cylinders and discs made by the group known at Victor as the American Quartet. The practice was routine: a company under an exclusive contract could not credit a rival's house group by its familiar name, so it invented one.\n\nUnder this billing Billy Murray and his colleagues recorded a large body of Edison Amberol and Blue Amberol cylinders through the 1910s — comic songs, marches, patriotic numbers and the popular hits of the day. Anyone cataloguing four-minute cylinders will meet the Premier Quartet constantly, and should read it as the American Quartet in Edison clothing.\n\nA separate entry is kept here because the credit appears on labels in its own right and collectors search for it as printed.",
+      "notes": "Same personnel as the American Quartet; treated as a distinct credit because the name is what appears on Edison labels."
+    },
+    {
+      "slug": "peerless-quartet",
+      "name": "Peerless Quartet",
+      "full_name": "Peerless Quartet",
+      "sort_name": "Peerless Quartet",
+      "aliases": ["Columbia Male Quartette"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The longest-lived male quartet of the acoustic era, founded by Frank C. Stanley and later run by Henry Burr, and the standard voice of the sentimental and patriotic song.",
+      "biography": "The Peerless Quartet began around 1904 as the Columbia Male Quartette, organised by the bass Frank C. Stanley, and took the Peerless name a few years later. Its early membership included Stanley, Albert Campbell, Henry Burr and Steve Porter. After Stanley's death in 1910 Henry Burr took over the management and the group continued, with changing personnel — John H. Meyer, Arthur Collins, Frank Croxton and others — until 1928.\n\nWhere the American Quartet was fast and comic, the Peerless was the group you engaged for a ballad, a hymn or a patriotic number. They recorded for every major company and are ubiquitous on four-minute cylinders: Edison Amberol and Blue Amberol, Indestructible, Columbia Indestructible and U-S Everlasting. Their wartime records — \"Over There,\" \"It's a Long, Long Way to Tipperary\" and dozens of similar titles — were among the biggest sellers of 1917 and 1918.\n\nNo other American vocal group of the period recorded for so long or so widely, which makes the Peerless Quartet one of the essential names for anyone working through a four-minute catalogue.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Peerless Quartet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Peerless_Quartet", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "haydn-quartet",
+      "name": "Haydn Quartet",
+      "full_name": "The Haydn Quartet",
+      "sort_name": "Haydn Quartet",
+      "aliases": ["Hayden Quartet", "Edison Quartet", "Edison Male Quartette"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Formed in 1896 as the Edison Quartet, the group that made close harmony a commercial staple — and the voices on 'Sweet Adeline' and 'In the Good Old Summer Time'.",
+      "biography": "The Haydn Quartet was formed in 1896 as the **Edison Quartet**, to record for the National Phonograph Company, and adopted the Haydn name — a nod to Joseph Haydn — when the same four men recorded for other companies. The spelling was later altered to Hayden, closer to how audiences pronounced it.\n\nThe founding line-up was John Bieling (first tenor), Jere Mahoney (second tenor), S. H. Dudley, in real life Samuel Holland Rous (baritone), and William F. Hooley (bass); Mahoney was soon replaced by Harry Macdonough, whose smooth lead defined the group's sound for the rest of its life. Their records — \"Sweet Adeline,\" \"In the Good Old Summer Time,\" \"Take Me Out to the Ball Game,\" \"Shine On, Harvest Moon\" — were among the most popular of the century's first decade and effectively created the market for barbershop-style harmony on record.\n\nMost of their cylinder work belongs to the two-minute period; a good deal of it was remade or dubbed for four-minute issue, and the group's repertoire remained in Edison and Victor catalogues long after they stopped recording. They disbanded in 1914.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Haydn Quartet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Haydn_Quartet_(vocal_ensemble)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "edison-mixed-quartet",
+      "name": "Edison Mixed Quartet",
+      "full_name": "Edison Mixed Quartet",
+      "sort_name": "Edison Mixed Quartet",
+      "aliases": ["Edison Mixed Quartette", "Metropolitan Quartet"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Edison's house ensemble of soprano, contralto, tenor and bass, used chiefly for sacred music, part-songs and light classics.",
+      "biography": "The Edison Mixed Quartet was the company's standing four-voice ensemble of mixed voices — soprano, contralto, tenor and bass — drawn from its house singers and used for the repertoire a male quartet could not cover: hymns and sacred part-songs, arrangements of folk material, glees, and light classical selections such as the quartet from *Rigoletto*.\n\nIts membership varied with whoever was on the Edison payroll, and it was billed at different periods as the Metropolitan Quartet. Mixed-voice sacred records were a substantial commercial category, sold to a market that would not buy popular songs, and they appear throughout the Amberol and Blue Amberol catalogues.",
+      "notes": "Edison used the Mixed Quartet and Metropolitan Quartet billings for what was largely the same pool of house singers; the two credits are not always cleanly distinguishable."
+    },
+    {
+      "slug": "metropolitan-quartet",
+      "name": "Metropolitan Quartet",
+      "full_name": "Metropolitan Quartet",
+      "sort_name": "Metropolitan Quartet",
+      "aliases": ["Metropolitan Quartette"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Edison mixed-voice ensemble credit, used for sacred and part-song material on Blue Amberol cylinders and Diamond Discs.",
+      "biography": "The Metropolitan Quartet is a credit Edison used for a mixed-voice ensemble of its house singers, overlapping heavily in personnel and repertoire with the Edison Mixed Quartet. Records under this name are typically hymns, sacred part-songs and unaccompanied arrangements.\n\nIt is kept as a separate entry because it is what appears on the label, and cataloguers need to be able to record the credit as printed rather than silently resolving it to another group."
+    },
+    {
+      "slug": "knickerbocker-quartet",
+      "name": "Knickerbocker Quartet",
+      "full_name": "Knickerbocker Quartet",
+      "sort_name": "Knickerbocker Quartet",
+      "aliases": ["Knickerbocker Male Quartette"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Male vocal quartet recording roughly 1910–1917, heard on cylinders in sentimental ballads and sacred material.",
+      "biography": "The Knickerbocker Quartet was one of the many male vocal groups assembled from the New York studio pool during the 1910s, recording between about 1910 and 1917. Its repertoire was the standard quartet fare of the period: old favourites such as \"The Old Oaken Bucket,\" sacred numbers, and sentimental part-songs.\n\nGroups of this kind were often the same handful of singers under a different name for a different label, and the Knickerbocker credit is best understood as a label identity rather than a fixed act. It appears on four-minute cylinders as well as on discs.",
+      "links": [
+        { "kind": "discography", "label": "Knickerbocker Quartet at DAHR", "url": "https://adp.library.ucsb.edu/names/205460", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "sterling-trio",
+      "name": "Sterling Trio",
+      "full_name": "Sterling Trio",
+      "sort_name": "Sterling Trio",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Henry Burr, Albert Campbell and John H. Meyer — the standard male trio of the late acoustic era.",
+      "biography": "The Sterling Trio was formed from three members of the Peerless Quartet: the tenors Henry Burr and Albert Campbell with the bass John H. Meyer. It recorded from the mid-1910s into the 1920s, principally for Victor and Columbia but also for Edison and the smaller labels.\n\nThe three-voice texture — two tenors above a bass, without a baritone — gave a lighter, more transparent sound than the quartets, and the trio specialised in the sentimental ballad and the wartime song. Henry Moeller replaced Burr in 1926. Their material reached four-minute cylinder buyers through Edison and Indestructible issues.",
+      "links": [
+        { "kind": "discography", "label": "Sterling Trio at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/21380/Sterling_Trio_Vocal_group", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "shannon-four",
+      "name": "Shannon Four",
+      "full_name": "Shannon Four",
+      "sort_name": "Shannon Four",
+      "aliases": ["Shannon Quartet", "The Revelers"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Male quartet formed in 1917 — Charles Hart, Harvey Hindermyer, Elliott Shaw and Wilfred Glenn — which became the Shannon Quartet and then the Revelers.",
+      "biography": "The Shannon Four was organised in 1917 with tenors Charles Hart and Harvey Hindermyer, baritone Elliott Shaw and bass Wilfred Glenn. Lewis James replaced Hindermyer in 1918. The group was created partly to meet Victor's need for a second working male quartet alongside the Orpheus Quartet, and it quickly became one of the busiest ensembles in the studios.\n\nAfter 1922 it was generally billed as the Shannon Quartet; in 1925 the name changed again, and by 1926 the group had become the **Revelers**, whose smooth, jazz-inflected close harmony was enormously influential in America and, through their European tours, on groups such as the Comedian Harmonists.\n\nTheir acoustic-era work reached four-minute cylinder buyers on Edison Blue Amberols dubbed from Diamond Disc masters, in the format's final years.",
+      "links": [
+        { "kind": "encyclopedia", "label": "The Revelers on Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Revelers", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Shannon Four at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/110236/Shannon_Four", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "orpheus-quartet",
+      "name": "Orpheus Quartet",
+      "full_name": "Orpheus Quartet",
+      "sort_name": "Orpheus Quartet",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Victor's house male quartet from 1911 to 1922, drawn from the same pool of singers as the other studio groups.",
+      "biography": "The Orpheus Quartet recorded from 1911 to about 1922, chiefly for Victor, where it served as the in-house male quartet alongside the American Quartet. Harry Macdonough sang with it, as did Lambert Murphy, Reinald Werrenrath and William F. Hooley at various points.\n\nIts repertoire leaned to the serious end of the quartet trade: sacred music, art-song arrangements, old favourites and part-songs rather than comic novelties. Records under the name appear on four-minute cylinders as well as discs.",
+      "links": [
+        { "kind": "discography", "label": "Orpheus Quartet at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/16371/Orpheus_Quartet_Vocal_group", "source_name": "Discography of American Historical Recordings" }
+      ]
     }
   ]
 }

@@ -11,7 +11,8 @@
     "migrate": "node src/scripts/migrate.js",
     "seed": "node src/scripts/seed.js",
     "reset": "node src/scripts/migrate.js --reset && node src/scripts/seed.js",
-    "test": "node --test test/"
+    "test": "node --test test/",
+    "verify-links": "node src/scripts/verify-links.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

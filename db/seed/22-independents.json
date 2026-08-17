@@ -1,0 +1,2140 @@
+{
+  "people": [
+    {
+      "slug": "ada-jones",
+      "name": "Ada Jones",
+      "sort_name": "Jones, Ada",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "soprano"
+    },
+    {
+      "slug": "arthur-collins",
+      "name": "Arthur Collins",
+      "sort_name": "Collins, Arthur",
+      "is_group": false,
+      "birth_year": 1864,
+      "death_year": 1933,
+      "nationality": "American",
+      "voice_or_instrument": "baritone"
+    },
+    {
+      "slug": "billy-murray",
+      "name": "Billy Murray",
+      "sort_name": "Murray, Billy",
+      "is_group": false,
+      "birth_year": 1877,
+      "death_year": 1954,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "The best-selling American vocalist of the 1900s, whose crisp diction carried comic and ragtime songs through the acoustic horn."
+    },
+    {
+      "slug": "byron-g-harlan",
+      "name": "Byron G. Harlan",
+      "sort_name": "Harlan, Byron G.",
+      "is_group": false,
+      "birth_year": 1861,
+      "death_year": 1936,
+      "nationality": "American",
+      "voice_or_instrument": "tenor"
+    },
+    {
+      "slug": "frank-c-stanley",
+      "name": "Frank C. Stanley",
+      "full_name": "William Stanley Grinsted",
+      "sort_name": "Stanley, Frank C.",
+      "is_group": false,
+      "birth_year": 1868,
+      "death_year": 1910,
+      "nationality": "American",
+      "voice_or_instrument": "bass and banjo"
+    },
+    {
+      "slug": "frank-coombs",
+      "name": "Frank Coombs",
+      "sort_name": "Coombs, Frank",
+      "is_group": false,
+      "voice_or_instrument": "baritone"
+    },
+    {
+      "slug": "helen-clark",
+      "name": "Helen Clark",
+      "sort_name": "Clark, Helen",
+      "is_group": false,
+      "voice_or_instrument": "contralto",
+      "summary": "Contralto best remembered for duets with tenors — on Indestructible almost always with Walter Van Brunt."
+    },
+    {
+      "slug": "henry-burr",
+      "name": "Henry Burr",
+      "full_name": "Henry Burr",
+      "sort_name": "Burr, Henry",
+      "aliases": [
+        "Harry McClaskey",
+        "Irving Gillette"
+      ],
+      "is_group": false,
+      "birth_year": 1882,
+      "death_year": 1941,
+      "nationality": "Canadian",
+      "voice_or_instrument": "tenor",
+      "summary": "Canadian-born ballad tenor, one of the most heavily recorded singers of the acoustic era and the voice behind a large share of the Indestructible catalogue."
+    },
+    {
+      "slug": "john-j-kimmel",
+      "name": "John J. Kimmel",
+      "sort_name": "Kimmel, John J.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "accordion",
+      "summary": "Brooklyn-born accordionist of German parentage who became the most recorded player of Irish dance music in the acoustic era."
+    },
+    {
+      "slug": "len-spencer",
+      "name": "Len Spencer",
+      "sort_name": "Spencer, Len",
+      "is_group": false,
+      "birth_year": 1867,
+      "death_year": 1914,
+      "nationality": "American",
+      "voice_or_instrument": "baritone and monologuist"
+    },
+    {
+      "slug": "peerless-quartet",
+      "name": "Peerless Quartette",
+      "sort_name": "Peerless Quartette",
+      "is_group": true,
+      "summary": "The most prolific male quartet of the acoustic era; it appears on cylinder labels as both Peerless Quartet and Peerless Quartette."
+    },
+    {
+      "slug": "walter-van-brunt",
+      "name": "Walter Van Brunt",
+      "full_name": "Walter Van Brunt",
+      "sort_name": "Van Brunt, Walter",
+      "aliases": [
+        "Walter Scanlan"
+      ],
+      "is_group": false,
+      "birth_year": 1892,
+      "death_year": 1971,
+      "nationality": "American",
+      "voice_or_instrument": "tenor"
+    }
+  ],
+  "records": [
+    {
+      "slug": "indestructible-4-minute-3020",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3020",
+      "title": "The Arkansas Traveler",
+      "work_type": "Descriptive specialty",
+      "genre": "Rural comedy sketch",
+      "language": "English",
+      "description": "*The Arkansas Traveler* is the oldest thing on any of these records — a fiddle tune and a stage routine, both of them older than the phonograph. In its standard form a traveller stops at a squatter's cabin and asks a string of reasonable questions; the squatter, sawing away at the same eight bars, answers every one of them with a joke, and only when the stranger takes the fiddle and plays the turn of the tune does he get supper and a bed. The dialogue was in print by the 1850s and was a staple of variety houses long before anybody thought of recording it.\n\nLen Spencer's version of the sketch was one of the standard talking-machine records of the period, and Indestructible put it into the four-minute series at 3020, near the very beginning of that series. The extra two minutes are the point: at four minutes the whole exchange fits, where the two-minute cylinder had to cut the routine to a fragment. Records like this — a talking piece with a fiddle behind it — were exactly the sort of thing that sold a four-minute machine to somebody who already owned a two-minute one.\n\nSpencer was the house monologuist of the American record business, and dialect sketches of this kind made up a good share of the catalogues of every company. This one has the additional interest of being early enough to sit right at the start of Indestructible's four-minute run, when the Albany company was selling through Columbia and was, briefly, the most visible competitor Edison had in the cylinder trade.",
+      "notes": "Reported in a collector's listing of four-minute Indestructible cylinders as 3020, 'The Arkansas Traveler', by Spencer; no catalogue scan was seen. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. An Indestructible is a thin celluloid tube moulded over a pasteboard core with a metal ring pressed into each end. Those two bright rims are the fastest way to tell one from an Edison Blue Amberol, which is celluloid over a heavy plaster core and has no metal at the ends. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "len-spencer",
+          "role": "speaker",
+          "billing_order": 1,
+          "detail": "monologue with fiddle"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3052",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3052",
+      "title": "Goodnight, Little Girl, Goodnight",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "A parlour goodnight song of the sentimental kind that Henry Burr could sell better than anyone else in the business. The words are a lover's leave-taking at the door, and the tune is built for the long-breathed, slightly nasal tenor line that carried well through an acoustic horn — which is precisely why it turns up over and over in cylinder catalogues on both sides of the two-minute/ four-minute divide.\n\nIndestructible issued the song twice under two different numbers: at 1186 in the two-minute series and here at 3052 in the four-minute series. That pairing is worth noticing, because it shows how the Albany company worked. It did not simply retire the old series when the four-minute records arrived in 1909; it ran the two side by side for years, remaking the reliable sellers at the longer length and leaving the short version in the catalogue for the enormous installed base of two-minute machines.\n\nFor an Amberola owner this is one of the more useful sorts of Indestructible to look for: a straightforward vocal with light accompaniment, recorded loud, on a material that has usually come through the last century better than the wax Amberol of the same song would have.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Deakins lists the same title for Burr at two-minute number 1186 as well; the two are different recordings, not the same master. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. Celluloid neither moulds nor crumbles the way wax does, so these records survive playable far more often than their Edison contemporaries; the characteristic failure is a split running down the seam of the celluloid tube, or a core that has shrunk or been crushed so the cylinder will not sit true on the mandrel.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3082",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3082",
+      "title": "La Gitana",
+      "work_type": "Band selection",
+      "genre": "Intermezzo",
+      "description": "*La Gitana* — \"the gypsy girl\" — is one of the Spanish-flavoured intermezzos that every band in America played in the years either side of 1910, a genre that ran from Bizet imitations to the Moorish serenades of the Sousa repertoire. Pieces of this kind were staples of the cylinder catalogues because a band recorded well: brass and reeds put enough energy into the horn to cut a strong groove, where a string orchestra tended to disappear.\n\nThe Indestructible copy is credited in the one listing that documents it simply to a band, with no further identification. That is normal for the label. Indestructible used studio groups billed as the Indestructible Band or, on some issues, as nothing more specific than \"Band\", and the personnel behind those names is largely unrecorded. Rather than attach a plausible bandmaster's name to it, this entry leaves the performer blank.\n\nBand selections are also the cylinders most worth hearing on the celluloid records specifically. The Indestructible surface is harder and brighter than wax, which flatters loud ensemble playing and can make a four-minute band record noticeably more present than the equivalent Amberol.",
+      "notes": "Reported in a collector's listing of four-minute Indestructible cylinders as 3082, 'La Gitana', by a band. The performing group is not identified beyond 'band', and no performer credit has been guessed at here. Composer not confirmed. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "uncertain",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3147",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3147",
+      "title": "Honey, I Will Long for You",
+      "work_type": "Vocal duet",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "A duet for two of the most familiar voices on American records: Frank C. Stanley, the bass and banjoist whose real name was William Stanley Grinsted, and Henry Burr, the tenor who by 1910 was recording for practically everybody. The Stanley–Burr partnership was one of the standard duet teams of the decade, and its records — close-harmony sentimental songs, usually with a small orchestra — were made for every label that would have them.\n\nThe pairing also dates this issue within fairly narrow limits. Stanley died at the end of 1910, so any Stanley–Burr record must have been made before that, and the number sits in the block Indestructible was issuing while its output was being distributed nationally by the Columbia Phonograph Company. A four-minute celluloid of this vintage would have been sold in both an Albany box and a Columbia one, the record inside being identical.\n\nThe song itself has not left much of a trace outside the cylinder catalogues, which is a common fate for the second-rank popular songs of the period: they were written for the trade, recorded within weeks, and dropped when the next one came along. The cylinder is often the only surviving evidence that anybody performed them at all.",
+      "notes": "Reported in a collector's listing of four-minute Indestructible cylinders as 3147, 'Honey, I will long for you', by Stanley & Burr; no catalogue scan was seen and the composer is not established. The dating argument from Frank C. Stanley's death in December 1910 is inference, not documentation. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "frank-c-stanley",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "bass"
+        },
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3199",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3199",
+      "title": "When You and I Were Young, Maggie",
+      "work_type": "Song",
+      "genre": "Parlour ballad",
+      "language": "English",
+      "description": "George W. Johnson wrote the poem in 1864 for Maggie Clark, a young woman he was courting near Hamilton, Ontario; she died not long after they married. James Austin Butterfield set it to music in 1866, and the song became one of the permanent fixtures of the English-language parlour repertoire — a backward look at a mill, a hill and a creek that are still there while the singer and Maggie are not. Every recording company of the acoustic era carried a version, Edison included.\n\nIndestructible's four-minute copy is credited to the baritone Frank Coombs, a singer who appears regularly on the independent labels and about whom very little has been written. The four-minute length suits the song: at two minutes the verses had to be cut, while a four-minute cylinder can carry the whole thing at a walking tempo, which is how it was meant to go.\n\nCoombs's version belongs to the later stretch of the four-minute run, and it is exactly the kind of record the Albany company built its catalogue on. Indestructible signed no famous artists. It hired the reliable freelance singers of the New York studios, recorded the songs everybody already knew, and sold the result on the claim that its record would still play when a wax one had worn out.",
+      "notes": "Number, title and artist from a collector listing at 45worlds, which shows the record as Indestructible 3199. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. Celluloid neither moulds nor crumbles the way wax does, so these records survive playable far more often than their Edison contemporaries; the characteristic failure is a split running down the seam of the celluloid tube, or a core that has shrunk or been crushed so the cylinder will not sit true on the mandrel. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "frank-coombs",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "baritone"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Collector listing at 45worlds",
+          "url": "https://www.45worlds.com/78rpm/record/nc716242us",
+          "source_name": "45worlds"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3213",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3213",
+      "title": "Home Sweet Home",
+      "work_type": "Song",
+      "genre": "Parlour ballad",
+      "language": "English",
+      "description": "*Home! Sweet Home!* began life in 1823 as an air in the opera *Clari, or the Maid of Milan* — words by the American playwright John Howard Payne, music by the English composer Sir Henry Bishop — and within a generation it had escaped the theatre entirely. By the 1860s it was the song soldiers on both sides of the American Civil War were said to have sung across the lines at each other; by the 1900s it was the piece a talking machine dealer put on to close a sale.\n\nThe copy documented at 3213 carries no artist credit in the listing that records it, and no performer has been supplied here. This is a real and common gap in the Indestructible literature: the surviving boxes and lids often name the singer, but a bare cylinder rarely does, and the printed numerical lists for the label are patchy in a way the Edison lists are not.\n\nThe song's ubiquity is itself the historical point. Every cylinder maker had a *Home Sweet Home*, and having one was almost a condition of being taken seriously as a record company. For Indestructible, in the middle of a decade-long argument with Edison about who was entitled to make moulded celluloid cylinders at all, carrying the standard repertoire was part of the claim to be a full competitor rather than a novelty.",
+      "notes": "Number and title from a collector listing at 45worlds, which shows the record as Indestructible 3213 with no artist named. No performer has been inferred. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. An Indestructible is a thin celluloid tube moulded over a pasteboard core with a metal ring pressed into each end. Those two bright rims are the fastest way to tell one from an Edison Blue Amberol, which is celluloid over a heavy plaster core and has no metal at the ends.",
+      "confidence": "probable",
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Collector listing at 45worlds",
+          "url": "https://www.45worlds.com/78rpm/record/nc690342us",
+          "source_name": "45worlds"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3228",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3228",
+      "title": "Baby Rose",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Arthur Collins and Byron G. Harlan were the most successful duet team in American records, a baritone and a tenor who between them covered comic songs, rustic sketches, minstrel material and the ragtime hits of the day. Their names on a cylinder box were a selling point in themselves, and every label that could get them — Edison, Columbia, Victor, and the independents alike — used them heavily.\n\nThat they appear on four-minute Indestructible 3228 is a good illustration of how the independent cylinder trade actually worked. The Albany company had no exclusive artists. It booked the same freelance singers who were recording for Edison the same week, in the same few New York studios, which is why the Indestructible catalogue reads like a shadow of the Edison one. What Indestructible sold was not different performances but a different material: a celluloid record advertised as unbreakable and unwearable, against Edison's wax.\n\nCollins and Harlan records also carry a good deal of the era's minstrel-derived material, and modern listeners should expect the racial caricature that went with it. It is part of why these cylinders are studied as documents as much as they are collected as music.",
+      "notes": "Reported in a collector's listing of four-minute Indestructible cylinders as 3228, 'Baby Rose', by Collins & Harlan; no catalogue scan was seen and the composer is not established. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "baritone"
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3253",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3253",
+      "title": "Oh! You Beautiful Doll",
+      "work_type": "Song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "description": "A. Seymour Brown and Nat D. Ayer published *Oh! You Beautiful Doll* in 1911, and it went off like a rocket: a ragtime love song with a verse nobody remembers and a chorus everybody does. It was one of the defining hits of the last pre-war years and was recorded by essentially every company then making records, in vocal, band and dance versions.\n\nIndestructible's four-minute issue of it at 3253 sits squarely inside the period when the Albany company's records were also being sold in Columbia boxes, which means a collector may find the same performance under two different brand names. The performer on this number is not established here, and no name has been attached to it. That is a deliberate gap: the song was recorded so widely that guessing at a plausible singer would be very easy and very likely wrong.\n\nSongs like this are also the reason the four-minute celluloids matter musically. A hit of 1911 got its fullest cylinder treatment at four minutes — chorus repeats, an instrumental break, sometimes a patter verse — where the two-minute record had to sprint. On an Amberola, this is the format the machine was built for.",
+      "notes": "The pairing of number 3253 with this title comes from a single auction-house description of a lot of Indestructible cylinders and has not been corroborated against a catalogue or a copy, so both the number and the coupling are flagged uncertain. The performer is unknown and none has been guessed at.",
+      "confidence": "uncertain",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3254",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3254",
+      "title": "It's a Long Lane That Has No Turning",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "A proverb song — the title is the old saying that no run of bad luck lasts forever — sung as a duet by the contralto Helen Clark and the tenor Walter Van Brunt. The two were Indestructible's standing duet team in the four-minute series, and they appear together in an unbroken little run of numbers in the 3250s to 3300s that reads like a snapshot of what was selling in the sheet-music shops of 1911 and 1912.\n\nVan Brunt was still in his early twenties when these were made, at the start of a long career that would later continue under the name Walter Scanlan. Helen Clark is the more shadowy of the two; she recorded prolifically as a duet partner and hardly at all as a soloist, and the standard reference works have little to say about her beyond her repertoire.\n\nThe record is a good example of what the four-minute celluloid was for. A duet with an orchestra needs room — two verses, two choruses, an instrumental turn — and the extra length was Indestructible's answer to Edison's Amberol. The difference was that where Edison's four-minute record was wax with 200 threads to the inch and wore quickly, the Indestructible was celluloid and, in the company's advertising, would outlast the machine.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Deakins lists it in the Clark-and-Van Brunt section. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. The composer is not established here.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3259",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3259",
+      "title": "Goodbye Rose",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "One of the parting-song ballads that Henry Burr recorded by the dozen — a farewell to a girl, a verse, a chorus written to be sung by a tenor at the top of his comfortable range, and an orchestra that stays out of the way. Burr's records of this kind were the commercial backbone of half the catalogues in the business, and Indestructible leaned on them as heavily as anyone.\n\nThe number places it in the earlier part of the four-minute run, in the years when the Albany company's cylinders were reaching dealers through Columbia. Columbia had given up making its own cylinders in favour of selling Indestructible's, an arrangement that lasted from 1908 until 1912 and briefly made these celluloid records the most widely distributed cylinders in America after Edison's.\n\nWhen the Columbia agreement ended, Indestructible went back to selling under its own name and through Sears, whose Oxford brand carried the same records again under a third label. The company kept going until 1922, longer than any other American cylinder maker except Edison — which is why an Indestructible box turns up in three different liveries with the same number inside.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. The song's authorship and date are not established here.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3260",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3260",
+      "title": "There's a Girl in Havana",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "*There's a Girl in Havana* came out of the 1911 New York musical stage and belongs to the brief craze for Cuban and Latin-flavoured numbers that ran through American popular song either side of 1910. The rhythm is a mild habanera, the sentiment is a sailor's, and the tune was current exactly long enough to be recorded by everybody and then forgotten.\n\nOn Indestructible it is a Helen Clark and Walter Van Brunt duet, part of the same run of four-minute numbers in the 3250s and 3260s that the pair carried between them. Dating the issue from the song's publication puts it in 1911 or 1912, which is to say in the last months of Columbia's distribution agreement — the period in which the identical cylinder could reach a customer in a Columbia box, an Indestructible box, or an Oxford box from Sears, Roebuck.\n\nFor collectors the number is a useful marker. Anything in this stretch of the four-minute series is Columbia-era material, and a four-minute Indestructible found in a Columbia carton almost certainly carries a number from this part of the list.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. The 1911 dating comes from the song's stage origin rather than from any documented release date for the cylinder, and is offered as inference. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3264",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3264",
+      "title": "On Moonlight Bay",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Percy Wenrich's melody and Edward Madden's words were published in 1912 and became one of the permanent barbershop standards — \"we were sailing along, on Moonlight Bay\" — a song whose afterlife in film and on television has long outrun any memory of who wrote it. In 1912 it was simply the hit of the season, and every record company in America made a version within weeks of the sheet music.\n\nThe Indestructible is a duet by Helen Clark and Walter Van Brunt, the label's regular four-minute pairing. This is one of the very few entries in this file that two independent sources agree on: the Deakins index lists the title and number under Clark and Van Brunt, and the UCSB Cylinder Audio Archive holds a copy of Indestructible 3264 catalogued to the same two singers. Edison also issued the song on cylinder, as did the disc companies, so a collector can put several 1912 readings of it side by side.\n\nIt also sits at a hinge in the celluloid story. In 1912, the year of this record, Edison finally brought out the Blue Amberol — a celluloid cylinder of his own, with a plaster core — and Columbia walked away from its agreement to distribute Indestructible's. The independent that had spent five years arguing that celluloid was the future was proved right and undercut in the same season.",
+      "notes": "Number, title and artists agree between Deakins's index and the UCSB Cylinder Audio Archive's catalogue entry for Indestructible 3264, which is why this entry is marked verified. No release date is documented; 1912 is the song's publication year, not a documented issue date. The four-minute series placement is secure: 3264 is in Indestructible's 3000 series, which is the four-minute list. An Indestructible is a thin celluloid tube moulded over a pasteboard core with a metal ring pressed into each end. Those two bright rims are the fastest way to tell one from an Edison Blue Amberol, which is celluloid over a heavy plaster core and has no metal at the ends.",
+      "confidence": "verified",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3271",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3271",
+      "title": "Love Never Dies",
+      "work_type": "Vocal duet",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "Another of the Helen Clark and Walter Van Brunt four-minute duets, and one of the many songs of the period whose title outlived its music. Nothing has been established here about its authorship, and rather than attach a composer on the strength of a similar title, this entry says so plainly.\n\nThe value of an entry like this is as a piece of the numerical list. The surviving documentation for Indestructible is nothing like the month-by-month record that exists for Edison: there is no equivalent of the *Edison Phonograph Monthly* supplements, the company's own catalogues survive patchily, and modern knowledge of the series rests largely on two compilations — Duane Deakins's index of the 1950s and 60s and Major H. H. Annand's listing of 1970 — supplemented by whatever collectors have in hand.\n\nThat is the honest situation for most of the label. A number, a title and a pair of singers is often the whole of what can be said, and filling the rest of the page with invention would make the catalogue less useful, not more.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Composer, date and accompaniment are all unestablished. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "H. H. Annand, “The Indestructible Record Company: A Listing of American & British Two and Four-Minute Cylinders, 1907–1922” (Internet Archive)",
+          "url": "https://archive.org/details/Annand",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3277",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3277",
+      "title": "I'd Love to Live in Loveland",
+      "work_type": "Song",
+      "genre": "Waltz ballad",
+      "language": "English",
+      "description": "W. R. Williams — the pen name of the Chicago publisher Will Rossiter — wrote *I'd Love to Live in Loveland with a Girl Like You* in 1910, and it became one of those songs that sold steadily for years without ever quite being fashionable. It is a waltz-time daydream about a place that does not exist, and its chorus was still being sung in barbershop arrangements decades later.\n\nHenry Burr's four-minute Indestructible sits in the middle of the label's Columbia years. The company's whole proposition was on the box: a record that could be dropped, that would not shave or crumble, and that a dealer could demonstrate by throwing it on the floor. The claim was largely true. The reason so many Indestructibles survive in playable condition today, while contemporary wax Amberols are so often mouldy or worn to a whisper, is that the celluloid really was the better material.\n\nWhat Indestructible could not survive was the litigation and the market. Edison pressed his patent position hard against every maker of moulded celluloid cylinders, and when he brought out his own celluloid record in 1912 the independents' technical advantage evaporated. Indestructible outlasted the rest of them by a decade, but it was selling into a shrinking cylinder trade the whole time.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. The 1910 date is the song's publication year, not a documented release date for the cylinder. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. Celluloid neither moulds nor crumbles the way wax does, so these records survive playable far more often than their Edison contemporaries; the characteristic failure is a split running down the seam of the celluloid tube, or a core that has shrunk or been crushed so the cylinder will not sit true on the mandrel.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3302",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3302",
+      "title": "You Made Me Love You",
+      "subtitle": "I Didn't Want to Do It",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "James V. Monaco's music and Joseph McCarthy's words were published in 1913 with the parenthetical subtitle *(I Didn't Want to Do It)*, and the song became one of the biggest of the pre-war years — later inseparable from Al Jolson, and later still from Judy Garland's 1937 letter to Clark Gable. The 1913 recordings, this one among them, catch it before any of that, as a straight popular song with a syncopated lilt.\n\nIndestructible put it in the four-minute series as a Helen Clark and Walter Van Brunt duet. By 1913 the Columbia agreement was over, Edison's Blue Amberol was on sale, and the Albany company was back to selling under its own name and through the Sears Oxford brand. That it was still issuing the season's biggest hits shows how far from finished it was: production continued until 1922, when the Albany plant burned.\n\nFor a collector, four-minute numbers in the 3300s are the ones to look for in Indestructible-branded boxes rather than Columbia ones, and they are late enough that the recording quality is at the label's best.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. The 1913 date is the song's publication year, not a documented issue date. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3364",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3364",
+      "title": "The Holy City",
+      "work_type": "Sacred song",
+      "genre": "Sacred",
+      "language": "English",
+      "description": "Stephen Adams — the stage name of the singer Michael Maybrick — set Frederic Weatherly's words in 1892, and *The Holy City* became the best-selling sacred ballad in the English language: Jerusalem seen three times, first in a dream, then in ruin, then in glory, with a chorus that climbs each time. It was the piece every ballad singer of the era had in his throat, and its recording history runs from the brown-wax cylinders of the 1890s to the electrical era.\n\nHenry Burr's four-minute Indestructible is one of two versions of the song in the label's list; the other is at 676 in the two-minute series, made years earlier. Sacred and semi-sacred songs were a large and often overlooked part of the cylinder business — Sunday material for a machine bought for Saturday — and they held their place in the catalogues long after the popular songs around them had been withdrawn.\n\nAt four minutes the song can be taken at its proper unhurried pace and still fit, which was not true of a two-minute cylinder. This is the format the piece wants, and it is one of the better arguments for the four-minute celluloid as a musical proposition rather than just a commercial one.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Deakins lists Burr with the same title at two-minute number 676; the two are separate recordings. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3445",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3445",
+      "title": "I'm Sorry I Made You Cry",
+      "work_type": "Song",
+      "genre": "Waltz ballad",
+      "language": "English",
+      "description": "N. J. Clesi's song of 1918 is a straightforward apology set to a slow waltz, and it was a substantial hit in the last year of the First World War — a period when American popular song swung between marching numbers and this sort of domestic regret. Henry Burr, by then the most recorded ballad singer in the country, was the natural voice for it.\n\nThe number matters here. A four-minute Indestructible at 3445 is a late record, made years after Columbia's distribution agreement had ended and after Edison's Blue Amberol had taken over the celluloid cylinder market. By 1918 Indestructible was the last independent cylinder maker of any size in the United States: Lambert had been driven out before 1907, the U-S Phonograph Company of Cleveland had gone under in 1913, and the whole rest of the industry had moved to discs.\n\nRecords from this final stretch are consequently less common than the Columbia-era ones, and they are the best evidence of how long the celluloid cylinder held on. The company kept going until 1922, when fire destroyed the Albany factory and ended American cylinder manufacture outside West Orange.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. The 1918 date is the song's publication year, not a documented issue date, although a number in the 3440s is consistent with it. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute-3572",
+      "series_slug": "indestructible-4-minute",
+      "catalog_number": "3572",
+      "title": "Good-Bye, Good Luck, God Bless You",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "Ernest R. Ball wrote the music and J. Keirn Brennan the words, and the song belongs to the great wartime run of farewell ballads — the same vein as *Till We Meet Again* and *Keep the Home Fires Burning*, addressed by somebody staying behind to somebody leaving. Ball was among the most reliable songwriters of the period, and his ballads were recorded on every format then in production.\n\nAt 3572 this is one of the highest four-minute Indestructible numbers documented in this file, from the last years of the company. It is also one of the clearest illustrations of the label's late position: still recording the current hits, still selling a celluloid record, but doing so in a market where the cylinder had become a specialist product supported mainly by the people who already owned the machines.\n\nLate Indestructibles like this one are worth handling carefully in spite of the brand name. The celluloid is durable, but the pasteboard core underneath is not, and a century of dry heat can shrink it enough that the cylinder no longer grips the mandrel — the commonest way a surviving Indestructible becomes unplayable.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. The songwriting credit and the mid-1910s dating come from the song, not from any documented issue date for this cylinder. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. Celluloid neither moulds nor crumbles the way wax does, so these records survive playable far more often than their Edison contemporaries; the characteristic failure is a split running down the seam of the celluloid tube, or a core that has shrunk or been crushed so the cylinder will not sit true on the mandrel.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "H. H. Annand, “The Indestructible Record Company: A Listing of American & British Two and Four-Minute Cylinders, 1907–1922” (Internet Archive)",
+          "url": "https://archive.org/details/Annand",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-676",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "676",
+      "title": "The Holy City",
+      "work_type": "Sacred song",
+      "genre": "Sacred",
+      "language": "English",
+      "description": "Stephen Adams's 1892 setting of Frederic Weatherly's *Holy City* was the most successful sacred ballad of its generation, and this is Indestructible's early two-minute reading of it by Henry Burr. The number is a low one, from the first years of the company's list, when the whole catalogue was still two-minute and the celluloid record was being sold as a novelty that could not be broken.\n\nFitting the song onto a two-minute cylinder means cutting it, and that is the interest of the record as against the later four-minute remake at 3364: the collector hears the compromise the format forced. Two minutes was enough for a verse and a chorus at speed, and no more.\n\nIndestructible's earliest cylinders date from 1907, which puts a number in the 600s within the first year or so of production — before the Columbia distribution agreement, and while the company was still establishing that it could make and sell a moulded celluloid record at all in the face of Edison's patent claims.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-828",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "828",
+      "title": "Bonnie Doon",
+      "work_type": "Song",
+      "genre": "Scottish traditional",
+      "language": "English",
+      "description": "\"Ye banks and braes o' bonnie Doon\" is Robert Burns, written in 1791 to an older Scots air, and it is one of the handful of Burns lyrics that became genuinely international parlour songs. The singer reproaches a landscape for being beautiful while he is not happy, which is a very Burns thing to do, and the tune is simple enough to survive any amount of Victorian arrangement.\n\nScottish and Irish songs were a staple of American cylinder catalogues out of all proportion to their place in the concert repertoire — they were familiar, they were out of copyright, and they suited the tenor voices the recording horn liked. Henry Burr, Canadian-born, sang a great many of them.\n\nThis is an early two-minute Indestructible, from the part of the list issued before the four-minute series began in 1909.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-967",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "967",
+      "title": "If You'll Remember Me",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "A sentimental ballad from the early part of the Indestructible list, sung by Henry Burr. Its authorship has not been established here and no composer has been supplied; the title is common enough that guessing would be a poor service.\n\nWhat can be said is where the record sits. A two-minute number in the 900s belongs to 1908 or thereabouts, which is the period in which the Columbia Phonograph Company gave up making its own cylinders and contracted to distribute Indestructible's instead. From that point until 1912 a buyer could take home the identical celluloid cylinder in a Columbia box, an Indestructible box, or — from Sears, Roebuck — an Oxford one.\n\nFor a collector that means the box, not the record, carries the brand. The cylinders themselves came out of the same moulds in Albany.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1016",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1016",
+      "title": "Daddy",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "A late-Victorian parlour song of the kind that survived into the record era on sentiment alone, addressed by a child to a father. Its authorship has not been established here.\n\nThe record's interest is largely as a piece of the two-minute list. Indestructible kept its two-minute series alive right through the four-minute years and beyond — numbers in this range were still selling to owners of the enormous population of two-minute machines that had been bought between 1902 and 1908, and which no amount of four-minute advertising was going to make obsolete overnight.\n\nTwo-minute Indestructibles are, in general, more common today than the four-minute ones and less sought after; they are also the best cheap way to hear what the label's celluloid actually sounds like against contemporary black wax.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1085",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1085",
+      "title": "Abide With Me",
+      "work_type": "Hymn",
+      "genre": "Sacred",
+      "language": "English",
+      "description": "Henry Francis Lyte wrote the words in 1847 as he was dying; William Henry Monk's tune *Eventide* followed in 1861, and the two together produced one of the most widely sung hymns in English. It has been recorded continuously since the earliest days of the phonograph, and it remains the hymn most likely to turn up in an acoustic-era catalogue.\n\nHymns were serious commercial business for the cylinder companies. A machine sold on the strength of comic songs still had to have something to play on a Sunday, and every list carried a sacred section. Henry Burr, who recorded hundreds of them, was as much a gospel singer on record as a popular one.\n\nThe number places this in the two-minute series around 1909, at the point where Indestructible was also launching its four-minute records and the Columbia agreement was at its height.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1158",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1158",
+      "title": "I Want Somebody to Play With",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "A light popular song of the late 1900s, recorded by Henry Burr for Indestructible's two-minute series. Neither its authorship nor its date of issue has been established here, and neither has been guessed at.\n\nRecords like this one are the ordinary fabric of a cylinder catalogue: songs bought from a publisher, recorded quickly, sold for a season and then dropped. They are also where the documentation for the independent labels fails soonest, because nobody thought them worth writing down. Edison's monthly supplements preserve that level of detail for the Edison catalogue; for Indestructible, the surviving evidence is mostly a number, a title and an artist in a collector's index.\n\nThat asymmetry is worth keeping in mind when comparing the two companies' catalogues. The Edison list looks better documented because it is, not because Edison issued a more coherent body of records.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1186",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1186",
+      "title": "Goodnight, Little Girl, Goodnight",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "The two-minute version of a song Indestructible also issued at four minutes as 3052. Comparing the two, where a collector can find both, is one of the more instructive exercises available on this label: the same singer, the same song, cut to fit two different lengths a few years apart.\n\nThe two-minute cylinder turns at 160 grooves to the inch against the four-minute's 200, so the groove is wider and the stylus tracks it with less trouble — which is part of why two-minute records of any make tend to sound more robust than four-minute ones of the same vintage.\n\nHenry Burr's ballads of this type are the substance of the Indestructible list. He had no exclusive contract with the Albany company, and the same voice singing the same repertoire can be found on Edison, Columbia and U-S Everlasting cylinders of the same years.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1215",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1215",
+      "title": "If I Had My Choice of the World's Pretty Girls",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "A popular song of the late 1900s, sung by Henry Burr on Indestructible's two-minute series. Its authorship is not established here.\n\nThe long, faintly ridiculous title is characteristic of the period — publishers liked a title that told the whole joke, on the theory that a customer who could remember it could ask for it by name in a shop. The cylinder trade encouraged the habit, because a title printed on a box lid was the only advertising most records got.\n\nThe record belongs to the Columbia-distribution years, when Indestructible's two-minute cylinders had their widest circulation they would ever have. A copy found in a Columbia carton is not a different record; Columbia sold Albany's cylinders under its own name from 1908 until 1912.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1247",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1247",
+      "title": "Dinah Dear",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Arthur Collins was the leading baritone of the American record business in the 1900s and the voice of an enormous quantity of the minstrel-derived popular song of the period, alone and in partnership with Byron G. Harlan. *Dinah Dear* belongs to that repertoire, and modern listeners should expect the racial caricature that ran through it.\n\nCollins recorded for every company that would pay him, which is why his name appears on Edison, Columbia, Victor, Indestructible and U-S Everlasting records of exactly the same years. The independent cylinder labels had no artist roster of their own in any meaningful sense; they hired the same freelancers out of the same New York studios.\n\nThe two-minute number places this in the Columbia-distribution period, when Indestructible cylinders were reaching more dealers than at any other time in the company's life.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "baritone"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1258",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1258",
+      "title": "I Wonder Who's Kissing Her Now",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Written for the 1909 Chicago musical *The Prince of Tonight* — music credited to Joseph E. Howard, with Harold Orlob's authorship established only decades later in court, and words by Will M. Hough and Frank R. Adams — this became one of the standard American popular songs of the century. Its question is a jealous one, and the tune's gentle waltz makes it sound anything but.\n\nThe song was a hit in exactly the season when Indestructible's cylinders were being distributed nationally by Columbia, and a two-minute number in the 1250s fits 1909 neatly. It would have reached buyers in Columbia and Indestructible boxes simultaneously.\n\nHenry Burr's is one of a great many contemporary recordings; Edison issued the song on cylinder as well, so it is one of the titles where a direct comparison between wax and celluloid, on much the same repertoire and in the same year, is actually possible.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1273",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1273",
+      "title": "I'll Go Where You Want Me to Go",
+      "work_type": "Sacred song",
+      "genre": "Sacred",
+      "language": "English",
+      "description": "A hymn of consecration — \"I'll go where you want me to go, dear Lord\" — from the late nineteenth century, and a fixture of the American revival repertoire. It is the sort of sacred song that sold steadily rather than spectacularly, and it stayed in cylinder catalogues for years at a time.\n\nHenry Burr's gospel and hymn records are among the least discussed and most numerous of his output. He recorded the standard evangelical repertoire for practically every label, and the Indestructible sacred list leans on him heavily.\n\nThe two-minute number places this in the Columbia years. Sacred records in particular were kept in print far longer than popular songs, so a title like this may be found in boxes from more than one period of the company's life.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1283",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1283",
+      "title": "All Through the Night",
+      "work_type": "Song",
+      "genre": "Welsh traditional",
+      "language": "English",
+      "description": "*Ar Hyd y Nos* is a Welsh air first printed in the eighteenth century, and its English lyric — \"sleep my child and peace attend thee\" — made it one of the best-loved lullabies in the language. Like most traditional material it cost the record companies nothing in royalties, which did no harm to its popularity in the catalogues.\n\nHenry Burr's two-minute Indestructible is one of many acoustic-era recordings of the tune. Sung slowly, it is almost exactly two minutes long, which made it an unusually good fit for the short cylinder — one of the few songs of the period that did not have to be cut to fit.\n\nThe number belongs to the stretch of the two-minute list issued while Columbia was distributing Indestructible's records, which for a few years put these celluloid cylinders into shops in every part of the country.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1419",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1419",
+      "title": "All That I Ask of You Is Love",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "description": "Herbert Ingraham's ballad of 1910, with words by Edgar Selden, was one of the better-selling sentimental songs of its year. Ingraham died young, in 1910, and this is among the songs his name is still attached to.\n\nHenry Burr's Indestructible is a two-minute cylinder from the period after the four-minute series had begun, which is the significant thing about it. The Albany company did not treat the four-minute record as a replacement: it went on issuing new two-minute titles for years, because the machines in American parlours were overwhelmingly two-minute machines and would remain so for a long time.\n\nThat decision is one reason Indestructible outlived every other independent cylinder maker. It sold to the installed base rather than trying to convert it.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1505",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1505",
+      "title": "The Cubanola Glide",
+      "work_type": "Song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "description": "Harry Von Tilzer's music and Vincent Bryan's words, published in 1909, gave the dance craze of that season its song — a \"glide\" with a mock-Cuban lilt, of a piece with the *Grizzly Bear* and the *Turkey Trot* that followed it. It is one of the records where the pre-war American appetite for Latin novelty is at its most obvious.\n\nArthur Collins's delivery is the standard one of the period: a baritone with a heavy rhythmic attack, singing straight into the horn, with a small band behind. Records of this kind were what the cylinder format did best, and they sold in numbers that the ballads never quite matched.\n\nThe number places the issue in the middle of the label's two-minute run. Von Tilzer songs turn up across all the cylinder catalogues of these years; the same title on an Edison cylinder is a straightforward comparison to make.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "baritone"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1522",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1522",
+      "title": "California and You",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "A song of 1914 in the great American tradition of writing about a state you have not visited. It belongs to the boom in place-name songs that ran from *On the Banks of the Wabash* through to the 1920s, and it was current in the year war broke out in Europe.\n\nIts authorship has not been confirmed here. What is documented is the pairing of the title with Henry Burr and with this two-minute Indestructible number, which places the record in the period after the Columbia agreement had ended — when Indestructible was selling under its own name and through the Sears Oxford brand, and was very nearly the only company in America still making new cylinders other than Edison.\n\nTwo-minute cylinders issued as late as this are a reminder of how long the short format survived. Edison had stopped making new two-minute wax records years earlier.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1531",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1531",
+      "title": "Good-Bye, Girls, I'm Through",
+      "work_type": "Song",
+      "genre": "Show song",
+      "language": "English",
+      "description": "From *Chin-Chin*, the enormous 1914 Broadway spectacle built around the comedians Montgomery and Stone, with music by Ivan Caryll and lyrics by John Golden. The song is a bachelor's farewell to the field, and it was the show's most durable number.\n\nBroadway material of this kind was recorded quickly and widely, and the cylinder companies took what they could get of it. Henry Burr's Indestructible is a two-minute record from the label's later years, when the company had outlived every American competitor except Edison and was working a much narrower market than it had in the Columbia days.\n\nBy 1914 the celluloid patent argument that had defined the company's first years was effectively over. Edison's own Blue Amberol had been on sale for two years, the U-S Phonograph Company had been litigated out of existence, and Indestructible simply carried on, quietly, until the Albany plant burned in 1922.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1545",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1545",
+      "title": "Ireland Must Be Heaven, for My Mother Came from There",
+      "work_type": "Song",
+      "genre": "Irish-American song",
+      "language": "English",
+      "description": "Fred Fisher's music with words by Joe McCarthy and Howard Johnson, published in 1916, is one of the best-known of the Irish-American mother songs — a genre that Tin Pan Alley worked hard for two decades and that sold enormously to an audience that was neither wholly Irish nor entirely sentimental about it.\n\nHenry Burr recorded a great deal of this repertoire. His voice, high and even and slightly plaintive, was made for it, and the songs were reliable sellers long after the fashions around them had changed.\n\nThe two-minute number places the record in the last third of the Indestructible list. By 1916 the cylinder was a minority format everywhere except in the homes that already had a machine, and the Albany company's business was largely with those homes.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1548",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1548",
+      "title": "Brighten the Corner Where You Are",
+      "work_type": "Hymn",
+      "genre": "Sacred",
+      "language": "English",
+      "description": "Ina Duley Ogdon's words and Charles H. Gabriel's tune, published in 1913, became the signature hymn of Billy Sunday's revival campaigns and one of the best-selling gospel songs of the decade. Its cheerfulness is aggressive, and it was meant to be sung by a very large number of people at once.\n\nRecords of the Sunday-campaign hymns sold in quantities that surprised the record companies, and every catalogue of the middle 1910s carries several. Henry Burr, who was as much a gospel recording artist as a popular one, sang most of them for somebody.\n\nThe two-minute Indestructible number places this among the label's late issues, from the years when the company was operating without Columbia's distribution and against a market that had largely moved to discs.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1571",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1571",
+      "title": "Hello Central, Give Me No Man's Land",
+      "work_type": "Song",
+      "genre": "War song",
+      "language": "English",
+      "description": "Irving Berlin wrote the music, Sam M. Lewis and Joe Young the words, and the song was published in 1918: a child telephones the operator asking to be connected to her father at the front. It is one of the most unashamedly manipulative songs of the war and it was among the biggest sellers of that year.\n\nHenry Burr's two-minute Indestructible is one of the very latest records documented in this file. By 1918 Indestructible was the last independent cylinder manufacturer in the United States, still turning out celluloid records in Albany more than a decade after Edison's patent campaign had cleared the rest of the field.\n\nFour years later a fire at the Albany plant ended it. The two-minute cylinder — a format Edison had stopped issuing new titles on around 1912 — outlived its inventor's interest in it by a decade, kept alive by the company he had spent years in court trying to stop.",
+      "notes": "Catalogue number, title and artist are taken from Duane D. Deakins's Indestructible Cylinder Record Index; no copy, box or catalogue scan was inspected directly, which is why this entry is flagged below verified. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number. No release date is documented for this issue; any year mentioned in the description is the song's publication date. No copy of the box or lid was seen, so the label's own credit wording is not recorded here and credit_line is left empty rather than reconstructed.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “Indestructible Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-785",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "785",
+      "title": "In Darkest Africa",
+      "subtitle": "from Sousa's Three Quotations",
+      "work_type": "Band selection",
+      "genre": "Descriptive band piece",
+      "released_on": "1908-06-01",
+      "released_precision": "month",
+      "description": "Sousa's *Three Quotations* is a suite of three character pieces, and *In Darkest Africa* is the first of them — a piece of 1890s American band exotica whose title borrows Henry Morton Stanley's best-selling account of his Congo expedition. It is programme music of the sort every American band carried: a mood, some percussion colour, and a big finish.\n\nThis is one of the earliest Indestructible cylinders for which a release date is documented — June 1908, less than a year after the company began production, and just as the Columbia Phonograph Company was arranging to distribute its output. Band records were the backbone of the early list, partly because they recorded well and partly because they showed off what the celluloid surface could do with a loud ensemble.\n\nThe performing group is credited only as a band, and no name has been supplied here. Indestructible did not much bother identifying its studio ensembles, and the company's advertising put its emphasis elsewhere — on the record that could not be broken, could not wear out, and, in the phrase the company used, would last forever.",
+      "notes": "Release date (June 1908), catalogue number and title come from the Mainspring Press streaming playlist of Indestructible cylinders, which gives discographical detail for each item. The performing group is credited only as 'Band' and none has been inferred. Indestructible's four-minute issues run in a 3000 series begun in 1909, separate from the two-minute list; a collector's listing of four-minute Indestructibles covering numbers in the 3020–3228 range is the direct evidence for that here. The box for this particular number was not examined. An Indestructible is a thin celluloid tube moulded over a pasteboard core with a metal ring pressed into each end. Those two bright rims are the fastest way to tell one from an Edison Blue Amberol, which is celluloid over a heavy plaster core and has no metal at the ends.",
+      "confidence": "probable",
+      "links": [
+        {
+          "kind": "audio",
+          "label": "“Indestructible Cylinder Favorites (1908–1911)” — Mainspring Press streaming playlist",
+          "url": "https://78records.wordpress.com/2016/08/16/the-playlist-%E2%80%A2-indestructible-cylinder-favorites-1908-1911/",
+          "source_name": "Mainspring Press"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-794",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "794",
+      "title": "Bon Bon Buddy",
+      "work_type": "Song",
+      "genre": "Show song",
+      "language": "English",
+      "description": "*Bon Bon Buddy* comes from *Bandanna Land*, the 1908 musical by the Black theatrical partnership of Bert Williams and George Walker, with music by Will Marion Cook and words by Alex Rogers. It was Walker's own song — \"Bon Bon Buddy, the chocolate drop, that's me\" — and it was the last great success of his career before illness ended it. That a song written and introduced by Black artists for a Black company on Broadway should have been recorded for the phonograph by white singers is entirely typical of the period and part of what makes the record worth studying.\n\nIndestructible's two-minute version is credited to Billy Murray, the most successful American recording vocalist of the decade, whose diction and rhythmic snap made him the default choice for anything from the current shows. He recorded for everyone, and his presence on an independent cylinder label says nothing about exclusivity and everything about how the studios of 1908 worked.\n\nThe number places the record in the first full year of Indestructible production, at the moment the Columbia agreement was being made. It is early enough that a surviving copy may be found in either company's box.",
+      "notes": "Number, title and artist from a collector listing at 45worlds, which shows the record as Indestructible 794; the title appears there in the spelling 'Bon Bon Buddie'. No release date is documented — 1908 is the date of the show the song comes from. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Collector listing at 45worlds",
+          "url": "https://www.45worlds.com/78rpm/record/nc229688us",
+          "source_name": "45worlds"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1006",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1006",
+      "title": "I Remember You",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "A two-minute Indestructible credited to Ada Jones, the English-born soprano who was the most popular female recording artist in America in the 1900s. Jones sang comic dialect songs, coy love songs and duets with Billy Murray and Len Spencer in enormous quantity, and she appears throughout the Indestructible list as she does in every other catalogue of the decade.\n\nThe identification of this record rests on a single digitised transfer whose Internet Archive identifier encodes the catalogue number. That is thinner evidence than most entries here and the number should be treated as unconfirmed; the transfer itself, however, can be heard, which is more than can be said for most of the label's list.\n\nJones's records are among the best reasons to seek out Indestructible cylinders specifically. Her voice sits in a range the acoustic horn handled well, and celluloid holds the sibilants of a comic lyric better than worn wax does.",
+      "notes": "The catalogue number rests solely on the identifier of an Internet Archive transfer (item ind-1006); no catalogue, box or index entry was seen confirming that Indestructible 1006 is this title, so the entry is flagged uncertain. Song authorship and issue date are unknown.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "soprano"
+        }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Transfer at the Internet Archive (item ind-1006)",
+          "url": "https://archive.org/details/ind-1006",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute-1090",
+      "series_slug": "indestructible-2-minute",
+      "catalog_number": "1090",
+      "title": "Indian Intermezzo",
+      "work_type": "Instrumental solo",
+      "genre": "Intermezzo",
+      "released_on": "1909-06-01",
+      "released_precision": "month",
+      "description": "John J. Kimmel — born in Brooklyn to German parents, and billed on records under a dozen spellings of his name — was the most recorded accordionist of the acoustic era and the man who put Irish dance music onto American cylinders and discs in bulk. The \"Indian intermezzo\" was a fashion of the moment: a two-step with a tom-tom rhythm and a pentatonic tune, the same craze that produced *Hiawatha* and a hundred imitations.\n\nThis issue is documented as a June 1909 release, which puts it in the second year of the Columbia distribution agreement and the first year of the four-minute series. Solo instrumental records were good business for a cylinder company — a single loud instrument close to the horn was the easiest thing in the world to record well, and Kimmel's accordion is louder and cleaner on these cylinders than most contemporary singers.\n\nKimmel's Indestructibles are among the more sought-after items on the label, because his playing has an audience among traditional musicians that has nothing to do with phonograph collecting.",
+      "notes": "Release date (June 1909), catalogue number, title and artist from the Mainspring Press streaming playlist of Indestructible cylinders. Composer not established. Series placement follows Indestructible's numbering practice — two-minute issues below about 1600, four-minute issues in the 3000 series. The box for this number was not examined, so the two-minute assignment is an inference from the number.",
+      "confidence": "probable",
+      "credits": [
+        {
+          "person_slug": "john-j-kimmel",
+          "role": "instrumentalist",
+          "billing_order": 1,
+          "detail": "accordion"
+        }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "“Indestructible Cylinder Favorites (1908–1911)” — Mainspring Press streaming playlist",
+          "url": "https://78records.wordpress.com/2016/08/16/the-playlist-%E2%80%A2-indestructible-cylinder-favorites-1908-1911/",
+          "source_name": "Mainspring Press"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute-3199",
+      "series_slug": "columbia-indestructible-4-minute",
+      "catalog_number": "3199",
+      "title": "When You and I Were Young, Maggie",
+      "work_type": "Song",
+      "genre": "Parlour ballad",
+      "language": "English",
+      "description": "The Columbia-branded issue of the Albany company's four-minute celluloid of Butterfield and Johnson's 1866 parlour standard, sung by the baritone Frank Coombs.\n\nThe arrangement behind this record is the most misunderstood thing about the independent cylinder trade. Columbia had been making cylinders since the 1890s, but by 1908 its business was in discs, and rather than keep a cylinder plant running it agreed to take Indestructible's celluloid records and sell them as its own. For four years, therefore, \"Columbia Indestructible Records\" were neither made nor recorded by Columbia. The moulds, the plant and the artists were Indestructible's; Columbia supplied the distribution and the name on the box.\n\nFor a collector the practical consequence is that a Columbia Indestructible and an Albany Indestructible of the same number are the same record. The value difference, where there is one, comes from the packaging and from which brand a given collection is organised around.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "frank-coombs",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "baritone"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute-3253",
+      "series_slug": "columbia-indestructible-4-minute",
+      "catalog_number": "3253",
+      "title": "Oh! You Beautiful Doll",
+      "work_type": "Song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "description": "Brown and Ayer's 1911 hit in its four-minute celluloid form, as sold under the Columbia name during the distribution agreement.\n\nThe timing is what makes this issue interesting. 1911 was the last full year of the arrangement: in 1912 Columbia went back to its own products, Edison launched the celluloid Blue Amberol, and the brief period in which two of the three largest names in American talking machines were selling the same Albany-made cylinder came to an end. A record of this number is right at the close of that window.\n\nNeither the performer nor a Columbia-branded copy of this number is confirmed here, and no singer has been supplied. The song was recorded by everyone in 1911, which makes a guess particularly easy and particularly worthless.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder. The pairing of number 3253 with this title comes from a single auction description and is itself unconfirmed; the performer is unknown.",
+      "confidence": "uncertain",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute-3260",
+      "series_slug": "columbia-indestructible-4-minute",
+      "catalog_number": "3260",
+      "title": "There's a Girl in Havana",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Helen Clark and Walter Van Brunt's duet on the 1911 stage song, in the four-minute celluloid form Columbia was selling under its own name in that year.\n\nColumbia's decision to distribute rather than manufacture is a good measure of where the cylinder stood by 1908. The disc had won the mass market, and the cylinder had become a format for people who already owned a cylinder machine. Rather than invest in celluloid technology of its own — with Edison's patent lawyers waiting — Columbia took the cheaper route and sold somebody else's records.\n\nEdison, meanwhile, was fighting the same technology in court and preparing to adopt it. The Blue Amberol of 1912 was Edison's own celluloid cylinder, and its arrival is what finally settled the argument the independents had started.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute-3264",
+      "series_slug": "columbia-indestructible-4-minute",
+      "catalog_number": "3264",
+      "title": "On Moonlight Bay",
+      "work_type": "Vocal duet",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "The Clark and Van Brunt duet on Wenrich and Madden's 1912 hit, in the Columbia-branded form of the Albany four-minute celluloid.\n\nThis number is the best-documented four-minute Indestructible in this file — the index and the UCSB archive agree on its title and artists — which makes it a useful anchor for understanding the Columbia relationship. Whatever the box says, this is one recording, made once, in Albany's moulds.\n\nIt is also from the final months of the agreement. By the end of 1912 Columbia had withdrawn, Indestructible was back to its own brand and to supplying Sears with Oxford-labelled copies, and Edison's Blue Amberol had put a celluloid cylinder into the hands of the man who had spent five years suing the people who made them.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "helen-clark",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "contralto"
+        },
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "billing_order": 2,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute-3277",
+      "series_slug": "columbia-indestructible-4-minute",
+      "catalog_number": "3277",
+      "title": "I'd Love to Live in Loveland",
+      "work_type": "Song",
+      "genre": "Waltz ballad",
+      "language": "English",
+      "description": "Henry Burr's four-minute reading of Will Rossiter's 1910 waltz song, in the form Columbia sold under its own name.\n\nThere is a nice irony in the Columbia Indestructible. Columbia and Edison had spent the 1890s and 1900s in more or less permanent litigation with each other, and here was Columbia putting its name on a record whose entire selling proposition — moulded celluloid that would not wear out — was the thing Edison was busy trying to suppress in the courts. Selling the independents' product was, among other things, a cheap way of keeping the pressure on.\n\nFor anyone sorting a shelf, the message is simple: the brand is on the box, the record is from Albany, and the number is the same either way.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-2-minute-794",
+      "series_slug": "columbia-indestructible-2-minute",
+      "catalog_number": "794",
+      "title": "Bon Bon Buddy",
+      "work_type": "Song",
+      "genre": "Show song",
+      "language": "English",
+      "description": "Billy Murray's two-minute celluloid of the Cook and Rogers song from *Bandanna Land*, as sold under Columbia's name during the distribution agreement.\n\nA number in the 700s is from 1908, the first year of the arrangement, which makes this about as early as a Columbia Indestructible can be. Columbia's own cylinder production had just stopped; its customers still wanted cylinders; the Albany company had a product and no national distribution. The deal suited both, and for four years it gave Indestructible a reach it never had before or after.\n\nThe record itself is an ordinary two-minute Indestructible: celluloid tube, pasteboard core, metal end rings. Nothing about the cylinder distinguishes a Columbia copy from an Albany one.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-2-minute-1090",
+      "series_slug": "columbia-indestructible-2-minute",
+      "catalog_number": "1090",
+      "title": "Indian Intermezzo",
+      "work_type": "Instrumental solo",
+      "genre": "Intermezzo",
+      "released_on": "1909-06-01",
+      "released_precision": "month",
+      "description": "John J. Kimmel's accordion solo, issued in June 1909 and sold in that period under both the Indestructible and Columbia names.\n\nThis is one of the few numbers in the file with a documented release month, which makes it a firm point inside the Columbia years — the agreement ran from 1908 to 1912, so a June 1909 issue is squarely within it. Instrumental solos of this kind were a Columbia staple as well as an Indestructible one, and the crossover in repertoire between the two lists during these years is almost total, for the good reason that they were the same records.\n\nKimmel's playing is also a useful test of the celluloid surface. An accordion has a wide dynamic range and a lot of high-frequency detail, and a good Indestructible copy holds both better than a worn wax cylinder of the same date.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder. The June 1909 release date is documented for the Indestructible issue, not specifically for a Columbia-branded copy.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "john-j-kimmel",
+          "role": "instrumentalist",
+          "billing_order": 1,
+          "detail": "accordion"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-2-minute-1258",
+      "series_slug": "columbia-indestructible-2-minute",
+      "catalog_number": "1258",
+      "title": "I Wonder Who's Kissing Her Now",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "description": "Henry Burr's two-minute celluloid of the 1909 hit from *The Prince of Tonight*, in the form Columbia put its own name on.\n\nColumbia's cylinder customers in 1909 were buying, without necessarily knowing it, a record made by the company Edison was trying to litigate out of the celluloid business. The Albany firm's whole existence rested on the proposition that moulded celluloid cylinders could be made by somebody other than Edison — a proposition first tested by Thomas B. Lambert's Chicago company at the turn of the century, and fought over in the courts for the better part of fifteen years.\n\nThat fight is the reason this catalogue has three names on it for one record. It is also the reason the American cylinder business ended up with exactly two survivors: Edison, who won the argument, and Indestructible, who outlasted it.",
+      "notes": "Columbia stopped making its own cylinders in 1908 and contracted to sell the Albany company's celluloid records under the Columbia name; the arrangement ran until 1912. The record inside a Columbia box is an Indestructible, made in Albany from Indestructible's moulds, and carries the Indestructible catalogue number. This entry is therefore flagged uncertain: the number and title are documented as an Indestructible issue of the Columbia-agreement years, but a Columbia-branded box for this particular number was not seen. Tell the two apart by the carton and lid, not by the cylinder.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "billing_order": 1,
+          "detail": "tenor"
+        }
+      ],
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia corporate history: Indestructible cylinders (DAHR)",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Records — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "us-everlasting-4-minute-1077",
+      "series_slug": "us-everlasting-4-minute",
+      "catalog_number": "1077",
+      "title": "My Old Kentucky Home",
+      "work_type": "Song",
+      "genre": "Traditional American song",
+      "language": "English",
+      "description": "Stephen Foster published *My Old Kentucky Home, Good-Night!* in 1853, and by the 1900s it had become one of the fixed points of American song — sung, arranged and recorded continuously, and adopted as the state song of Kentucky in 1928. Quartet arrangements of the Foster songs were a staple of every record catalogue, and the Peerless Quartette sang more of them than most.\n\nThe U-S Phonograph Company of Cleveland, Ohio, put its U-S Everlasting celluloid cylinders on the market in 1909, entering the same argument Indestructible was already in the middle of: whether anyone other than Edison could make a moulded celluloid record. Edison's patent suits followed, and the company was gone by 1913 — the shortest-lived of the significant American cylinder makers, and the clearest single casualty of the celluloid litigation.\n\nThat short life is why U-S Everlastings are scarcer than Indestructibles today, and why the surviving numerical documentation for the label is thinner still. Duane Deakins's index of the label, compiled decades later from collectors' shelves, remains the main published guide to what was issued.",
+      "notes": "Title and artist agree between Deakins's U.S. Everlasting index and the UCSB Cylinder Audio Archive's catalogue entry for U.S. Everlasting 1077. The series placement is the weak point: whether U-S's 1000-block is the four-minute series has not been confirmed here, and the entry is flagged uncertain for that reason rather than because of any doubt about the number, title or artist. No release date is documented.",
+      "confidence": "uncertain",
+      "credits": [
+        {
+          "person_slug": "peerless-quartet",
+          "role": "ensemble",
+          "billing_order": 1,
+          "detail": "male quartet"
+        }
+      ],
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Duane D. Deakins, “U.S. Everlasting Cylinder Record Index” (Internet Archive)",
+          "url": "https://archive.org/details/DeakinsUSEverlasting",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "U.S. Everlasting Cylinders — UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/history-everlasting.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for this issue (no verified page for this number)",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "lambert-cylinder-593",
+      "series_slug": "lambert-cylinder",
+      "catalog_number": "593",
+      "title": "The Whistling Bowery Boy",
+      "work_type": "Whistling solo",
+      "genre": "Popular",
+      "description": "The Lambert Company of Chicago is where the celluloid cylinder begins. Thomas B. Lambert patented a process for moulding records in celluloid at the turn of the century and began selling them around 1900 — pink, black and white tubes, unbreakable, and unaffected by the mould and shrinkage that plagued wax. They were years ahead of anything else on the market.\n\nThey were also, from Edison's point of view, an infringement. The litigation that followed ran for years and was ruinous for a company of Lambert's size; the firm left the record business around 1906, and the celluloid cylinder passed to the Indestructible Record Company of Albany, which began production in 1907. Every celluloid cylinder that followed — Indestructible, U-S Everlasting, Oxford, and eventually Edison's own Blue Amberol — descends from what Lambert started.\n\nThis particular record, a whistling solo dated 1903, is a good example of the popular repertoire on the label. The whistler is not identified in the documentation seen here, and none has been guessed at. Lambert cylinders are genuinely rare today: production was small, the company was short-lived, and although the celluloid itself survives well, the market for them was over before most collectors were born.",
+      "notes": "Catalogue number, title and 1903 date come from a collector's digitised transfer posted at the Internet Archive, whose item title gives the record as Lambert Indestructible cylinder 593. No performer is named there and none has been inferred. Lambert cylinders are two-minute records; the surviving numerical documentation for the label is very incomplete.",
+      "confidence": "probable",
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Transfer of Lambert 593 at the Internet Archive",
+          "url": "https://archive.org/details/LAMBERT593",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Record Company (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/Indestructible_Record_Company",
+          "source_name": "Wikipedia"
+        }
+      ]
+    }
+  ]
+}

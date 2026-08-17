@@ -70,7 +70,9 @@
       "name": "Walter Van Brunt",
       "full_name": "Walter Van Brunt",
       "sort_name": "Van Brunt, Walter",
-      "aliases": ["Walter Scanlan"],
+      "aliases": [
+        "Walter Scanlan"
+      ],
       "is_group": false,
       "birth_year": 1892,
       "death_year": 1971,
@@ -104,7 +106,11 @@
       "name": "Henry Burr",
       "full_name": "Harry Haley McClaskey",
       "sort_name": "Burr, Henry",
-      "aliases": ["Irving Gillette", "Harry McClaskey", "Alfred Alexander"],
+      "aliases": [
+        "Irving Gillette",
+        "Harry McClaskey",
+        "Alfred Alexander"
+      ],
       "is_group": false,
       "birth_year": 1882,
       "death_year": 1941,
@@ -173,7 +179,9 @@
     {
       "slug": "national-military-band",
       "name": "National Military Band",
-      "aliases": ["National (London) Military Band"],
+      "aliases": [
+        "National (London) Military Band"
+      ],
       "sort_name": "National Military Band",
       "is_group": true,
       "nationality": "British",
@@ -188,9 +196,12 @@
       "summary": "Edison's house mixed-voice quartet, used chiefly for sacred and old-favourite material."
     },
     {
-      "slug": "knickerbocker-quartette",
+      "slug": "knickerbocker-quartet",
       "name": "Knickerbocker Quartette",
-      "aliases": ["Knickerbocker Quartet"],
+      "aliases": [
+        "Knickerbocker Quartet",
+        "Knickerbocker Quartette"
+      ],
       "sort_name": "Knickerbocker Quartette",
       "is_group": true,
       "nationality": "American",
@@ -271,7 +282,11 @@
       "notes": "The title as transcribed by the UCSB Cylinder Audio Archive reads as a plural; the underlying piece is the familiar colonial march material of the period. Treat the exact printed title wording as unconfirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "edison-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "edison-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -297,7 +312,11 @@
       "notes": "Spoken-word wax Amberols suffer badly from surface bloom and mould; the greasy grey film that develops on stored black wax attacks the groove wall itself. Never wash a wax Amberol — water and detergent both damage the surface permanently.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "empire-vaudeville-company", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "empire-vaudeville-company",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -322,7 +341,11 @@
       "notes": "Reissued on Blue Amberol 2171. The wax original is the scarcer of the two by a wide margin.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -339,7 +362,12 @@
       "description": "Billy Murray with chorus, in the mode that made him the best-selling male singer in America: a bright, fast, front-of-the-beat delivery of a Tin Pan Alley courtship song, every syllable audible.\n\nThe chorus behind him is the usual Edison expedient — two or three studio singers crowded round the horn — and it exists to give the last refrain a lift rather than to add harmony of any subtlety. What matters is Murray's timing. He sings slightly ahead of the orchestra throughout, which on a small parlour phonograph reads as energy rather than haste.\n\nA record from 1909 is an early Amberol, and early Amberols are the ones most likely to have been played on hastily converted machines by owners who had not quite understood that the reproducer had to be changed as well as the feed screw. Check the groove under a loupe before playing anything from the first few hundred numbers.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor, with chorus", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor, with chorus",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -363,8 +391,16 @@
       "description": "Karl Hoschna's melody to Otto Harbach's lyric, introduced in the 1908 musical The Three Twins and one of the biggest song hits of its year. It is a genuinely good tune — a lazy, syncopated descent that sounds more like 1925 than 1908 — and it has stayed in circulation ever since.\n\nEdison's version puts Ada Jones and Billy Murray together with a small supporting company, which is the arrangement that made both of them famous. The two had a knack for sounding like a real couple bickering their way towards agreement: Jones arch and a little suspicious, Murray coaxing. The spoken exchanges between verses are the point of the record, and they are exactly what the extra two minutes of the Amberol format bought.\n\nCollectors should expect this one to have been played hard. It was a hit song in a hit format at a moment when most owners had precisely one four-minute reproducer, correctly fitted or not, and the wax is unforgiving of a single wrong pass.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -387,7 +423,11 @@
       "description": "A concert waltz played by the United States Marine Band, one of the ensembles Edison used to give the Amberol catalogue institutional weight. The Marine Band's name on a record label in 1909 carried the same implication it does now — official, disciplined, American — and Edison used it accordingly.\n\nThe waltz was the form that benefited most obviously from four minutes. A concert waltz is built as a chain of strains with an introduction and a coda that gathers them up again; cut to two minutes it becomes a fragment. At Amberol length the shape survives.\n\nBand records of this period are also, in practice, the wax Amberols most likely to be found in decent condition. They were bought for the parlour phonograph rather than for the children, and a march or waltz got fewer repeat plays than a comic song.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "united-states-marine-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -410,7 +450,11 @@
       "description": "Carl Teike's Alte Kameraden, written in the 1880s and by 1909 one of the most played marches in the world — a German regimental march that had become international property, and a standard for American concert bands alongside Sousa's own.\n\nThe United States Marine Band reading is straight and unhurried, with the trio taken at full length. The march's celebrated countermelody in the trio is the reason bandsmen love it, and it is the passage that a two-minute cylinder would have had to sacrifice.\n\nTeike wrote the piece, according to the durable story, after being told there was no room for him in his own regimental band; it has outlasted the regiment. On cylinder it is a useful demonstration record, because the four-minute format lets you hear a full march played as a band would actually play it on a bandstand.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "united-states-marine-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -435,7 +479,12 @@
       "description": "Alfred Solman's tune to Arthur Lamb's lyric, published in 1906 and one of Ada Jones's signature numbers. The conceit is that the stuffed bird on a young woman's hat has watched her whole courtship and is in a position to comment; the joke belongs to the era of the plume trade, when whole birds really were mounted on millinery and the Audubon societies were campaigning against it.\n\nJones plays it with the timing of a stage comedienne, letting the bird's punchlines sit for a beat. The song had already been recorded on two-minute cylinders; the four-minute Amberol let the later verses stand, and the joke depends on accumulation, so the longer version is the better one.\n\nBy 1909 Jones was the most recorded woman in the United States, and this is the kind of record that made her so — a strong lyric idea, delivered by a voice that cut through the acoustic horn without strain.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "detail": "comic soprano", "billing_order": 1 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "detail": "comic soprano",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -458,7 +507,11 @@
       "description": "A medley from Gustav Luders's 1904 musical comedy Woodland, played by the American Symphony Orchestra — Edison's name for the studio orchestra at West Orange rather than any concert body.\n\nWoodland was a curiosity even in its own day: an operetta in which the entire cast plays birds, with a plot of avian court intrigue. Luders, a German-born Milwaukee composer, had a real hit with The Prince of Pilsen a year earlier, and Woodland rode on it. The score's best numbers survived as band and orchestra selections long after the show closed.\n\nSelection records were a staple of the Amberol catalogue because they solved the format's central problem: what do you put on four minutes that does not simply mean playing a two-minute piece twice. A medley of four or five themes from a show fitted the length exactly, and let a family who had never been to New York hear most of the score.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "american-symphony-orchestra", "role": "orchestra", "billing_order": 1 }
+        {
+          "person_slug": "american-symphony-orchestra",
+          "role": "orchestra",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -482,7 +535,11 @@
       "description": "Auber's overture to Les diamants de la couronne, recorded in London by the band Edison billed in the American lists as the National (London) Military Band.\n\nThe opera itself had largely left the stage by 1909, but its overture had not: like the overtures to Poet and Peasant and Light Cavalry it had become a bandstand warhorse, played by every municipal and regimental band in Europe and America. Recording it at four minutes meant the whole piece could be issued rather than a truncated arrangement.\n\nEdison's London studio supplied a steady flow of band and music-hall masters to the American catalogue, which is why a collector working through a run of wax Amberols keeps meeting British ensembles. The British-recorded titles are often marginally better balanced than the West Orange band records of the same date, the London engineers having had more practice at getting a full band into one horn.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "national-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -506,7 +563,11 @@
       "notes": "A very heavily played title. Look for an even surface with no polished band; a copy that sounds shrill and thin at the start of the record has usually been tracked with a two-minute reproducer at some point in its life.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "sousas-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "sousas-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -531,7 +592,11 @@
       "description": "John Henry Newman's hymn of 1833, written during a becalmed sea crossing off Sardinia, sung to John Bacchus Dykes's tune Lux Benigna. It was among the most popular hymns in the English-speaking world for a century, and it sold steadily on record for as long as the parlour phonograph lasted.\n\nEdison's Knickerbocker Quartette was one of several house names for the company's male quartet, the personnel usually given as Harry Anthony, Walter Van Brunt, James F. Harrison and William F. Hooley. Sacred quartet records were a fixed part of every monthly supplement, aimed squarely at the Sunday use of a machine bought for weekday entertainment.\n\nThe recording is close and dry, four voices around one horn with no accompaniment competing for the groove — which is why quartet cylinders of this period often sound better than the orchestral ones beside them.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "knickerbocker-quartette", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "knickerbocker-quartet",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -555,7 +620,11 @@
       "description": "Francis Rowley's gospel hymn of 1886, set to Peter Bilhorn's tune, sung by Edison's house mixed quartet. Revival hymnody of this kind — written for American camp meetings and city missions rather than for cathedral choirs — was enormously popular on cylinder, and Edison issued it in quantity.\n\nA mixed quartet gave the engineers a problem and an opportunity: four voices spanning soprano to bass covered more of the usable frequency range than any single singer, and the resulting records are often the best-sounding things in a month's list. The opportunity was taken; the balance here is careful, with the women set slightly back from the horn.\n\nSacred cylinders tend to survive in better condition than comic ones, having been played on Sundays rather than at parties. They are correspondingly less sought after, which makes them one of the cheapest ways into genuine wax Amberol collecting.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "edison-mixed-quartet", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "edison-mixed-quartet",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -580,8 +649,16 @@
       "description": "A Jones and Murray duet in their standard mode: two children comparing the advantages of their respective sexes, with the adult joke running just under the surface for the benefit of the parents in the room.\n\nThe child-voice duet was a genre of its own in 1909, and both singers were expert at it. Jones pitches up into a small girl's register without going shrill; Murray produces a boy's flat, argumentative delivery that carries the comedy. The orchestra stays out of the way, which on a wax cylinder is the difference between hearing the words and not.\n\nMaterial like this is where the wax Amberol repertoire feels furthest from later cylinder collecting. The Blue Amberols of the 1920s are dance bands and Irish tenors; the wax Amberols of 1909 are music hall on a shellac budget, and their humour is often as dated as their surface is fragile.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -604,7 +681,11 @@
       "description": "Another Sousa march, written in 1886 for the Third Regiment of the United States Army and here played by the Marine Band — the organisation Sousa himself had led from 1880 to 1892 and for which he wrote much of his early work.\n\nThe Rifle Regiment is early Sousa and sounds it: tighter, more compact and less flamboyant than the marches of the following decade, with a brisk trio that does not linger. It is the kind of piece that fills out a supplement rather than headlining one, and the wax Amberol catalogue is largely built of such pieces.\n\nFor the collector these mid-list band records are the workhorses of a wax Amberol collection. They turn up in dealer boxes, they are rarely expensive, and a clean one demonstrates what the format could do better than any famous title that has been played a thousand times.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "united-states-marine-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -630,8 +711,16 @@
       "notes": "The catalog number rests on a single dealer listing and has not been confirmed against a numerical catalogue or the Edison monthly supplements; treat it as unconfirmed. The title wording also varies between sources in its punctuation.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ]
     },
     {
@@ -647,7 +736,11 @@
       "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -663,7 +756,11 @@
       "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "national-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -681,8 +778,18 @@
       "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed. \"Gillette\" is Edison's pseudonym for Henry Burr.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "frank-c-stanley", "role": "vocalist", "detail": "bass-baritone", "billing_order": 1 },
-        { "person_slug": "henry-burr", "role": "vocalist", "detail": "tenor, billed as Irving Gillette", "billing_order": 2 }
+        {
+          "person_slug": "frank-c-stanley",
+          "role": "vocalist",
+          "detail": "bass-baritone",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "detail": "tenor, billed as Irving Gillette",
+          "billing_order": 2
+        }
       ]
     },
     {
@@ -723,7 +830,12 @@
       "notes": "Reissued on Blue Amberol 1550. The wax original is common in poor condition and uncommon in good condition — the usual pattern for a hit title in a soft medium.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor, with chorus", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor, with chorus",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -740,7 +852,12 @@
       "description": "James Austin Butterfield's setting of George W. Johnson's poem, written in Canada in the 1860s: an old man addressing his wife at the mill where they courted, with the mill fallen in and the creek dried up. Johnson wrote the words for Maggie Clark, who married him and died within a year. That story is true and it is part of why the song lasted.\n\nWill Oakland sings it, and his voice is the reason to seek this record out. Oakland was a genuine countertenor, not a falsettist, and the sound is strange and affecting in a way that suits a song about looking backwards. Edison marketed the voice frankly as a novelty; the effect on this material is anything but.\n\nOld-favourite ballads of this kind were the ballast of the Amberol catalogue. Every monthly supplement carried a few, they sold slowly and forever, and they are the titles most likely to be found today in a box of cylinders that came out of a family house rather than off a collector's shelf.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "will-oakland", "role": "vocalist", "detail": "countertenor, with chorus", "billing_order": 1 }
+        {
+          "person_slug": "will-oakland",
+          "role": "vocalist",
+          "detail": "countertenor, with chorus",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -765,9 +882,21 @@
       "description": "One of the several Alexander songs that circulated just before Irving Berlin's Alexander's Ragtime Band swallowed the name in 1911. The Alexander of these songs is a stock figure of the coon-song repertoire, a Black musician whose playing is irresistible, and the joke is always at his expense as much as in his favour.\n\nWhat is unusual here is the accompaniment: Collins and Harlan are backed not by the studio orchestra but by the New York Military Band, which gives the record a weight and a snap that the ordinary small-orchestra sides lack, and which lets the clarinet of the title do real work. It is a well-made record, and it is also plainly built on racial caricature; both things are true at once and a catalogue that records only one of them is not much use.\n\nCollins and Harlan were by 1910 the most recorded duet team in the business, working simultaneously for Edison, Victor and Columbia. A collector working through wax Amberols will meet them constantly, and will have to decide what to do about the material. Knowing what is on the cylinder before it goes on the mandrel is the least a catalogue can offer.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 },
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 3 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "billing_order": 2
+        },
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 3
+        }
       ],
       "links": [
         {
@@ -792,7 +921,12 @@
       "description": "An early Irving Berlin song, published in 1910 when he was still primarily a lyricist working out of Ted Snyder's office, and one of the first to show the conversational, telephone-age wit that would define him. The whole lyric is a woman fending off a suitor by inviting him to call — later, sometime, when it rains.\n\nAda Jones was the ideal singer for it. The song depends on the gap between what the words say and what the tone says, and Jones could hold that gap open for four minutes. The chorus behind her sharpens the refrain without softening the joke.\n\nThe telephone song was a small genre in itself around 1910, the instrument being new enough in ordinary homes to be inherently funny and old enough to be familiar. Records of this kind date themselves precisely, which is much of their value now.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "detail": "with chorus", "billing_order": 1 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "detail": "with chorus",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -817,7 +951,11 @@
       "description": "Phoebe Cary's verses of 1852, set most often to R. S. Ambrose's tune, a hymn about being one day nearer home that was sung at an extraordinary number of nineteenth-century American funerals and stayed in the repertoire well past the First World War.\n\nThe Knickerbocker Quartette give it unaccompanied or nearly so, four male voices in close harmony directly into the horn. This is the configuration that suits a wax cylinder best: no orchestra to muddy the groove, no soloist forcing tone, just four balanced voices at moderate volume.\n\nSacred quartet cylinders were bought to be played on Sundays and often on Sundays only, which is why they turn up in better condition than almost anything else in the wax Amberol series. If you want to hear what a new four-minute wax cylinder actually sounded like in 1910, a hymn record is usually the honest way to find out.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "knickerbocker-quartette", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "knickerbocker-quartet",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -844,8 +982,16 @@
       "notes": "The Edison labels of the period frequently described such titles as an \"Indian love song\"; that is a genre marking, not part of the title.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -870,7 +1016,11 @@
       "description": "A title that is itself the joke — the sort of long, self-explaining line that Tin Pan Alley used when it wanted a song to sell itself off a shop counter. Ada Jones sings it as a serio-comic, the music-hall term for a woman's turn that is funny on the surface and slightly rueful underneath.\n\nThe serio-comic was Jones's home ground. She had the technique to sing a chorus straight and then undercut it with a spoken half-line, and the four-minute format gave her the room to do that two or three times in one record rather than once.\n\nEdison's 1910 lists are full of this material, and it is worth noticing how much of it is written from a woman's point of view. The audience for parlour records included a great many young working women with their own wages, and the catalogue knew it.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -896,8 +1046,16 @@
       "notes": "Very heavily played. On a good copy the chorus entries stay clean; on a worn one they blur into a single band of noise. As with every wax Amberol, never wash it — clean only by dusting the groove with a soft brush.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -928,7 +1086,11 @@
       "description": "A ragtime song about a piano player, sung by Billy Murray and listed by Edison under the coon-song heading that the company used without embarrassment throughout the wax Amberol years.\n\nThe subject — the ragtime pianist as irresistible force — was a fixture of the genre, and it points at something real underneath the caricature. Ragtime was Black music, played in the main by Black musicians, and the songs that white vaudevillians sang about it were simultaneously an acknowledgment of that fact and a way of managing it. Murray sings it straight and fast, without the heavy dialect that Arthur Collins would have applied.\n\n1911 is late in the wax Amberol story. Within eighteen months Edison would announce the Blue Amberol, and the black wax four-minute record would be withdrawn from the lists. Cylinders from the last two years of the series were made in smaller quantities than those from the 1909 boom, and are correspondingly harder to find.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -967,7 +1129,12 @@
       "description": "Ada Jones with chorus in a courtship song of the standard 1911 shape: a verse laying out the terms and a refrain conceding them. The lyric's premise — that the singer will marry, but on her own terms and for affection rather than money — was a reliable formula, and Jones sang a great many variations on it.\n\nHer voice by this date had darkened slightly from the sound of the 1905 records, which suits the material. She was also, by 1911, recording less frantically than in her peak years; the industry was beginning to shift towards younger singers and towards the disc.\n\nThe number places this in the last full year of wax Amberol production. Edison announced the Blue Amberol in 1912, and by the end of that year the black wax four-minute cylinder was finished as a commercial product — a five-year format that had been made obsolete twice over, first by celluloid and then by the disc.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "detail": "with chorus", "billing_order": 1 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "detail": "with chorus",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -992,7 +1159,11 @@
       "description": "Irving Berlin's breakthrough, published in March 1911 and within months the most successful popular song America had produced. It is not, strictly, a ragtime number — the melody barely syncopates — but it is a song about ragtime, and it sold something like a million and a half copies of sheet music in its first year.\n\nBilly Murray's Edison version is one of a dozen recordings made in the rush, and Murray's is among the most driven: he takes the refrain at a clip and lands the internal rhymes hard. Berlin's lyric is a barker's pitch — come on and hear, come on and hear — and Murray sings it as one.\n\nBerlin was twenty-three and had been writing songs for four years. The Alexander of the title came out of the same coon-song tradition as the earlier Alexander numbers in this catalogue, and the song has been argued over on that ground ever since; what is not in dispute is that it ended the ragtime era by absorbing it into mainstream popular song. For a collector, a wax Amberol of this title is a chance to hear the biggest hit of the decade in the format it was first bought on.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1019,7 +1190,12 @@
       "notes": "Reissued on Blue Amberol 1525. Sources associate this title with both Elizabeth Spencer and the Knickerbocker Quartette personnel; the soprano-and-organ credit recorded here is the reading best supported, but the exact billing on the wax issue is unconfirmed.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "elizabeth-spencer", "role": "vocalist", "detail": "soprano", "billing_order": 1 }
+        {
+          "person_slug": "elizabeth-spencer",
+          "role": "vocalist",
+          "detail": "soprano",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -1037,7 +1213,12 @@
       "notes": "Only one of the two singers could be identified. The pairing, and the exact release year, are unconfirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "albert-campbell", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "albert-campbell",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1063,7 +1244,12 @@
       "description": "A late wax Amberol, from the final year of the format, sung by Walter Van Brunt — then about twenty and already one of Edison's most-used voices.\n\nThe song belongs to the plantation-serenade strand of the coon-song repertoire: a Black suitor calling his sweetheart out into the moonlight, written by white songwriters in stage dialect for a white audience. It is gentler than the knockabout comedy Collins and Harlan specialised in, and that gentleness is its own kind of problem, since it sells a picture of Southern life that was being actively enforced by law and violence at the time the record was made.\n\nVan Brunt sings it without exaggeration, which was becoming the fashion; by 1912 the heavy dialect delivery was starting to sound old. He would go on singing into the electrical era under the name Walter Scanlan, and outlived nearly everyone else in this catalogue.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "walter-van-brunt", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1090,8 +1276,16 @@
       "notes": "Contains racial caricature in its title and lyric, of a kind common in the 1908-1912 Edison lists.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1118,8 +1312,16 @@
       "notes": "Plantation-nostalgia material of a kind ubiquitous in the period; the lyric is written in stage dialect.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1146,7 +1348,11 @@
       "notes": "Belongs to the British 12000 four-minute block rather than the domestic American numbering. The release year is unconfirmed.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "harry-lauder", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "harry-lauder",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -1163,7 +1369,11 @@
       "notes": "British 12000 block. Reissued on Blue Amberol 23074; the release year given here is inferred from the numbering and is unconfirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "national-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ]
     },
     {
@@ -1182,7 +1392,12 @@
       "notes": "Whether the Bonci numbers 29001-29006 were themselves issued in purple or in ordinary blue celluloid is disputed between sources; the UCSB Cylinder Audio Archive catalogues this one as an Edison Royal Purple Amberol. The specific aria is not confirmed — dealer descriptions give only \"from Elisir d'Amore\" — and the release year is inferred from the launch of the celebrity block.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "alessandro-bonci", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "alessandro-bonci",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1208,8 +1423,17 @@
       "provenance": "Dubbed acoustically from the Edison Diamond Disc master.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "frieda-hempel", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
-        { "person_slug": "criterion-quartet", "role": "ensemble", "billing_order": 2 }
+        {
+          "person_slug": "frieda-hempel",
+          "role": "vocalist",
+          "detail": "soprano",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "criterion-quartet",
+          "role": "ensemble",
+          "billing_order": 2
+        }
       ]
     },
     {
@@ -1227,8 +1451,17 @@
       "provenance": "Dubbed acoustically from the Edison Diamond Disc master.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "frieda-hempel", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
-        { "person_slug": "criterion-quartet", "role": "ensemble", "billing_order": 2 }
+        {
+          "person_slug": "frieda-hempel",
+          "role": "vocalist",
+          "detail": "soprano",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "criterion-quartet",
+          "role": "ensemble",
+          "billing_order": 2
+        }
       ]
     },
     {
@@ -1246,7 +1479,12 @@
       "notes": "The precise release year is inferred from the position of the number within the 29007-29080 run and is unconfirmed.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "albert-spalding", "role": "instrumentalist", "detail": "violin", "billing_order": 1 }
+        {
+          "person_slug": "albert-spalding",
+          "role": "instrumentalist",
+          "detail": "violin",
+          "billing_order": 1
+        }
       ]
     }
   ]

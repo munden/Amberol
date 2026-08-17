@@ -47,7 +47,7 @@
       "biography": "Arthur Collins was among the busiest recording artists of the acoustic era. A great deal of his output consists of material in Black dialect — the so-called coon song, which was a dominant commercial genre in American popular music from the 1890s into the 1910s. A modern listener should understand that this repertoire was built on racial caricature, and that its popularity is a fact about the record industry of the period rather than an incidental detail of it.\n\nWith Byron G. Harlan he formed the most commercially successful vocal duo in American records, working together from around 1901 until Collins's retirement in the 1920s."
     },
     {
-      "slug": "byron-harlan",
+      "slug": "byron-g-harlan",
       "name": "Byron G. Harlan",
       "sort_name": "Harlan, Byron G.",
       "is_group": false,
@@ -550,6 +550,7 @@
       "released_on": "1912-01-01",
       "released_precision": "year",
       "description": "Franz Gruber composed \"Stille Nacht\" in 1818 to words by the Austrian priest Joseph Mohr, for a Christmas Eve service at Oberndorf. By 1912 it had been an English-language carol for half a century and was thoroughly established in the American Christmas repertoire, though Edison's own catalogue description of the period still describes it, loosely, as an old German folk song.\n\nThe performance is Edison's standard sacred grouping: Elizabeth Spencer's soprano with Harry Anthony's tenor and James F. Harrison's baritone, accompanied not by the usual studio orchestra but by a small instrumental quartet. That restraint is the whole point of the record. Sacred repertoire was a large and steady part of every cylinder catalogue — records bought for Sunday listening in households that were uneasy about phonographs the rest of the week — and Edison recorded it with a deliberate plainness quite unlike the brassy treatment given to popular material.\n\nAnthony and Harrison were the company's sacred specialists, and the pairing appears on Blue Amberol after Blue Amberol through the 1910s. A Christmas cylinder from the first year of the series is a pleasing thing to own, and this one is not rare.",
+      "notes": "The archive's catalogue description names the accompanying ensemble as the Venetian Instrumental Quartet. The credit line given here is a normalised form and has not been read off the label itself.",
       "confidence": "verified",
       "credits": [
         { "person_slug": "elizabeth-spencer", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
@@ -638,7 +639,7 @@
       "confidence": "verified",
       "credits": [
         { "person_slug": "arthur-collins", "role": "vocalist", "detail": "baritone", "billing_order": 1 },
-        { "person_slug": "byron-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
       ],
       "links": [
         {
@@ -974,7 +975,7 @@
       "confidence": "verified",
       "credits": [
         { "person_slug": "arthur-collins", "role": "vocalist", "detail": "baritone", "billing_order": 1 },
-        { "person_slug": "byron-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
       ],
       "links": [
         {
@@ -1423,7 +1424,7 @@
       "slug": "edison-blue-amberol-5385",
       "series_slug": "edison-blue-amberol",
       "catalog_number": "5385",
-      "title": "Say It With a Red, Red Rose",
+      "title": "Say It With a Red Red Rose",
       "work_type": "Fox Trot",
       "genre": "Dance",
       "description": "A late-1920s dance number issued on a format that by then had perhaps two years to live.\n\nThe fox trot of 1927 and 1928 is a long way from the fox trots of the dance craze a decade earlier: faster, more tightly arranged, with the saxophone section that had become standard in every dance orchestra. Putting it on a cylinder is faintly incongruous — a thoroughly modern dance record in the format Edison had introduced in 1912 — and that incongruity is the defining characteristic of the last few hundred Blue Amberols.\n\nWhat kept the line going was the installed base. Edison had sold a great many Amberolas, and those customers went on buying cylinders after the rest of the industry had moved to electrically recorded discs. The company finally stopped making records altogether in October 1929.",

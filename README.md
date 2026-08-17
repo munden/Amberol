@@ -120,6 +120,28 @@ shows it, because a reference work that hides its uncertainty is worse than one
 that admits it. Where a fact could not be confirmed, the entry says so rather
 than guessing.
 
+### A caveat about the external links, worth reading once
+
+The catalog was assembled in a sandbox whose network policy blocked outbound
+connections to the very archives it cites — Wikipedia, the UCSB Cylinder Audio
+Archive, DAHR and the Internet Archive all refused at the gateway. Links were
+therefore sourced from search results and from stable, well-known archive roots,
+but **none could be confirmed by actually fetching it.** Some deep links may
+have drifted or may never have been right.
+
+There is a checker for exactly this. Run it once on an ordinary internet
+connection:
+
+```bash
+npm run verify-links                 # report anything that does not resolve
+npm run verify-links -- --fix        # also delete citations that return 404
+```
+
+It checks each distinct URL once, follows redirects, falls back from HEAD to
+GET for the archives that refuse HEAD, and — with `--fix` — removes only links
+the server actually answered 404 or 410 for, leaving timeouts alone on the
+assumption that the fault is more often the connection than the link.
+
 To add to it, write another JSON file following `db/seed/SEED_FORMAT.md` and:
 
 ```bash
