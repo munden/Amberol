@@ -1,0 +1,17 @@
+{
+  "name": "amberola-cylinder-register",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A register of four-minute phonograph cylinders for the Edison Amberola",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "start": "npm run build --prefix web && npm start --prefix server",
+    "dev": "node scripts/dev.js",
+    "dev:server": "npm run dev --prefix server",
+    "dev:web": "npm run dev --prefix web",
+    "migrate": "npm run migrate --prefix server",
+    "seed": "npm run seed --prefix server",
+    "reset": "npm run reset --prefix server",
+    "build": "npm run build --prefix web"
+  }
+}

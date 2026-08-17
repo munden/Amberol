@@ -1,0 +1,619 @@
+{
+  "people": [
+    {
+      "slug": "ada-jones",
+      "name": "Ada Jones",
+      "full_name": "Ada Jones",
+      "sort_name": "Jones, Ada",
+      "is_group": false,
+      "birth_year": 1873,
+      "death_year": 1922,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "English-born American vaudeville singer, the most recorded woman of the acoustic era and the reigning comic soprano of the wax Amberol catalogue.",
+      "biography": "Ada Jones was born in Lancashire and brought to Philadelphia as a child. She began making records in the brown-wax era and by 1905 was the busiest female recording artist in the United States, working for Edison, Victor, Columbia and half a dozen smaller firms at once. Her voice was bright, forward and slightly nasal — precisely the qualities that survived the acoustic horn — and she had an unusual gift for character work, moving between Irish colleen, Bowery girl, small-town flirt and stage-Chinese or stage-Black caricature within a single month's releases.\n\nOn the four-minute wax Amberols she is everywhere, alone and in the celebrated duet partnership with Billy Murray. The extra two minutes suited her: it gave room for the spoken asides and the third and fourth verses that a two-minute Gold Moulded had to cut. Her health failed in the 1920s and she died on tour in Rocky Mount, North Carolina, in 1922."
+    },
+    {
+      "slug": "billy-murray",
+      "name": "Billy Murray",
+      "full_name": "William Thomas Murray",
+      "sort_name": "Murray, Billy",
+      "is_group": false,
+      "birth_year": 1877,
+      "death_year": 1954,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "The most popular male recording artist in America between roughly 1905 and 1915, and the definitive voice of Tin Pan Alley on cylinder.",
+      "biography": "Born in Philadelphia to Irish immigrant parents and raised in Denver, Billy Murray came off the vaudeville stage into the studios around 1903 and stayed for four decades. His diction was the reason: every consonant landed, and on a wax cylinder played through a small horn in a parlour that mattered more than beauty of tone. He was known in the trade as the Denver Nightingale.\n\nMurray recorded for every major company, so the same song often exists in near-simultaneous Edison, Victor and Columbia versions. On the wax Amberols he appears as a solo comic tenor, as the lead of the American Quartet, and — most memorably — opposite Ada Jones in a run of conversational duets that are still the best-known records of the period."
+    },
+    {
+      "slug": "arthur-collins",
+      "name": "Arthur Collins",
+      "full_name": "Arthur Francis Collins",
+      "sort_name": "Collins, Arthur",
+      "is_group": false,
+      "birth_year": 1864,
+      "death_year": 1933,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "American baritone billed as \"The King of Ragtime Singers\"; with Byron G. Harlan he formed the most heavily recorded duet team of the cylinder era.",
+      "biography": "Collins built his career on the so-called coon song, the ragtime-adjacent genre of the 1890s and 1900s in which white performers sang in heavy Black dialect. He was extremely good at it by the standards his industry applied, and extremely prolific, which means a very large share of the surviving cylinder repertoire carries material a modern listener will find offensive. That is a fact about the catalogue rather than a reason to pretend the records do not exist.\n\nHis partnership with the tenor Byron G. Harlan ran from about 1901 to the mid-1920s. Collins took the low line and the comic dialect; Harlan took the melody and the sentiment. Collins was badly injured in a fall through a stage trap in 1921 and never fully recovered."
+    },
+    {
+      "slug": "byron-g-harlan",
+      "name": "Byron G. Harlan",
+      "full_name": "Byron George Harlan",
+      "sort_name": "Harlan, Byron G.",
+      "is_group": false,
+      "birth_year": 1861,
+      "death_year": 1936,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "American tenor, Arthur Collins's duet partner and a specialist in sentimental \"mother and home\" ballads as well as rube comedy.",
+      "biography": "Harlan came to records from the concert and minstrel circuit and had a light, plaintive tenor that Edison's engineers liked. Alone he sang tearful ballads about dying children and absent mothers; with Collins he sang ragtime duets and dialect comedy. The pairing was so commercially reliable that Edison, Victor and Columbia all kept them under contract simultaneously for years."
+    },
+    {
+      "slug": "will-oakland",
+      "name": "Will Oakland",
+      "full_name": "Herman Hinrichs",
+      "sort_name": "Oakland, Will",
+      "is_group": false,
+      "birth_year": 1880,
+      "death_year": 1956,
+      "nationality": "American",
+      "voice_or_instrument": "countertenor",
+      "summary": "American countertenor whose unusually high male voice made him a favourite for old-time and sentimental songs on cylinder.",
+      "biography": "Oakland sang in a true high countertenor rather than falsetto, a sound that carried well through the recording horn and was marketed as a novelty in its own right. He recorded prolifically for Edison in the Amberol years, usually in nostalgic parlour material, and later ran nightclubs in New York."
+    },
+    {
+      "slug": "walter-van-brunt",
+      "name": "Walter Van Brunt",
+      "full_name": "Walter Van Brunt",
+      "sort_name": "Van Brunt, Walter",
+      "aliases": ["Walter Scanlan"],
+      "is_group": false,
+      "birth_year": 1892,
+      "death_year": 1971,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "American tenor who began recording for Edison as a teenager and became one of the house voices of the late wax Amberol and early Blue Amberol period.",
+      "biography": "Van Brunt was still in his teens when Edison began using him regularly, and his clear, unforced tenor is all over the catalogue from about 1910. In the 1920s he adopted the stage name Walter Scanlan and worked in Irish-American musical theatre; records under both names are the same singer and are catalogued here as one person."
+    },
+    {
+      "slug": "elizabeth-spencer",
+      "name": "Elizabeth Spencer",
+      "sort_name": "Spencer, Elizabeth",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "American soprano and one of Edison's most-used house singers in the Amberol and Diamond Disc years, particularly in sacred and sentimental repertoire."
+    },
+    {
+      "slug": "albert-campbell",
+      "name": "Albert Campbell",
+      "sort_name": "Campbell, Albert",
+      "is_group": false,
+      "birth_year": 1872,
+      "death_year": 1947,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "American tenor, a fixture of quartet and duet recording from the 1890s to the 1920s and a founding member of the Peerless Quartet."
+    },
+    {
+      "slug": "henry-burr",
+      "name": "Henry Burr",
+      "full_name": "Harry Haley McClaskey",
+      "sort_name": "Burr, Henry",
+      "aliases": ["Irving Gillette", "Harry McClaskey", "Alfred Alexander"],
+      "is_group": false,
+      "birth_year": 1882,
+      "death_year": 1941,
+      "nationality": "Canadian",
+      "voice_or_instrument": "tenor",
+      "summary": "Canadian-born ballad tenor, the great sentimental voice of the acoustic era; on Edison he was usually billed under the pseudonym Irving Gillette.",
+      "biography": "Burr recorded under a startling number of names because he was under contract to several companies at once. Edison generally issued him as Irving Gillette. He specialised in the slow, sincere ballad — the kind of song that sold steadily for twenty years — and by his own later account made several thousand records."
+    },
+    {
+      "slug": "frank-c-stanley",
+      "name": "Frank C. Stanley",
+      "full_name": "William Stanley Grinsted",
+      "sort_name": "Stanley, Frank C.",
+      "is_group": false,
+      "birth_year": 1868,
+      "death_year": 1910,
+      "nationality": "American",
+      "voice_or_instrument": "bass-baritone",
+      "summary": "American bass-baritone and banjoist, ubiquitous in quartets and duets until his early death in December 1910."
+    },
+    {
+      "slug": "harry-lauder",
+      "name": "Harry Lauder",
+      "full_name": "Sir Henry Lauder",
+      "sort_name": "Lauder, Harry",
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1950,
+      "nationality": "Scottish",
+      "voice_or_instrument": "baritone",
+      "summary": "Scottish music-hall comedian and singer, the highest-paid variety performer in the world before the First World War and Edison's most valuable British artist.",
+      "biography": "Lauder built an international career on a stage-Scot persona — kilt, crooked stick, broad Lanarkshire patter — and songs he largely wrote himself. His Edison cylinders were recorded in London and issued in the British 12000 four-minute series, with many of them also sold in America. He was knighted in 1919 for his wartime entertainment and fundraising work."
+    },
+    {
+      "slug": "sousas-band",
+      "name": "Sousa's Band",
+      "sort_name": "Sousa's Band",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "John Philip Sousa's professional touring band, whose recordings were usually made under an assistant conductor rather than Sousa himself."
+    },
+    {
+      "slug": "united-states-marine-band",
+      "name": "United States Marine Band",
+      "sort_name": "United States Marine Band",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The President's Own, the oldest continuously active professional musical organisation in the United States, and a recording band for Edison in the cylinder era."
+    },
+    {
+      "slug": "new-york-military-band",
+      "name": "New York Military Band",
+      "sort_name": "New York Military Band",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "An Edison studio band name used for pick-up groups of New York players; one of the most frequently credited ensembles on Amberol and Blue Amberol cylinders."
+    },
+    {
+      "slug": "edison-military-band",
+      "name": "Edison Military Band",
+      "sort_name": "Edison Military Band",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Edison's own house military band, credited on a large share of the earliest wax Amberol releases."
+    },
+    {
+      "slug": "national-military-band",
+      "name": "National Military Band",
+      "aliases": ["National (London) Military Band"],
+      "sort_name": "National Military Band",
+      "is_group": true,
+      "nationality": "British",
+      "summary": "Edison's London studio band, credited on the British-recorded band titles that circulated in the American Amberol lists as the National (London) Military Band."
+    },
+    {
+      "slug": "edison-mixed-quartet",
+      "name": "Edison Mixed Quartet",
+      "sort_name": "Edison Mixed Quartet",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Edison's house mixed-voice quartet, used chiefly for sacred and old-favourite material."
+    },
+    {
+      "slug": "knickerbocker-quartette",
+      "name": "Knickerbocker Quartette",
+      "aliases": ["Knickerbocker Quartet"],
+      "sort_name": "Knickerbocker Quartette",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "An Edison male quartet name; the personnel most often cited are Harry Anthony, Walter Van Brunt, James F. Harrison and William F. Hooley."
+    },
+    {
+      "slug": "american-symphony-orchestra",
+      "name": "American Symphony Orchestra",
+      "sort_name": "American Symphony Orchestra",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The name Edison gave to the studio orchestra at West Orange for light-classical and show-selection recordings."
+    },
+    {
+      "slug": "empire-vaudeville-company",
+      "name": "Empire Vaudeville Co.",
+      "sort_name": "Empire Vaudeville Co.",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "An Edison house billing for the mixed casts assembled to record vaudeville sketches with music."
+    },
+    {
+      "slug": "frieda-hempel",
+      "name": "Frieda Hempel",
+      "sort_name": "Hempel, Frieda",
+      "is_group": false,
+      "birth_year": 1885,
+      "death_year": 1955,
+      "nationality": "German",
+      "voice_or_instrument": "soprano",
+      "summary": "German coloratura soprano, a Metropolitan Opera star of the 1910s who recorded exclusively for Edison from 1917 and became the leading name of the Royal Purple series.",
+      "biography": "Hempel sang at the Berlin Court Opera and then at the Metropolitan from 1912, where she was celebrated as the Queen in Les Huguenots and as the Marschallin in the American premiere of Der Rosenkavalier. In the later 1910s she built a second career giving Jenny Lind centenary concerts in period costume, and her Edison repertoire reflects that turn towards simple ballads and old favourites as much as towards opera."
+    },
+    {
+      "slug": "criterion-quartet",
+      "name": "Criterion Quartet",
+      "sort_name": "Criterion Quartet",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "An Edison male quartet of the late 1910s, used repeatedly to back celebrity soloists on Diamond Disc and Royal Purple issues."
+    },
+    {
+      "slug": "alessandro-bonci",
+      "name": "Alessandro Bonci",
+      "sort_name": "Bonci, Alessandro",
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1940,
+      "nationality": "Italian",
+      "voice_or_instrument": "tenor",
+      "summary": "Italian lyric tenor of the generation of Caruso, admired above all for elegance of line; his Edison cylinders open the 29000 celebrity block.",
+      "biography": "Bonci made his debut in Parma in 1896 and was quickly set up by press and public as the refined alternative to Caruso's weight and heat. He sang at Covent Garden, La Scala, the Manhattan Opera House and the Metropolitan. His Edison cylinders are prized by collectors both for the singing and for their place at the head of the company's celebrity numbering."
+    },
+    {
+      "slug": "albert-spalding",
+      "name": "Albert Spalding",
+      "sort_name": "Spalding, Albert",
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1953,
+      "nationality": "American",
+      "voice_or_instrument": "violin",
+      "summary": "The first American-born violinist to win a major international reputation, and an Edison exclusive artist during the Diamond Disc years."
+    }
+  ],
+  "records": [
+    {
+      "slug": "edison-amberol-50",
+      "series_slug": "edison-amberol",
+      "catalog_number": "50",
+      "title": "New colonial marches",
+      "work_type": "March",
+      "genre": "Band",
+      "language": "English",
+      "released_on": "1908-01-01",
+      "released_precision": "year",
+      "description": "A band record from the very first months of the four-minute wax Amberol, when Edison was filling the new series as fast as the West Orange studio could cut masters. The Edison Military Band was the company's own house ensemble, and marches were the obvious material for a format whose selling point was that it held twice as much music: a two-minute cylinder could take a march at speed with one strain trimmed, while four minutes allowed the trio and the repeat to stand as written.\n\nThe Amberol experiment began in the autumn of 1908. Edison had cut the groove pitch from 100 to 200 threads to the inch, which doubled playing time on the same size of cylinder but demanded a finer reproducer stylus and a slower feed screw. Existing phonographs needed a conversion kit, and dealers spent 1909 fitting them. A record numbered 50 belongs to that scramble.\n\nBecause this is a black wax pressing rather than celluloid, it is soft. The 200-thread groove is roughly half the width of a Gold Moulded groove, so a two-minute reproducer dropped on it by mistake ploughs the wall out in a single pass — the commonest way these records died. A good copy shows an even matte sheen across the surface with no bright, polished band where a wrong stylus has ridden.",
+      "notes": "The title as transcribed by the UCSB Cylinder Audio Archive reads as a plural; the underlying piece is the familiar colonial march material of the period. Treat the exact printed title wording as unconfirmed.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "edison-military-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Edison Amberol 50 at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025405250203776",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-86",
+      "series_slug": "edison-amberol",
+      "catalog_number": "86",
+      "title": "The traveling salesman",
+      "work_type": "Vaudeville sketch",
+      "genre": "Comedy sketch",
+      "language": "English",
+      "credit_line": "Vaudeville sketch with song and banjo",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "One of the small comic playlets that the four-minute cylinder made commercially possible. A sketch needs time to set a scene, land two or three gags and finish with a song; on a two-minute Gold Moulded there was room for the gags or the song but rarely both. Edison's answer was the Amberol, and records like this one — dialogue, a banjo, and a chorus at the end — are the format arguing for itself.\n\nThe Empire Vaudeville Co. was not a touring troupe but a house billing, the name Edison put on whatever combination of studio regulars was assembled for a given sketch. The traveling salesman was a stock American comic type long before Willy Loman: brash, over-familiar, forever arriving in a small town with a case of samples and designs on the landlady's daughter.\n\nFor a collector, sketch cylinders are worth hunting because they preserve spoken performance styles that no other medium of 1909 recorded. They are also among the hardest wax Amberols to find in playable condition, because a talking record with a laugh at the end got played to death in the parlour.",
+      "notes": "Spoken-word wax Amberols suffer badly from surface bloom and mould; the greasy grey film that develops on stored black wax attacks the groove wall itself. Never wash a wax Amberol — water and detergent both damage the surface permanently.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "empire-vaudeville-company", "role": "ensemble", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/58119d93dbf69f8a70228a77cf85b71c/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-100",
+      "series_slug": "edison-amberol",
+      "catalog_number": "100",
+      "title": "Dance of the hours",
+      "subtitle": "La gioconda",
+      "work_type": "Ballet music",
+      "genre": "Light classical",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Ponchielli's ballet from the third act of La Gioconda, arranged for military band. In 1909 this was simply a popular concert number, one of the pieces every band in America could play; its later career as cartoon shorthand for elephants in tutus was thirty years away.\n\nThe piece is a good illustration of why Edison built the Amberol at all. Played complete it runs well past two minutes, so the Gold Moulded catalogue could only offer it cut. Four minutes let a band take the whole sequence of dances at something like concert tempo, and Edison's advertising leaned hard on exactly that argument.\n\nThis title was carried forward into the celluloid era, appearing later in the Blue Amberol series as number 2171. Cross-issues like this are common and useful: where a wax Amberol is unfindable or unplayable, the Blue Amberol reissue often preserves the same performance in a far more durable material.",
+      "notes": "Reissued on Blue Amberol 2171. The wax original is the scarcer of the two by a wide margin.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-130",
+      "series_slug": "edison-amberol",
+      "catalog_number": "130",
+      "title": "I'm awfully strong for you",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Vocal with orchestra accompaniment",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Billy Murray with chorus, in the mode that made him the best-selling male singer in America: a bright, fast, front-of-the-beat delivery of a Tin Pan Alley courtship song, every syllable audible.\n\nThe chorus behind him is the usual Edison expedient — two or three studio singers crowded round the horn — and it exists to give the last refrain a lift rather than to add harmony of any subtlety. What matters is Murray's timing. He sings slightly ahead of the orchestra throughout, which on a small parlour phonograph reads as energy rather than haste.\n\nA record from 1909 is an early Amberol, and early Amberols are the ones most likely to have been played on hastily converted machines by owners who had not quite understood that the reproducer had to be changed as well as the feed screw. Check the groove under a loupe before playing anything from the first few hundred numbers.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor, with chorus", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/bfb801be7ebf88bcef7730c971de4f00/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-191",
+      "series_slug": "edison-amberol",
+      "catalog_number": "191",
+      "title": "Cuddle up a little closer, lovey mine",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Karl Hoschna's melody to Otto Harbach's lyric, introduced in the 1908 musical The Three Twins and one of the biggest song hits of its year. It is a genuinely good tune — a lazy, syncopated descent that sounds more like 1925 than 1908 — and it has stayed in circulation ever since.\n\nEdison's version puts Ada Jones and Billy Murray together with a small supporting company, which is the arrangement that made both of them famous. The two had a knack for sounding like a real couple bickering their way towards agreement: Jones arch and a little suspicious, Murray coaxing. The spoken exchanges between verses are the point of the record, and they are exactly what the extra two minutes of the Amberol format bought.\n\nCollectors should expect this one to have been played hard. It was a hit song in a hit format at a moment when most owners had precisely one four-minute reproducer, correctly fitted or not, and the wax is unforgiving of a single wrong pass.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/3086b5ed40a17018b528d9abcca1504f/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-209",
+      "series_slug": "edison-amberol",
+      "catalog_number": "209",
+      "title": "The debutante waltz",
+      "work_type": "Waltz",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "A concert waltz played by the United States Marine Band, one of the ensembles Edison used to give the Amberol catalogue institutional weight. The Marine Band's name on a record label in 1909 carried the same implication it does now — official, disciplined, American — and Edison used it accordingly.\n\nThe waltz was the form that benefited most obviously from four minutes. A concert waltz is built as a chain of strains with an introduction and a coda that gathers them up again; cut to two minutes it becomes a fragment. At Amberol length the shape survives.\n\nBand records of this period are also, in practice, the wax Amberols most likely to be found in decent condition. They were bought for the parlour phonograph rather than for the children, and a march or waltz got fewer repeat plays than a comic song.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/b489af8bdf3a25aac36e1bff936a2897/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-226",
+      "series_slug": "edison-amberol",
+      "catalog_number": "226",
+      "title": "Old comrades march",
+      "work_type": "March",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Carl Teike's Alte Kameraden, written in the 1880s and by 1909 one of the most played marches in the world — a German regimental march that had become international property, and a standard for American concert bands alongside Sousa's own.\n\nThe United States Marine Band reading is straight and unhurried, with the trio taken at full length. The march's celebrated countermelody in the trio is the reason bandsmen love it, and it is the passage that a two-minute cylinder would have had to sacrifice.\n\nTeike wrote the piece, according to the durable story, after being told there was no room for him in his own regimental band; it has outlasted the regiment. On cylinder it is a useful demonstration record, because the four-minute format lets you hear a full march played as a band would actually play it on a bandstand.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/c9b855b966ac9b6c7a2a9e85b54a6dd5/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-237",
+      "series_slug": "edison-amberol",
+      "catalog_number": "237",
+      "title": "The bird on Nellie's hat",
+      "work_type": "Song",
+      "genre": "Comic song",
+      "language": "English",
+      "credit_line": "Comic song with orchestra accompaniment",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Alfred Solman's tune to Arthur Lamb's lyric, published in 1906 and one of Ada Jones's signature numbers. The conceit is that the stuffed bird on a young woman's hat has watched her whole courtship and is in a position to comment; the joke belongs to the era of the plume trade, when whole birds really were mounted on millinery and the Audubon societies were campaigning against it.\n\nJones plays it with the timing of a stage comedienne, letting the bird's punchlines sit for a beat. The song had already been recorded on two-minute cylinders; the four-minute Amberol let the later verses stand, and the joke depends on accumulation, so the longer version is the better one.\n\nBy 1909 Jones was the most recorded woman in the United States, and this is the kind of record that made her so — a strong lyric idea, delivered by a voice that cut through the acoustic horn without strain.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "detail": "comic soprano", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/fbd375f97d9902795c24554f5826afb2/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-238",
+      "series_slug": "edison-amberol",
+      "catalog_number": "238",
+      "title": "Selection from \"Woodland\"",
+      "work_type": "Selection",
+      "genre": "Musical comedy selection",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "A medley from Gustav Luders's 1904 musical comedy Woodland, played by the American Symphony Orchestra — Edison's name for the studio orchestra at West Orange rather than any concert body.\n\nWoodland was a curiosity even in its own day: an operetta in which the entire cast plays birds, with a plot of avian court intrigue. Luders, a German-born Milwaukee composer, had a real hit with The Prince of Pilsen a year earlier, and Woodland rode on it. The score's best numbers survived as band and orchestra selections long after the show closed.\n\nSelection records were a staple of the Amberol catalogue because they solved the format's central problem: what do you put on four minutes that does not simply mean playing a two-minute piece twice. A medley of four or five themes from a show fitted the length exactly, and let a family who had never been to New York hear most of the score.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "american-symphony-orchestra", "role": "orchestra", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "catalog_scan",
+          "label": "Edison Amberol Record 238 in the Lehigh University Libraries exhibit",
+          "url": "https://exhibits.lib.lehigh.edu/items/show/2156977",
+          "source_name": "Lehigh University Libraries"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-253",
+      "series_slug": "edison-amberol",
+      "catalog_number": "253",
+      "title": "Crown diamonds",
+      "subtitle": "Overture",
+      "work_type": "Overture",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Auber's overture to Les diamants de la couronne, recorded in London by the band Edison billed in the American lists as the National (London) Military Band.\n\nThe opera itself had largely left the stage by 1909, but its overture had not: like the overtures to Poet and Peasant and Light Cavalry it had become a bandstand warhorse, played by every municipal and regimental band in Europe and America. Recording it at four minutes meant the whole piece could be issued rather than a truncated arrangement.\n\nEdison's London studio supplied a steady flow of band and music-hall masters to the American catalogue, which is why a collector working through a run of wax Amberols keeps meeting British ensembles. The British-recorded titles are often marginally better balanced than the West Orange band records of the same date, the London engineers having had more practice at getting a full band into one horn.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/cb537c9846828338e3f223ef5bf26bbc/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-285",
+      "series_slug": "edison-amberol",
+      "catalog_number": "285",
+      "title": "Stars and stripes forever march",
+      "work_type": "March",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Sousa's Band playing Sousa's march — the piece he wrote on the boat home from Europe at Christmas 1896 and which Congress made the national march of the United States in 1987.\n\nA caution that matters for this and every other Sousa's Band record of the period: the band recorded far more often than Sousa conducted it. Studio dates were normally taken by an assistant, most often Arthur Pryor in the earlier years and Herbert L. Clarke later, while Sousa himself was on tour and in any case thought recording an inferior way to hear a band. The label credit is to the organisation, not to the man.\n\nAt four minutes the march gets its full architecture: the two opening strains, the famous trio with the piccolo obbligato, the grandioso return with trombone countermelody. This is the reading that convinced a lot of Edison customers to pay for the Amberol conversion, and it remains one of the more commonly encountered wax Amberols — which is fortunate, because it is also one of the more commonly ruined ones.",
+      "notes": "A very heavily played title. Look for an even surface with no polished band; a copy that sounds shrill and thin at the start of the record has usually been tracked with a two-minute reproducer at some point in its life.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "sousas-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/47e61f9f2d1d94be23abf72767dfe734/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-341",
+      "series_slug": "edison-amberol",
+      "catalog_number": "341",
+      "title": "Lead kindly light",
+      "work_type": "Sacred",
+      "genre": "Hymn",
+      "language": "English",
+      "credit_line": "Male quartette",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "John Henry Newman's hymn of 1833, written during a becalmed sea crossing off Sardinia, sung to John Bacchus Dykes's tune Lux Benigna. It was among the most popular hymns in the English-speaking world for a century, and it sold steadily on record for as long as the parlour phonograph lasted.\n\nEdison's Knickerbocker Quartette was one of several house names for the company's male quartet, the personnel usually given as Harry Anthony, Walter Van Brunt, James F. Harrison and William F. Hooley. Sacred quartet records were a fixed part of every monthly supplement, aimed squarely at the Sunday use of a machine bought for weekday entertainment.\n\nThe recording is close and dry, four voices around one horn with no accompaniment competing for the groove — which is why quartet cylinders of this period often sound better than the orchestral ones beside them.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "knickerbocker-quartette", "role": "ensemble", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/8f77b7b612820bf54d4b67efd8606494/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-355",
+      "series_slug": "edison-amberol",
+      "catalog_number": "355",
+      "title": "I will sing the wondrous story",
+      "work_type": "Sacred",
+      "genre": "Hymn",
+      "language": "English",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Francis Rowley's gospel hymn of 1886, set to Peter Bilhorn's tune, sung by Edison's house mixed quartet. Revival hymnody of this kind — written for American camp meetings and city missions rather than for cathedral choirs — was enormously popular on cylinder, and Edison issued it in quantity.\n\nA mixed quartet gave the engineers a problem and an opportunity: four voices spanning soprano to bass covered more of the usable frequency range than any single singer, and the resulting records are often the best-sounding things in a month's list. The opportunity was taken; the balance here is careful, with the women set slightly back from the horn.\n\nSacred cylinders tend to survive in better condition than comic ones, having been played on Sundays rather than at parties. They are correspondingly less sought after, which makes them one of the cheapest ways into genuine wax Amberol collecting.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "edison-mixed-quartet", "role": "ensemble", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/5aab55a51ea14a5b7845603927ddbcee/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-362",
+      "series_slug": "edison-amberol",
+      "catalog_number": "362",
+      "title": "I'm glad I'm a boy and I'm glad I'm a girl",
+      "work_type": "Song",
+      "genre": "Comic song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra accompaniment",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "A Jones and Murray duet in their standard mode: two children comparing the advantages of their respective sexes, with the adult joke running just under the surface for the benefit of the parents in the room.\n\nThe child-voice duet was a genre of its own in 1909, and both singers were expert at it. Jones pitches up into a small girl's register without going shrill; Murray produces a boy's flat, argumentative delivery that carries the comedy. The orchestra stays out of the way, which on a wax cylinder is the difference between hearing the words and not.\n\nMaterial like this is where the wax Amberol repertoire feels furthest from later cylinder collecting. The Blue Amberols of the 1920s are dance bands and Irish tenors; the wax Amberols of 1909 are music hall on a shellac budget, and their humour is often as dated as their surface is fragile.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/d6be1269576544af5bcea338c3b4c9e8/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-364",
+      "series_slug": "edison-amberol",
+      "catalog_number": "364",
+      "title": "The rifle regiment march",
+      "work_type": "March",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Another Sousa march, written in 1886 for the Third Regiment of the United States Army and here played by the Marine Band — the organisation Sousa himself had led from 1880 to 1892 and for which he wrote much of his early work.\n\nThe Rifle Regiment is early Sousa and sounds it: tighter, more compact and less flamboyant than the marches of the following decade, with a brisk trio that does not linger. It is the kind of piece that fills out a supplement rather than headlining one, and the wax Amberol catalogue is largely built of such pieces.\n\nFor the collector these mid-list band records are the workhorses of a wax Amberol collection. They turn up in dealer boxes, they are rarely expensive, and a clean one demonstrates what the format could do better than any famous title that has been played a thousand times.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "united-states-marine-band", "role": "band", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/36902eb86c0666667a9b485803bd04d6/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    }
+  ]
+}

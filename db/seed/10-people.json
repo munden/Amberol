@@ -1,0 +1,563 @@
+{
+  "people": [
+    {
+      "slug": "billy-murray",
+      "name": "Billy Murray",
+      "full_name": "William Thomas Murray",
+      "sort_name": "Murray, Billy",
+      "aliases": ["William Thomas Murray", "Bill Murray", "The Denver Nightingale"],
+      "is_group": false,
+      "birth_year": 1877,
+      "death_year": 1954,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "The most-recorded American voice of the acoustic era and the definitive interpreter of Tin Pan Alley's comic and patriotic songs, heard on Edison Amberol and Blue Amberol cylinders from 1908 into the 1920s.",
+      "biography": "William Thomas Murray was born in Philadelphia on 25 May 1877 to Irish immigrant parents and raised in Denver, Colorado, which gave him the billing he never quite escaped — \"the Denver Nightingale.\" He left home for the minstrel and vaudeville stage in his teens, and by the turn of the century was working the West Coast circuits. His first records were made in San Francisco around 1897 for the Peter Bacigalupi concern; by 1903 he had come east and was cutting cylinders for Edison's National Phonograph Company and discs for Victor and Columbia.\n\nMurray's voice was not beautiful in any conventional sense, and that was the point. It was bright, hard-edged, nasal in the upper middle, and above all *audible* — a voice engineered, whether by accident or design, for the acoustic recording horn. Every consonant landed. Where a trained concert tenor produced a wash of tone that the diaphragm could not resolve, Murray produced words. That, more than anything, explains why he became the busiest recording artist in America for roughly two decades and why his records still sound startlingly present.\n\nHe was the voice of the era's comic songs — \"Yankee Doodle Boy,\" \"Grand Old Rag,\" \"Under the Anheuser Bush,\" \"Come, Josephine, in My Flying Machine,\" \"Casey Jones,\" \"K-K-K-Katy,\" \"Oh Johnny, Oh Johnny, Oh!\" — and of George M. Cohan's whole flag-waving catalogue. He led the American Quartet on Victor and the same singers as the Premier Quartet on Edison, sang duets with Ada Jones that are among the most beloved records of the period, and partnered Will Oakland, Elsie Baker and later Aileen Stanley. On four-minute cylinders he is inescapable: Edison Amberols from 1908, Blue Amberols from 1912 onward (many of the later ones dubbed from Diamond Disc masters), and issues on Indestructible and U-S Everlasting besides.\n\nThe microphone was less kind to him than the horn had been. Electrical recording arrived in 1925 and the bright, forced projection that had made him indispensable now sounded dated. He worked on into the 1930s with Victor and on radio, largely in supporting roles, and retired to Freeport, Long Island. He died there of a heart attack on 17 August 1954. Collectors of four-minute cylinders will own more Murray than anything else, and there is no better single artist through which to hear what the popular song of 1908–1920 actually sounded like.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Billy Murray on Wikipedia", "url": "https://en.wikipedia.org/wiki/Billy_Murray_(singer)", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Billy Murray at DAHR", "url": "https://adp.library.ucsb.edu/names/106525", "source_name": "Discography of American Historical Recordings" },
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Billy Murray", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "ada-jones",
+      "name": "Ada Jones",
+      "full_name": "Ada Jane Jones",
+      "sort_name": "Jones, Ada",
+      "aliases": ["Ada Jane Jones"],
+      "is_group": false,
+      "birth_year": 1873,
+      "death_year": 1922,
+      "nationality": "English-American",
+      "voice_or_instrument": "soprano",
+      "summary": "The first woman to become a genuine recording star, and the era's great dialect comedienne — Bowery girls, Irish maids, coy sweethearts and squabbling wives, mostly in duet with Billy Murray or Len Spencer.",
+      "biography": "Ada Jane Jones was born in Oldham, Lancashire, on 1 June 1873, and came to Philadelphia with her family at the age of six. She was on the stage as a child, made a handful of brown-wax cylinders for Edison in 1893 while still in her teens, then dropped out of recording for a decade — a common enough pattern before the industry could pay a living wage. She returned around 1904, and within two years was the most important female voice in the American catalogue.\n\nWhat she offered was range of *character*, not range of pitch. Jones could be a Bowery tough girl, an Irish immigrant, a German dialect wife, a Southern belle, a small child, or a coquettish young woman half her age, and the recording horn caught all of it. Her diction was as sharp as Murray's, and she had a comedienne's timing that survives the surface noise intact. Solo she recorded \"I've Got Rings on My Fingers,\" \"Row, Row, Row\" and dozens of coon songs and rags; in duet she was one half of the two most successful partnerships of the period, with the monologist Len Spencer in vaudeville sketches such as the \"Heinie\" and \"Flanagan\" series, and with Billy Murray in flirtation numbers — \"Shine On, Harvest Moon,\" \"Come, Josephine, in My Flying Machine,\" \"Be My Little Baby Bumble Bee.\"\n\nShe recorded for essentially everyone: Edison Amberol and Blue Amberol, Victor, Columbia, Indestructible, U-S Everlasting and the smaller labels. By the late 1910s her health was failing and the fashion for dialect comedy was fading. She kept working the small-time vaudeville circuits and died on tour in Rocky Mount, North Carolina, on 2 May 1922, aged 48. Her records remain the best surviving evidence of what American vaudeville actually sounded like from the stalls.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Ada Jones on Wikipedia", "url": "https://en.wikipedia.org/wiki/Ada_Jones", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Ada Jones at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/106561/Jones_Ada", "source_name": "Discography of American Historical Recordings" },
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Ada Jones", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "walter-van-brunt",
+      "name": "W. Van Brunt",
+      "full_name": "Walter Van Brunt",
+      "sort_name": "Van Brunt, Walter",
+      "aliases": ["Walter Van Brunt", "Walter Scanlan", "Walter Van Brunt Scanlan"],
+      "is_group": false,
+      "birth_year": 1892,
+      "death_year": 1971,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Edison's principal young ballad tenor of the Amberol and early Blue Amberol years, who reinvented himself in the 1920s under the name Walter Scanlan.",
+      "biography": "Walter Van Brunt was born in Brooklyn on 22 April 1892 and was recording professionally before he was eighteen. Edison signed him in 1910, and for the next several years he was the company's house tenor for sentimental ballads and light popular songs — the voice you hear on an enormous proportion of Edison Amberol and early Blue Amberol issues, often billed simply as \"W. Van Brunt.\" He recorded solo, in duet with Ada Jones and Elizabeth Spencer, and as a member of Edison's quartets.\n\nHis was a clean, sweet, unforced lyric tenor with excellent diction and no operatic pretension, ideally suited to the four-minute cylinder's demand for a singer who could sustain a long verse-and-chorus ballad without straining. He also recorded for Victor, Columbia, U-S Everlasting and the dime labels, frequently under his own name.\n\nIn the early 1920s he began appearing as **Walter Scanlan** — a name adopted for the Irish-tenor stage repertoire associated with William J. Scanlan, and one he used on record labels and in vaudeville thereafter. Collectors regularly encounter the same voice under both names, and the two identities belong to one man. He lived until 11 April 1971. Because his Edison work spans exactly the four-minute cylinder's commercial life, a Van Brunt record is one of the most reliable ways to hear the Amberol format at its ordinary working best.",
+      "notes": "The Van Brunt / Scanlan identity is well documented. Cylinder labels most often read 'W. Van Brunt' or 'Walter Van Brunt'; the Scanlan name belongs mainly to his later disc and stage career.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Walter Van Brunt on Wikipedia", "url": "https://en.wikipedia.org/wiki/Walter_Van_Brunt", "source_name": "Wikipedia" },
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Walter Van Brunt", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "byron-g-harlan",
+      "name": "Byron G. Harlan",
+      "full_name": "Byron George Harlan",
+      "sort_name": "Harlan, Byron G.",
+      "aliases": ["Byron George Harlan", "Cyrus Pippins", "Deacon Treadway", "Cy Stebbins"],
+      "is_group": false,
+      "birth_year": 1861,
+      "death_year": 1936,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor and rural-dialect comedian, remembered both for lachrymose 'mother and child' ballads and for his twenty-year comic partnership with Arthur Collins.",
+      "biography": "Byron George Harlan was born in Paris, Kansas, on 29 August 1861 and came to recording by way of the minstrel stage and small-town theatre work in the Midwest. He began making cylinders in the late 1890s and by the mid-1900s was one of the busiest men in the New York studios.\n\nHe had two distinct careers on record. As a straight tenor he specialised in the sentimental tear-jerker — songs about dying children, absent mothers and old homesteads, of which \"Always in the Way\" and \"School Days\" are typical — sung with a plain, slightly grainy sincerity that Victorian audiences found irresistible and modern listeners find either touching or unbearable. As a comedian he worked in rube and New England rustic dialect, sometimes under character names such as Cyrus Pippins and Deacon Treadway.\n\nHis lasting fame is the duo. From about 1903 to 1926 Collins and Harlan were the most successful comic vocal team in America: Collins the rolling ragtime baritone, Harlan the higher, drier foil. They recorded hundreds of sides — \"Alexander's Ragtime Band,\" \"Under the Anheuser Bush,\" \"Down in Jungle Town,\" \"The Preacher and the Bear\" — for Edison Amberol and Blue Amberol, Victor, Columbia, Indestructible, U-S Everlasting and every dime label going. Much of their repertoire is coon song and racial caricature, and is uncomfortable listening today; it is also, unavoidably, a large part of what four-minute cylinders were used for. Harlan's recording career wound down in the mid-1920s and he died on 11 September 1936.",
+      "notes": "Several further pseudonyms are attributed to Harlan in the collector literature (Bert Terry, Byron Holland, Chester Lincoln among them). They are plausible but not uniformly documented, so only the best-attested character names are listed in aliases.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Byron G. Harlan on Wikipedia", "url": "https://en.wikipedia.org/wiki/Byron_G._Harlan", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Byron G. Harlan at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/106531/Harlan_Byron_G", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "arthur-collins",
+      "name": "Arthur Collins",
+      "full_name": "Arthur Francis Collins",
+      "sort_name": "Collins, Arthur",
+      "aliases": ["Arthur Francis Collins", "The King of the Ragtime Singers"],
+      "is_group": false,
+      "birth_year": 1864,
+      "death_year": 1933,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Billed in his day as 'the King of the Ragtime Singers', Collins was the leading baritone of the coon-song and ragtime repertoire and half of the famous Collins and Harlan team.",
+      "biography": "Arthur Francis Collins was born in Philadelphia on 7 February 1864 and worked in light opera and minstrel companies before the phonograph found him in the mid-1890s. He had a big, dark, rhythmically springy baritone with the kind of forward attack the acoustic horn loved, and an unfailing sense of syncopated timing. Between about 1898 and the early 1920s he was among the two or three most recorded male voices in the United States.\n\nHis repertoire was dominated by ragtime songs and coon songs — \"The Preacher and the Bear,\" \"Bill Bailey, Won't You Please Come Home,\" \"Hello! Ma Baby,\" \"Alexander's Ragtime Band\" — sung in the exaggerated black dialect that white recording artists of the period used as a matter of routine. The results made him a star and make him difficult listening now; the historical record is what it is, and Collins's rhythmic authority is genuinely remarkable regardless of the material.\n\nFrom 1903 he was paired with the tenor Byron G. Harlan, and Collins and Harlan became the defining comic duo of the acoustic era. Collins recorded for every company that mattered — Edison Amberol and Blue Amberol, Victor, Columbia, Zon-o-phone, Indestructible, U-S Everlasting — and appeared on four-minute cylinders in enormous quantity. An accident on stage in 1921, when he fell through an open trapdoor, effectively ended his performing career. He retired to Tice, Florida, and died there on 2 August 1933.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Arthur Collins on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Collins_(singer)", "source_name": "Wikipedia" },
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Arthur Collins", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "collins-and-harlan",
+      "name": "Collins and Harlan",
+      "full_name": "Collins and Harlan",
+      "sort_name": "Collins and Harlan",
+      "aliases": ["Collins & Harlan", "Arthur Collins and Byron G. Harlan"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "The most successful comic vocal duo of the acoustic era: baritone Arthur Collins and tenor Byron G. Harlan, recording together from about 1903 to 1926.",
+      "biography": "Collins and Harlan were not a group in the sense of an ensemble with a fixed membership — they were two established solo artists whose voices happened to fit together so well that record companies billed them as a unit for more than twenty years. Arthur Collins supplied the heavy, syncopated baritone lead; Byron G. Harlan the lighter, drier tenor above it, and the comic straight-man timing.\n\nTheir catalogue runs to several hundred titles and covers the whole territory of American popular comedy between 1903 and the mid-1920s: ragtime and coon songs, rube dialect sketches, novelty numbers, and topical songs about automobiles, aeroplanes, telephones and Prohibition. \"Alexander's Ragtime Band\" (1911) was their biggest hit and remains one of the best-selling records of the acoustic period. On four-minute cylinders they appear on Edison Amberol and Blue Amberol, on Indestructible and on U-S Everlasting, frequently with the credit line \"Comic duet with orchestra.\"\n\nMuch of the material trades in racial caricature and is genuinely offensive; it also documents, more completely than any other source, what a mass audience was laughing at in the years before the First World War. The partnership wound down after Collins's stage accident in 1921 and ended entirely by 1926.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Collins & Harlan on Wikipedia", "url": "https://en.wikipedia.org/wiki/Collins_%26_Harlan", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Collins and Harlan at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/115446/Collins_and_Harlan", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "vernon-dalhart",
+      "name": "Vernon Dalhart",
+      "full_name": "Marion Try Slaughter",
+      "sort_name": "Dalhart, Vernon",
+      "aliases": ["Marion Try Slaughter", "Al Craver", "Tobe Little", "Vernon Dale", "Frank Evans", "Sid Turner", "Hugh Latimer", "Bob White", "Vel Veteran"],
+      "is_group": false,
+      "birth_year": 1883,
+      "death_year": 1948,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Light-opera tenor turned the first commercially successful country recording artist, and the acoustic era's champion user of pseudonyms — at least eighty verified names on record labels.",
+      "biography": "Marion Try Slaughter was born on 6 April 1883 in Jefferson, Texas, and built his stage name from two Texas towns, Vernon and Dalhart, between which he had punched cattle as a boy. He trained seriously as a singer at the Dallas Conservatory, moved to New York in 1910, and worked in light opera — he sang in *H.M.S. Pinafore* and in Puccini's *Girl of the Golden West* — before Edison auditioned him in 1916. Thomas Edison himself is said to have approved the voice, and Dalhart became a mainstay of the Edison catalogue, appearing on Blue Amberol cylinders and Diamond Discs in ballads, light classics and, increasingly, southern dialect songs.\n\nIn 1924 he recorded \"The Wreck of the Old 97\" backed with \"The Prisoner's Song\" for Victor. It became one of the best-selling records of the entire 78 era, sold in the millions, and effectively invented the commercial country record. Dalhart spent the rest of the decade making event songs, disaster ballads and sentimental rural numbers for every label that would have him.\n\nAnd that is the root of his pseudonym problem. Because the same performance was licensed and re-recorded across labels selling at wildly different prices, companies issued him under invented names to keep a seventy-five-cent Victor and a twenty-five-cent dime-store disc from carrying the same artist. At least eighty pseudonyms have been verified — Al Craver on Columbia, Tobe Little on OKeh, Vel Veteran on Grey Gull, and dozens more, many applied without his knowledge. A cylinder or disc credited to a name no reference book recognises is, more often than for any other artist of the period, Vernon Dalhart.\n\nThe Depression and the rise of authentic rural performers ended his career. He died in Bridgeport, Connecticut, on 14 September 1948, working as a night clerk and voice teacher, and was elected to the Country Music Hall of Fame in 1981.",
+      "notes": "Only the best-attested pseudonyms are listed. The full list runs past eighty names, many of them label-invented and disputed between discographers.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Vernon Dalhart on Wikipedia", "url": "https://en.wikipedia.org/wiki/Vernon_Dalhart", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Vernon Dalhart at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/109089/Dalhart_Vernon", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "manuel-romain",
+      "name": "Manuel Romain",
+      "full_name": "Manuel Romain",
+      "sort_name": "Romain, Manuel",
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1926,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Minstrel-show tenor whose high, plaintive ballad style made him one of Edison's most characteristic Amberol voices in the years around 1910.",
+      "biography": "Manuel Romain came out of the New England minstrel tradition, working for years with Dockstader's and other blackface companies before the phonograph made him nationally known. He recorded chiefly for Edison from around 1907, and his voice — an unusually high, soft, almost keening tenor, more head-voice than chest — is one of the most recognisable on Amberol cylinders.\n\nHis repertoire was sentimental almost without exception: mother songs, Irish ballads, songs of parting and of dead sweethearts, delivered with an unhurried rubato that four minutes of playing time suited perfectly. \"Meet Me To-night in Dreamland,\" \"Silver Bell\" and similar titles show the manner. He also recorded for Indestructible and U-S Everlasting, and remained a vaudeville draw into the 1920s.\n\nRomain died on 22 December 1926. To modern ears his style can seem impossibly lachrymose; to Edison's customers in 1910 he was the sound of a good ballad well sung, and he sold in large numbers.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Manuel Romain on Wikipedia", "url": "https://en.wikipedia.org/wiki/Manuel_Romain", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "will-oakland",
+      "name": "Will Oakland",
+      "full_name": "Herman Hinrichs",
+      "sort_name": "Oakland, Will",
+      "aliases": ["Herman Hinrichs"],
+      "is_group": false,
+      "birth_year": 1880,
+      "death_year": 1956,
+      "nationality": "American",
+      "voice_or_instrument": "countertenor",
+      "summary": "A countertenor of extraordinary range whose falsetto-tinged high voice was a novelty and a sensation on Edison cylinders from 1908; later a New York nightclub proprietor.",
+      "biography": "Born Herman Hinrichs on 15 January 1880, Will Oakland possessed the rarest voice in commercial American recording: a genuine high countertenor, capable of a sustained soprano-like line that most listeners assumed must be a woman. He began recording for Edison in 1908, at exactly the moment the four-minute Amberol was introduced, and his records were among the format's early curiosities and successes.\n\nHe recorded Irish ballads, sacred songs and sentimental numbers as a soloist; sang with the Peerless Quartet and led his own Will Oakland Quartet; and made duets with Billy Murray in which he took the woman's part in love songs — a conceit audiences found delightful rather than odd. He worked for Edison, Victor, Columbia, Indestructible and U-S Everlasting, and \"Silver Threads Among the Gold\" was among his signature titles.\n\nAs recording fashions changed Oakland moved into management, running the Chateau Shanley and later his own Terrace Garden in New York. He died on 15 May 1956. A four-minute cylinder with his name on the label is instantly identifiable within two bars.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Will Oakland on Wikipedia", "url": "https://en.wikipedia.org/wiki/Will_Oakland", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Will Oakland at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/110630/Oakland_Will", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "irving-kaufman",
+      "name": "Irving Kaufman",
+      "full_name": "Irving Kaufman",
+      "sort_name": "Kaufman, Irving",
+      "aliases": ["Isidore Kaufman", "Jim Andrews", "Tom Frawley", "Frank Harris", "Robert Wood", "Marvin Young", "Noel Taylor"],
+      "is_group": false,
+      "birth_year": 1890,
+      "death_year": 1976,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "One of the most prolific singers ever to record in the United States, and — after Dalhart — the era's most heavily pseudonymed artist.",
+      "biography": "Irving Kaufman was born Isidore Kaufman in Syracuse, New York, on 8 February 1890, the son of Russian Jewish immigrants. He began recording in 1914 and simply never stopped: estimates of his output run to many thousands of issued sides across Victor, Columbia, Edison, Vocalion, Gennett, Emerson, Harmony and the entire tribe of dime-store labels. He worked with his brothers Jack and Phil as the Kaufman Brothers in vaudeville and on record.\n\nHis voice was a bright, flexible, slightly reedy tenor with a natural feel for the syncopated popular song, and he made the transition from acoustic to electrical recording more comfortably than most of his contemporaries. On four-minute cylinders he appears on late Blue Amberols, generally dubbed from Edison Diamond Disc masters, and on Indestructible.\n\nThe cheap labels that bought his services issued him under an extraordinary number of invented names — Jim Andrews, Tom Frawley, Frank Harris, Robert Wood, Marvin Young, Noel Taylor and many more — so that a collector who cannot identify a mid-1920s tenor on an obscure label should always consider Kaufman first. He continued singing on radio into the 1930s and 1940s and lived until 3 January 1976.",
+      "notes": "Kaufman's pseudonym list is long and partly conjectural; only names repeatedly attested in the discographical literature are given here.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Irving Kaufman on Wikipedia", "url": "https://en.wikipedia.org/wiki/Irving_Kaufman_(singer)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "elizabeth-spencer",
+      "name": "Elizabeth Spencer",
+      "full_name": "Elizabeth Dickerson Spencer",
+      "sort_name": "Spencer, Elizabeth",
+      "aliases": ["Elizabeth Dickerson Spencer"],
+      "is_group": false,
+      "birth_year": 1871,
+      "death_year": 1930,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "Edison's most-recorded female singer, a dramatic soprano who made several hundred sessions for the company between about 1910 and 1916.",
+      "biography": "Elizabeth Dickerson Spencer was born on 12 April 1871 and became, in sheer volume, the most heavily recorded woman in the Edison catalogue. Her sessions for Edison Standard, Amberol and Blue Amberol between roughly 1910 and 1916 number in the hundreds — a figure no other Edison vocalist of either sex approached in the same period.\n\nShe had a warm, full dramatic soprano and an unusually adaptable one. She sang sacred songs and hymns, sentimental parlour ballads, light operatic excerpts and popular duets, and she was the standard female partner for Edison's house tenors — Walter Van Brunt above all, but also Harry Anthony and later Charles Hart. Her voice was steady enough for the acoustic horn and expressive enough to carry a four-minute ballad without monotony, which is precisely what an Amberol needed.\n\nBecause she worked almost entirely for one company, she is far better known to cylinder collectors than to disc collectors. She died on 22 April 1930.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Elizabeth Spencer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Elizabeth_Spencer_(soprano)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "anna-case",
+      "name": "Anna Case",
+      "full_name": "Anna Case",
+      "sort_name": "Case, Anna",
+      "is_group": false,
+      "birth_year": 1887,
+      "death_year": 1984,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "Metropolitan Opera lyric soprano and Edison's favourite Tone Test artist, whose recordings anchor the Royal Purple Amberol series.",
+      "biography": "Anna Case was born in Clinton, New Jersey, on 29 October 1887, the daughter of a blacksmith, and had no conservatory training of the usual sort — she paid for lessons out of her own earnings and made her Metropolitan Opera debut in 1909 without ever having sung in Europe first. She remained at the Met until 1916, then built a long and lucrative career in concert and on the vaudeville stage.\n\nEdison prized her above almost any other singer. Her voice was pure, bright and evenly produced, with the kind of steadiness the acoustic process rewarded, and she became the central figure in his famous Tone Tests — public demonstrations in which a live singer performed alongside her own recording and the audience was invited to detect the difference when the lights went down. She recorded extensively for Edison on Diamond Disc and on Blue Amberol, and her operatic and art-song titles were among the mainstays of the purple-dyed Royal Purple Amberol series issued from 1918.\n\nCase later married the industrialist Clarence Mackay and largely withdrew from professional singing, though she remained an active patron of music. She died on 7 January 1984, aged 96, having outlived the entire cylinder industry by more than half a century.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Anna Case on Wikipedia", "url": "https://en.wikipedia.org/wiki/Anna_Case", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "marie-narelle",
+      "name": "Miss Marie Narelle",
+      "full_name": "Marie Narelle",
+      "sort_name": "Narelle, Marie",
+      "aliases": ["Catherine Mary Ryan", "Marie Narelle", "The Australian Queen of Irish Song"],
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1941,
+      "nationality": "Australian",
+      "voice_or_instrument": "soprano",
+      "summary": "Australian soprano billed as 'the Australian Queen of Irish Song', whose 1906 Edison sessions Edison himself praised as the best-recorded soprano voice he had heard.",
+      "biography": "Born Catherine Mary Ryan on 28 January 1870 in New South Wales, Marie Narelle took her stage name from Mount Narelle near her childhood home. She won the soprano championship at the Sydney Eisteddfod, went to the United States for the 1904 St Louis World's Fair as the official Australian singer, and stayed to build an international concert career on Irish and Australian song.\n\nShe recorded for Edison in 1906, and the company reported that her voice took to the recording horn better than any soprano they had yet tried — a claim repeated in Edison advertising for years afterwards. Her Edison titles, mostly Irish ballads and sacred songs such as \"Killarney\" and \"Sweet Spirit, Hear My Prayer,\" were originally issued as two-minute Gold Moulded records and several were carried forward onto four-minute Amberol and Blue Amberol issues as the catalogue was rebuilt for the longer format.\n\nShe toured Britain and Ireland extensively, settled in England, and died on 26 January 1941. For Australian collectors she is a landmark figure: one of the first Australian-born singers to achieve genuine international recording fame.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Marie Narelle on Wikipedia", "url": "https://en.wikipedia.org/wiki/Marie_Narelle", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "henry-burr",
+      "name": "Henry Burr",
+      "full_name": "Harry Haley McClaskey",
+      "sort_name": "Burr, Henry",
+      "aliases": ["Harry Haley McClaskey", "Irving Gillette", "Henry Gillette", "Alfred Alexander", "Robert Rice", "Carl Ely", "Harry Barr", "Frank Knapp", "Al King", "Shamus McClaskey"],
+      "is_group": false,
+      "death_year": 1941,
+      "nationality": "Canadian",
+      "voice_or_instrument": "tenor",
+      "summary": "The great ballad tenor of the acoustic era, a Peerless Quartet mainstay and one of the most recorded singers of the century's first three decades, issued under a dozen different names.",
+      "biography": "Harry Haley McClaskey was born on 15 January in St Stephen, New Brunswick, and came to New York as a young man to study voice, intending an operatic career. The recording studios intervened. From about 1902 he made records under a bewildering assortment of names — Irving Gillette for Edison, Alfred Alexander, Robert Rice, Carl Ely, Harry Barr, Al King and others for various companies — before settling on Henry Burr as his principal identity.\n\nBurr's voice was a smooth, high, plangent lyric tenor with a controlled vibrato and impeccable enunciation, and he applied it almost exclusively to the sentimental ballad. It made him one of the best-selling artists of the era: \"Let Me Call You Sweetheart,\" \"I'm Sorry I Made You Cry,\" \"Just a Baby's Prayer at Twilight,\" and dozens more. He sang duets with Albert Campbell for well over a decade, was a member and later the manager of the Peerless Quartet, and sang in the Sterling Trio and the Columbia Stellar Quartette.\n\nOn four-minute cylinders he appears on Edison Amberol (usually as Irving Gillette, because of his contracts elsewhere), on Indestructible, on Columbia Indestructible and on U-S Everlasting — his name and its aliases are a reliable index of how tangled acoustic-era exclusivity arrangements could get. In the 1920s and 1930s he moved into radio, becoming a fixture of the *National Barn Dance*. He died in Chicago on 6 April 1941.",
+      "notes": "Sources conflict on his birth year: DAHR and several standard references give 1882, while Library and Archives Canada and the Canadian Songwriters Hall of Fame give 1885. Birth year is therefore omitted rather than guessed.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Henry Burr on Wikipedia", "url": "https://en.wikipedia.org/wiki/Henry_Burr", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Henry Burr at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/106645/Burr_Henry", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "albert-campbell",
+      "name": "Albert Campbell",
+      "full_name": "Albert Charles Campbell",
+      "sort_name": "Campbell, Albert",
+      "aliases": ["Albert Charles Campbell"],
+      "is_group": false,
+      "birth_year": 1872,
+      "death_year": 1947,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "First tenor of the Peerless Quartet and Henry Burr's long-standing duet partner, with a recording career running from the late 1890s to the 1920s.",
+      "biography": "Albert Charles Campbell was born in New York on 17 August 1872 and began recording in the late 1890s, when the industry was still selling cylinders one at a time from a recording horn. He had a light, sweet, high tenor that blended better than it soloed, and he built a career on exactly that quality.\n\nHe was a founding member of the Peerless Quartet and sang first tenor with it for most of its existence, was one third of the Sterling Trio with Burr and John H. Meyer, and spent well over a decade as Henry Burr's duet partner — the Burr and Campbell records of 1911 to 1925, including \"The Trail of the Lonesome Pine,\" \"Till We Meet Again\" and \"I'm Forever Blowing Bubbles,\" were among the steadiest sellers of the period. He also sang with the American Quartet and various ad hoc studio groups.\n\nCampbell appears on four-minute cylinders both as a soloist and, far more often, inside one ensemble or another; on Edison Amberol and Blue Amberol, Indestructible, and U-S Everlasting. He died on 25 January 1947.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Albert Campbell on Wikipedia", "url": "https://en.wikipedia.org/wiki/Albert_Campbell_(singer)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "frank-croxton",
+      "name": "Frank Croxton",
+      "full_name": "Frank Croxton",
+      "sort_name": "Croxton, Frank",
+      "is_group": false,
+      "birth_year": 1877,
+      "death_year": 1949,
+      "nationality": "American",
+      "voice_or_instrument": "bass",
+      "summary": "Bass soloist and quartet singer — Peerless Quartet, Stellar Quartette, the Croxton Quartet — and a voice teacher of standing.",
+      "biography": "Frank Croxton was born on 7 October 1877 and made his career as the sort of reliable, well-schooled bass every recording studio needed: solid at the bottom, accurate, and able to blend. He sang in the Peerless Quartet, the Columbia Stellar Quartette, the Trinity Choir and his own Croxton Quartet, and appeared as a bass soloist in sacred and concert repertoire on Edison, Victor and Columbia.\n\nOn four-minute cylinders he turns up chiefly in ensemble credits, and in sacred selections where a solid bass line was essential — hymn settings, gospel songs and the quartet arrangements that made up a large slice of both the Edison and the Indestructible catalogues. He taught singing for many years and died on 4 September 1949.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Frank Croxton on Wikipedia", "url": "https://en.wikipedia.org/wiki/Frank_Croxton", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "len-spencer",
+      "name": "Len Spencer",
+      "full_name": "Leonard Garfield Spencer",
+      "sort_name": "Spencer, Len",
+      "aliases": ["Leonard Garfield Spencer"],
+      "is_group": false,
+      "birth_year": 1867,
+      "death_year": 1914,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Pioneer recording baritone, monologist and vaudeville sketch artist, and Ada Jones's great comic partner in the 'Heinie' and 'Flanagan' dialogues.",
+      "biography": "Leonard Garfield Spencer was born in Washington, D.C., on 12 February 1867, the son of Platt Rogers Spencer's family of penmanship fame, and was among the very first Americans to make a living from recorded sound. He was recording brown wax in the early 1890s and by the turn of the century was one of the most reproduced voices in the country.\n\nSpencer's speciality was the descriptive specialty — a recorded playlet with sound effects, dialogue and song, of which the most famous is \"Arkansaw Traveler.\" He worked in dialect of every kind, ran a theatrical booking agency, and formed durable partnerships: the Len Spencer Trio with Steve Porter and Billy Golden, the Greater New York Quartette, and above all his series of vaudeville sketches with Ada Jones, in which the pair play courting couples, quarrelling immigrants and comic types of every nationality then available to the American stage.\n\nBy the four-minute era his own recording activity was tailing off, but his earlier material was extensively remade for Amberol and later dubbed to Blue Amberol, and the longer format suited his sketches better than the two-minute cylinder ever had. He died suddenly on 15 December 1914.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Len Spencer on Wikipedia", "url": "https://en.wikipedia.org/wiki/Len_Spencer", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Len Spencer at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/106197/Spencer_Len", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "harry-macdonough",
+      "name": "Harry Macdonough",
+      "full_name": "John Scantlebury Macdonald",
+      "sort_name": "Macdonough, Harry",
+      "aliases": ["John Scantlebury Macdonald"],
+      "is_group": false,
+      "birth_year": 1871,
+      "death_year": 1931,
+      "nationality": "Canadian",
+      "voice_or_instrument": "tenor",
+      "summary": "One of the defining tenors of the acoustic era, lead of the Haydn Quartet and later a Victor recording executive; 'Harry Macdonough' was itself a pseudonym.",
+      "biography": "John Scantlebury Macdonald was born in Hamilton, Ontario, on 30 May 1871, of Irish and Scottish descent. He began recording in the late 1890s and adopted the name Harry Macdonough — a stage pseudonym that stuck so firmly most listeners never knew his real one.\n\nHis tenor was smooth, cool and precise, the antithesis of Billy Murray's brash attack: an ideal ballad voice and an ideal quartet lead. He sang lead in the Haydn Quartet (originally the Edison Quartet) through its most successful years, in the Lyric Quartet and the Orpheus Quartet, and made a long series of duets with the contralto Alice Nielsen, with Elise Stevenson and with S. H. Dudley. Solo he recorded \"In the Shade of the Old Apple Tree,\" \"Blue Bell\" and a great quantity of sacred and sentimental material.\n\nHis cylinder work belongs mostly to the two-minute era and the early Amberol years; much of it was carried onto four-minute issues in remade or dubbed form. He became a recording director for Victor in 1920 and left performing entirely. He died on 26 September 1931.",
+      "links": [
+        { "kind": "discography", "label": "Harry Macdonough at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/107888/Macdonough_Harry", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "john-bieling",
+      "name": "John Bieling",
+      "full_name": "John Bieling",
+      "sort_name": "Bieling, John",
+      "is_group": false,
+      "birth_year": 1869,
+      "death_year": 1948,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "First tenor of the Edison Quartet, the Haydn Quartet and the American Quartet — the top line of the most successful close-harmony groups of the period.",
+      "biography": "John Bieling was born in New York on 12 September 1869 and spent his career as the first tenor whose bright, penetrating top line sat above almost every important American male quartet of the acoustic era. He was in the Edison Quartet from its formation in 1896, which became the Haydn Quartet when the same four men recorded for other companies, and he was first tenor of the American Quartet from 1909 — the group that also recorded for Edison as the Premier Quartet.\n\nHe recorded occasional solos and duets, but his importance is as an ensemble singer: the American Quartet's records of \"Casey Jones,\" \"Moonlight Bay\" and \"Oh! You Beautiful Doll\" are unimaginable without him. Vocal trouble forced him to retire from singing in 1913, after which he worked in the record business in other capacities. He died on 1 June 1948.",
+      "links": [
+        { "kind": "encyclopedia", "label": "John Bieling on Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Bieling", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "william-f-hooley",
+      "name": "William F. Hooley",
+      "full_name": "William Francis Hooley",
+      "sort_name": "Hooley, William F.",
+      "is_group": false,
+      "birth_year": 1861,
+      "death_year": 1918,
+      "nationality": "Irish-American",
+      "voice_or_instrument": "bass",
+      "summary": "The bass of the Edison, Haydn and American Quartets, and one of the most frequently recorded low voices of the acoustic era.",
+      "biography": "William F. Hooley was born in Ireland in 1861 and brought to the United States as a child. From 1896 he was the bass of the Edison Quartet — the Haydn Quartet under its other name — and from 1909 the bass of the American Quartet, which meant that for the best part of two decades his was the foundation under most of the best-selling close-harmony records made in America.\n\nHe recorded solos in sacred and patriotic repertoire and was a fixture of the Edison Mixed Quartet and the Trinity Choir, but it is the ensemble work that matters: a quartet record of this period rises or falls on the bass, and Hooley's was firm, warm and unfailingly in tune. He died on 12 October 1918, one of the many victims of the influenza epidemic.",
+      "links": [
+        { "kind": "encyclopedia", "label": "William F. Hooley on Wikipedia", "url": "https://en.wikipedia.org/wiki/William_F._Hooley", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "steve-porter",
+      "name": "Steve Porter",
+      "full_name": "Steve Porter",
+      "sort_name": "Porter, Steve",
+      "aliases": ["Stephen Carl Porter"],
+      "is_group": false,
+      "birth_year": 1862,
+      "death_year": 1936,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone of the American Quartet and Premier Quartet, and a prolific Irish-dialect comedian best known for his 'Flanagan' sketches.",
+      "biography": "Steve Porter was born in 1862 and recorded from the 1890s until the 1920s in two quite different capacities. As a baritone he sang in the American Quartet — and therefore, on Edison, in the Premier Quartet — as well as in the Peerless Quartet, the Empire Vaudeville Company and countless studio ensembles.\n\nAs a comedian he wrote and performed the long-running \"Flanagan\" series of Irish-dialect sketches, in which a stage Irishman blunders through the modern world: Flanagan at the barber's, on the farm, at the vocal teacher's, and so on. Several were recorded with Ada Jones and other studio regulars, and the four-minute cylinder gave the format enough room to develop a joke properly, so Amberol and Blue Amberol versions are common. Porter also recorded straight ballads and sacred numbers. He died on 13 May 1936.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Steve Porter", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "s-h-dudley",
+      "name": "S. H. Dudley",
+      "full_name": "Samuel Holland Rous",
+      "sort_name": "Dudley, S. H.",
+      "aliases": ["Samuel Holland Rous", "Samuel H. Dudley"],
+      "is_group": false,
+      "birth_year": 1864,
+      "death_year": 1947,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone of the Edison and Haydn Quartets under a stage name, and later the author of Victor's celebrated 'Victrola Book of the Opera'.",
+      "biography": "Samuel Holland Rous recorded under the name S. H. Dudley from the 1890s, singing baritone in the Edison Quartet from its formation in 1896 and thereafter in the Haydn Quartet, as well as making solo records and duets with Harry Macdonough. The pseudonym was adopted early and used consistently; it should not be confused with the African-American vaudeville manager Sherman H. Dudley, an entirely different man.\n\nRous left performing to work on the editorial and catalogue side of the Victor Talking Machine Company, where he compiled *The Victrola Book of the Opera*, a guide that ran through many editions and shaped how a generation of American record buyers understood opera. He was born in 1864 and died in 1947. His cylinder work belongs mainly to the two-minute era, but his quartet recordings were remade and dubbed for four-minute issue.",
+      "notes": "Not to be confused with Sherman H. Dudley (1872–1940), the Black vaudeville performer and theatre-circuit owner who also billed himself S. H. Dudley."
+    },
+    {
+      "slug": "frank-c-stanley",
+      "name": "Frank C. Stanley",
+      "full_name": "William Stanley Grinsted",
+      "sort_name": "Stanley, Frank C.",
+      "aliases": ["William Stanley Grinsted"],
+      "is_group": false,
+      "birth_year": 1868,
+      "death_year": 1910,
+      "nationality": "American",
+      "voice_or_instrument": "bass",
+      "summary": "Bass singer and pioneering recorded banjoist, a Peerless Quartet founder whose career was cut short at the very start of the four-minute era.",
+      "biography": "William Stanley Grinsted, who recorded as Frank C. Stanley, was born on 29 December 1868 and was one of the first banjoists ever committed to a commercial record. He soon proved more valuable as a bass singer, and by the 1900s was among the busiest men in the studios: a founding member and manager of the Peerless Quartet, a member of the Columbia Male Quartette, and the bass half of a great many duets and trios — with Henry Burr, with Elise Stevenson, with Corinne Morgan, and with Byron G. Harlan.\n\nHe was also a competent baritone soloist in sacred and sentimental repertoire. Stanley died on 12 December 1910, aged 41, just as the Amberol cylinder was establishing itself, so his four-minute output is comparatively small and his records appear on early Amberols, Indestructible and U-S Everlasting issues rather than on the Blue Amberols that came later.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Frank C. Stanley on Wikipedia", "url": "https://en.wikipedia.org/wiki/Frank_C._Stanley", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "harry-anthony",
+      "name": "Harry Anthony",
+      "full_name": "John Young",
+      "sort_name": "Anthony, Harry",
+      "aliases": ["John Young", "Harry Anthony"],
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Sacred-music tenor who recorded as 'Harry Anthony' until 1912 and thereafter under his real name, John Young; half of the era's leading hymn duo with James F. Harrison.",
+      "biography": "John Young used the pseudonym Harry Anthony from the beginning of his recording career until about 1912, when he began appearing under his own name; Edison and other companies continued to print the pseudonym on some labels even after his catalogues acknowledged the real one. He was one of the principal tenors of the acoustic era's enormous sacred-music trade.\n\nFrom 1905 he was paired with the baritone Frederick J. Wheeler, who recorded as James F. Harrison, and the duo Anthony and Harrison became the standard American recording of the hymn repertoire: \"The Holy City,\" \"Lead, Kindly Light,\" \"Abide With Me,\" \"Nearer, My God, to Thee.\" Their records sold steadily for well over a decade and appear on Edison Amberol and Blue Amberol, Indestructible, Columbia and Victor. Young also sang in the American Quartet, the Peerless Quartet and the Trinity Choir.\n\nThe sacred four-minute cylinder was a substantial commercial category in its own right — sold to churches, to Sunday schools and to households that would not buy a ragtime record — and Anthony and Harrison were its central figures.",
+      "notes": "Some reference works give the pseudonym as a company invention rather than the singer's own choice; the point is disputed.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Harry Anthony on Wikipedia", "url": "https://en.wikipedia.org/wiki/Harry_Anthony", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Harry Anthony at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/95829/Anthony_Harry_vocalist_tenor_vocal", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "james-f-harrison",
+      "name": "James F. Harrison",
+      "full_name": "Frederick J. Wheeler",
+      "sort_name": "Harrison, James F.",
+      "aliases": ["Frederick J. Wheeler", "Frederick Wheeler", "James F. Harrison"],
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "The baritone half of the sacred duo Anthony and Harrison; his real name was Frederick J. Wheeler, and he recorded under both.",
+      "biography": "Frederick J. Wheeler recorded under the pseudonym James F. Harrison, and from 1905 formed with the tenor John Young — billed as Harry Anthony — the most successful sacred vocal duo of the acoustic period. Their first joint recording was an Edison cylinder, and the partnership ran for well over a decade across Edison Amberol and Blue Amberol, Victor, Columbia and Indestructible.\n\nWheeler also recorded as a soloist under his own name, sang in quartets, and worked as a chorus director. Collectors will find the same voice credited both ways, sometimes on records issued within months of one another by different companies — a small but characteristic illustration of how the industry used names to manage exclusivity.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for James F. Harrison", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "reinald-werrenrath",
+      "name": "Reinald Werrenrath",
+      "full_name": "Reinald Werrenrath",
+      "sort_name": "Werrenrath, Reinald",
+      "aliases": ["Edward Hamilton"],
+      "is_group": false,
+      "birth_year": 1883,
+      "death_year": 1953,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Concert and Metropolitan Opera baritone who recorded popular ballads under the pseudonym Edward Hamilton to protect his classical billing.",
+      "biography": "Reinald Werrenrath was born in Brooklyn on 7 August 1883, the son of a Danish tenor, and became one of the leading American concert baritones of his generation. He sang at the Metropolitan Opera, gave recitals across the country, and was among the earliest serious singers to take radio seriously.\n\nHis relevance to cylinder collectors is twofold. He recorded art song, opera and patriotic material under his own name for Victor and Edison — repertoire of exactly the sort the Royal Purple Amberol series existed to carry. And, because a concert artist could not be seen to sing \"When You and I Were Young, Maggie\" for the general catalogue, he recorded a large quantity of popular ballad and quartet material under the pseudonym **Edward Hamilton**. The two names belong to one voice, and the Hamilton records are the ones a four-minute cylinder collector is most likely to meet.\n\nWerrenrath later conducted and taught. He died on 12 September 1953.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Reinald Werrenrath on Wikipedia", "url": "https://en.wikipedia.org/wiki/Reinald_Werrenrath", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Reinald Werrenrath at DAHR", "url": "https://adp.library.ucsb.edu/index.php/talent/detail/28479/Werrenrath_Reinald_vocalist_baritone_vocal", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "charles-w-harrison",
+      "name": "Charles W. Harrison",
+      "full_name": "Charles William Harrison",
+      "sort_name": "Harrison, Charles W.",
+      "is_group": false,
+      "birth_year": 1878,
+      "death_year": 1965,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Prolific ballad tenor of the 1910s, heard on almost every label of the period including Edison's four-minute cylinders.",
+      "biography": "Charles W. Harrison was one of the standard ballad tenors of the 1910s — a clear, well-produced lyric voice of the type the industry could not have too many of, since the sentimental song was the single largest category in every catalogue. He recorded for Victor, Columbia, Edison, Emerson and a long list of smaller labels, sang in studio quartets, and made numerous duets.\n\nHis best-known titles include \"They Didn't Believe Me\" and a great many wartime and post-war ballads. He should not be confused with James F. Harrison, the pseudonym of Frederick J. Wheeler, nor with the several other Harrisons active in the studios at the same time — a confusion the record companies did nothing to discourage.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Charles W. Harrison on Wikipedia", "url": "https://en.wikipedia.org/wiki/Charles_W._Harrison", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "charles-hart",
+      "name": "Charles Hart",
+      "full_name": "Charles Hart",
+      "sort_name": "Hart, Charles",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor of the Shannon Four and a busy Edison and Columbia soloist in the years around the First World War.",
+      "biography": "Charles Hart was one of the workhorse tenors of the late acoustic period. He recorded prolifically as a soloist and in duet with Elliott Shaw and with Lewis James, and was an original member of the Shannon Four — the quartet formed in 1917 that later became the Shannon Quartet and, by 1926, the Revelers.\n\nHis Edison work appears on Diamond Discs and, dubbed from them, on late Blue Amberol cylinders, which is how most collectors of four-minute cylinders encounter him. The voice is a bright, straightforward lyric tenor without idiosyncrasy — a professional studio singer of the sort the industry ran on."
+    },
+    {
+      "slug": "lewis-james",
+      "name": "Lewis James",
+      "full_name": "Lewis James",
+      "sort_name": "James, Lewis",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor who joined the Shannon Four in 1918 and went on to sing with the Revelers; a fixture of late-acoustic ensemble and solo recording.",
+      "biography": "Lewis James replaced Harvey Hindermyer in the Shannon Four in 1918 and stayed with the group through its transformation into the Shannon Quartet and then the Revelers, the smooth close-harmony act that carried the quartet tradition into the electrical era and influenced the Comedian Harmonists and much else besides.\n\nAs a soloist and duettist he recorded extensively for Victor, Edison and Columbia, mostly in ballads and light popular material. His Edison sides reached four-minute cylinder buyers as Blue Amberol dubbings of Diamond Disc masters."
+    },
+    {
+      "slug": "harvey-hindermyer",
+      "name": "Harvey Hindermyer",
+      "full_name": "Harvey Hindermyer",
+      "sort_name": "Hindermyer, Harvey",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor, original member of the Shannon Four, later famous on radio as one of the Gold Dust Twins.",
+      "biography": "Harvey Hindermyer was an original member of the Shannon Four, singing with the group from its formation in 1917 until 1918, when Lewis James took his place. Before that he had built a solid recording career of his own; his biggest solo success was a 1908 Columbia recording of \"Take Me Out to the Ball Game.\"\n\nHe recorded for Edison, Columbia and other labels in ballads and popular songs, and made duets with the contralto Helen Clark. In the 1920s he found a second career in broadcasting as one of the Gold Dust Twins, an early and hugely popular sponsored radio act."
+    },
+    {
+      "slug": "sam-ash",
+      "name": "Sam Ash",
+      "full_name": "Sam Ash",
+      "sort_name": "Ash, Sam",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Broadway and vaudeville tenor who recorded popular songs for Edison, Columbia and others in the 1910s.",
+      "biography": "Sam Ash was a musical-comedy tenor of the 1910s who divided his time between the Broadway stage and the recording studio. He recorded popular songs, wartime numbers and light ballads for Columbia, Edison and several smaller labels, and his Edison work reached cylinder buyers on Blue Amberol.\n\nHe is a good example of a category that matters for anyone reading four-minute cylinder labels: the working stage singer with a real but modest recording career, whose name appears on a handful of issues and then vanishes from the catalogues."
+    },
+    {
+      "slug": "george-wilton-ballard",
+      "name": "George Wilton Ballard",
+      "full_name": "George Wilton Ballard",
+      "sort_name": "Ballard, George Wilton",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Edison house tenor of the Blue Amberol years, heard in ballads, novelty songs and duets.",
+      "biography": "George Wilton Ballard was one of the tenors Edison relied on through the Blue Amberol period, recording ballads, comic and novelty songs and a good deal of duet material. He appears both on Diamond Discs and on Blue Amberol cylinders, many of the latter dubbed from the disc masters after 1915.\n\nHis voice is a light, agreeable lyric tenor with clean diction — again, exactly what the Edison recording department wanted for the four-minute format. He is one of those artists almost unknown outside cylinder collecting yet extremely common within it."
+    },
+    {
+      "slug": "helen-clark",
+      "name": "Helen Clark",
+      "full_name": "Helen Clark",
+      "sort_name": "Clark, Helen",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "Edison contralto of the Blue Amberol era, prolific in duets with Harvey Hindermyer, Walter Van Brunt and Joseph Phillips.",
+      "biography": "Helen Clark was one of the principal female voices in the Edison catalogue during the Blue Amberol years, recording both as a contralto soloist and — more often — as the lower voice in duets. Her partnership with Harvey Hindermyer produced a long series of records, and she also sang with Walter Van Brunt, Joseph A. Phillips and others.\n\nHer repertoire was the standard mixture of sentimental ballads, sacred songs and popular numbers of the day, including \"I'm Forever Blowing Bubbles.\" She recorded on both Edison cylinder and disc formats and appears throughout the Blue Amberol popular series.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Helen Clark on Wikipedia", "url": "https://en.wikipedia.org/wiki/Helen_Clark_(singer)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "gladys-rice",
+      "name": "Gladys Rice",
+      "full_name": "Gladys Rice",
+      "sort_name": "Rice, Gladys",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "Edison soprano of the late 1910s and 1920s, best known for her duets with Vernon Dalhart and Billy Murray.",
+      "biography": "Gladys Rice sang for Edison through the later Blue Amberol years, recording light popular songs, operetta selections and a substantial run of duets — with Vernon Dalhart above all, but also with Billy Murray and other house artists. Her voice is a bright, agile light soprano well suited to the musical-comedy repertoire that dominated Edison's popular list after the war.\n\nHer records reached the cylinder catalogue as Blue Amberol dubbings from Diamond Disc masters, which is true of nearly all Edison material issued after about 1915 and is worth remembering when judging the sound of a late cylinder."
+    },
+    {
+      "slug": "agnes-kimball",
+      "name": "Agnes Kimball",
+      "full_name": "Agnes Kimball",
+      "sort_name": "Kimball, Agnes",
+      "is_group": false,
+      "birth_year": 1881,
+      "death_year": 1918,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "American soprano popular on Victor, Columbia and Edison records in the 1910s, whose career ended with her early death in 1918.",
+      "biography": "Agnes Kimball was born in October 1881 and became a well-known recording soprano during the 1910s, working for the Victor Talking Machine Company, Columbia and Edison. She recorded ballads, sacred songs, operetta excerpts and duets, and her records were issued in both disc and four-minute cylinder form.\n\nShe died on 5 January 1918, at thirty-six. Her comparatively short career means her name appears on a compact and fairly identifiable body of records, which makes her a satisfying artist for collectors to pursue.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Agnes Kimball on Wikipedia", "url": "https://en.wikipedia.org/wiki/Agnes_Kimball", "source_name": "Wikipedia" }
+      ]
+    }
+  ]
+}
