@@ -558,6 +558,454 @@
       "links": [
         { "kind": "encyclopedia", "label": "Agnes Kimball on Wikipedia", "url": "https://en.wikipedia.org/wiki/Agnes_Kimball", "source_name": "Wikipedia" }
       ]
+    },
+    {
+      "slug": "christine-miller",
+      "name": "Christine Miller",
+      "full_name": "Christine Miller",
+      "sort_name": "Miller, Christine",
+      "is_group": false,
+      "birth_year": 1876,
+      "death_year": 1956,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "Concert contralto who sang in the very first of Edison's Tone Tests, and a mainstay of the company's sacred and art-song lists.",
+      "biography": "Christine Miller was a Pittsburgh-born concert contralto with a rich, even, unforced tone that recorded exceptionally well by the acoustic process. Edison used her heavily in the oratorio and sacred repertoire — \"The Rosary,\" \"Abide With Me,\" excerpts from *Messiah* and *Elijah* — and in art songs and ballads.\n\nHer place in phonograph history is secured by the Tone Tests. In February 1915, at a demonstration in Orange, New Jersey, Miller sang alongside her own recording, the lights were lowered, and the audience was invited to say which was which. The stunt became the centrepiece of Edison's marketing for the next decade and Miller was its first subject. Her records appear on Diamond Disc and on Blue Amberol cylinder, including in the Royal Purple series.",
+      "notes": "Birth and death years follow the dates commonly given in Edison and Tone Test literature; they are not attested by a single authoritative source."
+    },
+    {
+      "slug": "thomas-chalmers",
+      "name": "Thomas Chalmers",
+      "full_name": "Thomas Hardie Chalmers",
+      "sort_name": "Chalmers, Thomas",
+      "aliases": ["Thomas Hardie Chalmers"],
+      "is_group": false,
+      "birth_year": 1884,
+      "death_year": 1966,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Metropolitan Opera baritone who recorded exclusively for Edison, and later a film actor and documentary editor.",
+      "biography": "Thomas Hardie Chalmers was born in New York on 20 October 1884, studied in Italy, and sang leading baritone roles at the Boston Opera and then at the Metropolitan Opera between 1917 and 1922. He made all his commercial recordings for Edison, which gives him an unusual concentration in the Edison catalogues.\n\nHis range on record is wide: operatic arias, art songs, Scottish and Irish folk songs, sacred numbers and sentimental ballads, issued on Diamond Disc and on Blue Amberol cylinder, with the more serious material appearing in the Royal Purple Amberol series. He was a favourite Tone Test artist as well.\n\nChalmers left singing for the theatre in the 1920s, acted on Broadway and in films, and worked as a narrator and editor of documentaries, notably Pare Lorentz's *The Plow That Broke the Plains*. He died on 12 June 1966.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Thomas Hardie Chalmers on Wikipedia", "url": "https://en.wikipedia.org/wiki/Thomas_Hardie_Chalmers", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "marie-rappold",
+      "name": "Marie Rappold",
+      "full_name": "Marie Rappold",
+      "sort_name": "Rappold, Marie",
+      "aliases": ["Marie Winterrath"],
+      "is_group": false,
+      "death_year": 1957,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "German-born Metropolitan Opera dramatic soprano and an Edison celebrity artist, central to the Tone Test campaign and the Royal Purple Amberols.",
+      "biography": "Born Marie Winterrath in London to German parents, Rappold was raised in New York and sang at the Metropolitan Opera from 1905 to 1920. Edison recruited her as one of his flagship celebrity artists, and she recorded opera arias, art songs and duets for the company on Diamond Disc and Blue Amberol.\n\nAccording to Edison's own account, the first public comparison test between a live singer and a record took place at Carnegie Hall on 28 April 1916 with Rappold providing the live voice — the demonstration that grew into the nationwide Tone Test tours. Her records were among the prestige items in the Royal Purple Amberol series, the purple-dyed classical line Edison launched in 1918.\n\nShe died in North Hollywood on 12 May 1957.",
+      "notes": "Sources disagree on her year of birth — 1872 and 1879 both appear in reputable references — so it is omitted here.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Marie Rappold on Wikipedia", "url": "https://en.wikipedia.org/wiki/Marie_Rappold", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Marie Rappold at DAHR", "url": "https://adp.library.ucsb.edu/names/108821", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "arthur-middleton",
+      "name": "Arthur Middleton",
+      "full_name": "Arthur Middleton",
+      "sort_name": "Middleton, Arthur",
+      "is_group": false,
+      "birth_year": 1880,
+      "death_year": 1929,
+      "nationality": "American",
+      "voice_or_instrument": "bass-baritone",
+      "summary": "American bass-baritone of the Metropolitan Opera and a leading Edison concert artist of the Royal Purple period.",
+      "biography": "Arthur Middleton was born in Logan, Iowa, on 28 November 1880 and studied with Charles R. Adams and Alexander Emslie. He made his Metropolitan Opera debut in 1914 and sang secondary roles there through early 1916, but his real career was on the concert and oratorio platform, where a big, dark, firmly produced bass-baritone was worth more than it was in the opera house.\n\nEdison recorded him extensively in oratorio, opera and patriotic material — the kind of repertoire the four-minute cylinder handled well, since arias and sacred solos rarely fit comfortably into two minutes. His records appear on Diamond Disc and on Blue Amberol, including in the Royal Purple series.\n\nHe died in Chicago on 16 February 1929, the same year the Blue Amberol itself was discontinued.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Arthur Middleton on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Middleton_(bass-baritone)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "alice-verlet",
+      "name": "Alice Verlet",
+      "full_name": "Alice Verlet",
+      "sort_name": "Verlet, Alice",
+      "is_group": false,
+      "birth_year": 1873,
+      "death_year": 1934,
+      "nationality": "Belgian",
+      "voice_or_instrument": "coloratura soprano",
+      "summary": "Belgian coloratura soprano, active mainly in France, who became one of Edison's featured celebrity recording artists.",
+      "biography": "Alice Verlet was born in Belgium in 1873 and made her career principally in France as a lyric coloratura soprano. In the United States she was known chiefly as a concert singer, and she became a featured Edison artist — the company built a good deal of publicity around her flexible, brilliant top register, which the acoustic process captured better than it captured heavier voices.\n\nHer Edison recordings of French and Italian coloratura repertoire were issued on Diamond Disc and on Blue Amberol cylinder, and she is one of the European names a collector will meet in the Royal Purple Amberol range. She died in Paris in 1934.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Alice Verlet on Wikipedia", "url": "https://en.wikipedia.org/wiki/Alice_Verlet", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "guido-ciccolini",
+      "name": "Guido Ciccolini",
+      "full_name": "Guido Ciccolini",
+      "sort_name": "Ciccolini, Guido",
+      "is_group": false,
+      "birth_year": 1885,
+      "death_year": 1963,
+      "nationality": "Italian-American",
+      "voice_or_instrument": "tenor",
+      "summary": "Italian tenor and Edison celebrity artist, a familiar name in the Royal Purple Amberol series.",
+      "biography": "Guido Ciccolini was born in Rome in 1885 and settled in the United States, where he became one of Edison's contracted operatic tenors. He recorded Italian arias, Neapolitan songs and light classical material for the company, appearing on Diamond Disc and on Blue Amberol cylinder.\n\nHis records are among the most frequently encountered in the Royal Purple Amberol range — the purple-dyed classical series in the 29000 numbers issued from 1918 — including titles such as \"Funiculi, Funicula\" with chorus. He died in Neptune, New Jersey, in 1963.",
+      "links": [
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Guido Ciccolini", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "carolina-lazzari",
+      "name": "Carolina Lazzari",
+      "full_name": "Carolina Lazzari",
+      "sort_name": "Lazzari, Carolina",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "Operatic contralto contracted to Edison in the late 1910s and heard in the Royal Purple Amberol series.",
+      "biography": "Carolina Lazzari was an American operatic contralto of Italian descent who sang with the Chicago Opera Association and in concert, and who recorded for Edison during the years when the company was assembling a roster of exclusive classical artists to compete with Victor's Red Seal.\n\nHer arias and art songs were issued on Diamond Disc and carried onto Blue Amberol cylinder, including in the Royal Purple series. She is a good example of the second tier of Edison celebrity artists — well regarded in her day, thoroughly documented on record, and largely forgotten outside collecting circles."
+    },
+    {
+      "slug": "mary-jordan",
+      "name": "Mary Jordan",
+      "full_name": "Mary Jordan",
+      "sort_name": "Jordan, Mary",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "American concert contralto who recorded art song, sacred music and folk arrangements for Edison and Columbia.",
+      "biography": "Mary Jordan was a concert contralto of the 1910s who recorded for Columbia and for Edison, chiefly in art songs, hymns, and arrangements of Irish and Scottish folk material. Her voice was deep and steady in the way the acoustic horn liked, and she was used in the same repertoire slots as Christine Miller.\n\nHer Edison sides reached cylinder buyers on Blue Amberol, and she is another of the concert singers whose presence in the four-minute catalogue reflects Edison's determination to sell more than popular songs."
+    },
+    {
+      "slug": "betsy-lane-shepherd",
+      "name": "Betsy Lane Shepherd",
+      "full_name": "Betsy Lane Shepherd",
+      "sort_name": "Shepherd, Betsy Lane",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "Edison soprano of the Blue Amberol period, recorded in ballads, sacred songs and light classics.",
+      "biography": "Betsy Lane Shepherd was one of the sopranos Edison kept on hand through the Blue Amberol years for ballads, hymns and light classical selections. She recorded on Diamond Disc and on cylinder, and appears in duet as well as solo credits.\n\nLike several Edison house singers, she is almost invisible in general reference works and thoroughly familiar to anyone who reads Edison supplements — a reminder of how much of the four-minute catalogue was carried by capable professionals who never became famous."
+    },
+    {
+      "slug": "elliott-shaw",
+      "name": "Elliott Shaw",
+      "full_name": "Elliott Shaw",
+      "sort_name": "Shaw, Elliott",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone of the Shannon Four and later the Revelers, and a prolific duet and ensemble singer in the late acoustic era.",
+      "biography": "Elliott Shaw was the baritone of the Shannon Four from its formation in 1917, staying with the group as it became the Shannon Quartet and then the Revelers. He was also one of the busiest ensemble singers of the late acoustic and early electrical periods, recording for Victor, Edison, Columbia and Brunswick.\n\nHis duets with Charles Hart were widely issued, and his Edison work reached cylinder buyers on late Blue Amberols. His importance is representative rather than individual: the four-part male harmony sound of American records between about 1917 and 1930 is largely the sound of Shaw and his colleagues."
+    },
+    {
+      "slug": "wilfred-glenn",
+      "name": "Wilfred Glenn",
+      "full_name": "Wilfred Glenn",
+      "sort_name": "Glenn, Wilfred",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "bass",
+      "summary": "Bass of the Shannon Four and the Revelers, and a much-recorded ensemble and solo singer.",
+      "biography": "Wilfred Glenn sang bass in the Shannon Four from 1917 and remained with the group through its Shannon Quartet and Revelers incarnations, becoming one of the most familiar low voices on American records. He also recorded solos in sacred and comic repertoire and sang with the Trinity Choir and numerous studio ensembles.\n\nOn four-minute cylinders he appears within ensemble credits on late Blue Amberols dubbed from Edison Diamond Disc masters."
+    },
+    {
+      "slug": "joseph-a-phillips",
+      "name": "Joseph A. Phillips",
+      "full_name": "Joseph A. Phillips",
+      "sort_name": "Phillips, Joseph A.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone active on Edison and other labels in the 1910s, frequently heard in duets with Helen Clark.",
+      "biography": "Joseph A. Phillips was a baritone of the 1910s who recorded ballads, sacred songs and popular numbers for Edison, Columbia and other companies. He is met most often in duet, particularly with the contralto Helen Clark, and in quartet work.\n\nHis Edison material appears on Blue Amberol cylinder as well as on disc, and he is one of the reliable second-rank names that fill out the middle of the four-minute catalogue."
+    },
+    {
+      "slug": "john-h-meyer",
+      "name": "John H. Meyer",
+      "full_name": "John H. Meyer",
+      "sort_name": "Meyer, John H.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "bass",
+      "summary": "Bass of the Peerless Quartet and the Sterling Trio, active from the 1900s into the 1920s.",
+      "biography": "John H. Meyer sang bass in the Peerless Quartet for much of its long life and was the third voice of the Sterling Trio alongside Henry Burr and Albert Campbell. He also recorded with the American Quartet and in a variety of ad hoc studio groups.\n\nA collector meeting his name on a four-minute cylinder label will nearly always be looking at an ensemble credit; solo Meyer records are comparatively scarce. He is nonetheless one of the voices most often present, unnoticed, on the quartet records that made up a large share of Amberol, Blue Amberol, Indestructible and U-S Everlasting output."
+    },
+    {
+      "slug": "donald-chalmers",
+      "name": "Donald Chalmers",
+      "full_name": "Donald Chalmers",
+      "sort_name": "Chalmers, Donald",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "bass",
+      "summary": "Bass who sang with the American Quartet and other studio ensembles in the 1910s.",
+      "biography": "Donald Chalmers was one of the basses who passed through the American Quartet after William F. Hooley's death in 1918, and who sang in a range of studio groups in the later 1910s. He recorded sacred and popular material and appears in ensemble credits on Victor and Edison issues, including four-minute cylinders.\n\nHe should not be confused with the Edison operatic baritone Thomas Chalmers, an unrelated artist recording for the same company at the same time."
+    },
+    {
+      "slug": "vaughn-de-leath",
+      "name": "Vaughn De Leath",
+      "full_name": "Leonore Vonderlieth",
+      "sort_name": "De Leath, Vaughn",
+      "aliases": ["Leonore Vonderlieth", "The Original Radio Girl", "The First Lady of Radio"],
+      "is_group": false,
+      "birth_year": 1894,
+      "death_year": 1943,
+      "nationality": "American",
+      "voice_or_instrument": "contralto",
+      "summary": "Pioneer radio singer credited with developing the soft 'crooning' style, and a recording artist for Edison and many other labels in the 1920s.",
+      "biography": "Vaughn De Leath was among the first singers to broadcast — by her own account she sang over Lee de Forest's experimental station in 1920 — and she built a career on being the voice of early radio. The story that she invented crooning is a simplification, but there is truth in it: she found that a soft, low, close-in delivery survived the primitive transmitters that a full-voiced soprano would overload, and audiences liked it.\n\nShe recorded prolifically through the 1920s for Edison, Columbia, Gennett, Okeh and others, in popular songs, novelty numbers and early jazz-inflected material. Her Edison sides were issued on Diamond Disc and dubbed to Blue Amberol, so she is one of the last significant new voices to appear on a four-minute cylinder before the format was discontinued in 1929. She died on 28 May 1943."
+    },
+    {
+      "slug": "aileen-stanley",
+      "name": "Aileen Stanley",
+      "full_name": "Maude Elsie Aileen Muggeridge",
+      "sort_name": "Stanley, Aileen",
+      "aliases": ["Maude Elsie Aileen Muggeridge", "The Personality Girl"],
+      "is_group": false,
+      "birth_year": 1893,
+      "death_year": 1982,
+      "nationality": "American",
+      "voice_or_instrument": "mezzo-soprano",
+      "summary": "Vaudeville headliner and one of the biggest-selling women on record in the 1920s, in duets with Billy Murray among others.",
+      "biography": "Aileen Stanley was born in Chicago in 1893 and worked her way up through vaudeville to become one of the highest-paid and most-recorded women in American popular music during the 1920s. Her manner was intimate and conversational rather than declamatory, and it translated well from stage to record and then to radio.\n\nShe recorded chiefly for Victor, with sides for Edison, Gennett and others, and made a celebrated series of duets with Billy Murray in the mid-1920s — an odd and delightful pairing of the old acoustic shouter with a modern popular stylist. Her Edison material reached the four-minute cylinder catalogue on late Blue Amberols. She retired from performing in the 1930s, taught singing, and died in 1982."
+    },
+    {
+      "slug": "ernest-hare",
+      "name": "Ernest Hare",
+      "full_name": "Thomas Ernest Hare",
+      "sort_name": "Hare, Ernest",
+      "aliases": ["The Happiness Boys"],
+      "is_group": false,
+      "birth_year": 1883,
+      "death_year": 1939,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone and comic singer, half of the Happiness Boys with Billy Jones and one of the most heavily pseudonymed artists of the 1920s.",
+      "biography": "Ernest Hare was a baritone with a broad comic delivery who recorded from the mid-1910s and became, in partnership with the tenor Billy Jones, one of radio's first stars. As the Happiness Boys — named for their sponsor, Happiness Candy Stores — Jones and Hare broadcast weekly from 1921 and made hundreds of records of novelty songs, topical comedy and popular numbers.\n\nHare recorded for practically every label of the 1920s, frequently under invented names, and appears on late Edison Blue Amberol cylinders through Diamond Disc dubbings. He died on 9 March 1939."
+    },
+    {
+      "slug": "billy-jones",
+      "name": "Billy Jones",
+      "full_name": "Billy Jones",
+      "sort_name": "Jones, Billy",
+      "aliases": ["The Happiness Boys"],
+      "is_group": false,
+      "birth_year": 1889,
+      "death_year": 1940,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor and comedian, the other half of the Happiness Boys, prolific on records and on early network radio.",
+      "biography": "Billy Jones was a light comic tenor who began recording around 1919 and quickly became one of the busiest men in the studios. With Ernest Hare he formed the Happiness Boys, whose weekly broadcasts from 1921 made them among the first genuinely national radio personalities in the United States.\n\nJones recorded solo and in duet for dozens of labels, often pseudonymously, in novelty songs, comic numbers and the popular hits of the day. Edison issued him on Diamond Disc and, by dubbing, on Blue Amberol cylinder in the format's final years. He died on 23 November 1940."
+    },
+    {
+      "slug": "al-bernard",
+      "name": "Al Bernard",
+      "full_name": "Al Bernard",
+      "sort_name": "Bernard, Al",
+      "aliases": ["The Boy from Dixie"],
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1949,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "New Orleans-born blackface singer and one of the first white artists to record blues material, active on Edison and many other labels.",
+      "biography": "Al Bernard was born in New Orleans in 1888 and worked in minstrelsy and vaudeville before beginning to record around 1918. He was among the earliest white performers to record blues — his versions of W. C. Handy's \"St. Louis Blues\" and \"Hesitating Blues\" were commercially important, and Handy himself thought well of him — though he performed in blackface and in dialect throughout his career.\n\nHe recorded for Edison, Brunswick, Emerson, Okeh and many others, sometimes with the guitarist Frank Ferera, and his Edison sides were dubbed to Blue Amberol cylinder. He later worked in radio and songwriting. He died in 1949. His records sit at an awkward and revealing junction between minstrelsy and the beginnings of the commercial blues record."
+    },
+    {
+      "slug": "cal-stewart",
+      "name": "Cal Stewart",
+      "full_name": "Calvin Edward Stewart",
+      "sort_name": "Stewart, Cal",
+      "aliases": ["Uncle Josh Weathersby", "Uncle Josh"],
+      "is_group": false,
+      "birth_year": 1856,
+      "death_year": 1919,
+      "nationality": "American",
+      "voice_or_instrument": "monologist",
+      "summary": "Creator of 'Uncle Josh Weathersby' of Punkin Center, the most durable comic character in the history of recorded sound.",
+      "biography": "Calvin Edward Stewart was born in Charlotte County, Virginia, in 1856 and worked as a railwayman, a medicine-show performer and a vaudevillian before finding the character that made him. Uncle Josh Weathersby is an elderly New England farmer from the fictional village of Punkin Center who visits the city, encounters modern life, and reports back — Uncle Josh at the dentist's, on an automobile, in a department store, joining the Grangers, at the roller-skating rink.\n\nThe records are essentially stand-up monologues punctuated by Stewart's celebrated wheezing laugh, and they sold continuously from the late 1890s until well after his death. Stewart recorded for Edison, Victor, Columbia and — importantly for cylinder collectors — for Indestructible, whose four-minute celluloid cylinders carried a large body of his work and are among the most sought-after comic records of the period. The Amberol's four minutes suited him far better than the two-minute cylinder had, since a monologue needs room to build.\n\nHe died on 7 December 1919. His characters were revived by imitators for years afterwards, and Punkin Center passed into American folklore largely because of him.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Cal Stewart on Wikipedia", "url": "https://en.wikipedia.org/wiki/Cal_Stewart", "source_name": "Wikipedia" },
+        { "kind": "audio", "label": "Search the Cylinder Audio Archive for Cal Stewart", "url": "https://cylinders.library.ucsb.edu/", "source_name": "UCSB Cylinder Audio Archive" }
+      ]
+    },
+    {
+      "slug": "nat-m-wills",
+      "name": "Nat M. Wills",
+      "full_name": "Louis McGrath Wills",
+      "sort_name": "Wills, Nat M.",
+      "aliases": ["Louis McGrath Wills", "The Happy Tramp"],
+      "is_group": false,
+      "birth_year": 1873,
+      "death_year": 1917,
+      "nationality": "American",
+      "voice_or_instrument": "comedian",
+      "summary": "Vaudeville's 'Happy Tramp', whose parody songs and topical monologues were a staple of the four-minute cylinder.",
+      "biography": "Nat M. Wills, born Louis McGrath Wills on 11 July 1873, built one of vaudeville's most recognisable acts around a tramp persona — battered hat, ruined dress suit, unhurried patter — and a specialty in parody. He would take the hit songs of the moment and fit them with new topical words about politics, marriage, Prohibition or the cost of living, and the results were among the sharpest comic records of the period.\n\nHe recorded for Victor, Columbia and Edison, and his monologues and parodies were well suited to the four-minute format, which allowed him to develop a routine rather than truncate it. \"No News, or What Killed the Dog\" is his most famous record, a slow-building shaggy-dog monologue that has never quite gone out of circulation.\n\nWills died on 9 December 1917 of carbon monoxide poisoning in his own garage, at forty-four.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Nat M. Wills on Wikipedia", "url": "https://en.wikipedia.org/wiki/Nat_M._Wills", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "billy-golden",
+      "name": "Billy Golden",
+      "full_name": "William B. Golden",
+      "sort_name": "Golden, Billy",
+      "is_group": false,
+      "birth_year": 1858,
+      "death_year": 1926,
+      "nationality": "American",
+      "voice_or_instrument": "comedian",
+      "summary": "Blackface minstrel comedian and one of the earliest recording artists, later half of the duo Golden and Hughes.",
+      "biography": "Billy Golden was among the first performers to make commercial records at all, cutting brown wax cylinders in the early 1890s. His speciality was blackface minstrel comedy and dialect song, and his hits — \"Turkey in the Straw,\" \"Rabbit Hash,\" \"Roll On the Ground\" — remained catalogue staples for thirty years, being remade repeatedly as recording technology changed.\n\nIn 1907 he formed a duo with Joe Hughes; Golden and Hughes were among the first two-man teams to record blackface dialogue, and their sketches were issued widely on four-minute cylinders, including by Indestructible and U-S Everlasting as well as Edison. They were a substantial vaudeville draw as well.\n\nThe material is minstrelsy through and through and reads badly today. Its commercial importance to the cylinder business, however, was very large, and Golden's long career maps the medium's first three decades almost exactly. He died in 1926.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Billy Golden on Wikipedia", "url": "https://en.wikipedia.org/wiki/Billy_Golden", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "joe-hughes",
+      "name": "Joe Hughes",
+      "full_name": "Joe Hughes",
+      "sort_name": "Hughes, Joe",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "comedian",
+      "summary": "Blackface comedian and Billy Golden's partner from 1907 in the recording duo Golden and Hughes.",
+      "biography": "Joe Hughes joined Billy Golden in 1907 to form one of the first two-man blackface comedy teams to record extensively. Golden and Hughes made dialogue sketches, comic songs and laughing records for Edison, Victor, Columbia, Indestructible and U-S Everlasting, and worked the vaudeville circuits with the same material.\n\nHughes is documented almost entirely through the partnership; little of his life outside it is recorded. The team's four-minute cylinders are common enough that any collector of comic Amberols will meet them."
+    },
+    {
+      "slug": "bert-williams",
+      "name": "Bert Williams",
+      "full_name": "Egbert Austin Williams",
+      "sort_name": "Williams, Bert",
+      "aliases": ["Egbert Austin Williams"],
+      "is_group": false,
+      "birth_year": 1874,
+      "death_year": 1922,
+      "nationality": "Bahamian-American",
+      "voice_or_instrument": "comedian",
+      "summary": "The greatest American comedian of his generation and the first Black performer to star on Broadway; his 'Nobody' is among the era's defining records.",
+      "biography": "Egbert Austin Williams was born in Nassau, the Bahamas, on 12 November 1874 and raised in California. With George Walker he formed Williams and Walker, the most successful Black act in American vaudeville, and their 1903 musical *In Dahomey* was the first full-length Broadway show written and performed by African Americans. After Walker's illness and death Williams became a solo star and, from 1910, the featured comedian of the Ziegfeld Follies — the first Black performer to headline a white Broadway production.\n\nHe worked in blackface, as the industry required even of Black performers, and made from that constraint a character of extraordinary melancholy and precision: a slow-moving, put-upon, unlucky man whose timing was legendary. W. C. Fields called him the funniest man he ever saw and the saddest man he ever knew.\n\nWilliams recorded for Victor and, from 1901, extensively for Columbia. His signature song \"Nobody\" (1905, remade 1913) is one of the essential American records of the era, and his talking songs — half-sung, half-spoken, with immaculate rhythmic placement — anticipate a great deal of later popular performance. Columbia issued his material widely, and titles reached four-minute cylinder buyers through the Columbia Indestructible series. He died on 4 March 1922 after collapsing on stage.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Bert Williams on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bert_Williams", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "eddie-morton",
+      "name": "Eddie Morton",
+      "full_name": "Edward Farren Morton",
+      "sort_name": "Morton, Eddie",
+      "aliases": ["Edward Farren Morton", "The Singing Cop"],
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1938,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Vaudeville comic singer known as 'The Singing Cop', a forceful and rhythmically striking recording artist of the ragtime era.",
+      "biography": "Edward Farren Morton was born in Philadelphia on 15 May 1870 and had been a policeman before he went on the stage, which gave him his billing. He became a headliner on the Keith and Poli circuits and one of the most distinctive singers of the ragtime era on record: a big, blunt, hard-swinging baritone with a rhythmic drive unusual even among his contemporaries.\n\nHe recorded for Victor, Columbia, Edison and Indestructible in comic and ragtime numbers — \"Alexander's Ragtime Band,\" \"Oh, You Kid\" and the like — and his four-minute cylinders are among the liveliest comic records of the period. He died on 11 April 1938.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Eddie Morton on Wikipedia", "url": "https://en.wikipedia.org/wiki/Eddie_Morton", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "bob-roberts",
+      "name": "Bob Roberts",
+      "full_name": "Bob Roberts",
+      "sort_name": "Roberts, Bob",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Leading exponent of the comic coon song in the 1900s, heard on Zon-o-phone, Edison, Indestructible and the cheaper cylinder labels.",
+      "biography": "Bob Roberts was one of the most prolific comic singers of the 1900s, specialising in the ragtime and coon-song repertoire that dominated popular recording before the First World War. He recorded a great deal for Zon-o-phone and for the cheaper labels, as well as for Edison, Columbia and Indestructible.\n\nTypical titles include \"Wouldn't It Make You Hungry\" and \"I'm Satisfied.\" His delivery was raucous, rhythmic and unsubtle, and it sold; he was one of the artists on whom the early cylinder trade depended for comic material, and his records appear regularly among four-minute issues.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Bob Roberts on Wikipedia", "url": "https://en.wikipedia.org/wiki/Bob_Roberts_(singer)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "edward-m-favor",
+      "name": "Edward M. Favor",
+      "full_name": "Edward M. Favor",
+      "sort_name": "Favor, Edward M.",
+      "is_group": false,
+      "birth_year": 1856,
+      "death_year": 1936,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Light-comedy stage star and recording tenor, celebrated for Irish-American comic songs delivered in a piping high tenor.",
+      "biography": "Edward M. Favor was already a well-established musical-comedy performer when he began recording in the 1890s — a contemporary notice in 1900 called him one of the best light comedians on the American stage. He kept recording for the next decade and more, in comic songs, Irish-American numbers and stage material.\n\nHis voice was a light, piping, unmistakably theatrical tenor and his diction was excellent, which mattered a great deal when the joke was in the lyric. He recorded for Edison, Columbia, Victor and the cylinder labels, and his material carried onto four-minute issues. He died in 1936.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Edward M. Favor on Wikipedia", "url": "https://en.wikipedia.org/wiki/Edward_M._Favor", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "edward-meeker",
+      "name": "Edward Meeker",
+      "full_name": "Edward Meeker",
+      "sort_name": "Meeker, Edward",
+      "is_group": false,
+      "birth_year": 1874,
+      "death_year": 1937,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Edison's staff announcer — the voice that names the title and the company at the head of countless cylinders — and a comic singer in his own right.",
+      "biography": "Edward Meeker was born on 22 January 1874 and worked for Edison in West Orange for most of his career. To cylinder collectors he is first of all a *voice*: the studio announcer who opens innumerable Edison records with the formula naming the title, the composer and \"Edison Record.\" Spoken announcements were dropped from most issues after 1908, so hearing Meeker is one of the reliable signs of an early cylinder.\n\nHe was also a performer. He recorded comic and novelty songs — \"Chicken Reel,\" \"Go Easy, Mabel,\" \"Harrigan\" — and made the 1908 Edison recording of \"Take Me Out to the Ball Game\" that was added to the National Recording Registry in 2010. He died on 19 April 1937.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Edward Meeker on Wikipedia", "url": "https://en.wikipedia.org/wiki/Edward_Meeker", "source_name": "Wikipedia" },
+        { "kind": "discography", "label": "Edward Meeker at DAHR", "url": "https://adp.library.ucsb.edu/index.php/mastertalent/detail/100298/Meeker_Edward", "source_name": "Discography of American Historical Recordings" }
+      ]
+    },
+    {
+      "slug": "arthur-fields",
+      "name": "Arthur Fields",
+      "full_name": "Abraham Finkelstein",
+      "sort_name": "Fields, Arthur",
+      "aliases": ["Abraham Finkelstein"],
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1953,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone and songwriter, ubiquitous on records from 1914, best known for wartime and novelty numbers.",
+      "biography": "Arthur Fields was born Abraham Finkelstein on 6 August 1888 and started in minstrel shows before moving into recording in 1914. From then until the early 1930s he was one of the most heavily recorded male voices in America, working for every significant label and a great many insignificant ones, often under assumed names.\n\nHis speciality was the topical and novelty song — First World War numbers above all, of which \"Oh! How I Hate to Get Up in the Morning\" is the type — sung in a bright, brassy, thoroughly extrovert baritone. He was also a working songwriter, with \"Aba Daba Honeymoon\" among his credits. His Edison recordings reached the cylinder catalogue as Blue Amberol dubbings. He died on 29 March 1953.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Arthur Fields on Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Fields", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "harry-lauder",
+      "name": "Harry Lauder",
+      "full_name": "Sir Henry Lauder",
+      "sort_name": "Lauder, Harry",
+      "aliases": ["Sir Harry Lauder"],
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1950,
+      "nationality": "Scottish",
+      "voice_or_instrument": "comedian",
+      "summary": "The Scottish music-hall star who became the first British recording artist to sell a million records, and a fixture of the four-minute cylinder catalogues.",
+      "biography": "Sir Harry Lauder was born in Portobello, near Edinburgh, on 4 August 1870, worked as a pit boy in the coal mines, and rose through Scottish music hall to become the highest-paid entertainer in the world. The act — kilt, twisted walking stick, tam o'shanter, a stream of patter and a repertoire of his own songs — was a broad Scots caricature performed with immense charm and impeccable timing.\n\nHis songs are still known: \"I Love a Lassie,\" \"Roamin' in the Gloamin',\" \"A Wee Deoch-an-Doris,\" \"Keep Right On to the End of the Road,\" the last written after his only son was killed on the Somme in 1916. He toured America more than twenty times and recorded for Gramophone, Victor and Edison; his material was issued on four-minute cylinders in both Britain and the United States, and Edison Blue Amberols of Lauder titles are common.\n\nHe was knighted in 1919 for his wartime entertainment and fundraising work and died on 26 February 1950. He is the single most important non-American artist in the four-minute cylinder catalogue.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Harry Lauder on Wikipedia", "url": "https://en.wikipedia.org/wiki/Harry_Lauder", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "homer-rodeheaver",
+      "name": "Homer Rodeheaver",
+      "full_name": "Homer Alvan Rodeheaver",
+      "sort_name": "Rodeheaver, Homer",
+      "is_group": false,
+      "birth_year": 1880,
+      "death_year": 1955,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Billy Sunday's song leader and the man who put the gospel song on commercial records in quantity.",
+      "biography": "Homer Alvan Rodeheaver was born on 4 October 1880 and became the music director for the evangelist Billy Sunday, leading vast revival choirs with a trombone and an unshakeable good humour. He was also a shrewd businessman who founded his own publishing house and understood earlier than most preachers that the phonograph could carry the gospel song into homes no revival tent would reach.\n\nHe recorded prolifically for Victor, Columbia and Edison from the 1910s, in solos, duets and with quartets, and his records made \"Brighten the Corner Where You Are,\" \"The Old Rugged Cross\" and similar hymns into permanent fixtures of American religious life. Sacred material was a very large commercial category on four-minute cylinders, and Rodeheaver is its most significant single figure. He died on 18 December 1955.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Homer Rodeheaver on Wikipedia", "url": "https://en.wikipedia.org/wiki/Homer_Rodeheaver", "source_name": "Wikipedia" }
+      ]
     }
   ]
 }

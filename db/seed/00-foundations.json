@@ -1,0 +1,795 @@
+{
+  "makers": [
+    {
+      "slug": "edison",
+      "name": "Thomas A. Edison, Inc.",
+      "short_name": "Edison",
+      "country": "United States",
+      "city": "West Orange, New Jersey",
+      "founded_year": 1896,
+      "dissolved_year": 1929,
+      "summary": "The National Phonograph Company (1896) and its successor Thomas A. Edison, Inc. (1911) made cylinder records at West Orange, New Jersey, for a third of a century — from brown wax through Gold Moulded, wax Amberol and Blue Amberol — and were the last firm in the world still selling them when the record division closed in October 1929.",
+      "history": "## Out of the wreckage of the 1890s\n\nEdison's phonograph of 1877 recorded on tinfoil and could not be duplicated; the record *business* grew out of the wax machine he returned to a decade later, and out of a decade of corporate wreckage. The Edison Phonograph Company (1887), the Edison Phonograph Works (1888) and Jesse Lippincott's North American Phonograph Company (1888) between them tried to sell the phonograph as an office dictating machine, franchised it to a patchwork of regional companies, and went into receivership when the machines proved better at entertaining saloon customers than at taking letters. On 27 January 1896 Edison incorporated the **National Phonograph Company** in New Jersey for the express purpose of putting both the manufacture and the marketing of phonographs and records back under his own control. Manufacturing stayed with the Edison Phonograph Works at West Orange; National Phonograph was the selling company, and it is National Phonograph's name that appears on record boxes, supplements and catalogues down to 1911. On 28 February 1911 the Edison enterprises were reorganised and reincorporated as **Thomas A. Edison, Inc.**, which absorbed the Phonograph Works outright in 1924.\n\n## What West Orange actually made\n\nThe product line runs in a clear sequence, and knowing it is most of what a collector needs. Brown wax \"Standard\" cylinders, recorded a few at a time and shaved and re-recorded when they wore out, gave way in 1899 to the five-inch **Concert** cylinder, an attempt to buy volume with sheer surface area. In 1902 the **Gold Moulded** process — a master cylinder given a conductive skin of gold in a vacuum, from which metal moulds were grown — made it possible to press hundreds of identical hard black wax copies from one performance, and the price of a record fell accordingly. In October 1908 came the four-minute **Amberol**, which simply halved the groove pitch from 100 to 200 threads per inch on the same hard wax body, and in 1909 the **Amberola**, an internal-horn cabinet machine that could switch between the two pitches. In November 1912 the **Blue Amberol** replaced the wax four-minute record with a tube of blue celluloid over a plaster core, and in the same year the vertical-cut **Diamond Disc** was launched alongside it.\n\n## The people\n\nEdison himself kept an unusually close grip on the phonograph business, personally auditioning artists and vetoing repertoire, and his prejudices — against celluloid as a recording surface because of its surface noise, against the disc as a format, against most popular vocal styles — shaped the catalogue as much as any commercial calculation. The chemistry was largely the work of **Jonas W. Aylsworth**, Edison's chief chemist, who devised the hard black wax of 1902, the harder and more brittle Amberol compound of 1908, and later Condensite, the phenolic surface of the Diamond Disc. **Walter H. Miller** ran the recording department for most of the acoustic era. **Frank L. Dyer**, Edison's patent counsel, presided over National Phonograph and then Thomas A. Edison, Inc. in the years around the reorganisation, and litigation was very much his instrument. From 1926 the business was effectively run by Edison's son **Charles**.\n\n## Patents, and the celluloid problem\n\nEdison litigated constantly and by preference. His suit against the Lambert Company of Chicago helped push that firm — the first maker of celluloid cylinders in America — into bankruptcy in 1906. He sued the U-S Phonograph Company of Cleveland at least four times over the moulding process, the reproducer and the feed screw, and lost every one of them, finally dropping all the actions in the spring of 1914 and bearing the costs. The irony is that celluloid won the argument. Having publicly dismissed it as too noisy, Edison found by 1911 that the unbreakable cylinders of Indestructible and U-S were taking the market his brittle wax Amberols were losing. Thomas B. Lambert's celluloid moulding patent stood in the way; rather than pay Lambert a royalty, Edison bought the patent outright, and the Blue Amberol of 1912 was the result. Every celluloid cylinder made in America, Edison's own included, traces back to that one 1900 patent.\n\n## The long ending\n\nEdison stayed with the cylinder years after everyone else had abandoned it, supplying an ageing, largely rural customer base who had bought Amberolas and would not be argued out of them. Blue Amberol production carried on through the 1920s, latterly as straight dubbings of the Diamond Disc catalogue, and the domestic series closed at number 5719 in June 1929. In October 1929, days before the Wall Street crash, Thomas A. Edison, Inc. shut its record division altogether — cylinder, Diamond Disc and the short-lived Needle Type discs at a stroke — and turned to radios, batteries and dictating machines. The corporate entity long outlived the records: it merged with McGraw Electric in 1957 to form McGraw-Edison.\n\n## What survives\n\nMore Edison cylinders survive than those of any other maker, because Edison made more of them for longer and because the Blue Amberol's celluloid does not rot. The West Orange site is now the Edison National Historical Park, which holds the surviving moulds, masters and business records; the UCSB Cylinder Audio Archive has digitised many thousands of Edison cylinders and streams them free; and the Discography of American Historical Recordings documents the recording sessions themselves. A collector starting today can expect Blue Amberols to be common and cheap, Gold Moulded records common but often unplayable, wax Amberols genuinely scarce in playing condition, and brown wax and Concert cylinders rare.",
+      "notes": "founded_year 1896 is the incorporation of the National Phonograph Company, the direct predecessor; Thomas A. Edison, Inc. itself was incorporated 28 February 1911. dissolved_year 1929 marks the closure of the record division in October 1929, not the end of the corporation, which continued until the 1957 McGraw Electric merger.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Thomas A. Edison, Inc. on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_A._Edison,_Inc.",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Edison Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edison_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "National Phonograph Company — Thomas A. Edison Papers, Rutgers",
+          "url": "https://edison.rutgers.edu/life-of-edison/companies/company-details/phonograph,-domestic/national-phonograph-company",
+          "source_name": "Thomas A. Edison Papers"
+        },
+        {
+          "kind": "article",
+          "label": "Thomas A. Edison, Incorporated — Thomas A. Edison Papers, Rutgers",
+          "url": "https://edison.rutgers.edu/life-of-edison/companies/company-details/thomas-a.-edison,-incorporated",
+          "source_name": "Thomas A. Edison Papers"
+        },
+        {
+          "kind": "article",
+          "label": "History of the Cylinder Phonograph — Library of Congress",
+          "url": "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph/",
+          "source_name": "Library of Congress"
+        },
+        {
+          "kind": "audio",
+          "label": "Edison cylinders at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible",
+      "name": "Indestructible Phonographic Record Company",
+      "short_name": "Indestructible",
+      "country": "United States",
+      "city": "Albany, New York",
+      "founded_year": 1906,
+      "dissolved_year": 1922,
+      "summary": "The Albany firm that inherited Thomas B. Lambert’s celluloid patents and made unbreakable cylinders from 1907 until a factory fire in 1922 — sold under its own name, as Columbia Indestructible, and as Oxford for Sears, Roebuck.",
+      "history": "## Inheriting the Lambert patents\n\nThe Indestructible line begins not in Albany but in Chicago, with Thomas B. Lambert's 1900 patent for moulding sound records in celluloid. When the Lambert Company failed in 1906 under the combined weight of technical trouble and Edison's litigation, its patents were bought by **George J. Snowden**, an oilman with money in a number of ventures, on behalf of a newly organised Indestructible Phonographic Record Company. The technical continuity came through **William Messer**, who had worked with Lambert and who set the Albany plant up to record and mould celluloid cylinders. Records reached dealers in 1907, priced at 35 cents against Edison's Gold Moulded records — cheaper, and advertised on the one point Edison could not answer: they did not break.\n\n## An unbreakable record in a breakable market\n\nThe claim was largely true. The Indestructible cylinder is a thin tube of celluloid over a thick pasteboard core, with a metal ring set into each end to keep the whole thing round and rigid. It could be dropped, sat on, and played a thousand times with a steel-free sapphire without measurable wear, and because the title could be moulded permanently into the celluloid there was no need for the spoken announcement that opens most wax cylinders. Two-minute records came first; four-minute versions followed in 1909–1910, directly answering the public's growing exasperation with Edison's fragile wax Amberols. Over the whole run, 1907 to 1922, something in the order of 1,600 titles were issued, and an unusually high proportion of them survive.\n\n## Columbia, Sears, and the British trade\n\nIndestructible never had a sales network to match its product, and it solved that by letting other people sell for it. In 1908 it made a distribution agreement with the **Columbia Phonograph Company**, which had just given up making wax cylinders of its own; Columbia took the entire Albany line, branded it *Columbia Indestructible Record*, and sold it through its own dealers until it abandoned cylinders for discs in July 1912. Sears, Roebuck sold the same records as **Oxford Indestructible**. A separate British series was issued for the United Kingdom market. The consequence for collectors is that one Albany master may turn up on three or four differently branded cylinders, with the same catalogue number and the same performance.\n\n## The patent position\n\nIndestructible's Lambert patents were the strongest hand in the American cylinder trade after Edison's own, and they explain a great deal about the years 1908–1912. They gave Columbia a way back into cylinders after abandoning wax; they gave the U-S Phonograph Company of Cleveland something to argue about; and above all they stood between Edison and the celluloid record he had spent a decade dismissing as too noisy. Edison's answer was not to litigate but to buy — he acquired the Lambert celluloid patent rather than pay a royalty on it, and issued the Blue Amberol in November 1912.\n\n## Fire, and afterwards\n\nLosing Columbia's distribution in 1912 left the Albany company selling on its own account into a market that was moving decisively to discs. It carried on regardless, issuing new titles into the early 1920s and keeping a long back catalogue in print, until a fire destroyed the factory in 1922 and ended production. Because celluloid neither moulds nor crumbles, Indestructible cylinders have survived far better than their wax contemporaries: a very large fraction of everything the company issued is known to exist today, and David Giovannoni's collection of the two-minute series in particular has been comprehensively documented and digitised.",
+      "notes": "The company appears in contemporary sources under several forms of its name — Indestructible Phonographic Record Co., Indestructible Phonograph Co., and Indestructible Record Company. founded_year 1906 is the organisation of the company and the purchase of the Lambert patents; the first records reached the market in 1907. The exact year four-minute production began is reported as both 1909 and 1910.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Record Company on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indestructible_Record_Company",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Indestructible Records — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Columbia Corporate History: Indestructible Cylinders",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "discography",
+          "label": "Annand, A Listing of American & British Two and Four-Minute Cylinders, 1907–1922",
+          "url": "https://archive.org/details/Annand",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Oxford Records (the Sears, Roebuck brand) on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oxford_Records",
+          "source_name": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "slug": "us-phonograph",
+      "name": "U-S Phonograph Company",
+      "short_name": "U-S Phonograph",
+      "country": "United States",
+      "city": "Cleveland, Ohio",
+      "founded_year": 1909,
+      "dissolved_year": 1913,
+      "summary": "The Cleveland firm behind U-S Everlasting cylinders — the last serious new entrant to the American cylinder trade, the best-sounding celluloid records anyone made, and the only company to beat Edison in court and still not survive.",
+      "history": "## Cleveland, 1908\n\nThe company began as the **Cleveland Phonograph Record Company**, organised in August 1908, and was reorganised on 14 July 1909 as the **U-S Phonograph Company**. Its first president, Beach, resigned early in 1910 and was replaced by **Kirk D. Bishop**, an established Ohio industrialist whose Bishop-Babcock Company made soda fountains and steam-heating plant — a manufacturer's manufacturer, brought in to put a proper factory behind a good idea. Everything the company sold was made in its own Cleveland works.\n\n## Varian Harris and the thin-celluloid record\n\nThe idea came from **Varian Harris**, a chemist who had been in at the founding of the Lambert company and who had thought harder than anyone else about why celluloid cylinders sounded the way they did. His conclusion was that thickness was the enemy: a thick celluloid wall damps and blurs the impression taken from the mould, and the thinner the recording layer, the more faithfully it reproduces the master. Harris took the thinnest celluloid sheet obtainable, wrapped it round a core, and welded the butted edges with solvent. The result is the reason U-S Everlasting cylinders have the reputation they do — they are generally reckoned the best-sounding celluloid cylinders made by anybody, Edison's Blue Amberols included, and they are noticeably quieter than Indestructibles.\n\n## Records, and records for other people\n\nThe first U-S Everlasting catalogue, undated but probably issued in the middle of 1910, offered both two- and four-minute cylinders, numbered from 150 and from 1001 respectively. Over roughly three years more than a thousand titles appeared, in popular, foreign-language and grand opera series. The company also worked hard at private-label and specialist business: **Lakeside** cylinders for Montgomery Ward's mail-order trade, a foreign-language language-course series for the R. D. Cortina Company (with a matching Cortinaphone machine), and a **Medicophone** series of twenty-five cylinders in which physicians talked other physicians through the diagnosis of particular diseases.\n\n## Four suits, four defeats, one casualty\n\nEdison sued U-S at least four times, over details of the moulding process, the design of the reproducer, and the feed screw. He did not win a single one of them; in the spring of 1914 he dropped the whole campaign and agreed to bear the costs. But the point of that kind of litigation is rarely the verdict. U-S was a young, thinly capitalised company selling into a market that was tipping towards the disc, and the years of legal expense and dealer uncertainty did the work that a judgment would have done. The last known U-S supplement appeared in October 1913, and the company is absent from the 1914 Cleveland city directory. Edison dropped his suits a few months after the defendant had ceased to exist.\n\n## What survives\n\nU-S Everlasting cylinders are decidedly scarcer than Indestructibles or Blue Amberols — the company had only three selling seasons — but the celluloid has survived well and copies that turn up usually play. They are prized on two counts: the sound, which is often startling to anyone whose ear is calibrated to Edison wax, and the repertoire, which includes artists and takes found nowhere else. A detailed history and cylinderography by the Mainspring Press project is available free from the Discography of American Historical Recordings.",
+      "notes": "The first president is named only as Beach in the available sources; his given name is not established here. dissolved_year 1913 reflects the last known record supplement (October 1913) and the company’s absence from the 1914 Cleveland directory rather than a documented date of dissolution.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "U.S. Everlasting Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/U.S._Everlasting_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "U.S. Everlasting Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-everlasting.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "U-S Everlasting Cylinders: A History and Cylinderography (PDF)",
+          "url": "https://adp.library.ucsb.edu/U-S-EVERLASTING_ed2-v1.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "article",
+          "label": "The U-S Everlasting Story",
+          "url": "https://intertique.com/U-S%20Everlasting%20story.htm",
+          "source_name": "Intertique"
+        }
+      ]
+    },
+    {
+      "slug": "columbia",
+      "name": "Columbia Phonograph Company",
+      "short_name": "Columbia",
+      "country": "United States",
+      "city": "Washington, D.C., later New York",
+      "founded_year": 1889,
+      "summary": "Edison’s oldest and most persistent rival in the record trade. Columbia made cylinders from 1889, abandoned wax for Indestructible-made celluloid in 1908, and quit the cylinder business entirely in July 1912 to concentrate on discs.",
+      "history": "## From a District franchise to a national company\n\nThe Columbia Phonograph Company was incorporated on 22 January 1889 in Washington, D.C., by **Edward D. Easton**, a court stenographer who had made money reporting the trial of President Garfield's assassin and put it into what was then a distinctly speculative business. Columbia began as one of the regional franchises of the North American Phonograph Company, holding the sales and service territory for the District of Columbia, Maryland and Delaware — hence the name. When North American collapsed, Columbia was the franchise that survived and grew, and under Easton it became one of the three companies, with Edison and Victor, that mattered in the American record trade.\n\n## Cylinders, and the retreat from wax\n\nColumbia recorded its own cylinders from the earliest days, and by 1891 was issuing a printed catalogue of musical records. It fought Edison on repertoire, on price, and on format, competing with brown wax, then with the harder moulded XP cylinders, then with the oversized six-inch **Twentieth Century Premier** cylinders of 1905. But Columbia had been in the disc business since 1901, and the cylinder side was increasingly a distraction from it. In the autumn of 1908 Columbia stopped recording and manufacturing wax cylinders altogether, and replaced the whole line with celluloid cylinders bought in from the Indestructible Phonographic Record Company of Albany and sold as **Columbia Indestructible Records**. Two-minute issues came first; four-minute Columbia Indestructibles followed in 1910, aimed squarely at customers unhappy with Edison's fragile wax Amberols.\n\n## Out of cylinders\n\nIn July 1912 Columbia decided to concentrate exclusively on disc records, stopped making cylinder phonographs, and wound the cylinder business down, though Indestructible-supplied cylinders continued to be sold under the Columbia name for a year or two afterwards. Columbia had been in cylinders longer than anyone but Edison, and it left them a full seventeen years earlier.\n\n## Afterwards\n\nThe company was reorganised more than once — the Columbia Graphophone Manufacturing Company and later the Columbia Graphophone Company were successors in the same line of business — and the British branch eventually went its own way, merging into EMI in 1931. The American Columbia label survives to this day, which makes it the only maker on this list still trading under its founding name.",
+      "notes": "No dissolved_year is given: Columbia has had a continuous corporate and brand existence since 1889 through several reorganisations, and the cylinder business it is listed here for ended in 1912. The company’s legal name changed several times; \"Columbia Graphophone Company\" refers to distinct American and British entities and should not be treated as a single continuous firm.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Columbia_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Columbia Graphophone Company on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Columbia_Graphophone_Company",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Edward D. Easton on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edward_D._Easton",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Columbia Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-columbia.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Columbia History: Columbia Executives",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/130",
+          "source_name": "Discography of American Historical Recordings"
+        }
+      ]
+    },
+    {
+      "slug": "lambert",
+      "name": "Lambert Company",
+      "short_name": "Lambert",
+      "country": "United States",
+      "city": "Chicago, Illinois",
+      "founded_year": 1900,
+      "dissolved_year": 1906,
+      "summary": "The Chicago firm that made the first celluloid cylinders sold in America. Its 1900 moulding patent, bought out of the bankruptcy, became the legal foundation of every unbreakable cylinder that followed — Indestructible, U-S Everlasting and Edison’s own Blue Amberol.",
+      "history": "## A patent, and a company built on it\n\n**Thomas B. Lambert** of Chicago patented a process for moulding sound records in celluloid, U.S. patent 645,920, granted on 20 March 1900. A company was organised in his name that same year, and the Lambert Company became the first concern anywhere in the United States to put an unbreakable cylinder record on the market. The claim in the advertising was blunt and, for once, accurate: these records would not break, would not shave down, and would not soften in a hot room.\n\n## Colours\n\nLambert used colour deliberately, at a time when a coloured record was still a novelty. The earliest cylinders are white or off-white celluloid; the company then moved through pink — the famous \"pink Lamberts\", the ones most sought after now — and shades of orange and brown, and finally to black, as the search for a quieter surface pushed the pigment darker. The cylinder itself is a solid tube of celluloid with no separate core and no metal rings, which is the quickest way to tell a Lambert from the cored Indestructible and U-S Everlasting cylinders that came later. A London office was opened and some manufacture was carried on in Britain.\n\n## Why it failed\n\nTwo things killed the company. The first was technical: celluloid of that period warped and shrank, and a cylinder that no longer fitted a mandrel is no more use than one that has broken. The second was Edison, who sued for patent infringement and pursued the case relentlessly. The Lambert Company went bankrupt early in 1906.\n\n## The afterlife of the patent\n\nIn 1906 **George J. Snowden** bought Lambert's patents on behalf of the newly organised Indestructible Phonographic Record Company of Albany, and from that point the Lambert patent underwrites the whole celluloid cylinder trade. It is why Columbia could re-enter the cylinder business in 1908 without a factory of its own; it is what U-S Phonograph had to work around in Cleveland; and it is what Edison finally bought outright, rather than pay a royalty on, before issuing the Blue Amberol in 1912. Lambert cylinders themselves are genuinely rare today, and a clean pink one is among the more desirable objects in cylinder collecting.",
+      "notes": "Thomas B. Lambert (the Chicago patentee behind this company) should not be confused with Frank Lambert, an unrelated inventor associated with an early lead cylinder.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Lambert Cylinders: Indestructible and Intriguing",
+          "url": "https://syncopatedtimes.com/lambert-cylinders-indestructible-and-intriguing/",
+          "source_name": "The Syncopated Times"
+        },
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Lambert Cylinders",
+          "url": "https://www.cylinder.de/guide_lambert-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Record Company (successor to the Lambert patents)",
+          "url": "https://en.wikipedia.org/wiki/Indestructible_Record_Company",
+          "source_name": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "slug": "pathe",
+      "name": "Pathé Frères",
+      "short_name": "Pathé",
+      "country": "France",
+      "city": "Paris",
+      "founded_year": 1894,
+      "summary": "The great European cylinder maker. Charles and Émile Pathé built an enormous continental catalogue from 1894, invented the pantographic duplication that let them sell one performance in five sizes, and left cylinders for vertical-cut discs after 1905.",
+      "history": "## The brothers Pathé\n\n**Charles** and **Émile Pathé** began selling phonographs in 1894, and at the end of that year built a small factory at Chatou, in the western suburbs of Paris, to make cylinder blanks. Within five years the catalogue ran to some 1,500 titles, and Pathé was to continental Europe roughly what Edison and Columbia together were to the United States: the firm whose records were in the shops, in the coin-operated machines and in the salons, from Paris to Moscow. Their repertoire — French chanson and café-concert, opera and opéra-comique, band music, and a great deal of recorded comedy — is the single largest surviving body of continental European sound from the period.\n\n## The pantograph, and records in five sizes\n\nPathé's most consequential technical decision was to separate the recording medium from the selling medium. Where Edison recorded onto the same size of cylinder he sold, Pathé cut its masters on oversized wax cylinders — something on the order of thirteen inches long and four and a half inches in diameter, turning fast — and then copied them mechanically with a pantograph onto whatever size of cylinder the customer wanted. That is why the same performance turns up as a standard cylinder, as the larger-diameter **Inter**, as the three-and-a-half-inch **Salon**, as the five-inch **Stentor**, and, between about 1903 and 1905, as **Le Céleste**, five inches in diameter by nine inches long — the largest commercial cylinder record any company ever sold. It is also why Pathé cylinders can sound distinctly second-generation: every one is a copy of a copy.\n\n## To the disc\n\nIn 1905 the brothers moved into disc records, and from October 1906 were pressing them in shellac in the ordinary way, though cut vertically — hill-and-dale, like a cylinder — rather than laterally, so that Pathé discs need a special reproducer. Cylinder production was wound down over the following years as the disc business grew; Pathé went on to become one of the great European record and film companies. It never made a four-minute cylinder: the effort that Edison put into halving the groove pitch, Pathé put into the disc.\n\n## Collecting\n\nPathé cylinders in the United States are less common than Edison or Columbia and turn up mostly in mixed European lots. They are wax throughout — brown wax at first, a harder black wax from about 1903 — and share all of wax's problems, with the added difficulty that the larger sizes need mandrels and machines most collectors do not have. The oversize Stentor and Céleste cylinders are display pieces as much as records.",
+      "notes": "No dissolved_year: Pathé continued as a disc and film company long after leaving cylinders, and its record business passed through Pathé-Marconi and later Columbia/EMI ownership. Sources disagree on when cylinder production actually ceased — some say it had effectively stopped by around 1908, others that blanks and records continued to be made into the 1910s.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Pathé Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Path%C3%A9_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Pathé Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-pathe.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive for Pathé cylinders",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-bell",
+      "name": "Edison Bell Consolidated Phonograph Company, Ltd.",
+      "short_name": "Edison Bell",
+      "country": "United Kingdom",
+      "city": "London",
+      "founded_year": 1892,
+      "dissolved_year": 1909,
+      "summary": "Britain’s dominant cylinder maker. Edison Bell bought Edison’s British patents in 1893 and used them to control the trade until they expired in 1903, then made several thousand cylinder titles of its own before going into receivership in 1909.",
+      "history": "## A monopoly bought for £40,000\n\nThe Edison Bell Phonograph Corporation was formed in November 1892, and in January 1893 bought twenty key phonograph patents from Edison for £40,000. From premises styled \"Edison House\" in Northumberland Avenue, London, it settled down to enjoy what amounted to a ten-year monopoly of the British talking-machine trade. It did not use it well. The company's trading was lethargic, its prices high, and its catalogue thin, and a brisk unofficial trade grew up around it — most conspicuously that of **James E. Hough**, who had been importing Edison and Columbia cylinders since the early 1890s.\n\n## Hough, Edisonia, and consolidation\n\nEnjoined to stop trading in 1896, Hough instead negotiated terms, and the result was **Edisonia**, set up in June 1897 to make cylinder records. Edisonia and Edison Bell were brought together in 1898 as the **Edison Bell Consolidated Phonograph Company Ltd**. When the Edison patents expired in 1903 the monopoly went with them, and Edison Bell found itself competing in an open market — but by then it had a recording operation and a catalogue, and it became by a wide margin the largest cylinder manufacturer in England, issuing several thousand titles in the first two decades of the twentieth century.\n\n## Receivership, and the name that outlived the company\n\nEdison Bell went into receivership in 1909. Its assets were bought by Hough, who reorganised the business as **J. E. Hough Ltd** and went on trading under the Edison Bell name — which is why \"Edison Bell\" appears on British records made long after the Consolidated company had ceased to exist. Hough took the business into discs, launching the successful **Winner** label in 1912, and Edison Bell soldiered on in one form or another until the early 1930s. Its cylinders, however, belong almost entirely to the period before the receivership.\n\n## Collecting\n\nEdison Bell cylinders are common in Britain and uncommon elsewhere. They are wax — brown wax early, moulded black wax later — in the standard two-and-an-eighth-inch size, and they carry British repertoire that was never recorded on the other side of the Atlantic: music-hall singers, brass and military bands, sacred quartets and monologues. Anyone building a picture of British popular performance before the First World War has to go through them.",
+      "notes": "founded_year 1892 is the formation of the Edison Bell Phonograph Corporation; the Consolidated company named here was formed in 1898 by the merger with Edisonia. dissolved_year 1909 is the receivership; the Edison Bell trading name continued under J. E. Hough Ltd into the 1930s. Whether Edison Bell ever issued a four-minute cylinder line is not established here; its cylinders documented in this register are two-minute.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Edison Bell on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edison_Bell",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Bell Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-edisonbell.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Bell — City of London Phonograph and Gramophone Society",
+          "url": "https://www.clpgs.org.uk/edison-bell.html",
+          "source_name": "CLPGS"
+        },
+        {
+          "kind": "article",
+          "label": "Edison-Bell Consolidated Phonograph Company, Ltd — Thomas A. Edison Papers, Rutgers",
+          "url": "https://edison.rutgers.edu/life-of-edison/companies/company-details/phonograph,-foreign/edison-bell-consolidated-phonograph-company-ltd",
+          "source_name": "Thomas A. Edison Papers"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "The Winner Records (Hough’s Edison Bell disc label) on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Winner_Records",
+          "source_name": "Wikipedia"
+        }
+      ]
+    }
+  ],
+  "series": [
+    {
+      "slug": "edison-gold-moulded",
+      "maker_slug": "edison",
+      "name": "Edison Gold Moulded Record",
+      "play_minutes": 2,
+      "material": "black_wax",
+      "threads_per_inch": 100,
+      "colour": "Black",
+      "introduced_year": 1902,
+      "discontinued_year": 1912,
+      "summary": "Edison’s hard black wax two-minute cylinder, moulded rather than individually recorded, made from 1902 and renamed Edison Standard Record late in 1908. The commonest surviving American cylinder after the Blue Amberol.",
+      "description": "## What it is\n\nA moulded two-minute cylinder in hard black wax — chemically not beeswax at all but a metallic soap, a blend of stearates that could be melted, pressed and would hold a groove far better than the brown wax it replaced. The name comes from the manufacturing process rather than the record: a wax master was given a conductive skin of gold, sputtered on in a vacuum, and a metal mould was then grown from it electrolytically. From one mould came hundreds of identical copies. Before 1902, every cylinder sold had been either an original performance or a mechanical copy of one, and studios recorded a dozen horns at once to get a dozen records; Gold Moulding ended that overnight, standardised the sound of every copy, and pushed the price of a record down to 35 cents.\n\n## How to identify one\n\nStandard cylinder size: about 2⅛ inches in diameter and 4¼ inches long, black, matte, opaque, and heavy for its size. The groove pitch is **100 threads per inch** and the record plays at **160 rpm** for a fraction over two minutes. Look at the rim at one end: Edison moulded raised lettering there, reading *Edison Record* with the catalogue number, and on the appropriate issues *Edison Gold Moulded Record*. What you will **not** find is the title — Edison did not mould titles into two-minute cylinders, so a cylinder out of its box has to be identified by number, or by the spoken announcement at the head of the record (\"Edison Record, [title], by [artist], Edison Record\"), which the company used until announcements were dropped around 1908–09.\n\n## Numbering, and the name change\n\nThe Gold Moulded series simply continued the numbering of the brown wax Standard records that preceded it, running up through the 7000s, 8000s and 9000s over the decade. The *Gold Moulded* wording came off the boxes in June 1908, at around catalogue number 9842, when a revised production method made the phrase inaccurate; from December 1908 — once the four-minute Amberol had arrived and a distinguishing name was needed — the two-minute line was called the **Edison Standard Record**, and later two-minute issues run in a separate higher block. Two-minute production ended in 1912 along with the wax Amberol. Special series exist alongside the main run, including the Grand Opera \"B\" series begun in February 1906.\n\nCollectors treat Gold Moulded and Standard as one continuous line, and this register follows that practice; if the rim says *Gold Moulded* you have an issue from roughly 1902 to mid-1908, and if the box says *Edison Standard Record* you have one from late 1908 onwards.\n\n## Condition, and how not to ruin one\n\nBlack wax is durable in the hand but vulnerable in storage. The classic problems are mould — a white or grey furry bloom that eats into the surface and is not merely dust — hairline cracks, chipped rims from careless mandrel handling, and grey worn grooves from years of play with a bad stylus. **Wax cylinders must not be washed.** Water, alcohol and commercial record cleaners all attack the metallic-soap body, and a wet wax cylinder can be ruined permanently in seconds. Dry brushing with a very soft brush is the limit of safe amateur cleaning. This is the single sharpest practical difference between the wax series and the celluloid ones.\n\n## What is worth having\n\nThe line is common, and ordinary band and sentimental-ballad titles in worn condition have little value. Worth looking twice at: anything with an intact spoken announcement and a clean surface; early issues from 1902–03; the Grand Opera series; ethnic and foreign-language issues; minstrel and comic material of documentary interest; and any cylinder still in its correct dated box with the printed lid slip.",
+      "notes": "The catalogue number given for the June 1908 change of wording (9842) and the exact boundaries of the later two-minute number blocks should be checked against a numerical catalogue before being relied on for a specific record.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Edison Gold-Moulded Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-goldmoulded.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Edison Two-Minute and Concert Cylinders (PDF listing)",
+          "url": "https://adp-assets.library.ucsb.edu/edison_2m-cyls.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Black Wax Cylinders",
+          "url": "https://www.cylinder.de/guide_black-wax-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Listen to Edison two-minute cylinders at UCSB",
+          "url": "https://cylinders.library.ucsb.edu/browse.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-concert",
+      "maker_slug": "edison",
+      "name": "Edison Concert Record",
+      "play_minutes": 2,
+      "material": "brown_wax",
+      "threads_per_inch": 100,
+      "colour": "Brown, later black",
+      "introduced_year": 1899,
+      "discontinued_year": 1912,
+      "summary": "The five-inch Edison Concert cylinder of 1899, made large so it could be played loud. Expensive, fragile, bulky, and obsolete within three years of Gold Moulding — and consequently one of the scarcest things in cylinder collecting.",
+      "description": "## What it is\n\nA cylinder record five inches in diameter — more than twice the standard 2⅛ inches — and the usual 4¼ inches long, with the same 100 threads per inch as an ordinary two-minute record and the same playing time. The point of it was volume. With no amplification available, loudness came from the amplitude the stylus could trace and the surface speed under it, and a five-inch cylinder gives well over twice the linear groove speed of a standard one at the same rpm. Edison launched the **Edison Concert Phonograph** in February 1899 at $125 to play them, aimed at halls, exhibitors and anyone who needed a record to fill a room.\n\n## How to identify one\n\nThere is no mistaking it: a Concert cylinder is a massive object, five inches across, that will not go on an ordinary mandrel and needs a Concert machine or an adapted one. Early examples are brown wax, individually recorded or pantographically copied, with a spoken announcement and no moulded markings; later ones, after the Gold Moulded process arrived in 1902, are moulded hard black wax with a raised catalogue number on the rim. Recording speeds moved over the life of the series — 120 rpm at first, 144 rpm from late 1899, and 160 rpm from early 1902 — so a Concert cylinder that sounds wrong at 160 may simply be an early one.\n\n## Why it failed\n\nThe economics were hopeless. The records were priced at several dollars each against 35 to 50 cents for a standard cylinder, they broke if looked at unkindly, and they took up enormous shelf space. Prices for both machine and records were cut sharply within the first year. Then in 1902 Gold Moulding gave standard-size cylinders a louder, cleaner surface, and the entire reason for the Concert record evaporated. Edison kept a small Concert list in the catalogue with declining conviction and produced them until late 1911, dropping them for good in 1912 along with the rest of the two-minute line.\n\n## A point of terminology\n\n\"Concert\" and \"Grand\" are not interchangeable, and the confusion costs people money. **Concert** is Edison's name for the five-inch cylinder. **Grand** — as in Graphophone Grand — was Columbia's name for its rival five-inch record and machine. Edison's later **Grand Opera** series, begun with B1 in February 1906, is something else again: it is standard-size, not large-diameter, and consists of two-minute Gold Moulded records that later continued as four-minute Amberols. A cylinder described as \"Edison Grand Opera\" is almost certainly a normal-sized record.\n\n## Condition and collecting\n\nConcert cylinders survive in small numbers and often in poor state; the mass of wax makes them prone to cracking clean through, and brown wax examples are frequently mould-damaged. As wax, they must never be washed. A playable brown wax Concert with a legible announcement is a genuinely rare thing, and prices reflect it. They are also among the few cylinders where the object alone, unplayed, is a collectable — a five-inch cylinder in its original oversized carton is a striking survival from the very beginning of the record business.",
+      "notes": "The material is given as brown_wax because that is what the series was launched with and what most surviving Concert cylinders are; Concert cylinders produced after the 1902 Gold Moulded process are moulded hard black wax. Sources give the original Concert record price as both $4 and $5; the price was reduced during 1899. The end date is given as 1912 (catalogue withdrawal), with production reported as ceasing in late 1911.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Brown Wax Concert Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-concerts.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Grand Opera Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-grandopera.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Edison Two-Minute and Concert Cylinders (PDF listing)",
+          "url": "https://adp-assets.library.ucsb.edu/edison_2m-cyls.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol",
+      "maker_slug": "edison",
+      "name": "Edison Amberol Record",
+      "play_minutes": 4,
+      "material": "black_wax",
+      "threads_per_inch": 200,
+      "colour": "Black",
+      "introduced_year": 1908,
+      "discontinued_year": 1912,
+      "summary": "The original four-minute cylinder: hard black wax with the groove pitch doubled to 200 threads per inch, introduced in October 1908. It gave the Amberola its name and was withdrawn after four years because the wax could not stand up to the finer groove.",
+      "description": "## What it is\n\nAn Amberol is a **wax** cylinder, and everything that matters about it follows from that. Physically it is the same 2⅛ by 4¼ inch black cylinder as a Gold Moulded record, made of a still harder wax compound developed by Edison's chief chemist Jonas W. Aylsworth, and moulded the same way. The difference is entirely in the cutting: the feed screw was changed to give **200 threads per inch** instead of 100, so the groove spirals round twice as many times in the same distance and the record plays about four minutes instead of two, at the same **160 rpm**. Announced and introduced in October–November 1908, it was Edison's answer to the disc's longer playing time, and it is the record the **Amberola** of 1909 was named for.\n\n## How to identify one in hand\n\nLook at the rim end. Edison moulded **4M** into the rim of the four-minute cylinders, followed by the catalogue number — that mark is the fastest and most reliable identification there is, and it is what distinguishes an Amberol from a two-minute Gold Moulded or Standard record at a glance. The title is moulded on the rim of many issues as well. Failing that, hold it to the light and look at the groove: at 200 tpi the grooves are visibly finer and closer, and the surface has a different sheen than a two-minute cylinder. Amberol boxes are the standard Edison carton with the Amberol wording on the lid label. **Do not attempt to play a four-minute cylinder on a two-minute machine** — a 100 tpi feed and a two-minute sapphire will destroy the record in one pass. Machines of the period were converted with Model K or similar attachments, and the Amberola could switch between pitches.\n\n## Numbering\n\nThe United States domestic Amberol series began at 1 in November 1908 and ran up towards 1500 by the time the line was withdrawn in 1912 — which is why the Blue Amberol picked the numbering up at **1501** rather than starting again. British issues ran from April 1909 to October 1912 in their own series, and there were foreign-language and ethnic blocks, Amberol Concert issues, and Grand Opera issues: the \"B\" series that had begun as two-minute records in 1906 continued as four-minute Amberols, and later four-minute grand opera appears in the 28000, 30000, 35000 and 40000 blocks.\n\n## Why it lasted only four years\n\nBecause it broke. The Amberol compound had to be hard enough to hold a 200 tpi groove, which made it brittle, and collectors' experience matches the contemporary complaints exactly: Amberols crack easily, sometimes shatter outright rather than cracking into a few pieces the way a two-minute cylinder does, and the thin walls between the fine grooves break down under play so that the record degrades audibly with each use. Against a celluloid Indestructible or U-S Everlasting selling at a comparable price and advertised as unbreakable, the position was untenable. When the celluloid Blue Amberol appeared in November 1912 the wax Amberols were cancelled immediately.\n\n## Care\n\nThis is wax, not celluloid, and the distinction is not academic. **Never wash an Amberol.** Water, alcohol, detergents and proprietary record cleaners attack the metallic-soap body and can destroy the surface. Dry, gentle brushing is as far as amateur cleaning should go. Store them in their boxes, upright, away from heat and damp; mould on wax is an active problem, not a cosmetic one.\n\n## About \"Gold Amberol\"\n\nYou will see this phrase in auction listings and dealer descriptions. **No product called a \"Gold Amberol\" was ever issued.** It is a conflation of two separate Edison lines — the *Edison Gold Moulded Record*, a two-minute black wax cylinder made from 1902, and the *Edison Amberol*, a four-minute black wax cylinder made from 1908 — and it usually arises from a mismatched cylinder and box, or from a seller reading two different phrases off the same shelf. The remedy is the rim: a four-minute record is marked **4M**; a two-minute record is not. If the rim says 4M, it is an Amberol whatever the box says, and if it does not, it is a two-minute record whatever the listing says.\n\n## What is worth having\n\nWax Amberols are much scarcer in playable condition than Blue Amberols, simply because so many of them broke or wore out; a clean, uncracked Amberol that plays through is a better find than its price usually suggests. Particularly wanted: early low numbers from the first months of 1908–09; the Grand Opera and Amberol Concert issues; ethnic and foreign-language series; and any title that was never remade for Blue Amberol, since for those the wax Amberol is the only cylinder source for the performance.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Edison Amberol Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-amberol.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Edison Four-Minute Cylinders (PDF listing)",
+          "url": "https://adp-assets.library.ucsb.edu/edison_4m-cyls.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "discography",
+          "label": "Bryan, Edison Wax Amberol Numerical Catalogue",
+          "url": "https://archive.org/details/EdisonWaxAmberol",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Listen to Edison Amberol cylinders at UCSB",
+          "url": "https://cylinders.library.ucsb.edu/",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol",
+      "maker_slug": "edison",
+      "name": "Edison Blue Amberol Record",
+      "play_minutes": 4,
+      "material": "celluloid",
+      "threads_per_inch": 200,
+      "colour": "Blue",
+      "introduced_year": 1912,
+      "discontinued_year": 1929,
+      "summary": "Edison’s four-minute celluloid cylinder, a blue plastic tube over a plaster core, made from November 1912 to 1929. The best-sounding and by far the most durable cylinder record ever sold, and the one most collectors meet first.",
+      "description": "## What it is\n\nA thin tube of blue-dyed celluloid moulded over a core of plaster of Paris. The celluloid takes and holds the groove; the plaster gives the wall rigidity and keeps the cylinder round and true on the mandrel. Groove pitch is **200 threads per inch**, speed **160 rpm**, and the playing time runs to about four minutes forty-five seconds on the longest issues — appreciably more than the wax Amberol it replaced. Edison had spent a decade calling celluloid too noisy to record on; when the unbreakable cylinders of Indestructible and U-S Phonograph began taking his market he changed his mind, bought Thomas B. Lambert's celluloid moulding patent outright rather than pay a royalty, and had the new record in the shops by November 1912. The first list carried fifty titles, with fifty more in December.\n\n## How to identify one in hand\n\nNothing else looks like it: bright, deep blue, glossy, translucent at the edges when held to a lamp, and unmistakably plastic to the touch and to the fingernail. Standard 2⅛ inch bore, about 4¼ inches long. The rim at one end carries the title and the catalogue number moulded into the celluloid in raised letters along with the Edison wording and patent dates, so a loose Blue Amberol identifies itself — one of the few cylinders of which that is true. There is no spoken announcement. The boxes are printed cartons with a lid label giving title, artist and number, and the earlier ones contain a printed record slip. A cylinder and box that disagree prove nothing about the cylinder: rely on the moulded rim.\n\n## The numbering blocks\n\n- **1501–5719** — the main United States domestic series, November 1912 to June 1929, over four thousand titles. It begins at 1501 because the wax Amberol series it replaced had reached roughly 1500. The first issues were released out of numerical order.\n- **22000** — Mexican and Spanish-language issues.\n- **23000** — the British series.\n- **28000** (roughly 28101–28290) — the Concert series, grand opera and classical, around 190 titles.\n- **29000** (roughly 29007–29080) — the **Royal Purple** celebrity series, pressed in purple rather than blue; see its own entry.\n\nFurther foreign-language and ethnic blocks exist alongside these.\n\n## Direct recordings and dubbings — the thing that matters most\n\nBlue Amberols were at first recorded directly, with the performance cut to a wax master and moulds grown from it in the ordinary way. From about mid-1914, and decisively after the fire that destroyed Edison's recording studios late that year, the company increasingly stopped making separate cylinder masters and instead **dubbed** the cylinders from its own Diamond Disc masters — playing the disc and re-recording it onto a cylinder master. Most issues above about catalogue number 2500 are dubs, and something like three quarters of the whole domestic series, more than 3,100 titles, are dubbed rather than directly recorded.\n\nThe audible difference is real: dubs are duller at both ends of the range, with an added layer of surface and a slightly hollow quality, while the early direct recordings can be startlingly present. For collectors this is the main axis of desirability within the series. Low numbers from 1912–14 are wanted for their sound as much as their content, and the fact that a Blue Amberol has a Diamond Disc equivalent is a good clue that it is a dub.\n\n## Condition problems, and they are specific\n\nCelluloid does not break the way wax does, but Blue Amberols have two characteristic ailments, both caused by the composite construction:\n\n1. **A swollen core.** The plaster absorbs atmospheric moisture over decades and expands. The cylinder then will not slide onto the mandrel, or goes on tight and binds. **Never force one on** — that is how the celluloid gets split. The accepted remedy is to ream the inside of the plaster core very slightly with a wooden or hard rubber tool faced with sandpaper, trying the fit on the mandrel repeatedly until it seats freely. It takes a few minutes and is entirely reversible in the sense that no groove is touched.\n2. **Shrinking celluloid.** Camphor was used as the plasticiser and slowly evaporates; the celluloid wants to shrink but the rigid plaster core will not let it, so tension builds until small cracks open, usually at one or both ends. Left alone in bad conditions the cracks can travel into the recorded surface and destroy the record, so cylinders are worth checking periodically. Cold makes celluloid markedly more brittle: never play or handle a cold cylinder before letting it come up to room temperature.\n\nCleaning is where the wax-versus-celluloid distinction pays off. Unlike a wax Amberol, the celluloid *surface* of a Blue Amberol tolerates careful cleaning with water and a trace of mild detergent on a soft brush — but the plaster core must be kept dry, so the cylinder must never be soaked or immersed, and it must be dried thoroughly and promptly.\n\n## What is worth having\n\nBlue Amberols are the commonest cylinders in existence and most ordinary titles are inexpensive. Worth pursuing: the 1912–14 direct recordings; jazz and dance-band titles from the 1920s, which are scarce because Edison's cylinder customers were not the people buying jazz; the Concert and foreign-language blocks; the last issues of 1928–29, made in small quantities as the line wound down; and the Royal Purples. Complete boxes with intact lid labels and record slips add materially to a cylinder's interest.",
+      "notes": "Number-block boundaries are as commonly cited in the collecting literature and should be verified against Dethlefson or Sutton for a specific issue. The proportion of dubbed titles (about three quarters of the domestic series) and the approximate 2500 threshold are widely repeated figures, not exact cut-offs — direct recordings and dubs overlap around the transition.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Blue Amberol Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Amberol_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Blue Amberol Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-blueamberol.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "List of Edison Blue Amberol Records: Popular Series",
+          "url": "https://en.wikipedia.org/wiki/List_of_Edison_Blue_Amberol_Records:_Popular_Series",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Amberol and 4-minute Indestructible Cylinders",
+          "url": "https://www.cylinder.de/guide_blue-amberol-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Klinger, Cylinder Records: Significance, Production, and Survival (PDF)",
+          "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/klinger.pdf",
+          "source_name": "National Recording Preservation Board"
+        },
+        {
+          "kind": "audio",
+          "label": "Listen to Blue Amberols at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol-royal-purple",
+      "maker_slug": "edison",
+      "name": "Edison Blue Amberol Royal Purple Series",
+      "play_minutes": 4,
+      "material": "celluloid",
+      "threads_per_inch": 200,
+      "colour": "Purple",
+      "introduced_year": 1918,
+      "discontinued_year": 1921,
+      "summary": "Edison’s celebrity classical cylinders, identical in construction to the Blue Amberol but pressed in purple celluloid and sold at a premium. Around seventy-four titles in a 29000 block, issued about 1918–1921, and scarce today.",
+      "description": "## What it is\n\nMechanically a Blue Amberol in every respect — a celluloid tube over a plaster core, **200 threads per inch**, **160 rpm**, four minutes — but dyed **purple** instead of blue and sold as a prestige line. Every other maker had a red or purple \"celebrity\" label by the middle 1910s: Victor had the Red Seal, Columbia its own, and the colour of the record was the signal to the customer that the artist on it was expensive. Edison, who cared a great deal about serious music and rather less about the star system, issued the Royal Purple Amberols on the same principle: grand opera, art song, and concert instrumental repertoire, at a higher price than an ordinary cylinder.\n\n## How to identify one\n\nBy colour, and only by colour — construction, dimensions, rim moulding and box format follow ordinary Blue Amberol practice. The cylinder is a genuine purple, obviously different from Edison blue when the two are set side by side in daylight. Be careful judging a single cylinder under artificial light or through a box window: a deep blue can read as purplish, and a faded purple as bluish. Set it next to a known Blue Amberol before deciding. The catalogue number is the confirming evidence: Royal Purple issues fall in the **29000** block, roughly **29007 to 29080**, and around seventy-four titles were issued.\n\n## Dates, and the reissue trap\n\nThe series belongs to the years around **1918 to 1921**. Almost all of it was dubbed from Edison Diamond Disc masters rather than recorded directly to cylinder — 29058 is cited as the one number drawn from material otherwise unissued. When the line was dropped, a number of the same performances remained available as ordinary blue cylinders, which means a title listed as a Royal Purple may perfectly well turn up as a blue cylinder: the purple pressing and the blue reissue are different objects and are valued differently. Alongside it Edison ran a **28000** Concert block of grand opera and classical Blue Amberols in ordinary blue, and the two blocks are easy to confuse in listings.\n\n## Condition and collecting\n\nThe same two ailments as any Blue Amberol: a plaster core that swells with absorbed moisture until the cylinder binds on the mandrel, and celluloid that shrinks as its camphor plasticiser evaporates until it cracks at the ends. Ream a tight core rather than forcing it; never play a cold cylinder; clean the celluloid surface only, and keep water away from the plaster.\n\nRoyal Purples are among the harder Edison cylinders to find. They were expensive when new and sold in small numbers, the repertoire had a limited audience among Amberola owners, and the line lasted only about three years. A clean purple cylinder with its correct box is a genuinely good find, and the operatic titles carry performances by singers whose cylinder discography is otherwise thin.",
+      "notes": "The date range and the exact extent of the 29000 block are reported slightly differently across sources (29007–29077 and 29007–29080 both appear, with issue dates given variously as 1918–1921 and 1919–1921); treat the boundaries as approximate. The relationship between the purple 29000 issues and the blue 28000 Concert block should be checked per title.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Blue Amberol Records on Wikipedia (covers the Royal Purple series)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Amberol_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Blue Amberol Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-blueamberol.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Search the Discography of American Historical Recordings",
+          "url": "https://adp.library.ucsb.edu/",
+          "source_name": "Discography of American Historical Recordings"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-2-minute",
+      "maker_slug": "indestructible",
+      "name": "Indestructible Record (two-minute)",
+      "play_minutes": 2,
+      "material": "celluloid",
+      "threads_per_inch": 100,
+      "colour": "Black",
+      "introduced_year": 1907,
+      "summary": "The first successful unbreakable cylinder in America: celluloid over a pasteboard core with metal rings at each end, sold from 1907 at 35 cents and made in Albany until the 1922 factory fire.",
+      "description": "## What it is\n\nA thin sleeve of celluloid moulded over a thick pasteboard core, with a **metal ring set into each end** to hold the tube round and rigid. Standard cylinder dimensions, **100 threads per inch**, **160 rpm**, two minutes. It was the first celluloid cylinder to be made in America in real quantity and sold with real success, using the moulding patents Thomas B. Lambert had taken out in 1900 and the Albany company had bought out of Lambert's bankruptcy. It went on sale in 1907 at **35 cents**, undercutting Edison, and the advertising made one claim above all others: it would not break.\n\n## How to identify one in hand\n\nPick it up and look at the ends. The metal rings are decisive — no Edison cylinder of any period has them, and neither does a Lambert, which is solid celluloid throughout. The body is celluloid, light for its size and plainly plastic to the fingernail, over a card core you can see and feel in the bore. **The title and catalogue number are moulded into the celluloid around one rim in raised letters**, because celluloid holds moulded lettering permanently where wax does not, which is why Indestructible cylinders carry no spoken announcement: the record simply begins.\n\nThen read the wording on that rim, because it tells you who sold it rather than who made it. The same Albany masters were issued as **Indestructible Record**, as **Columbia Indestructible Record** under Columbia's 1908–1912 distribution agreement, and as **Oxford Indestructible** for Sears, Roebuck. The catalogue numbers are shared between the brandings, so a number alone will not tell you which you have; the rim lettering and the box will.\n\n## Numbering\n\nThe American two-minute series is numbered from 1 upward and ran on across the life of the company; issues in the 700s and 800s date from 1908, and the series ultimately reaches into the 1500s. Something like 1,600 titles in total were issued by the Albany company across all its series between 1907 and 1922. A separate **British two-minute series** runs in a 6000 block, roughly 6000–6040.\n\n## Condition — different problems from wax\n\nCelluloid does not shatter, does not mould, and takes play extremely well, which is why so many Indestructibles survive; the failures are in the parts that are not celluloid. Look for a **swollen or delaminating pasteboard core**, which makes the cylinder bind on the mandrel or go oval; **loose or rusted end rings**, sometimes rattling audibly in play; and **splits along the butted seam** of the celluloid sleeve or radiating from the rims as the material shrinks with age. A cylinder that will not seat should never be forced. The celluloid surface itself can be cleaned gently with water and a little mild detergent on a soft brush — the one thing a wax cylinder must never be given — but the card core must be kept dry, so never immerse one.\n\n## What is worth having\n\nTwo-minute Indestructibles are among the more common early cylinders and generally inexpensive, which makes them the best starting point for anyone who wants to hear 1907–10 popular repertoire without risking scarce wax. Worth seeking out: early low numbers from 1907; Columbia-branded and Oxford-branded copies, which are collected as variants in their own right; the British 6000 series; and anything with the original lid-labelled box. Because the survival rate is high, condition matters more to value here than rarity does.",
+      "notes": "No discontinued_year is given for the two-minute line specifically: the Albany company’s production as a whole ended with the 1922 factory fire, but the date at which new two-minute issues stopped appearing is not established here. The number-block figures should be checked against the Annand or Deakins listings for a specific record.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Indestructible Records — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "Indestructible Record Company on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indestructible_Record_Company",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "discography",
+          "label": "Annand, A Listing of American & British Two and Four-Minute Cylinders, 1907–1922",
+          "url": "https://archive.org/details/Annand",
+          "source_name": "Internet Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Deakins, Indestructible Cylinder Record Index",
+          "url": "https://archive.org/details/DeakinsIndestructible",
+          "source_name": "Internet Archive"
+        }
+      ]
+    },
+    {
+      "slug": "indestructible-4-minute",
+      "maker_slug": "indestructible",
+      "name": "Indestructible Record (four-minute)",
+      "play_minutes": 4,
+      "material": "celluloid",
+      "threads_per_inch": 200,
+      "colour": "Black",
+      "introduced_year": 1909,
+      "summary": "The Albany company’s four-minute celluloid cylinder, introduced in 1909–10 as the direct answer to Edison’s fragile wax Amberol: the same playing time, on a record that could be dropped.",
+      "description": "## What it is\n\nThe same construction as the two-minute Indestructible — a celluloid sleeve over a pasteboard core, with metal rings set into both ends — cut at **200 threads per inch** instead of 100, playing four minutes at **160 rpm**. It arrived in 1909–10, and the timing was not accidental. Edison had put the four-minute wax Amberol on the market in October 1908 and it was breaking and wearing out in customers' hands; Albany's proposition was that you could have the four minutes without the fragility. For a couple of years that was the strongest commercial argument in the American cylinder trade, and it is a large part of why Edison eventually abandoned wax for celluloid himself.\n\n## How to identify one in hand\n\nEverything said about the two-minute records applies — metal end rings, card core, moulded rim lettering, no spoken announcement — with one addition: the groove. At 200 tpi the spiral is visibly finer and more closely spaced than a two-minute cylinder, and the difference is easy to see against a lamp once you have compared the two. The rim lettering will normally identify the record as a four-minute issue as well as giving the title and number. As with the two-minute line, read the brand on the rim to see whether you have an Indestructible, a **Columbia Indestructible** (Columbia's four-minute issues began in 1910) or a Sears **Oxford** copy of the same master.\n\n**A four-minute cylinder must not be played on a two-minute machine.** A 100 tpi feed screw and a two-minute reproducer will cut straight across the fine grooves. Celluloid is tough, but this will still ruin the record.\n\n## Numbering\n\nThe four-minute issues were given their own number block, separate from the two-minute series, and are commonly cited as running in the 3000s; the **British four-minute series** is in the 7000s. Because the same Albany masters appear under three brands with the same numbers, a catalogue number identifies the recording but not the label.\n\n## Condition\n\nThe failure modes are the composite ones rather than the celluloid one: a pasteboard core that has swollen with damp until the cylinder binds on the mandrel, end rings that have rusted or worked loose, and hairline splits opening from the rims as the celluloid shrinks with age. Never force a tight cylinder onto a mandrel; ease the core instead. Cold makes celluloid brittle, so let a cylinder warm to room temperature before playing it. The recorded surface can be cleaned carefully with water and a little mild detergent, but the card core must stay dry — no immersion, and dry it promptly.\n\n## What is worth having\n\nFour-minute Indestructibles are considerably scarcer than the two-minute records: the four-minute cylinder market was smaller, it lasted a shorter time, and Columbia's withdrawal in 1912 removed most of the distribution. They are worth having on musical grounds as well as historical ones — the celluloid surface is quiet, the records play essentially as they did when new, and the repertoire of 1910–12 popular song, band and vaudeville material overlaps only partly with Edison's. Columbia-branded four-minute copies and the British 7000 series are the harder variants to find.",
+      "notes": "The 3000-series numbering for American four-minute issues is as generally cited in the collecting literature and has not been confirmed here against a primary listing; check Annand or Deakins before relying on it. Sources give the start of four-minute production as 1909 or 1910, with Columbia-branded four-minute issues beginning in 1910.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Amberol and 4-minute Indestructible Cylinders",
+          "url": "https://www.cylinder.de/guide_indestructible-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Indestructible Records — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-indestructible.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Annand, A Listing of American & British Two and Four-Minute Cylinders, 1907–1922",
+          "url": "https://archive.org/details/Annand",
+          "source_name": "Internet Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-2-minute",
+      "maker_slug": "columbia",
+      "name": "Columbia Indestructible Record (two-minute)",
+      "play_minutes": 2,
+      "material": "celluloid",
+      "threads_per_inch": 100,
+      "colour": "Black",
+      "introduced_year": 1908,
+      "discontinued_year": 1912,
+      "summary": "Albany-made celluloid cylinders sold under Columbia’s name and through Columbia’s dealers from the autumn of 1908, when Columbia stopped making wax cylinders of its own, until it left the cylinder business in July 1912.",
+      "description": "## What it is\n\nPhysically an **Indestructible Record**: a celluloid sleeve over a pasteboard core with a metal ring set into each end, **100 threads per inch**, **160 rpm**, two minutes. Columbia did not make it. In the autumn of 1908 Columbia stopped recording and manufacturing wax cylinders altogether and contracted with the Indestructible Phonographic Record Company of Albany to supply the whole line, which Columbia then branded, boxed and sold through its own very substantial dealer network as the **Columbia Indestructible Record**. It was a neat solution to an awkward problem: Columbia wanted out of wax and into discs, but was not ready to abandon its cylinder customers, and Albany had a good product and no distribution.\n\n## How to identify one in hand\n\nLook for the Indestructible construction — metal end rings, visible card core, celluloid body — and then read the **rim lettering**, which is where the branding lives. A Columbia issue names Columbia there; an Albany-branded copy of the identical master names Indestructible; a Sears copy names Oxford. The title and catalogue number are moulded into the celluloid on that same rim, and there is no spoken announcement. The box is a Columbia carton with Columbia's own lid label, and the boxes carried the unbreakability claim prominently, which is what most people remember about them.\n\n**The catalogue numbers are shared with the Albany company's own issues** — numbers in the 700s and 800s, for instance, belong to 1908 — so the number tells you which recording you have but not which label. Cylinder and box frequently become separated; the rim wording is the evidence, not the carton.\n\n## Dates\n\nColumbia-branded issues begin in the autumn of 1908 and run to July 1912, when Columbia decided to concentrate exclusively on discs and stopped making cylinder machines. Columbia stock continued to be sold off for a year or two after that, so a Columbia Indestructible bought new in 1913 or 1914 is perfectly possible.\n\n## Condition and care\n\nThe celluloid surface is durable and largely immune to the mould and wear that afflict wax; the problems are the core and the rings. Watch for a damp-swollen pasteboard core that binds on the mandrel, rusted or loose end rings, and splits opening from the rim as the celluloid shrinks. Ease a tight core with a reaming tool rather than forcing the cylinder on. The recorded surface tolerates gentle cleaning with water and a trace of mild detergent — unlike any wax cylinder — but the card core must not be wetted, so never immerse one.\n\n## What is worth having\n\nThese are common and cheap, and they are one of the better ways to hear the 1908–12 popular repertoire in something close to its original sound. The collecting interest is largely in the branding: assembling the same master in its Indestructible, Columbia and Oxford forms is a recognised pursuit, and complete Columbia boxes with clean lid labels are less common than the cylinders themselves.",
+      "notes": "Columbia-branded Indestructible cylinders share catalogue numbering with the Albany company’s own issues; number ranges quoted here are illustrative of period rather than a complete series definition. Columbia continued to sell existing stock for a year or two after ceasing cylinder manufacture in July 1912.",
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Columbia Corporate History: Indestructible Cylinders",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "article",
+          "label": "Columbia Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-columbia.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "Gracyk, Cylinder Lists: Columbia Brown Wax, XP, Twentieth Century and Indestructible",
+          "url": "https://archive.org/details/CylinderLists",
+          "source_name": "Internet Archive"
+        }
+      ]
+    },
+    {
+      "slug": "columbia-indestructible-4-minute",
+      "maker_slug": "columbia",
+      "name": "Columbia Indestructible Record (four-minute)",
+      "play_minutes": 4,
+      "material": "celluloid",
+      "threads_per_inch": 200,
+      "colour": "Black",
+      "introduced_year": 1910,
+      "discontinued_year": 1912,
+      "summary": "Columbia’s four-minute celluloid cylinders, made in Albany and issued from 1910 as an explicit answer to the fragility of Edison’s wax Amberols. The line lasted barely two years before Columbia left cylinders for good.",
+      "description": "## What it is\n\nThe four-minute Indestructible cylinder in Columbia's clothing: a celluloid sleeve over a pasteboard core with metal end rings, cut at **200 threads per inch**, playing four minutes at **160 rpm**, manufactured by the Indestructible Phonographic Record Company in Albany and sold under Columbia's name through Columbia's dealers. Columbia introduced them in 1910, and the pitch was aimed squarely at the weak point of the market leader: Edison's four-minute Amberol, on the market since late 1908, was black wax and it was breaking. Here was the same four minutes on a record that could be dropped on the floor.\n\n## How to identify one in hand\n\nIndestructible construction — metal rings at both ends, card core, celluloid body — plus a visibly fine groove. At 200 threads per inch the spiral is roughly twice as dense as on a two-minute cylinder and the difference is obvious once you have seen the two side by side. The **rim carries the moulded title, catalogue number and brand wording**; Columbia's name there is what makes it a Columbia issue rather than an Albany- or Oxford-branded copy of the same master. There is no spoken announcement.\n\n**Never put a four-minute cylinder on a two-minute machine.** Even celluloid will not survive a 100 tpi feed screw dragging a two-minute stylus across a 200 tpi groove.\n\n## A short life\n\nColumbia had been in discs since 1901 and the cylinder side was always the junior partner. In July 1912 the company resolved to concentrate exclusively on disc records and stopped making cylinder machines; remaining Indestructible stock was sold off over the following year or two. The four-minute Columbia Indestructible therefore had a commercial life of roughly two years, which is why it is much less often seen than the two-minute records — and why Columbia, having spent 1908 to 1912 fighting Edison on the cylinder's own ground, was out of the format thirteen years before Edison was.\n\n## Condition and care\n\nThe characteristic troubles are those of the composite construction rather than the plastic: a pasteboard core swollen by absorbed damp so that the cylinder binds on the mandrel, corroded or loosened end rings, and cracks opening at the rims as the celluloid shrinks. Ream a tight core rather than forcing the fit; let a cold cylinder warm before playing it. The celluloid surface can be cleaned gently with water and a little mild detergent — a wax cylinder never can — but the core must be kept dry, so no soaking.\n\n## What is worth having\n\nScarcer than any of the two-minute Indestructible brandings and worth picking up when found. The repertoire is the standard 1910–12 mixture of popular song, band, vaudeville and sacred material, but the four-minute format gave room for longer pieces, and the celluloid surface means a copy found today usually plays much as it did when new. Columbia-branded four-minute cylinders complete with their original boxes are the harder find.",
+      "notes": "These cylinders were manufactured by the Indestructible Phonographic Record Company of Albany; they are filed under Columbia as the issuing label. Catalogue numbering follows the Albany four-minute series and is not independently established here.",
+      "links": [
+        {
+          "kind": "discography",
+          "label": "Columbia Corporate History: Indestructible Cylinders",
+          "url": "https://adp.library.ucsb.edu/index.php/resources/detail/109",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Amberol and 4-minute Indestructible Cylinders",
+          "url": "https://www.cylinder.de/guide_indestructible-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Columbia Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-columbia.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "us-everlasting-2-minute",
+      "maker_slug": "us-phonograph",
+      "name": "U-S Everlasting Record (two-minute)",
+      "play_minutes": 2,
+      "material": "celluloid",
+      "threads_per_inch": 100,
+      "colour": "Black",
+      "introduced_year": 1910,
+      "discontinued_year": 1913,
+      "summary": "Cleveland-made celluloid two-minute cylinders, numbered from 150, and widely reckoned the best-sounding cylinders any company made. Also sold as Lakeside through Montgomery Ward.",
+      "description": "## What it is\n\nA two-minute celluloid cylinder, **100 threads per inch** at **160 rpm**, made by the U-S Phonograph Company in its own Cleveland factory. What sets it apart is the thickness of the recording layer. The company's chemist **Varian Harris**, who had been present at the founding of the Lambert company a decade earlier, reasoned that a thick celluloid wall blurs the impression taken from the mould and that the thinner the recording layer, the more faithful the copy. He used the thinnest celluloid sheet he could obtain, wrapped it round a core, and welded the butted edges with solvent. The judgement of collectors ever since has been that he was right: U-S Everlasting cylinders are generally held to be the quietest and most present-sounding cylinders anyone made, better than Indestructibles and better than Edison's Blue Amberols.\n\n## How to identify one in hand\n\nThe brand name is moulded into the rim, along with the title and catalogue number, so a loose cylinder identifies itself; there is no spoken announcement. The same masters were also sold as **Lakeside** cylinders through Montgomery Ward's mail-order business, and Lakeside-branded copies name Lakeside on the rim, so read the wording rather than assuming. Look also for the **butted seam** in the thin celluloid sleeve, a consequence of Harris's construction and a useful confirmation. Specialist series exist and are worth recognising: a **Medicophone** run of twenty-five cylinders on which physicians talk other physicians through the diagnosis of particular diseases, and foreign-language language-course cylinders made for the R. D. Cortina Company to be played on its Cortinaphone.\n\n## Numbering and dates\n\nThe first U-S Everlasting catalogue — undated, but probably issued in the middle of 1910 — lists two-minute cylinders beginning at **150**. Numbers **150–199 appear in that first catalogue and in none of the later ones**, and it is genuinely unclear how many of them were ever manufactured or reached dealers; anything in that range is worth close attention. Across both the two- and four-minute lines more than a thousand titles were issued in popular, foreign-language and grand opera series. The last known U-S supplement appeared in October 1913 and the company had vanished from the Cleveland directory by 1914.\n\n## Condition and care\n\nCelluloid is durable and these records generally play; the vulnerabilities are the core and the seam. Watch for a core swollen with absorbed damp so that the cylinder binds on a mandrel, and for splits opening along the butted seam or from the rims as the celluloid shrinks with the loss of its camphor plasticiser. Never force a tight cylinder onto a mandrel, and let a cold one come up to room temperature before playing, since chilled celluloid is markedly more brittle. The recorded surface can be cleaned carefully with water and a trace of mild detergent — something no wax cylinder tolerates — but the interior should be kept dry.\n\n## What is worth having\n\nU-S Everlastings are noticeably scarcer than Indestructibles or Blue Amberols, because the company had only about three selling seasons. They are collected for two reasons. The first is the sound, which surprises people the first time they hear one. The second is the repertoire: U-S recorded its own artists and takes, so a good many performances exist on U-S Everlasting and nowhere else. The 150–199 numbers, the Medicophone series and the Cortina language cylinders are the standout rarities.",
+      "notes": "Catalogue numbering begins at 150 per the first (c. mid-1910) catalogue. discontinued_year 1913 reflects the last known supplement (October 1913); no formal date of discontinuation is established.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "U.S. Everlasting Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-everlasting.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "U-S Everlasting Cylinders: A History and Cylinderography (PDF)",
+          "url": "https://adp.library.ucsb.edu/U-S-EVERLASTING_ed2-v1.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "encyclopedia",
+          "label": "U.S. Everlasting Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/U.S._Everlasting_Records",
+          "source_name": "Wikipedia"
+        }
+      ]
+    },
+    {
+      "slug": "us-everlasting-4-minute",
+      "maker_slug": "us-phonograph",
+      "name": "U-S Everlasting Record (four-minute)",
+      "play_minutes": 4,
+      "material": "celluloid",
+      "threads_per_inch": 200,
+      "colour": "Black",
+      "introduced_year": 1910,
+      "discontinued_year": 1913,
+      "summary": "The Cleveland company’s four-minute celluloid cylinders, numbered from 1001 and offered from the first catalogue alongside the two-minute line. Scarce, short-lived, and the best-sounding four-minute cylinders of their day.",
+      "description": "## What it is\n\nA four-minute cylinder cut at **200 threads per inch**, playing at **160 rpm**, in the same thin-celluloid construction that gives every U-S Everlasting its reputation: the thinnest obtainable celluloid sheet wrapped round a core and butt-welded with solvent, on the principle that a thin recording layer reproduces the mould more faithfully than a thick one. U-S offered four-minute records from the beginning rather than adding them later — the first catalogue, probably from the middle of 1910, lists both pitches together — which tells you how completely the four-minute cylinder had taken over the market by then.\n\n## How to identify one in hand\n\nThe rim carries the brand, title and catalogue number moulded into the celluloid; there is no spoken announcement. Confirm the pitch by looking at the groove against a light: at 200 threads per inch the spiral is roughly twice as dense as on a two-minute cylinder. Check the rim wording for the brand, since the same masters were also sold as **Lakeside** through Montgomery Ward. The butted seam in the thin celluloid sleeve is a good confirmation of U-S manufacture.\n\n**A four-minute cylinder must never be played on a two-minute machine**; the coarse feed screw and larger stylus will plough through the fine grooves, and celluloid is tough but not that tough.\n\n## Numbering and dates\n\nThe four-minute series is numbered from **1001**, running in parallel with the two-minute series that begins at 150. Between them, more than a thousand titles were issued in popular, foreign-language and grand opera series across roughly three years. Production ended with the company: the last known supplement is dated October 1913, and U-S is absent from the 1914 Cleveland city directory. Edison, who had sued the firm at least four times over the moulding process, the reproducer and the feed screw and had lost every case, dropped the remaining actions in the spring of 1914 — some months after the defendant had ceased to exist.\n\n## Condition and care\n\nThe celluloid surface survives play remarkably well; the failures are in the core and the seam. Look for a core swollen with absorbed moisture until the cylinder binds on the mandrel, and for cracks opening along the butt seam or from the rims as the celluloid shrinks over a century of camphor loss. Ease a tight cylinder rather than forcing it, and warm a cold one before playing. The recorded surface will take gentle cleaning with water and a little mild detergent, unlike any wax cylinder, but keep water out of the interior.\n\n## What is worth having\n\nThese are among the scarcer American four-minute cylinders — a small company, three selling seasons, and a market already tilting to discs. They repay the search on sound alone: a good U-S four-minute cylinder played on a well-set-up machine is about as good as the acoustic cylinder ever got, and it makes an instructive direct comparison with a Blue Amberol of the same year. Grand opera and foreign-language issues, and anything in the specialist Cortina or Medicophone runs, are the harder finds.",
+      "notes": "Catalogue numbering begins at 1001 per the first (c. mid-1910) catalogue. discontinued_year 1913 reflects the last known supplement (October 1913) rather than a documented date of discontinuation.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "U.S. Everlasting Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-everlasting.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "discography",
+          "label": "U-S Everlasting Cylinders: A History and Cylinderography (PDF)",
+          "url": "https://adp.library.ucsb.edu/U-S-EVERLASTING_ed2-v1.pdf",
+          "source_name": "Discography of American Historical Recordings"
+        },
+        {
+          "kind": "article",
+          "label": "The U-S Everlasting Story",
+          "url": "https://intertique.com/U-S%20Everlasting%20story.htm",
+          "source_name": "Intertique"
+        }
+      ]
+    },
+    {
+      "slug": "lambert-cylinder",
+      "maker_slug": "lambert",
+      "name": "Lambert Indestructible Record",
+      "play_minutes": 2,
+      "material": "celluloid",
+      "threads_per_inch": 100,
+      "colour": "White, pink, orange, brown or black",
+      "introduced_year": 1900,
+      "discontinued_year": 1906,
+      "summary": "The first celluloid cylinders sold in America — solid coloured plastic tubes with no core, made in Chicago from 1900 to 1906 under Thomas B. Lambert’s moulding patent. Rare, and the pink ones especially prized.",
+      "description": "## What it is\n\nA **solid tube of celluloid**, moulded under Thomas B. Lambert's U.S. patent 645,920 of 20 March 1900, and the first unbreakable cylinder record put on the American market. Two minutes, **100 threads per inch**, at the variable speeds of the period — early cylinders were recorded anywhere from about 120 to 160 rpm, so a Lambert that sounds wrong at 160 may simply need to be slowed. The selling proposition was written on the box: it would not break, would not wear out, and would not soften in a hot room, all three of which were fair claims against the brown wax that was the alternative in 1900.\n\n## How to identify one in hand\n\nTwo features settle it immediately. First, **colour**: Lamberts are white or cream in the earliest issues, then pink, then shades of orange and brown, and finally black as the company chased a quieter surface. A coloured cylinder from this period is almost certainly a Lambert. Second, **construction**: a Lambert is solid celluloid all the way through, with **no pasteboard core and no metal end rings**. That distinguishes it at a touch from the Indestructible and U-S Everlasting cylinders that inherited its patent and its market — both of those are thin celluloid sleeves over cored bodies with metal rings set into each end. Lettering is moulded into the material rather than printed. Some manufacture was carried on in Britain from a London office, so British-made examples exist.\n\n## Why it disappeared\n\nThe celluloid of 1900 warped and shrank, and a cylinder that no longer fits a mandrel is as useless as one that has broken. On top of the technical trouble came Edison, who sued for patent infringement and pursued it hard. The Lambert Company went bankrupt early in 1906. Its patents were bought by George J. Snowden for the newly organised Indestructible Phonographic Record Company of Albany, and from that point they underpinned every celluloid cylinder made in America — Indestructible's, Columbia's, U-S Everlasting's, and eventually Edison's Blue Amberol, for which Edison bought the Lambert patent outright rather than pay a royalty on it.\n\n## Condition\n\nCentury-old celluloid of this generation has usually shrunk, and shrinkage is the thing to check for: a Lambert that has gone out of round, or gone undersized so it will not sit properly on the mandrel, or has warped along its length. Splits and star cracks from the rims are common. Because there is no core, a Lambert has nothing to swell or delaminate, but equally nothing to hold it in shape. Cold makes celluloid brittle; warm one to room temperature before handling or playing it. The surface can be cleaned gently with water and a little mild detergent.\n\n## What is worth having\n\nAll of them. Lamberts are genuinely scarce — a small company, six years, and heavy attrition since — and the **pink** cylinders are the most sought after of the colours, prized enough that Archeophone devoted an entire reissue collection to them. Any Lambert in its original box is a significant survival, and any Lambert that still plays is a direct link to the very first plastic sound recording sold anywhere.",
+      "notes": "The total number of Lambert titles issued and the details of the British-made issues are not established here. Playing speeds for cylinders of this period were not standardised; 160 rpm should not be assumed.",
+      "links": [
+        {
+          "kind": "article",
+          "label": "Cylinder Guide: Lambert Cylinders",
+          "url": "https://www.cylinder.de/guide_lambert-cylinders.html",
+          "source_name": "The Cylinder Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Lambert Cylinders: Indestructible and Intriguing",
+          "url": "https://syncopatedtimes.com/lambert-cylinders-indestructible-and-intriguing/",
+          "source_name": "The Syncopated Times"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "pathe-cylinder",
+      "maker_slug": "pathe",
+      "name": "Pathé Cylinder Record",
+      "play_minutes": 2,
+      "material": "brown_wax",
+      "threads_per_inch": 100,
+      "colour": "Brown, later black",
+      "introduced_year": 1894,
+      "summary": "The great European cylinder line: French wax records made at Chatou from 1894, pantographically copied from oversize masters, and sold in five diameters up to the nine-inch-long Céleste — the largest commercial cylinder ever made.",
+      "description": "## What it is\n\nA wax cylinder — brown wax at first, a harder black wax from about 1903 — cut at **100 threads per inch** and playing about two minutes. Pathé never issued a four-minute cylinder; the engineering effort that Edison spent on halving the groove pitch, Pathé spent on the vertical-cut disc. What makes the line distinctive is not the record but the way it was made.\n\n## The pantograph, and five sizes of the same performance\n\nPathé was the first company to record onto a different medium from the one it sold. Masters were cut on very large wax cylinders — of the order of thirteen inches long and four and a half inches in diameter, turning at high surface speed for the best possible original — and copies were then cut mechanically from the master by pantograph onto whatever size of cylinder the customer wanted. That is why the same Pathé performance can be found in several formats:\n\n- the **standard** size, on the usual 2⅛ inch bore;\n- the larger-diameter **Inter**;\n- the **Salon**, about 3½ inches in diameter;\n- the **Stentor**, about 5 inches;\n- and **Le Céleste**, roughly 5 inches in diameter by 9 inches long, made for a short period around 1903–1905 and the largest commercial cylinder record any company ever sold.\n\nThe trade-off is generational loss. Every Pathé cylinder is a mechanical copy of a master, and the best of them are very good indeed while the worst sound distinctly second-hand.\n\n## How to identify one in hand\n\nBrown wax carries no moulded markings, so identification comes from the **spoken announcement** at the head of the record, in French, and from the box. Later moulded black wax issues carry a raised catalogue number at the rim. Anything oversized — a cylinder that will not go on an ordinary mandrel — in a European provenance is very likely Pathé, and the Céleste is unmistakable. The catalogue was enormous: some 1,500 titles were listed as early as 1899, and the repertoire is French and continental — chanson and café-concert, opéra and opéra-comique, band music, sacred music and a great deal of recorded comic monologue.\n\n## Dates and the move to disc\n\nThe Pathé brothers began selling phonographs in 1894 and built their cylinder-blank factory at Chatou at the end of that year. In 1905 they moved into disc records, and from October 1906 were pressing shellac discs — cut vertically, hill-and-dale like a cylinder, which is why Pathé discs need their own reproducer. Cylinder production was wound down as the disc business grew; sources disagree over exactly when it stopped, some placing the effective end around 1908 and others carrying it into the 1910s.\n\n## Condition and care\n\nThis is wax, with all of wax's vulnerabilities: mould as a white or grey bloom that eats the surface, cracks, chipped rims, and grooves worn grey by play with bad styli. **Pathé cylinders must never be washed**; water, alcohol and record cleaners attack the wax body irreversibly. Dry brushing only. The larger sizes bring a practical difficulty of their own — they need mandrels and machines most collectors do not own, so a Stentor or Céleste is frequently a display object rather than a playable record.\n\n## What is worth having\n\nIn the United States, Pathé cylinders turn up mostly in mixed European lots and are less common than Edison or Columbia. They are the principal surviving record of continental European popular performance before 1910, which gives even ordinary titles documentary value. The oversize formats — Salon, Stentor and above all the Céleste — are the collectable objects, and a clean brown wax standard with a legible announcement is a good deal harder to find than its price often suggests.",
+      "notes": "No discontinued_year: sources disagree on when Pathé cylinder production actually ceased, with estimates ranging from about 1908 to the mid-1910s. Cylinder dimensions for the Inter, Salon and Stentor sizes are given as commonly reported and should be checked against a measured example.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Pathé Records on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Path%C3%A9_Records",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Pathé Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-pathe.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Search the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/search.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-bell-cylinder",
+      "maker_slug": "edison-bell",
+      "name": "Edison Bell Cylinder Record",
+      "play_minutes": 2,
+      "material": "black_wax",
+      "threads_per_inch": 100,
+      "colour": "Black, earlier brown",
+      "introduced_year": 1898,
+      "summary": "Britain’s principal cylinder line: several thousand two-minute wax titles recorded in London from the late 1890s, carrying music-hall, band and monologue repertoire that was never recorded in America.",
+      "description": "## What it is\n\nA standard-size two-minute wax cylinder, **100 threads per inch**, recorded and made in London. The earliest are brown wax, individually recorded or copied; from the early 1900s the line moved to moulded hard black wax on the same principle as Edison's Gold Moulded process. Edison Bell was the largest cylinder manufacturer in England and issued several thousand titles across the first two decades of the twentieth century, which makes this the single most important body of recorded British popular performance from before the First World War.\n\n## Where it came from\n\nThe Edison Bell Phonograph Corporation bought twenty of Edison's British phonograph patents in January 1893 for £40,000 and used them to control the British trade until they expired in 1903. Recording of its own was slow to start: it took the arrival of **James E. Hough**, an importer whom the company failed to sue out of business and instead absorbed, to put a working record operation behind the name. Hough's **Edisonia** was set up in June 1897 and merged with Edison Bell in 1898 to form the Edison Bell Consolidated Phonograph Company, and it is from that point that the substantial catalogue dates. After the Consolidated company went into receivership in 1909, Hough bought the assets and carried on as J. E. Hough Ltd, still trading as Edison Bell — so the name on a cylinder does not by itself date it to the Consolidated period.\n\n## How to identify one in hand\n\nBritish provenance is the first clue and the repertoire is the second: music-hall singers, brass and military bands, sacred quartets, comic and dramatic monologues, and titles that never crossed the Atlantic. Brown wax examples carry a spoken announcement in an English voice and no moulded markings; moulded black wax issues carry raised lettering at the rim with the Edison Bell wording and the catalogue number. Boxes are British-printed cartons. Note that \"Edison Bell\" is a British company entirely separate from Thomas A. Edison's American concerns after the patent sale — a cylinder marked Edison Bell is not an American Edison record, and the two should never be conflated in a catalogue.\n\n## Condition and care\n\nWax, with wax's problems: mould blooming on the surface, cracks, chipped rims, and worn grooves. **Never wash a wax cylinder** — water, alcohol and proprietary cleaners attack the body and the damage is permanent. Dry brushing with a very soft brush is the safe limit. Store upright in boxes, away from damp and heat.\n\n## What is worth having\n\nCommon in Britain, scarce elsewhere, and undervalued relative to their historical importance. The material of documentary interest is the specifically British repertoire — music-hall artists whose voices survive on little else, regional and dialect comedy, and the brass band tradition. Early brown wax Edison Bells with clean announcements are the scarcest, and anything from the Edisonia period is worth attention.",
+      "notes": "introduced_year 1898 is given for the Edison Bell Consolidated line following the merger with Edisonia (set up June 1897); Edison Bell branded records exist from slightly earlier and continued under J. E. Hough Ltd after 1909. No discontinued_year is set because the point at which Edison Bell stopped issuing cylinders is not established here; the company’s emphasis had shifted to discs by 1912 with the launch of Winner. Whether a four-minute Edison Bell cylinder line existed is likewise unconfirmed.",
+      "links": [
+        {
+          "kind": "encyclopedia",
+          "label": "Edison Bell on Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edison_Bell",
+          "source_name": "Wikipedia"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Bell Cylinders — history essay",
+          "url": "https://cylinders.library.ucsb.edu/history-edisonbell.php",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "article",
+          "label": "Edison Bell — City of London Phonograph and Gramophone Society",
+          "url": "https://www.clpgs.org.uk/edison-bell.html",
+          "source_name": "CLPGS"
+        }
+      ]
+    }
+  ]
+}

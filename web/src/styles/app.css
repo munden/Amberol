@@ -1,0 +1,699 @@
+/* =====================================================================
+   The Amberola Cylinder Register — shell and cover
+
+   tokens.css supplies the materials (paper, oak, brass) and the period
+   devices. This sheet builds the two things every page is seen through:
+   the cabinet-lid header with its bottom tab bar, and the supplement
+   cover that is the front page.
+
+   The governing rule is division of materials. Gold only ever appears on
+   oak, as a decal does on a real cabinet; on the cream stock the ink is
+   black and the second colour is oxblood, as letterpress actually was.
+   Ornament is allowed at the masthead and at section breaks and nowhere
+   else, so the working parts of a page stay quiet.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   Correction to the kit
+
+   .eyebrow is set in --brass, which measures 3.2:1 on cream stock and so
+   fails AA at label size. --gold-moulded is the same family of gold —
+   Edison's own name for it — and clears 5.5:1 in daylight, 7.5:1 in
+   lamplight. The look is unchanged; only the ink is darker.
+   --------------------------------------------------------------------- */
+.eyebrow { color: var(--gold-moulded); }
+
+/* =====================================================================
+   Shell
+   ===================================================================== */
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.shell__main { flex: 1 1 auto; }
+
+/* =====================================================================
+   The cabinet lid — header
+   ===================================================================== */
+
+.site-head {
+  position: relative;
+  isolation: isolate;
+  /* A shellacked lid is darker than raw oak; the scrim both reads as
+     finish and keeps gold above 5:1 wherever it falls on the grain. */
+  color: var(--brass-bright);
+  box-shadow: var(--shadow-lg);
+}
+
+.site-head::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.56) 100%);
+}
+
+/* Brass beading along the bottom edge of the lid. */
+.site-head::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+    var(--brass) 0%, var(--brass-bright) 22%, var(--brass) 50%,
+    var(--brass-bright) 78%, var(--brass) 100%);
+}
+
+.site-head__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  max-width: var(--page-max);
+  margin: 0 auto;
+  min-height: var(--header-h);
+  padding: var(--space-2) var(--space-3);
+}
+
+/* The nameplate holds the left; everything else is pushed to the right,
+   whether or not the nav is showing at this width. */
+.nameplate { margin-right: auto; }
+
+/* ------------------------------------------------------------ nameplate */
+
+/* The gold decal on the lid: a darker shellac panel inside a brass keyline. */
+.nameplate {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex: 0 1 auto;
+  min-width: 0;
+  padding: var(--space-2) var(--space-3);
+  text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--brass) 62%, transparent);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.34));
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.28);
+}
+
+.nameplate:hover { border-color: var(--brass-bright); }
+
+.nameplate__mark {
+  display: block;
+  flex: none;
+  width: 30px;
+  height: 30px;
+  color: var(--brass-bright);
+}
+
+.nameplate__text { display: block; min-width: 0; }
+
+.nameplate__title {
+  display: block;
+  font-size: var(--text-xl);
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+.nameplate__sub {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--brass-bright);
+  white-space: nowrap;
+}
+
+/* ----------------------------------------------------------- header nav */
+
+.head-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.head-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch);
+  padding: 0 var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--brass-bright);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color var(--dur-fast) var(--ease);
+}
+
+.head-nav__link:hover {
+  color: var(--brass-bright);
+  border-bottom-color: color-mix(in srgb, var(--brass-bright) 50%, transparent);
+}
+
+/* The current section is underscored in brass, as a ruled entry would be. */
+.head-nav__link[aria-current='page'] {
+  border-bottom-color: var(--brass-bright);
+  text-shadow: 0 0 12px color-mix(in srgb, var(--brass-bright) 45%, transparent);
+}
+
+/* -------------------------------------------------------- theme toggle */
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  flex: none;
+  min-height: var(--touch);
+  min-width: var(--touch);
+  padding: 0 var(--space-3);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass-bright);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.4));
+  border: 1px solid color-mix(in srgb, var(--brass) 60%, transparent);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.theme-toggle:hover { border-color: var(--brass-bright); }
+
+.theme-toggle__glyph { font-size: 1.1em; line-height: 1; }
+
+/* =====================================================================
+   The bottom tab bar
+
+   Primary navigation on a phone, because the register is used standing at
+   a shelf with one hand on the cylinder.
+   ===================================================================== */
+
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  isolation: isolate;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.tabbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.58) 100%);
+}
+
+/* Brass beading on the top edge, matching the lid. */
+.tabbar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--brass), var(--brass-bright), var(--brass));
+}
+
+.tabbar__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: var(--tabbar-h);
+  min-width: var(--touch);
+  padding: var(--space-1) var(--space-1);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--brass-bright);
+  text-decoration: none;
+  border-top: 3px solid transparent;
+}
+
+.tabbar__link[aria-current='page'] {
+  border-top-color: var(--brass-bright);
+  background: linear-gradient(180deg,
+    color-mix(in srgb, var(--brass-bright) 22%, transparent), transparent 70%);
+}
+
+.tabbar__glyph { display: block; width: 22px; height: 22px; }
+
+/* =====================================================================
+   Colophon
+
+   The imprint at the foot of a supplement: rule, ornament, then the
+   particulars of the press in small caps.
+   ===================================================================== */
+
+.colophon {
+  margin-top: var(--space-8);
+  border-top: 3px double var(--rule);
+  background: var(--bg-sunken);
+}
+
+.colophon__inner {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+  text-align: center;
+}
+
+.colophon__line {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--fg-soft);
+}
+
+.colophon__count {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-stamp);
+  font-size: var(--text-base);
+  color: var(--fg);
+}
+
+.colophon__note {
+  margin: 0;
+  font-size: var(--text-sm);
+  font-style: italic;
+  color: var(--fg-soft);
+}
+
+.colophon__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-2) var(--space-4);
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+.colophon__links a {
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* =====================================================================
+   The cover
+   ===================================================================== */
+
+.cover { padding: 0; }
+
+/* An engraved keyline inside the plate's corner brackets — the border a
+   period advertisement would have been set inside. */
+.cover__keyline {
+  border: 1px solid var(--rule);
+  margin: var(--space-2);
+  padding: var(--space-6) var(--space-4) var(--space-5);
+  text-align: center;
+}
+
+.cover__imprint {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold-moulded);
+}
+
+/* Thick over thin: the Oxford rule, the standard head-rule of the period. */
+.oxford-rule {
+  height: 0;
+  padding-top: 3px;
+  border-top: 4px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+  margin: 0 auto var(--space-5);
+  max-width: 34rem;
+}
+
+.oxford-rule--under { margin: var(--space-5) auto 0; }
+
+.cover__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-4xl);
+  line-height: 1.02;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg);
+}
+
+.cover__title span {
+  display: block;
+  font-size: 0.44em;
+  letter-spacing: 0.34em;
+  color: var(--fg-soft);
+  margin-bottom: 0.5em;
+}
+
+.cover__byline {
+  margin: var(--space-3) 0 0;
+  font-family: var(--font-title);
+  font-style: italic;
+  font-size: var(--text-lg);
+  color: var(--accent);
+}
+
+.cover__standfirst {
+  max-width: 54ch;
+  margin: var(--space-5) auto 0;
+  font-size: var(--text-lg);
+  color: var(--fg-soft);
+  text-wrap: pretty;
+}
+
+/* ------------------------------------------------------------- the form */
+
+/* Given the weight of a real control: this is the order coupon on the
+   back of the supplement, the one thing a reader is meant to fill in. */
+.coupon {
+  max-width: 40rem;
+  margin: var(--space-6) auto 0;
+  text-align: left;
+}
+
+.coupon__label {
+  display: block;
+  margin-bottom: var(--space-2);
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-soft);
+  text-align: center;
+}
+
+.coupon__row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.coupon__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 3.25rem;
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  /* Brass rules the field; --rule-strong drops under 3:1 in lamplight. */
+  border-color: var(--brass);
+  border-width: 2px;
+}
+
+.coupon__submit { min-height: 3.25rem; }
+
+.coupon__hint {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-sm);
+  color: var(--fg-soft);
+  text-align: center;
+}
+
+/* ---------------------------------------------------------- the specimen */
+
+/* A labelled figure, as an illustration in a catalogue would be: the
+   cylinder drawn side on, with its particulars set beneath in stamp type. */
+.specimen {
+  max-width: 30rem;
+  margin: var(--space-7) auto 0;
+}
+
+.specimen__body {
+  aspect-ratio: auto;
+  height: 5.5rem;
+  border-radius: var(--radius-sm);
+}
+
+.specimen__mandrel {
+  height: 10px;
+  margin: 0 6%;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  background: linear-gradient(180deg,
+    color-mix(in srgb, var(--oak) 70%, black), transparent);
+  opacity: 0.55;
+}
+
+.specimen figcaption {
+  margin-top: var(--space-3);
+  font-family: var(--font-stamp);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  color: var(--fg-soft);
+}
+
+/* =====================================================================
+   Figures — the register at a glance
+
+   Set as a printed table of figures with dotted leaders, which is how a
+   supplement listed its own totals. Not tiles.
+   ===================================================================== */
+
+.figures {
+  margin: var(--space-6) 0 0;
+  padding: 0;
+}
+
+.figure {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+}
+
+.figure + .figure { border-top: 1px solid color-mix(in srgb, var(--rule) 55%, transparent); }
+
+.figure__name {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-soft);
+}
+
+.figure__leader {
+  flex: 1 1 var(--space-4);
+  min-width: var(--space-4);
+  align-self: center;
+  border-bottom: 1px dotted var(--rule-strong);
+  transform: translateY(0.15em);
+}
+
+.figure__value {
+  flex: none;
+  font-family: var(--font-stamp);
+  font-size: var(--text-xl);
+  line-height: 1.1;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+}
+
+.figure__value small {
+  font-family: var(--font-ui);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-soft);
+}
+
+/* =====================================================================
+   Departments — the contents listing
+   ===================================================================== */
+
+.departments {
+  display: grid;
+  gap: var(--space-4);
+  /* min() keeps a 375px screen from being forced wider than the viewport. */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  margin-top: var(--space-5);
+}
+
+.department {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+  color: inherit;
+  text-decoration: none;
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--dur-fast) var(--ease),
+              transform var(--dur-fast) var(--ease);
+}
+
+.department:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: var(--rule-strong);
+}
+
+/* The cylinder itself is the card's spine, in the colour of the celluloid
+   that section is about — blue for the register, purple for the shelf. */
+.department__cylinder {
+  aspect-ratio: auto;
+  height: 2.4rem;
+  border-radius: 0;
+  flex: none;
+}
+
+.department__body { padding: var(--space-4); }
+
+.department__name {
+  margin: 0 0 var(--space-2);
+  font-family: var(--font-title);
+  font-size: var(--text-xl);
+  color: var(--fg);
+}
+
+.department__blurb {
+  margin: 0;
+  font-size: var(--text-base);
+  color: var(--fg-soft);
+}
+
+.department__go {
+  margin: var(--space-3) 0 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--link);
+}
+
+.department:hover .department__go { color: var(--link-hover); }
+
+/* =====================================================================
+   Section heads
+   ===================================================================== */
+
+.section-head {
+  margin: var(--space-8) 0 0;
+  text-align: center;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.section-head p {
+  margin: var(--space-2) auto 0;
+  max-width: 52ch;
+  color: var(--fg-soft);
+  font-size: var(--text-base);
+}
+
+/* =====================================================================
+   Not found
+
+   A supplement clerk's answer: the number stamped, then struck through.
+   ===================================================================== */
+
+.notfound {
+  max-width: 34rem;
+  margin: var(--space-7) auto;
+  text-align: center;
+}
+
+.strike-stamp {
+  display: inline-block;
+  margin: 0 0 var(--space-5);
+  padding: var(--space-2) var(--space-5);
+  font-family: var(--font-stamp);
+  font-size: var(--text-xl);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  /* Oxblood measures 4.35:1 in lamplight, which clears AA at this size
+     only because the stamp is set large; it is never used at label size. */
+  color: var(--accent);
+  border: 3px double var(--accent);
+  border-radius: var(--radius-sm);
+  transform: rotate(-3deg);
+  opacity: 0.9;
+}
+
+/* =====================================================================
+   Responsive
+
+   Mobile first. Below the tablet breakpoint the header carries only the
+   nameplate and the lamp, and the tab bar carries the sections.
+   ===================================================================== */
+
+@media (max-width: 47.99em) {
+  .site-head__inner { min-height: 3.75rem; }
+  .nameplate { padding: var(--space-1) var(--space-2); gap: var(--space-2); }
+  .nameplate__mark { width: 26px; height: 26px; }
+  .nameplate__title { font-size: var(--text-lg); }
+  .theme-toggle { padding: 0 var(--space-2); }
+  /* The word would crowd the nameplate at 375px; the glyph carries it. */
+  .theme-toggle__word { display: none; }
+
+  .cover__keyline { padding: var(--space-5) var(--space-3) var(--space-4); }
+  .colophon__inner { padding-bottom: calc(var(--tabbar-h) + var(--space-6)); }
+  .specimen__body { height: 4rem; }
+}
+
+@media (min-width: 48em) {
+  .site-head__inner { padding: var(--space-2) var(--space-5); }
+  .cover__keyline { padding: var(--space-8) var(--space-6) var(--space-7); }
+
+  .coupon__row { flex-direction: row; align-items: stretch; }
+  .coupon__submit { flex: none; padding-inline: var(--space-6); }
+
+  .figures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--space-7);
+  }
+  /* In two columns the first row of each column wants no top rule. */
+  .figure:nth-child(-n + 2) { border-top: 0; }
+  .figure + .figure { border-top: 1px solid color-mix(in srgb, var(--rule) 55%, transparent); }
+  .figures .figure:nth-child(1),
+  .figures .figure:nth-child(2) { border-top: 0; }
+}
+
+@media (min-width: 64em) {
+  .cover__title { font-size: var(--text-5xl); }
+  .nameplate__title { font-size: var(--text-2xl); }
+}
+
+@media print {
+  .site-head, .tabbar, .colophon__links { display: none !important; }
+}

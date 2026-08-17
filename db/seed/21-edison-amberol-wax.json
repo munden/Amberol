@@ -614,6 +614,640 @@
           "source_name": "Calisphere / UCSB Cylinder Audio Archive"
         }
       ]
+    },
+    {
+      "slug": "edison-amberol-375",
+      "series_slug": "edison-amberol",
+      "catalog_number": "375",
+      "title": "Lyna! Oh! Oh! Miss Lyna!",
+      "work_type": "Coon song",
+      "genre": "Coon song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Collins and Harlan in the genre that made them, and which makes a large part of the wax Amberol catalogue difficult listening today. The coon song was a commercial category of American popular music from roughly 1890 to 1915: comic songs written in an exaggerated imitation of Black speech, performed overwhelmingly by white singers, and sold in enormous quantities. Arthur Collins was the acknowledged master of the style and Edison sold him on that basis.\n\nThe record itself is a courtship duet, Collins taking the low comic line and Harlan the melody, over a light ragtime orchestral accompaniment. Musically it is deft; the writing is tight and the two voices interlock in a way that four minutes lets you actually hear. What it is built on is racial caricature, and a modern collector should know that going in rather than discover it a minute into the cylinder.\n\nThese records are documents of what a mass American audience was buying in 1909, and they are worth preserving on exactly that ground. Presenting them without comment, or quietly leaving them out of a catalogue, both misrepresent the period.",
+      "notes": "The catalog number rests on a single dealer listing and has not been confirmed against a numerical catalogue or the Edison monthly supplements; treat it as unconfirmed. The title wording also varies between sources in its punctuation.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-377",
+      "series_slug": "edison-amberol",
+      "catalog_number": "377",
+      "title": "American students",
+      "work_type": "March",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "A band record by the New York Military Band, the name Edison used for the pick-up ensembles of New York players it assembled at West Orange. The band was not a standing organisation with a fixed roster; it was a label credit, and the personnel varied from session to session according to who was available.\n\nStudent and college material had a small vogue in the band repertoire of the period, riding on the popularity of college songs and the Ivy League football boom. Pieces of this kind fill the middle of the Amberol lists — competent, cheerful, and forgotten within a decade.\n\nIt is worth remembering how physically demanding this repertoire was to record. A band of a dozen or more players had to be arranged in a semicircle round a single horn, with the loud instruments pushed back and the weak ones brought forward, and the whole balance re-set for every title. Nothing could be fixed afterwards.",
+      "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-393",
+      "series_slug": "edison-amberol",
+      "catalog_number": "393",
+      "title": "Morning, noon and night in Vienna",
+      "work_type": "Overture",
+      "genre": "Band",
+      "released_on": "1909-01-01",
+      "released_precision": "year",
+      "description": "Suppé's overture Ein Morgen, ein Mittag, ein Abend in Wien, written in 1844 for a Viennese farce that nobody has staged since, and surviving entirely on the strength of its overture. Along with Poet and Peasant and Light Cavalry it was one of the three Suppé pieces every band in the world could play from memory.\n\nThis is a London recording, issued in the American lists under the National (London) Military Band billing. Edison's British studio supplied a great deal of the band material in the Amberol catalogue, and the overtures in particular tend to have come from that source.\n\nThe piece is a good test of a four-minute cylinder, because it moves through several tempi and dynamics: a quiet opening, a broad cello-line melody transcribed to euphonium, and a headlong presto finish. On a worn copy the finish is where the trouble shows, since the groove is at its most crowded at the end of the record.",
+      "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-435",
+      "series_slug": "edison-amberol",
+      "catalog_number": "435",
+      "title": "Larboard watch",
+      "work_type": "Duet",
+      "genre": "Sea song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "T. Williams's nautical duet of the 1840s, in which two sailors on the middle watch call the hour to each other across the deck. It was a Victorian drawing-room standard on both sides of the Atlantic, and it survived into the recording era because it is genuinely well written for two male voices: the parts cross, answer and finally join in thirds on the refrain.\n\nEdison billed the pairing as Stanley and Gillette — Frank C. Stanley's bass-baritone against the tenor of Henry Burr, whom Edison issued under the pseudonym Irving Gillette. Burr recorded for several companies at once and used a different name at almost every one of them; Stanley, one of the most-recorded bass voices of the era, died in December 1910, which puts a narrow window round any record he is on.\n\nThe song's appeal on cylinder was partly technical. Two unaccompanied-sounding voices in close harmony, with only a light orchestral cushion, record cleanly, and the effect of distance the lyric asks for could be produced simply by having one singer step back from the horn.",
+      "notes": "The catalog number comes from a single dealer listing and has not been confirmed against a numerical catalogue; treat it as unconfirmed. \"Gillette\" is Edison's pseudonym for Henry Burr.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "frank-c-stanley", "role": "vocalist", "detail": "bass-baritone", "billing_order": 1 },
+        { "person_slug": "henry-burr", "role": "vocalist", "detail": "tenor, billed as Irving Gillette", "billing_order": 2 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-442",
+      "series_slug": "edison-amberol",
+      "catalog_number": "442",
+      "title": "Two gentlemen from Ireland",
+      "work_type": "Song",
+      "genre": "Irish-American song",
+      "language": "English",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "Stage-Irish comedy of the sort that filled American vaudeville houses and, by extension, the Edison monthly supplements. The Irish-American number was one of the fixed genres of the wax Amberol period, sitting alongside the coon song, the rube sketch and the sentimental ballad, and it ranged from affectionate nostalgia to broad caricature depending on who was writing.\n\nBy 1910 the audience for this material was substantially Irish-American itself, which complicates any simple reading of it. The same families who bought sentimental ballads about Killarney bought comic records about drink and brawling, and the performers were frequently Irish-American too.\n\nThis entry is included on the strength of a catalogue match for the title and number; the performing credit reported alongside it could not be confirmed, so no artist has been recorded here rather than guess at one.",
+      "notes": "The performer is not recorded here because the attribution could not be confirmed. Title, number and year are supported; the credit is not.",
+      "confidence": "uncertain",
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/5fb0daa94887e0757374f4a18354a887/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-450",
+      "series_slug": "edison-amberol",
+      "catalog_number": "450",
+      "title": "Casey Jones",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Vocal with chorus and orchestra",
+      "released_on": "1910-06-01",
+      "released_precision": "month",
+      "release_supplement": "June 1910",
+      "description": "The song that turned a real railroad accident into American folklore. John Luther \"Casey\" Jones died at the throttle of Illinois Central No. 382 at Vaughan, Mississippi, on 30 April 1900, having stayed on the brake to slow his train while his fireman jumped. The engine-wiper Wallace Saunders is credited with the original ballad; T. Lawrence Seibert and Eddie Newton turned it into a published vaudeville song in 1909, and within a year it was everywhere.\n\nEdison's version is Billy Murray with chorus, and it is one of the defining records of the wax Amberol period — fast, driving, with the chorus punching the refrain. It went out in the June 1910 supplement, at the height of the song's popularity, and it sold accordingly. Murray's diction does a lot of work here: the verses carry actual narrative, and on a four-minute cylinder you get all of it.\n\nThe title carried over into the celluloid era as Blue Amberol 1550, which is much the easier of the two to find in playable condition. Collectors who want the wax should expect heavy wear; this was a record bought by people who then played it for visitors.",
+      "notes": "Reissued on Blue Amberol 1550. The wax original is common in poor condition and uncommon in good condition — the usual pattern for a hit title in a soft medium.",
+      "confidence": "verified",
+      "credits": [
+        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor, with chorus", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-454",
+      "series_slug": "edison-amberol",
+      "catalog_number": "454",
+      "title": "When you and I were young, Maggie",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "credit_line": "Vocal with chorus",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "James Austin Butterfield's setting of George W. Johnson's poem, written in Canada in the 1860s: an old man addressing his wife at the mill where they courted, with the mill fallen in and the creek dried up. Johnson wrote the words for Maggie Clark, who married him and died within a year. That story is true and it is part of why the song lasted.\n\nWill Oakland sings it, and his voice is the reason to seek this record out. Oakland was a genuine countertenor, not a falsettist, and the sound is strange and affecting in a way that suits a song about looking backwards. Edison marketed the voice frankly as a novelty; the effect on this material is anything but.\n\nOld-favourite ballads of this kind were the ballast of the Amberol catalogue. Every monthly supplement carried a few, they sold slowly and forever, and they are the titles most likely to be found today in a box of cylinders that came out of a family house rather than off a collector's shelf.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "will-oakland", "role": "vocalist", "detail": "countertenor, with chorus", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/ea7977db9b39b94ee86b122879381501/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-455",
+      "series_slug": "edison-amberol",
+      "catalog_number": "455",
+      "title": "Alexander and his clarinet",
+      "work_type": "Coon song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "credit_line": "Vocal duet with band accompaniment",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "One of the several Alexander songs that circulated just before Irving Berlin's Alexander's Ragtime Band swallowed the name in 1911. The Alexander of these songs is a stock figure of the coon-song repertoire, a Black musician whose playing is irresistible, and the joke is always at his expense as much as in his favour.\n\nWhat is unusual here is the accompaniment: Collins and Harlan are backed not by the studio orchestra but by the New York Military Band, which gives the record a weight and a snap that the ordinary small-orchestra sides lack, and which lets the clarinet of the title do real work. It is a well-made record, and it is also plainly built on racial caricature; both things are true at once and a catalogue that records only one of them is not much use.\n\nCollins and Harlan were by 1910 the most recorded duet team in the business, working simultaneously for Edison, Victor and Columbia. A collector working through wax Amberols will meet them constantly, and will have to decide what to do about the material. Knowing what is on the cylinder before it goes on the mandrel is the least a catalogue can offer.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 },
+        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 3 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/99da088e57fa6350235ec4d08b2d8822/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-485",
+      "series_slug": "edison-amberol",
+      "catalog_number": "485",
+      "title": "Call me up some rainy afternoon",
+      "work_type": "Song",
+      "genre": "Comic song",
+      "language": "English",
+      "credit_line": "Comic song with chorus and orchestra",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "An early Irving Berlin song, published in 1910 when he was still primarily a lyricist working out of Ted Snyder's office, and one of the first to show the conversational, telephone-age wit that would define him. The whole lyric is a woman fending off a suitor by inviting him to call — later, sometime, when it rains.\n\nAda Jones was the ideal singer for it. The song depends on the gap between what the words say and what the tone says, and Jones could hold that gap open for four minutes. The chorus behind her sharpens the refrain without softening the joke.\n\nThe telephone song was a small genre in itself around 1910, the instrument being new enough in ordinary homes to be inherently funny and old enough to be familiar. Records of this kind date themselves precisely, which is much of their value now.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "detail": "with chorus", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/d40d75758e65011b8973852887806356/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-509",
+      "series_slug": "edison-amberol",
+      "catalog_number": "509",
+      "title": "One sweetly solemn thought",
+      "work_type": "Sacred",
+      "genre": "Hymn",
+      "language": "English",
+      "credit_line": "Male vocal quartette",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "Phoebe Cary's verses of 1852, set most often to R. S. Ambrose's tune, a hymn about being one day nearer home that was sung at an extraordinary number of nineteenth-century American funerals and stayed in the repertoire well past the First World War.\n\nThe Knickerbocker Quartette give it unaccompanied or nearly so, four male voices in close harmony directly into the horn. This is the configuration that suits a wax cylinder best: no orchestra to muddy the groove, no soloist forcing tone, just four balanced voices at moderate volume.\n\nSacred quartet cylinders were bought to be played on Sundays and often on Sundays only, which is why they turn up in better condition than almost anything else in the wax Amberol series. If you want to hear what a new four-minute wax cylinder actually sounded like in 1910, a hymn record is usually the honest way to find out.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "knickerbocker-quartette", "role": "ensemble", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/d275d539d309222aa7a154f737eaad83/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-576",
+      "series_slug": "edison-amberol",
+      "catalog_number": "576",
+      "title": "Silver bell",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra accompaniment",
+      "released_on": "1910-12-01",
+      "released_precision": "month",
+      "release_supplement": "December 1910",
+      "description": "Percy Wenrich's music to Edward Madden's lyric, published in 1910 and one of the biggest of the Indian-intermezzo songs — a craze that ran from Hiawatha in 1903 through Red Wing in 1907 and burned itself out around 1912. The formula was a tom-tom rhythm under a straightforwardly sentimental melody, with a lyric about a Native American couple written by songwriters who had never been west of Hoboken.\n\nJones and Murray sing it as a duet, and the tune is good enough that the record still works: Wenrich, who also wrote Put On Your Old Grey Bonnet and When You Wore a Tulip, had a gift for a melody that sat well in an untrained voice. Edison put it out in the December 1910 supplement, in time for Christmas.\n\nThe Indian song deserves the same plain treatment as the coon song beside it in the catalogue. It is not vicious in the way the dialect comedy is, but it is a costume, and the costume was sold as authenticity. Wenrich's tune outlived the pretence.",
+      "notes": "The Edison labels of the period frequently described such titles as an \"Indian love song\"; that is a genre marking, not part of the title.",
+      "confidence": "verified",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Edison Amberol 576 at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025429780203776",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-605",
+      "series_slug": "edison-amberol",
+      "catalog_number": "605",
+      "title": "I'm looking for a nice young fellow who is looking for a nice young girl",
+      "work_type": "Song",
+      "genre": "Comic song",
+      "language": "English",
+      "credit_line": "Serio-comic song with orchestra accompaniment",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "A title that is itself the joke — the sort of long, self-explaining line that Tin Pan Alley used when it wanted a song to sell itself off a shop counter. Ada Jones sings it as a serio-comic, the music-hall term for a woman's turn that is funny on the surface and slightly rueful underneath.\n\nThe serio-comic was Jones's home ground. She had the technique to sing a chorus straight and then undercut it with a spoken half-line, and the four-minute format gave her the room to do that two or three times in one record rather than once.\n\nEdison's 1910 lists are full of this material, and it is worth noticing how much of it is written from a woman's point of view. The audience for parlour records included a great many young working women with their own wages, and the catalogue knew it.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Edison Amberol 605 at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025439050203776",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-655",
+      "series_slug": "edison-amberol",
+      "catalog_number": "655",
+      "title": "Come Josephine in my flying machine",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Vocal duet with chorus and orchestra",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "Fred Fisher's music to Alfred Bryan's lyric, published in 1910 and the definitive song of America's first aviation craze. Blériot had crossed the Channel in 1909; by 1911 there were flying meets drawing crowds of a hundred thousand, and a song about taking a girl up in an aeroplane was as topical as popular music got.\n\nEdison's is the Ada Jones and Billy Murray version with chorus, and it is probably the single best-known wax Amberol in existence — the record most likely to be recognised by someone who has never heard of the format. Jones plays Josephine's nerves, Murray plays the pilot's swagger, and the chorus lifts the refrain into the air. The whole thing takes the four minutes it needs.\n\nThe song had a long afterlife. It was among the numbers used in the 1997 film Titanic, which put it in front of an audience of tens of millions and made it, briefly, the most famous piece of 1910 popular music in the world. A collector will meet this title constantly and should hold out for a clean copy, since worn ones are everywhere.",
+      "notes": "Very heavily played. On a good copy the chorus entries stay clean; on a worn one they blur into a single band of noise. As with every wax Amberol, never wash it — clean only by dusting the groove with a soft brush.",
+      "confidence": "verified",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Edison Amberol 655 at the UCSB Cylinder Audio Archive",
+          "url": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025433970203776",
+          "source_name": "UCSB Cylinder Audio Archive"
+        },
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/4c9bbd459fb9a1be0c3a5fef4a18a925/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-673",
+      "series_slug": "edison-amberol",
+      "catalog_number": "673",
+      "title": "Piano man",
+      "work_type": "Coon song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "credit_line": "Vocal solo with orchestra accompaniment",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "A ragtime song about a piano player, sung by Billy Murray and listed by Edison under the coon-song heading that the company used without embarrassment throughout the wax Amberol years.\n\nThe subject — the ragtime pianist as irresistible force — was a fixture of the genre, and it points at something real underneath the caricature. Ragtime was Black music, played in the main by Black musicians, and the songs that white vaudevillians sang about it were simultaneously an acknowledgment of that fact and a way of managing it. Murray sings it straight and fast, without the heavy dialect that Arthur Collins would have applied.\n\n1911 is late in the wax Amberol story. Within eighteen months Edison would announce the Blue Amberol, and the black wax four-minute record would be withdrawn from the lists. Cylinders from the last two years of the series were made in smaller quantities than those from the 1909 boom, and are correspondingly harder to find.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/e99d8c292b99f4ff376f21bbe6daf8bc/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-763",
+      "series_slug": "edison-amberol",
+      "catalog_number": "763",
+      "title": "The old oaken bucket",
+      "work_type": "Song",
+      "genre": "Old favourite",
+      "language": "English",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "Samuel Woodworth's poem of 1817 — the moss-covered bucket that hung in the well — set to the tune usually credited to George Kiallmark, and by the phonograph era one of the most thoroughly domesticated songs in the American repertoire. It was in every school songbook and every parlour album for the better part of a century.\n\nSongs of this vintage did particular work in the Amberol catalogue. A machine sold to a family had to have something on it for the grandparents, and the monthly supplements always carried a handful of old favourites among the ragtime and the topical comedy. They also sold for years rather than months, which is why so many of them were carried across into the celluloid series.\n\nThis one duly reappeared as Blue Amberol 2046. The performing credit on the wax issue could not be confirmed, so none is recorded here.",
+      "notes": "Reissued on Blue Amberol 2046. The performer on the wax issue is not recorded here because the attribution could not be confirmed.",
+      "confidence": "uncertain"
+    },
+    {
+      "slug": "edison-amberol-777",
+      "series_slug": "edison-amberol",
+      "catalog_number": "777",
+      "title": "It's got to be some one I love",
+      "work_type": "Song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Vocal with chorus and orchestra",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "Ada Jones with chorus in a courtship song of the standard 1911 shape: a verse laying out the terms and a refrain conceding them. The lyric's premise — that the singer will marry, but on her own terms and for affection rather than money — was a reliable formula, and Jones sang a great many variations on it.\n\nHer voice by this date had darkened slightly from the sound of the 1905 records, which suits the material. She was also, by 1911, recording less frantically than in her peak years; the industry was beginning to shift towards younger singers and towards the disc.\n\nThe number places this in the last full year of wax Amberol production. Edison announced the Blue Amberol in 1912, and by the end of that year the black wax four-minute cylinder was finished as a commercial product — a five-year format that had been made obsolete twice over, first by celluloid and then by the disc.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "ada-jones", "role": "vocalist", "detail": "with chorus", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/e114f0f7ec0f164225430c9d91c46e02/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-817",
+      "series_slug": "edison-amberol",
+      "catalog_number": "817",
+      "title": "Alexander's ragtime band",
+      "work_type": "Song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "credit_line": "Vocal solo with orchestra accompaniment",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "Irving Berlin's breakthrough, published in March 1911 and within months the most successful popular song America had produced. It is not, strictly, a ragtime number — the melody barely syncopates — but it is a song about ragtime, and it sold something like a million and a half copies of sheet music in its first year.\n\nBilly Murray's Edison version is one of a dozen recordings made in the rush, and Murray's is among the most driven: he takes the refrain at a clip and lands the internal rhymes hard. Berlin's lyric is a barker's pitch — come on and hear, come on and hear — and Murray sings it as one.\n\nBerlin was twenty-three and had been writing songs for four years. The Alexander of the title came out of the same coon-song tradition as the earlier Alexander numbers in this catalogue, and the song has been argued over on that ground ever since; what is not in dispute is that it ended the ragtime era by absorbing it into mainstream popular song. For a collector, a wax Amberol of this title is a chance to hear the biggest hit of the decade in the format it was first bought on.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "billy-murray", "role": "vocalist", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/d7eca7e5ca11a420e6bc04c962a6bb51/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-856",
+      "series_slug": "edison-amberol",
+      "catalog_number": "856",
+      "title": "The rosary",
+      "work_type": "Sacred",
+      "genre": "Sacred song",
+      "language": "English",
+      "credit_line": "Soprano solo with organ accompaniment",
+      "released_on": "1912-01-01",
+      "released_precision": "year",
+      "release_supplement": "1912",
+      "description": "Ethelbert Nevin's setting of Robert Cameron Rogers's poem, published in 1898 and one of the most commercially successful American art songs ever written — the sheet music is reputed to have sold in the millions over thirty years. The hours I spent with thee, dear heart, are as a string of pearls to me: it is a love song in the vocabulary of devotion, which is precisely why it worked in Protestant parlours as readily as Catholic ones.\n\nElizabeth Spencer sings it with organ rather than orchestra, and the choice matters. An organ gives a wax cylinder a continuous, low-energy background that does not fight the voice for groove space, and the result is one of the more atmospheric records in the late wax Amberol lists.\n\nThe title moved to celluloid as Blue Amberol 1525, one of the early numbers in that series, which tells you how confident Edison was of its continued sale. A wax copy is the scarcer object; a Blue Amberol copy is the one you are likely to be offered.",
+      "notes": "Reissued on Blue Amberol 1525. Sources associate this title with both Elizabeth Spencer and the Knickerbocker Quartette personnel; the soprano-and-organ credit recorded here is the reading best supported, but the exact billing on the wax issue is unconfirmed.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "elizabeth-spencer", "role": "vocalist", "detail": "soprano", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-872",
+      "series_slug": "edison-amberol",
+      "catalog_number": "872",
+      "title": "By the dear old river Rhine",
+      "work_type": "Song",
+      "genre": "Sentimental ballad",
+      "language": "English",
+      "credit_line": "Tenor duet with orchestra accompaniment",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "A Rhineland waltz-ballad of the kind American publishers turned out steadily before 1914, when Germany was still a sentimental homeland to a very large immigrant population rather than an enemy. Songs about the Rhine, the Tyrol and old Heidelberg sold in quantity, and vanished almost overnight in 1917.\n\nEdison lists this as a tenor duet with orchestra, with Albert Campbell as one of the voices. Campbell spent his career in exactly this repertoire — close-harmony duets and quartets, sung slowly and sweetly — and was a founder member of the Peerless Quartet. The identity of his partner on this record could not be confirmed and no second credit has been invented for it.\n\nAs a piece of catalogue history the record is a small reminder of how quickly a repertoire can become unsellable. Within six years of this cylinder, Edison and every other American company had quietly withdrawn most of their German-sentimental titles from the lists.",
+      "notes": "Only one of the two singers could be identified. The pairing, and the exact release year, are unconfirmed.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "albert-campbell", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/86cb1a21b409b24d99c64bc7fc90a61d/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-938",
+      "series_slug": "edison-amberol",
+      "catalog_number": "938",
+      "title": "Mandy, come out in the pale moonlight",
+      "work_type": "Coon song",
+      "genre": "Popular song",
+      "language": "English",
+      "credit_line": "Tenor solo with orchestra accompaniment",
+      "released_on": "1912-01-01",
+      "released_precision": "year",
+      "release_supplement": "1912",
+      "description": "A late wax Amberol, from the final year of the format, sung by Walter Van Brunt — then about twenty and already one of Edison's most-used voices.\n\nThe song belongs to the plantation-serenade strand of the coon-song repertoire: a Black suitor calling his sweetheart out into the moonlight, written by white songwriters in stage dialect for a white audience. It is gentler than the knockabout comedy Collins and Harlan specialised in, and that gentleness is its own kind of problem, since it sells a picture of Southern life that was being actively enforced by law and violence at the time the record was made.\n\nVan Brunt sings it without exaggeration, which was becoming the fashion; by 1912 the heavy dialect delivery was starting to sound old. He would go on singing into the electrical era under the name Walter Scanlan, and outlived nearly everyone else in this catalogue.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "walter-van-brunt", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/e1e48d725d99b662b13f0be638e77e93/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-1050",
+      "series_slug": "edison-amberol",
+      "catalog_number": "1050",
+      "title": "That baboon baby dance",
+      "work_type": "Coon song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra accompaniment",
+      "released_on": "1912-01-01",
+      "released_precision": "year",
+      "release_supplement": "1912",
+      "description": "A Collins and Harlan animal-dance number from the last year of the wax Amberol, riding the 1912 craze for dances named after animals — the turkey trot, the grizzly bear, the bunny hug — which scandalised newspaper editors and clergymen for about two seasons.\n\nThe title is the problem, and it is not incidental. Comparing Black dancers to apes was a standing device of American racial caricature, and this song uses it as its central conceit. The music is a competent piece of 1912 ragtime; the premise is what it is. A collector who plays wax Amberols will meet material like this regularly, and the honest thing is to say plainly what is on the cylinder rather than describe it as a novelty dance number and leave it there.\n\nBy the number, this belongs to the final months of black wax production. Edison announced the Blue Amberol in 1912 and the celluloid cylinder took over the series from 1501; the wax records above about 1100 had short production runs and are among the harder ones to find.",
+      "notes": "Contains racial caricature in its title and lyric, of a kind common in the 1908-1912 Edison lists.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/52c62d913115cd10c56471c58aa6d091/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-1117",
+      "series_slug": "edison-amberol",
+      "catalog_number": "1117",
+      "title": "When Uncle Joe plays a rag on his old banjo",
+      "work_type": "Coon song",
+      "genre": "Ragtime song",
+      "language": "English",
+      "credit_line": "Vocal duet with orchestra accompaniment",
+      "released_on": "1912-01-01",
+      "released_precision": "year",
+      "release_supplement": "1912",
+      "description": "One of the last Collins and Harlan sides in the wax series, and a good example of the plantation-nostalgia strain that ran alongside the harder comic material: an old Black banjo player, a Southern evening, everybody dancing. The banjo in the accompaniment is real and prominent, which makes the record more musically interesting than its lyric deserves.\n\nSongs of this kind were doing a specific cultural job in 1912. They offered a version of the antebellum South as a place of contented music-making, at a moment when the actual South was in the middle of the lynching era and the Great Migration was beginning. That gap between the record and the world is worth holding in mind while listening.\n\nAt catalogue number 1117 this is near the end of the wax Amberol run. The series was closed out during 1912 as Edison moved to celluloid, and the highest domestic numbers are scarce simply because they were made for a shrinking market in the months before the format was withdrawn.",
+      "notes": "Plantation-nostalgia material of a kind ubiquitous in the period; the lyric is written in stage dialect.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "arthur-collins", "role": "vocalist", "billing_order": 1 },
+        { "person_slug": "byron-g-harlan", "role": "vocalist", "billing_order": 2 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Listen at the UCSB Cylinder Audio Archive (via Calisphere)",
+          "url": "https://calisphere.org/item/0ad7b15db12e89e52ad13bd47beb078b/",
+          "source_name": "Calisphere / UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-amberol-12080",
+      "series_slug": "edison-amberol",
+      "catalog_number": "12080",
+      "title": "Bonnie Leezie Lindsay",
+      "work_type": "Character song",
+      "genre": "Scottish music hall",
+      "language": "English",
+      "credit_line": "Character comic song (Scottish) with orchestra accompaniment",
+      "recorded_place": "London",
+      "released_on": "1910-01-01",
+      "released_precision": "year",
+      "description": "Harry Lauder, recorded in Edison's London studio and issued in the 12000 block that the company used for its British four-minute cylinders. Lauder was at this date the highest-paid entertainer in the world, and Edison's ability to put him on wax was a genuine competitive advantage in both markets.\n\nThe Lauder formula is fully formed here: a Scots courting song delivered in broad Lanarkshire, with the comedy in the timing and the sentiment arriving unannounced in the last chorus. He wrote most of his own material and performed it in a costume — kilt, tam, crooked stick — that fixed an image of Scotland in the Anglophone imagination for fifty years, to the lasting irritation of a good many Scots.\n\nThe 12000 series is a distinct numbering block from the American domestic run and a collector should not read across between them. Copies circulated on both sides of the Atlantic, and British-market Lauder cylinders turn up in American collections regularly.",
+      "notes": "Belongs to the British 12000 four-minute block rather than the domestic American numbering. The release year is unconfirmed.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "harry-lauder", "role": "vocalist", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-amberol-12191",
+      "series_slug": "edison-amberol",
+      "catalog_number": "12191",
+      "title": "With sword and lance march",
+      "work_type": "March",
+      "genre": "Band",
+      "recorded_place": "London",
+      "released_on": "1911-01-01",
+      "released_precision": "year",
+      "description": "Hermann Starke's Mit Schwert und Lanze, a German cavalry march that had entered the international band repertoire alongside Teike's Alte Kameraden, played here by Edison's London band and issued in the British 12000 four-minute series.\n\nThe march is built for effect: a hammering introduction, a broad trio, and a return that piles the whole band onto the melody. It suited a four-minute cylinder because there was nothing to cut, and it suited the acoustic horn because it is loud from beginning to end.\n\nThe title survived the withdrawal of wax, reappearing on Blue Amberol 23074 — a number in the foreign-recorded block of the celluloid series. That kind of cross-reference is the most reliable way to trace a wax Amberol master through the change of medium, since Edison carried over the recordings it thought would keep selling and quietly abandoned the rest.",
+      "notes": "British 12000 block. Reissued on Blue Amberol 23074; the release year given here is inferred from the numbering and is unconfirmed.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "national-military-band", "role": "band", "billing_order": 1 }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol-royal-purple-29002",
+      "series_slug": "edison-blue-amberol-royal-purple",
+      "catalog_number": "29002",
+      "title": "L'elisir d'amore",
+      "subtitle": "Selection",
+      "work_type": "Grand opera",
+      "genre": "Opera",
+      "language": "Italian",
+      "credit_line": "Tenor solo in Italian with orchestra",
+      "released_on": "1913-01-01",
+      "released_precision": "year",
+      "description": "One of the small group of Alessandro Bonci cylinders that open the 29000 block, and the reason the block exists. When Edison launched the celluloid Amberol in 1912 he wanted a celebrity tier to set against Victor's Red Seal, and Bonci — a lyric tenor of the front rank, widely held to be the most elegant stylist of his generation — was the name he secured. The Bonci cylinders were priced at a dollar each, against thirty-five cents for an ordinary Blue Amberol, and they were numbered in their own series from 29001.\n\nThe repertoire is Donizetti, which was Bonci's core territory: L'elisir d'amore gave him the tenor aria most associated with his voice. What survives on the cylinder is a light, exactly placed tone and an unhurried line, quite unlike the weight Caruso brought to the same music.\n\nThese six numbers are the hinge of the whole Royal Purple story. When Edison stopped adding to the 75-cent classical 28000 series in 1918, he restarted the dollar celebrity idea in the same 29000 block, this time on purple-dyed celluloid — so the Bonci numbers sit immediately below the Royal Purples proper and are often catalogued with them.",
+      "notes": "Whether the Bonci numbers 29001-29006 were themselves issued in purple or in ordinary blue celluloid is disputed between sources; the UCSB Cylinder Audio Archive catalogues this one as an Edison Royal Purple Amberol. The specific aria is not confirmed — dealer descriptions give only \"from Elisir d'Amore\" — and the release year is inferred from the launch of the celebrity block.",
+      "confidence": "uncertain",
+      "credits": [
+        { "person_slug": "alessandro-bonci", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+      ],
+      "links": [
+        {
+          "kind": "audio",
+          "label": "Edison Royal Purple Amberol 29002 at the UCSB Cylinder Audio Archive",
+          "url": "https://www.library.ucsb.edu/OBJID/Cylinder1542",
+          "source_name": "UCSB Cylinder Audio Archive"
+        }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol-royal-purple-29007",
+      "series_slug": "edison-blue-amberol-royal-purple",
+      "catalog_number": "29007",
+      "title": "Aloha oe",
+      "subtitle": "Farewell to thee",
+      "work_type": "Song",
+      "genre": "Hawaiian song",
+      "credit_line": "Soprano with male quartet and orchestra",
+      "released_on": "1918-01-01",
+      "released_precision": "year",
+      "description": "The first of the Royal Purples proper, and a good illustration of what the series actually was. Edison had stopped adding to his 75-cent classical 28000 cylinders in 1918 and restarted the celebrity idea in the 29000 block, on cylinders dyed a deep purple instead of the usual blue, at a dollar apiece. The colour was the whole marketing proposition: a customer could see at a glance that the record on the mandrel was the expensive one.\n\nThe repertoire was not, in the event, mostly grand opera. Frieda Hempel was a Metropolitan coloratura of the first rank, but here she sings Queen Liliuokalani's Aloha Oe with the Criterion Quartet behind her — a Hawaiian song that had been a mainland hit since the 1915 Panama-Pacific Exposition set off a craze for the islands' music. Celebrity singers in simple material was the formula, and it was a shrewd one.\n\nCollectors should understand what they are hearing. Almost every Royal Purple is an acoustic dubbing: the performance was recorded for a Diamond Disc, and the cylinder was made by playing the disc back and re-recording it through a horn onto the cylinder master. The fidelity is therefore a generation removed from the original, and noticeably duller than a directly recorded cylinder of the same date.",
+      "provenance": "Dubbed acoustically from the Edison Diamond Disc master.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "frieda-hempel", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
+        { "person_slug": "criterion-quartet", "role": "ensemble", "billing_order": 2 }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol-royal-purple-29008",
+      "series_slug": "edison-blue-amberol-royal-purple",
+      "catalog_number": "29008",
+      "title": "My old Kentucky home",
+      "work_type": "Song",
+      "genre": "Old favourite",
+      "language": "English",
+      "credit_line": "Soprano with male quartet and orchestra",
+      "released_on": "1918-01-01",
+      "released_precision": "year",
+      "description": "Stephen Foster's song of 1853, sung by Frieda Hempel with the Criterion Quartet — the companion number to her Aloha Oe and, like it, taken from an Edison Diamond Disc and dubbed onto the cylinder.\n\nFoster wrote the song in the plantation-melody idiom he had made his own, and it has been sung ever since in versions that steadily sand down its origins: the original lyric's use of a racial slur was quietly replaced with \"people\" over the course of the twentieth century, and Kentucky adopted it as the state song in 1928. What Hempel offers is the fully genteel version, a European-trained coloratura treating Foster as art song.\n\nThat treatment was deliberate. Hempel was in the middle of her Jenny Lind period, giving costumed recreations of the Swedish soprano's American tour of 1850-52, and Foster's songs belonged to exactly that programme. The Royal Purple series is the recorded residue of that idea — celebrity voices, familiar tunes, premium price, purple celluloid.",
+      "provenance": "Dubbed acoustically from the Edison Diamond Disc master.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "frieda-hempel", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
+        { "person_slug": "criterion-quartet", "role": "ensemble", "billing_order": 2 }
+      ]
+    },
+    {
+      "slug": "edison-blue-amberol-royal-purple-29058",
+      "series_slug": "edison-blue-amberol-royal-purple",
+      "catalog_number": "29058",
+      "title": "Valse sentimentale",
+      "work_type": "Violin solo",
+      "genre": "Light classical",
+      "credit_line": "Violin solo with orchestra",
+      "released_on": "1920-01-01",
+      "released_precision": "year",
+      "description": "Albert Spalding playing a sentimental waltz, and one of the most talked-about numbers in the whole Royal Purple series for a reason that has nothing to do with the music: it is generally held to be the only Royal Purple dubbed from a Diamond Disc that Edison never actually issued as a disc. The cylinder is therefore the sole published form of that performance.\n\nSpalding matters in his own right. He was the first American-born violinist to establish an international reputation on equal terms with the European school, and he was an Edison exclusive artist through the Diamond Disc years, which is why his records are all on Edison and nowhere else.\n\nThe Royal Purples ran from 29007 to roughly 29080, issued between about 1918 and 1921, after which the celebrity titles reverted to ordinary blue celluloid and the purple series was closed. Seventy-odd numbers over three years, all of them expensive and none of them big sellers, makes the Royal Purple one of the scarcer things a cylinder collector can go looking for.",
+      "provenance": "Dubbed acoustically from a Diamond Disc master that is generally reported never to have been issued as a disc.",
+      "notes": "The precise release year is inferred from the position of the number within the 29007-29080 run and is unconfirmed.",
+      "confidence": "probable",
+      "credits": [
+        { "person_slug": "albert-spalding", "role": "instrumentalist", "detail": "violin", "billing_order": 1 }
+      ]
     }
   ]
 }
