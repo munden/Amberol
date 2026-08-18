@@ -35,6 +35,8 @@ interface Queued {
   preview: string;
   status: Status;
   message?: string;
+  /** 0–1 while sending, or null when the browser cannot report a total. */
+  progress?: number | null;
 }
 
 function humanSize(bytes: number): string {
@@ -117,14 +119,15 @@ export default function ImageUploader({
     // One request per file, so a failure names the photograph it belongs to
     // and the rest of the batch still goes up.
     for (const entry of pending) {
-      patch(entry.key, { status: 'uploading', message: undefined });
+      patch(entry.key, { status: 'uploading', message: undefined, progress: 0 });
       const form = new FormData();
       form.append('files', entry.file, entry.file.name);
       form.append('view', view);
       if (caption.trim()) form.append('caption', caption.trim());
       if (altText.trim()) form.append('altText', altText.trim());
       try {
-        const images = await api.collection.uploadImages(itemId, form);
+        const images = await api.collection.uploadImages(itemId, form, (fraction) =>
+          patch(entry.key, { progress: fraction }));
         const created = images?.[0];
         uploaded.push(...(images ?? []));
         if (created?.duplicate) {
@@ -238,7 +241,15 @@ export default function ImageUploader({
                   </div>
                   <div style={{ fontSize: 'var(--text-sm)', color: 'var(--fg-soft)' }}>
                     {humanSize(q.file.size)}
-                    {q.status === 'uploading' && ' · sending…'}
+                    {q.status === 'uploading' && (
+                      typeof q.progress === 'number'
+                        ? q.progress >= 1
+                          // The bytes are up; the wait now is the server
+                          // reading, rotating and thumbnailing them.
+                          ? ' · processing…'
+                          : ` · sending ${Math.round(q.progress * 100)}%`
+                        : ' · sending…'
+                    )}
                     {q.status === 'done' && ' · added'}
                     {q.status === 'duplicate' && ' · already held'}
                   </div>
@@ -253,7 +264,14 @@ export default function ImageUploader({
                       style={{
                         width: q.status === 'done' || q.status === 'duplicate' || q.status === 'error'
                           ? '100%'
-                          : q.status === 'uploading' ? undefined : '0%',
+                          : q.status === 'uploading'
+                            // A real fraction when the browser reports one;
+                            // otherwise leave the width to the indeterminate
+                            // animation in the stylesheet.
+                            ? (typeof q.progress === 'number'
+                                ? `${Math.round(q.progress * 100)}%`
+                                : undefined)
+                            : '0%',
                       }}
                     />
                   </div>

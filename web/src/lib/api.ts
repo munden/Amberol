@@ -367,6 +367,66 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 
 const unwrap = <T>(p: Promise<{ data: T }>): Promise<T> => p.then((r) => r.data);
 
+/**
+ * Uploads a FormData with byte-level progress.
+ *
+ * `fetch` cannot report how much of a request body has gone out, and a
+ * photograph off a phone is large enough that an indeterminate bar tells the
+ * collector nothing. XMLHttpRequest still exposes upload progress, so image
+ * uploads — and only image uploads — go through it.
+ *
+ * `onProgress` receives a fraction between 0 and 1, or null while the total
+ * size is unknown (a browser that does not report a computable length).
+ */
+function uploadWithProgress<T>(
+  path: string,
+  form: FormData,
+  onProgress?: (fraction: number | null) => void,
+): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const request = new XMLHttpRequest();
+    request.open('POST', `/api${path}`);
+
+    request.upload.addEventListener('progress', (event) => {
+      if (!onProgress) return;
+      onProgress(event.lengthComputable ? event.loaded / event.total : null);
+    });
+
+    // The bytes are gone; whatever remains is the server thinking about them.
+    request.upload.addEventListener('load', () => onProgress?.(1));
+
+    request.addEventListener('load', () => {
+      let payload: any = null;
+      if (request.responseText) {
+        try {
+          payload = JSON.parse(request.responseText);
+        } catch {
+          reject(new ApiError(request.status, 'bad_response', 'The server sent something unreadable.'));
+          return;
+        }
+      }
+      if (request.status >= 200 && request.status < 300) {
+        resolve(payload as T);
+      } else {
+        const err = payload?.error ?? {};
+        reject(new ApiError(
+          request.status,
+          err.code ?? 'server_error',
+          err.message ?? `Upload failed (${request.status}).`,
+          err.details,
+        ));
+      }
+    });
+
+    request.addEventListener('error', () =>
+      reject(new ApiError(0, 'network', 'The upload could not reach the register.')));
+    request.addEventListener('abort', () =>
+      reject(new ApiError(0, 'aborted', 'The upload was cancelled.')));
+
+    request.send(form);
+  });
+}
+
 const get = <T>(path: string) => request<T>(path);
 const post = <T>(path: string, body?: unknown) =>
   request<T>(path, { method: 'POST', body: body === undefined ? undefined : JSON.stringify(body) });
@@ -414,8 +474,11 @@ export const api = {
       unwrap(get<{ data: Revision[] }>(`/catalog/${idOrSlug}/revisions`)),
     restore: (idOrSlug: string | number, revisionId: number) =>
       unwrap(post<{ data: CatalogRecord }>(`/catalog/${idOrSlug}/revisions/${revisionId}/restore`)),
-    uploadImages: (idOrSlug: string | number, form: FormData) =>
-      unwrap(request<{ data: Image[] }>(`/catalog/${idOrSlug}/images`, { method: 'POST', body: form })),
+    uploadImages: (
+      idOrSlug: string | number,
+      form: FormData,
+      onProgress?: (fraction: number | null) => void,
+    ) => unwrap(uploadWithProgress<{ data: Image[] }>(`/catalog/${idOrSlug}/images`, form, onProgress)),
   },
 
   makers: {
@@ -474,8 +537,11 @@ export const api = {
       patch<{ data: CleaningEvent; warnings?: Warning[] }>(`/cleanings/${cleaningId}`, body),
     removeCleaning: (cleaningId: number) => del<void>(`/cleanings/${cleaningId}`),
 
-    uploadImages: (id: number, form: FormData) =>
-      unwrap(request<{ data: Image[] }>(`/collection/${id}/images`, { method: 'POST', body: form })),
+    uploadImages: (
+      id: number,
+      form: FormData,
+      onProgress?: (fraction: number | null) => void,
+    ) => unwrap(uploadWithProgress<{ data: Image[] }>(`/collection/${id}/images`, form, onProgress)),
 
     plays: (id: number) => unwrap(get<{ data: PlayEvent[] }>(`/collection/${id}/plays`)),
     addPlay: (id: number, body: Record<string, unknown>) =>
