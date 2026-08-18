@@ -3,14 +3,12 @@
  * Cross-platform setup: installs dependencies, creates the database, applies
  * the migrations and loads the master catalog.
  *
- * Runs on Windows, macOS and Linux — it shells out only to `npm` and `psql`,
- * and never to a shell script.
+ * Runs on Windows, macOS and Linux. It shells out only to `npm` and `node`,
+ * never to a shell script and never to `psql` — the role and database are
+ * created through the server's own PostgreSQL driver, because the Windows
+ * installer routinely leaves psql off PATH.
  *
  *   npm run setup
- *
- * If the database cannot be created automatically (usually because the
- * PostgreSQL superuser needs a password), the script says exactly which two
- * SQL statements to run by hand and then carries on.
  */
 import { spawnSync } from 'node:child_process';
 import { existsSync, writeFileSync } from 'node:fs';
@@ -53,81 +51,29 @@ function step(message) {
   console.log(`\n==> ${message}`);
 }
 
-// ---------------------------------------------------------------- PostgreSQL
-
-const PSQL_MISSING_HELP = isWindows
-  ? 'psql is not on your PATH.\n\n' +
-    '  If PostgreSQL is installed, add its bin folder to PATH — typically\n' +
-    '      C:\\Program Files\\PostgreSQL\\17\\bin\n' +
-    '  (adjust the version number), then open a NEW terminal so the change\n' +
-    '  takes effect, and run `npm run setup` again.\n\n' +
-    '  If it is not installed, get it from\n' +
-    '      https://www.postgresql.org/download/windows/\n' +
-    '  and note the superuser password you choose during installation.'
-  : 'psql is not on your PATH.\n\n' +
-    '  Install PostgreSQL 14 or newer and make sure psql is on your PATH,\n' +
-    '  then run `npm run setup` again.';
-
 /**
- * Detects psql. A missing executable does not always surface as ENOENT: on
- * Windows the call goes through a shell, which reports "not recognized" with a
- * non-zero status instead. So a non-zero status counts as missing too.
- */
-function checkPsql() {
-  const probe = run('psql', ['--version'], { quiet: true });
-  if (probe.missing || !probe.ok) {
-    console.log('    not found');
-    return false;
-  }
-  console.log('    ' + probe.stdout.trim());
-  return true;
-}
-
-/** True when the application's own connection string already works. */
-function canConnect() {
-  return run('psql', [DATABASE_URL, '-tAc', 'select 1'], { quiet: true }).ok;
-}
-
-/**
- * Creates the role and database, if they are not already there.
+ * Creates the role and database.
  *
- * The creating psql runs with the terminal attached rather than captured, so
- * that it can prompt for the superuser password — on Windows the standard
- * installer always sets one, and a captured prompt would simply hang.
+ * This runs through the server's own PostgreSQL driver rather than the psql
+ * command line, because the Windows installer routinely leaves psql off PATH
+ * — which used to stop setup dead even when the server was running perfectly
+ * well. The terminal stays attached so it can prompt for the superuser
+ * password.
  */
 function createDatabase() {
-  if (canConnect()) {
-    console.log('    already present');
-    return true;
-  }
+  const result = run('node', ['src/scripts/create-db.mjs'], {
+    cwd: path.join(root, 'server'),
+    env: { DATABASE_URL },
+  });
 
-  console.log('    Connecting as the "postgres" superuser to create them.');
-  console.log('    If you are asked for a password, it is the one you chose when');
-  console.log('    you installed PostgreSQL.\n');
-
-  const asSuperuser = (sql) =>
-    run('psql', ['-U', 'postgres', '-h', DB_HOST, '-p', DB_PORT, '-d', 'postgres', '-c', sql]);
-
-  // Any of these may fail because that piece already exists, which is fine;
-  // the connection check below is what actually decides whether this worked.
-  asSuperuser(`CREATE ROLE ${DB_USER} LOGIN PASSWORD '${DB_PASS}' SUPERUSER;`);
-  // Run unconditionally, because the interesting failure is a role that
-  // already exists with a different password — CREATE would just report
-  // "already exists" and leave the credentials still mismatched.
-  asSuperuser(`ALTER ROLE ${DB_USER} WITH LOGIN SUPERUSER PASSWORD '${DB_PASS}';`);
-  asSuperuser(`CREATE DATABASE ${DB_NAME} OWNER ${DB_USER};`);
-
-  if (canConnect()) {
-    console.log('\n    created');
-    return true;
-  }
+  if (result.ok) return true;
 
   console.log(
-    '\n    Could not create the database automatically. Run these by hand:\n\n' +
-      '      psql -U postgres\n' +
-      `      CREATE ROLE ${DB_USER} LOGIN PASSWORD '${DB_PASS}' SUPERUSER;\n` +
-      `      CREATE DATABASE ${DB_NAME} OWNER ${DB_USER};\n` +
-      '      \\q\n\n' +
+    '\n    Could not create the database automatically.\n\n' +
+      '    Open pgAdmin (installed alongside PostgreSQL) or a psql prompt as the\n' +
+      '    postgres superuser, and run:\n\n' +
+      `      CREATE ROLE ${DB_USER} LOGIN SUPERUSER PASSWORD '${DB_PASS}';\n` +
+      `      CREATE DATABASE ${DB_NAME} OWNER ${DB_USER};\n\n` +
       '    Then run `npm run setup` again.',
   );
   return false;
@@ -136,9 +82,6 @@ function createDatabase() {
 // --------------------------------------------------------------------- main
 
 console.log('Setting up the Amberola Cylinder Register');
-
-step('Checking for PostgreSQL');
-const havePsql = checkPsql();
 
 step('Writing server/.env');
 const envPath = path.join(root, 'server', '.env');
@@ -166,11 +109,8 @@ if (!run(npmCmd, ['install', '--no-audit', '--no-fund'], { cwd: path.join(root, 
   process.exit(1);
 }
 
-let ready = havePsql;
-if (havePsql) {
-  step('Creating the role and database');
-  ready = createDatabase();
-}
+step('Creating the role and database');
+const ready = createDatabase();
 
 if (ready) {
   step('Applying migrations');
@@ -199,7 +139,7 @@ if (ready) {
   // scroll the reason off the screen.
   console.log('\n' + '-'.repeat(64));
   console.log('Dependencies are installed, but the database is not ready.\n');
-  console.log(havePsql ? 'See the note above.' : PSQL_MISSING_HELP);
+  console.log('See the note above.');
   console.log('-'.repeat(64));
   process.exit(1);
 }

@@ -34,10 +34,10 @@ database. To avoid the prompt, set `PGPASSWORD` first. It is safe to re-run.
 
 ### On Windows
 
-`psql` must be on your `PATH`. The installer does not always add it, so if
-setup reports that psql was not found, add the PostgreSQL `bin` folder — for
-example `C:\Program Files\PostgreSQL\17\bin` — to your PATH and open a new
-terminal.
+Setup does not need `psql` on your `PATH` — it creates the role and database
+through the same PostgreSQL driver the server uses, because the Windows
+installer routinely leaves `psql` unavailable. Installing PostgreSQL and
+having its service running is enough.
 
 ### A note on install scripts
 
