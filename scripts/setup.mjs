@@ -55,18 +55,28 @@ function step(message) {
 
 // ---------------------------------------------------------------- PostgreSQL
 
+const PSQL_MISSING_HELP = isWindows
+  ? 'psql is not on your PATH.\n\n' +
+    '  If PostgreSQL is installed, add its bin folder to PATH — typically\n' +
+    '      C:\\Program Files\\PostgreSQL\\17\\bin\n' +
+    '  (adjust the version number), then open a NEW terminal so the change\n' +
+    '  takes effect, and run `npm run setup` again.\n\n' +
+    '  If it is not installed, get it from\n' +
+    '      https://www.postgresql.org/download/windows/\n' +
+    '  and note the superuser password you choose during installation.'
+  : 'psql is not on your PATH.\n\n' +
+    '  Install PostgreSQL 14 or newer and make sure psql is on your PATH,\n' +
+    '  then run `npm run setup` again.';
+
+/**
+ * Detects psql. A missing executable does not always surface as ENOENT: on
+ * Windows the call goes through a shell, which reports "not recognized" with a
+ * non-zero status instead. So a non-zero status counts as missing too.
+ */
 function checkPsql() {
   const probe = run('psql', ['--version'], { quiet: true });
-  if (probe.missing) {
-    console.error(
-      '\npsql was not found on your PATH.\n' +
-        (isWindows
-          ? 'Install PostgreSQL from https://www.postgresql.org/download/windows/\n' +
-            'then add its bin folder to PATH, for example:\n' +
-            '  C:\\\\Program Files\\\\PostgreSQL\\\\17\\\\bin\n' +
-            'Open a new terminal afterwards so the change takes effect.\n'
-          : 'Install PostgreSQL 14 or newer and make sure psql is on your PATH.\n'),
-    );
+  if (probe.missing || !probe.ok) {
+    console.log('    not found');
     return false;
   }
   console.log('    ' + probe.stdout.trim());
@@ -181,9 +191,11 @@ if (ready) {
 
   console.log('\nDone. Start the register with:\n\n    npm start\n\nThen open http://localhost:4310');
 } else {
-  console.log(
-    '\nDependencies are installed, but the database is not ready yet.\n' +
-      'Follow the note above, then run `npm run setup` again.',
-  );
+  // Repeated at the end because the install output above is long enough to
+  // scroll the reason off the screen.
+  console.log('\n' + '-'.repeat(64));
+  console.log('Dependencies are installed, but the database is not ready.\n');
+  console.log(havePsql ? 'See the note above.' : PSQL_MISSING_HELP);
+  console.log('-'.repeat(64));
   process.exit(1);
 }

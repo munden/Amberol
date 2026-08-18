@@ -39,6 +39,15 @@ setup reports that psql was not found, add the PostgreSQL `bin` folder — for
 example `C:\Program Files\PostgreSQL\17\bin` — to your PATH and open a new
 terminal.
 
+### A note on install scripts
+
+npm 12 blocks package install scripts unless a project approves them. Two
+dependencies genuinely need theirs — `esbuild`, which places the compiler
+binary Vite builds with, and `sharp`, which does the same for image
+processing. Both are approved in the `allowScripts` field of the respective
+`package.json`, so installing works without any prompt. Nothing else in the
+tree is allowed to run an install script.
+
 If the database cannot be created automatically, setup prints the two SQL
 statements to run by hand and stops; run them, then run `npm run setup` again.
 
