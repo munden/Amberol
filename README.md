@@ -16,12 +16,30 @@ standing at a shelf and the reading happens in a chair.
 
 ## Getting started
 
-Requires PostgreSQL 14 or newer and Node 20 or newer. Works on Windows, macOS
-and Linux — `npm run setup` is a Node script, not a shell script.
+### On a computer with nothing installed
+
+The installers take a bare machine and leave a working register: they install
+Node.js and PostgreSQL if those are missing, start the database, create the
+role and database, and load the master catalog. Every step checks before it
+acts, so running one twice is safe.
+
+**Windows** — right-click PowerShell, "Run as administrator":
+
+```powershell
+cd $HOME\Amberol
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+.\install.ps1
+```
+
+**macOS or Linux**:
 
 ```bash
-git clone <this repository>
-cd Amberol
+./install.sh          # add --start to launch it straight away
+```
+
+### If you already have PostgreSQL 14+ and Node 20+
+
+```bash
 npm run setup      # installs dependencies, creates the database, loads the catalog
 npm start          # builds the front end and serves everything on :4310
 ```
