@@ -99,9 +99,14 @@ export function SeverityPips({ severity }: { severity: number }) {
   );
 }
 
-export function defectTone(defect: ItemDefect): 'danger' | 'warn' | 'brass' {
+/**
+ * Terminal faults read as danger, marked ones as a warning, the rest in the
+ * Amberol blue — brass on cream is too faint to carry small type at the
+ * contrast the register holds itself to.
+ */
+export function defectTone(defect: ItemDefect): 'danger' | 'warn' | 'blue' {
   if (defect.defectType.isTerminal) return 'danger';
-  return defect.severity >= 3 ? 'warn' : 'brass';
+  return defect.severity >= 3 ? 'warn' : 'blue';
 }
 
 /** Unresolved defects as badges; terminal faults are marked apart. */
@@ -121,7 +126,7 @@ export function DefectBadges({ defects, max = 4 }: { defects: ItemDefect[]; max?
         </Badge>
       ))}
       {open.length > shown.length && (
-        <Badge tone="brass">+{open.length - shown.length}</Badge>
+        <Badge tone="blue">+{open.length - shown.length}</Badge>
       )}
     </span>
   );

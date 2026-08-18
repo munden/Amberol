@@ -7,7 +7,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 import { Button, Checkbox, Modal, Notice, Select, TextArea, TextField } from '../ui';
-import { ApiError } from '../../lib/api';
+import { LINK_KIND_LABELS, LINK_KIND_ORDER } from './parts';
+import { ApiError, type LinkKind, type RecordLink } from '../../lib/api';
 
 // -------------------------------------------------------------- article shell
 
@@ -66,13 +67,24 @@ export type EntityValues = Record<string, string | boolean | string[]>;
  * article stays where it was, and carrying the same edit-summary field the
  * catalog uses — every entity edit is written into the same history.
  */
+interface LinkDraft {
+  key: string;
+  kind: LinkKind;
+  label: string;
+  url: string;
+}
+
+const linkKey = () => Math.random().toString(36).slice(2, 10);
+
 export function EntityEditor({
-  open, title, fields, initial, onClose, onSave,
+  open, title, fields, initial, links, onClose, onSave,
 }: {
   open: boolean;
   title: string;
   fields: EntityFieldDef[];
   initial: EntityValues;
+  /** The page's citations; edited here and replaced wholesale on save. */
+  links?: RecordLink[];
   onClose: () => void;
   onSave: (body: Record<string, unknown>) => Promise<void>;
 }) {
@@ -83,6 +95,8 @@ export function EntityEditor({
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<unknown>(null);
   const [details, setDetails] = useState<Record<string, string>>({});
+  const [linkDrafts, setLinkDrafts] = useState<LinkDraft[]>([]);
+  const [linkErrors, setLinkErrors] = useState<Record<number, string>>({});
 
   useEffect(() => {
     if (open) {
@@ -90,6 +104,10 @@ export function EntityEditor({
       setSummary('');
       setError(null);
       setDetails({});
+      setLinkErrors({});
+      setLinkDrafts((links ?? []).map((link) => ({
+        key: linkKey(), kind: link.kind, label: link.label ?? '', url: link.url ?? '',
+      })));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, initialKey]);
@@ -97,7 +115,22 @@ export function EntityEditor({
   const set = (name: string, value: string | boolean | string[]) =>
     setValues((prev) => ({ ...prev, [name]: value }));
 
+  const updateLink = (key: string, patch: Partial<LinkDraft>) =>
+    setLinkDrafts((prev) => prev.map((l) => (l.key === key ? { ...l, ...patch } : l)));
+
   const submit = async () => {
+    const badLinks: Record<number, string> = {};
+    linkDrafts.forEach((link, index) => {
+      if (!link.url.trim() && !link.label.trim()) return;
+      if (!/^https?:\/\/\S+$/i.test(link.url.trim())) {
+        badLinks[index] = 'A link needs a full http:// or https:// address.';
+      } else if (!link.label.trim()) {
+        badLinks[index] = 'Give the link a label.';
+      }
+    });
+    setLinkErrors(badLinks);
+    if (Object.keys(badLinks).length) return;
+
     setSaving(true);
     setError(null);
     setDetails({});
@@ -119,6 +152,13 @@ export function EntityEditor({
         const raw = String(value ?? '').trim();
         body[field.name] = raw === '' ? null : raw;
       }
+    }
+    if (links) {
+      body.links = linkDrafts
+        .filter((link) => link.url.trim())
+        .map((link, index) => ({
+          kind: link.kind, label: link.label.trim(), url: link.url.trim(), sortOrder: index + 1,
+        }));
     }
     try {
       await onSave(body);
@@ -193,6 +233,65 @@ export function EntityEditor({
             </div>
           );
         })}
+
+        {links && (
+          <div style={{ gridColumn: '1 / -1' }}>
+            <div className="label-type" style={{ marginBottom: 'var(--space-2)' }}>
+              Citations and links out
+            </div>
+            {linkDrafts.length === 0 && (
+              <p style={{ color: 'var(--fg-faint)', margin: '0 0 var(--space-2)' }}>
+                No links recorded yet.
+              </p>
+            )}
+            {linkDrafts.map((link, index) => (
+              <div
+                key={link.key}
+                style={{
+                  display: 'grid', gap: 'var(--space-2)',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(10rem, 1fr))',
+                  borderTop: '1px solid var(--rule)', padding: 'var(--space-2) 0',
+                }}
+              >
+                <Select
+                  label="Kind" value={link.kind}
+                  onChange={(e) => updateLink(link.key, { kind: e.target.value as LinkKind })}
+                >
+                  {LINK_KIND_ORDER.map((kind) => (
+                    <option key={kind} value={kind}>{LINK_KIND_LABELS[kind]}</option>
+                  ))}
+                </Select>
+                <TextField
+                  label="Label" value={link.label}
+                  onChange={(e) => updateLink(link.key, { label: e.target.value })}
+                />
+                <TextField
+                  label="Address" type="url" value={link.url} placeholder="https://"
+                  error={linkErrors[index]}
+                  onChange={(e) => updateLink(link.key, { url: e.target.value })}
+                />
+                <div className="row" style={{ alignItems: 'flex-end' }}>
+                  <Button
+                    type="button" size="sm" variant="ghost"
+                    onClick={() => setLinkDrafts((prev) => prev.filter((l) => l.key !== link.key))}
+                  >
+                    Remove
+                  </Button>
+                </div>
+              </div>
+            ))}
+            <div style={{ marginTop: 'var(--space-2)' }}>
+              <Button
+                type="button" size="sm"
+                onClick={() => setLinkDrafts((prev) => [
+                  ...prev, { key: linkKey(), kind: 'encyclopedia', label: '', url: '' },
+                ])}
+              >
+                Add a link
+              </Button>
+            </div>
+          </div>
+        )}
 
         <div style={{ gridColumn: '1 / -1' }}>
           <TextField

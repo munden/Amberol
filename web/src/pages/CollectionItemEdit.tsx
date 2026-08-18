@@ -248,7 +248,13 @@ export default function CollectionItemEdit() {
     try {
       if (editing) {
         await api.collection.update(itemId, body());
-        await api.collection.setDefects(itemId, defectPayload());
+        // PUT replaces the whole set, so it is only sent when the faults have
+        // actually been touched — otherwise every save would rewrite the
+        // dates on which each fault was first noted.
+        const before = baseline ? (JSON.parse(baseline) as FormState).defects : null;
+        if (!before || JSON.stringify(before) !== JSON.stringify(form.defects)) {
+          await api.collection.setDefects(itemId, defectPayload());
+        }
         savedRef.current = true;
         navigate(`/collection/${itemId}`);
       } else {
@@ -311,7 +317,11 @@ export default function CollectionItemEdit() {
         </Notice>
       )}
 
-      <form onSubmit={(e) => { e.preventDefault(); void submit(); }} className="stack">
+      <form
+        noValidate
+        onSubmit={(e) => { e.preventDefault(); void submit(); }}
+        className="stack"
+      >
         {/* ---------------------------------------------------------- identity */}
         <section className="plate stack">
           <h2 style={{ marginTop: 0 }}>Which cylinder is this?</h2>
@@ -343,6 +353,7 @@ export default function CollectionItemEdit() {
                 </p>
               </div>
               <Button
+                type="button"
                 variant="ghost"
                 onClick={() => {
                   setForm((f) => ({ ...f, record: null, recordId: null }));
@@ -374,12 +385,14 @@ export default function CollectionItemEdit() {
 
               <div className="row">
                 <Button
+                  type="button"
                   variant={manual ? 'ghost' : 'primary'}
                   onClick={() => { setManual(false); setPicking(true); }}
                 >
                   Search the catalog
                 </Button>
                 <Button
+                  type="button"
                   variant={manual ? 'primary' : 'ghost'}
                   onClick={() => { setManual(true); setPicking(false); }}
                 >
@@ -467,7 +480,7 @@ export default function CollectionItemEdit() {
               <div className="row" aria-labelledby="rating-label">
                 <StarRating value={form.playbackRating} onChange={(v) => set('playbackRating', v)} />
                 {form.playbackRating !== null && (
-                  <Button size="sm" variant="ghost" onClick={() => set('playbackRating', null)}>
+                  <Button type="button" size="sm" variant="ghost" onClick={() => set('playbackRating', null)}>
                     Clear
                   </Button>
                 )}

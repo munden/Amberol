@@ -22,7 +22,7 @@ import { LINK_KIND_LABELS, LINK_KIND_ORDER, ROLE_ORDER, ROLE_SINGULAR } from '..
 import {
   ApiError, api,
   type CatalogRecord, type Confidence, type CreditRole, type DatePrecision,
-  type LinkKind, type Lookups, type Person,
+  type Image, type LinkKind, type Lookups, type Person,
 } from '../lib/api';
 
 // ------------------------------------------------------------------- drafts
@@ -235,6 +235,10 @@ export default function RecordEdit() {
     setForm((prev) => ({ ...prev, [key]: value }));
   }, []);
 
+  /** The API keys its 422 details as `links[0].url`; accept the dotted form too. */
+  const rowError = (collection: 'credits' | 'links', index: number, field: string) =>
+    fieldErrors[`${collection}[${index}].${field}`] ?? fieldErrors[`${collection}.${index}.${field}`];
+
   // ------------------------------------------------------------- credits
   const addCredit = () => setForm((prev) => ({
     ...prev,
@@ -260,6 +264,31 @@ export default function RecordEdit() {
     credits.splice(target, 0, moved);
     return { ...prev, credits };
   });
+
+  /**
+   * The API credits people by id, so a name it has never seen has to become a
+   * person page first. This does that in one click and links the credit to it.
+   */
+  const [creatingPerson, setCreatingPerson] = useState<string | null>(null);
+  const createPerson = async (key: string, name: string) => {
+    const trimmed = name.trim();
+    if (!trimmed) return;
+    setCreatingPerson(key);
+    try {
+      const person = await api.people.create({ name: trimmed });
+      setPeople((prev) => [...prev, person]);
+      updateCredit(key, { personId: person.id, personName: person.name });
+      setFieldErrors((prev) => {
+        const next = { ...prev };
+        for (const k of Object.keys(next)) if (k.startsWith('credits')) delete next[k];
+        return next;
+      });
+    } catch (err) {
+      setSaveError(err);
+    } finally {
+      setCreatingPerson(null);
+    }
+  };
 
   // --------------------------------------------------------------- links
   const addLink = () => setForm((prev) => ({
@@ -287,6 +316,56 @@ export default function RecordEdit() {
     return { ...prev, links };
   });
 
+  // -------------------------------------------------------------- pictures
+  // Catalog imagery belongs to the shared record, not to anyone's copy, so it
+  // is uploaded here. Only an existing record can carry images; a new entry
+  // gets the panel once it has been created.
+  const [images, setImages] = useState<Image[]>([]);
+  const [imageBusy, setImageBusy] = useState(false);
+  const [imageError, setImageError] = useState<unknown>(null);
+
+  useEffect(() => { setImages(record?.images ?? []); }, [record]);
+
+  const uploadImages = async (files: FileList | null) => {
+    if (!files?.length || !slug) return;
+    setImageBusy(true);
+    setImageError(null);
+    try {
+      const form = new FormData();
+      for (const file of Array.from(files)) form.append('files', file);
+      const created = await api.catalog.uploadImages(slug, form);
+      setImages((prev) => {
+        const known = new Set(prev.map((image) => image.id));
+        return [...prev, ...created.filter((image) => !known.has(image.id))];
+      });
+    } catch (err) {
+      setImageError(err);
+    } finally {
+      setImageBusy(false);
+    }
+  };
+
+  const removeImage = async (id: number) => {
+    if (!window.confirm('Remove this picture from the record?')) return;
+    setImageError(null);
+    try {
+      await api.images.remove(id);
+      setImages((prev) => prev.filter((image) => image.id !== id));
+    } catch (err) {
+      setImageError(err);
+    }
+  };
+
+  const makePrimary = async (id: number) => {
+    setImageError(null);
+    try {
+      await api.images.update(id, { isPrimary: true });
+      setImages((prev) => prev.map((image) => ({ ...image, isPrimary: image.id === id })));
+    } catch (err) {
+      setImageError(err);
+    }
+  };
+
   // ------------------------------------------------------------ validate
   const validate = (): Record<string, string> => {
     const errors: Record<string, string> = {};
@@ -297,17 +376,21 @@ export default function RecordEdit() {
       errors.durationSeconds = 'Give the playing time as a whole number of seconds.';
     }
     form.credits.forEach((credit, index) => {
-      if (!credit.personName.trim() && credit.personId === null) {
-        errors[`credits.${index}.person`] = 'Name the person, or remove this credit.';
+      // The register credits people, not loose names: a credit has to point at
+      // a person page, so an unmatched name must be created first.
+      if (credit.personId === null) {
+        errors[`credits[${index}].person`] = credit.personName.trim()
+          ? 'No one of that name is in the register yet — add them first, or remove this credit.'
+          : 'Choose the person credited, or remove this credit.';
       }
     });
     form.links.forEach((link, index) => {
       if (!link.url.trim() && !link.label.trim()) return;
       if (!/^https?:\/\/\S+$/i.test(link.url.trim())) {
-        errors[`links.${index}.url`] = 'A link needs a full http:// or https:// address.';
+        errors[`links[${index}].url`] = 'A link needs a full http:// or https:// address.';
       }
       if (!link.label.trim()) {
-        errors[`links.${index}.label`] = 'Give the link a label, so the page can name it.';
+        errors[`links[${index}].label`] = 'Give the link a label, so the page can name it.';
       }
     });
     return errors;
@@ -342,13 +425,14 @@ export default function RecordEdit() {
       confidence: form.confidence,
       isStub: form.isStub,
       originalIssueId: form.originalIssueId ? Number(form.originalIssueId) : null,
-      credits: form.credits.map((credit, index) => ({
-        ...(credit.personId !== null ? { personId: credit.personId }
-                                     : { personName: credit.personName.trim() }),
-        role: credit.role,
-        detail: blank(credit.detail),
-        billingOrder: index + 1,
-      })),
+      credits: form.credits
+        .filter((credit) => credit.personId !== null)
+        .map((credit, index) => ({
+          personId: credit.personId,
+          role: credit.role,
+          detail: blank(credit.detail),
+          billingOrder: index + 1,
+        })),
       links: form.links
         .filter((link) => link.url.trim())
         .map((link, index) => ({
@@ -448,7 +532,7 @@ export default function RecordEdit() {
       'subtitle', 'workType', 'genre', 'language', 'creditLine', 'recordedOn', 'recordedPlace',
       'releasedOn', 'releaseSupplement', 'withdrawnOn', 'description', 'notes', 'lyrics',
       'trivia', 'provenance', 'confidence', 'originalIssueId'].includes(key)
-    && !key.startsWith('credits.') && !key.startsWith('links.')
+    && !key.startsWith('credits') && !key.startsWith('links')
   ));
 
   return (
@@ -496,7 +580,9 @@ export default function RecordEdit() {
             {deleteError.details && (
               <ul style={{ margin: 'var(--space-2) 0 0', paddingLeft: '1.2em' }}>
                 {Object.entries(deleteError.details).map(([key, value]) => (
-                  <li key={key}>{value}</li>
+                  <li key={key}>
+                    {Array.isArray(value) ? value.join(', ') : String(value)}
+                  </li>
                 ))}
               </ul>
             )}
@@ -654,8 +740,9 @@ export default function RecordEdit() {
             Credits
           </legend>
           <p style={{ color: 'var(--fg-soft)', marginTop: 0 }}>
-            Who performed, composed and arranged it. Order is the billing order
-            shown on the page.
+            Who performed, composed and arranged it. Each credit links to that
+            person's page; a name the register has never seen can be added from
+            here in one click. Order is the billing order shown on the page.
           </p>
           <datalist id="person-options">
             {people.map((person) => <option key={person.id} value={person.name} />)}
@@ -675,26 +762,42 @@ export default function RecordEdit() {
                   borderTop: '1px solid var(--rule)', paddingTop: 'var(--space-3)',
                 }}
               >
-                <TextField
-                  label={`Person ${index + 1}`}
-                  value={credit.personName}
-                  list="person-options"
-                  error={fieldErrors[`credits.${index}.person`]
-                    ?? fieldErrors[`credits.${index}.personId`]}
-                  hint={credit.personId === null && credit.personName.trim()
-                    ? 'Not an existing person — this name will be created.'
-                    : undefined}
-                  onChange={(e) => {
-                    const name = e.target.value;
-                    const match = people.find(
-                      (p) => p.name.toLowerCase() === name.trim().toLowerCase(),
-                    );
-                    updateCredit(credit.key, {
-                      personName: name,
-                      personId: match ? match.id : null,
-                    });
-                  }}
-                />
+                <div>
+                  <TextField
+                    label={`Person ${index + 1}`}
+                    value={credit.personName}
+                    list="person-options"
+                    error={rowError('credits', index, 'person')
+                      ?? rowError('credits', index, 'personId')}
+                    hint={credit.personId !== null
+                      ? 'Linked to their page in the register.'
+                      : credit.personName.trim()
+                        ? 'Not in the register yet.'
+                        : 'Start typing; the register suggests names and pseudonyms.'}
+                    onChange={(e) => {
+                      const name = e.target.value;
+                      const match = people.find(
+                        (p) => p.name.toLowerCase() === name.trim().toLowerCase(),
+                      );
+                      updateCredit(credit.key, {
+                        personName: name,
+                        personId: match ? match.id : null,
+                      });
+                    }}
+                  />
+                  {credit.personId === null && credit.personName.trim() && (
+                    <Button
+                      type="button" size="sm" variant="ghost"
+                      disabled={creatingPerson === credit.key}
+                      onClick={() => createPerson(credit.key, credit.personName)}
+                      style={{ marginTop: 'var(--space-1)' }}
+                    >
+                      {creatingPerson === credit.key
+                        ? 'Adding…'
+                        : `Add “${credit.personName.trim()}” to the register`}
+                    </Button>
+                  )}
+                </div>
                 <Select
                   label="Role"
                   value={credit.role}
@@ -769,13 +872,13 @@ export default function RecordEdit() {
                 </Select>
                 <TextField
                   label="Label" value={link.label}
-                  error={fieldErrors[`links.${index}.label`]}
+                  error={rowError('links', index, 'label')}
                   onChange={(e) => updateLink(link.key, { label: e.target.value })}
                 />
                 <TextField
                   label="Address" type="url" inputMode="url" value={link.url}
                   placeholder="https://"
-                  error={fieldErrors[`links.${index}.url`]}
+                  error={rowError('links', index, 'url')}
                   onChange={(e) => updateLink(link.key, { url: e.target.value })}
                 />
                 <TextField
@@ -805,6 +908,70 @@ export default function RecordEdit() {
             <Button type="button" onClick={addLink}>Add a link</Button>
           </div>
         </fieldset>
+
+        {/* ------------------------------------------------------- pictures */}
+        {!isNew && (
+          <fieldset className="plate" style={{ border: '1px solid var(--rule)' }}>
+            <legend className="label-type" style={{ padding: '0 var(--space-2)' }}>
+              Pictures
+            </legend>
+            <p style={{ color: 'var(--fg-soft)', marginTop: 0 }}>
+              Label bands, catalog scans, box lids. These belong to the shared entry —
+              photographs of your own copy live with the copy on your shelf.
+            </p>
+            {imageError ? (
+              <div style={{ marginBottom: 'var(--space-3)' }}>
+                <Notice tone="danger" title="That picture was not saved">
+                  {imageError instanceof Error ? imageError.message : 'Something went wrong.'}
+                </Notice>
+              </div>
+            ) : null}
+            {images.length > 0 && (
+              <div style={{ display: 'grid', gap: 'var(--space-4)', marginBottom: 'var(--space-4)',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(11rem, 1fr))' }}>
+                {images.map((image) => (
+                  <figure key={image.id} style={{ margin: 0 }}>
+                    <img
+                      src={image.thumbUrl ?? image.url}
+                      alt={image.altText ?? image.caption ?? ''}
+                      style={{ borderRadius: 'var(--radius-sm)', boxShadow: 'var(--shadow-sm)' }}
+                    />
+                    <figcaption className="label-type" style={{ marginTop: 'var(--space-1)' }}>
+                      {image.isPrimary ? 'Leading picture' : image.caption || 'Untitled'}
+                    </figcaption>
+                    <div className="row" style={{ gap: 'var(--space-1)' }}>
+                      {!image.isPrimary && (
+                        <Button type="button" size="sm" variant="ghost"
+                                onClick={() => makePrimary(image.id)}>
+                          Make leading
+                        </Button>
+                      )}
+                      <Button type="button" size="sm" variant="ghost"
+                              onClick={() => removeImage(image.id)}>
+                        Remove
+                      </Button>
+                    </div>
+                  </figure>
+                ))}
+              </div>
+            )}
+            <label className="field-label" htmlFor="record-images">Add pictures</label>
+            <input
+              id="record-images"
+              className="field"
+              type="file"
+              accept="image/*"
+              multiple
+              disabled={imageBusy}
+              onChange={(e) => { uploadImages(e.target.files); e.target.value = ''; }}
+            />
+            <div className="field-hint">
+              {imageBusy
+                ? 'Uploading…'
+                : 'JPEG, PNG, WebP, HEIC or GIF. Pictures are saved as soon as they are chosen, not with the rest of the form.'}
+            </div>
+          </fieldset>
+        )}
 
         {/* ---------------------------------------------------------- prose */}
         <fieldset className="plate" style={{ border: '1px solid var(--rule)' }}>

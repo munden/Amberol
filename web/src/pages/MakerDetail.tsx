@@ -133,7 +133,7 @@ export default function MakerDetail() {
           alignItems: 'start',
         }}
       >
-        <main style={{ minWidth: 0 }}>
+        <div style={{ minWidth: 0 }}>
           {maker.history ? (
             <Markdown text={maker.history} dropcap />
           ) : (
@@ -208,7 +208,7 @@ export default function MakerDetail() {
               </p>
             )}
           </section>
-        </main>
+        </div>
 
         <aside style={{ display: 'grid', gap: 'var(--space-5)', minWidth: 0 }}>
           <div className="plate" style={{ padding: 'var(--space-4)' }}>
@@ -252,6 +252,7 @@ export default function MakerDetail() {
         title={`Edit ${maker.name}`}
         fields={FIELDS}
         initial={initial}
+        links={maker.links ?? []}
         onClose={() => setEditing(false)}
         onSave={save}
       />

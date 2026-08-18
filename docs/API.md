@@ -68,7 +68,10 @@ The searchable master list. Every parameter is optional and they combine with AN
 matching, so `bru` finds *Van Brunt* and `feed` finds *Feeding*. When full-text
 returns nothing, the server retries with trigram word-similarity so
 misspellings still land — `feding` finds *Feeding*. The response reports which
-path produced the results.
+path produced the results: `matchMode` is present whenever `q` is given and
+absent when it is not, since with no search text there is no path to report.
+`rank` appears on a row only when the list is sorted by `relevance`.
+`facets` is always present, counted across the whole filtered set.
 
 ```jsonc
 {
@@ -144,9 +147,20 @@ The full record page.
 ### `POST /api/catalog`
 
 Create a record. Body uses the same camelCase field names. Required:
-`seriesId` (or `seriesSlug`), `catalogNumber`, `title`. `slug` is derived when
-omitted. `credits` and `links` may be supplied inline as arrays and are created
-with the record. Returns 201 and the full record.
+`seriesId` (or `seriesSlug`), `catalogNumber`, `title`. `makerId` defaults to
+the series' own maker. `slug` is derived from the series slug and the catalog
+number when omitted, with a numeric suffix on collision. `credits` and `links`
+may be supplied inline as arrays and are created with the record:
+
+```jsonc
+"credits": [ { "personId": 4, "role": "vocalist", "detail": "tenor", "billingOrder": 1 } ],
+            // "personSlug" may be used instead of "personId"; the person must
+            // already exist — creating one is a separate POST /api/people
+"links":   [ { "kind": "audio", "label": "…", "url": "https://…",
+               "sourceName": "…", "sortOrder": 1 } ]
+```
+
+Returns 201 and the full record, and writes a `create` revision.
 
 ### `PATCH /api/catalog/:idOrSlug`
 
@@ -163,9 +177,10 @@ which fields changed. Returns the full record.
 
 ### `DELETE /api/catalog/:idOrSlug`
 
-Deletes the record and writes a `delete` revision. Refuses with 409 if any
-collection item still references it — collection data is never destroyed by a
-catalog edit. The error `details` names the blocking items.
+Deletes the record and writes a `delete` revision; returns 204 with no body.
+Refuses with 409 if any collection item still references it — collection data
+is never destroyed by a catalog edit. The error `details` names the blocking
+items in `collectionItems`, with their ids in `collectionItemIds`.
 
 ### `GET /api/catalog/:idOrSlug/revisions`
 
@@ -192,11 +207,24 @@ Each is a wiki-style page with the same shape of routes.
 - `GET /api/people` · `GET /api/people/:idOrSlug` · `POST /api/people` · `PATCH /api/people/:idOrSlug`
 
 List routes accept `q`, `page`, `pageSize`, and `sort` (`name` default,
-`records` for most-recorded first). Detail routes include the entity's
-long-form prose, its `links`, its `recordCount`, and a `records` array of up to
-50 CatalogSummary rows, plus for people a `roles` breakdown. `PATCH` writes a
+`records` for most-recorded first). `q` is a substring match over that
+entity's own text — its name, aliases and prose — not the catalog's full-text
+index. Detail routes include the entity's long-form prose, its `links`, its
+`recordCount`, and a `records` array of up to 50 CatalogSummary rows, plus for
+makers a `series` array and for people a `roles` breakdown. `PATCH` writes a
 `catalog_revisions` row against the appropriate `entity_type`, exactly as
-catalog edits do.
+catalog edits do, and takes the same `editor` and `editSummary` keys.
+
+`POST` requires `name` (and, for a series, `makerId` or `makerSlug`); the slug
+is derived from the name when omitted. `POST` and `PATCH` both accept an inline
+`links` array — `{ kind, label, url, sortOrder }` — which replaces that page's
+links wholesale.
+
+- `GET /api/makers/:idOrSlug/revisions` · `GET /api/series/:idOrSlug/revisions`
+  · `GET /api/people/:idOrSlug/revisions`
+
+The same response shape as the catalog's revision list, so a wiki page can show
+its own history.
 
 ### `GET /api/lookups`
 
@@ -242,6 +270,13 @@ The default collection is used when no `collectionId` is given.
 | `series`, `maker`, `material` | as on the catalog list |
 | `sort` | `acquired` (default), `title`, `catalog`, `grade`, `cleaned`, `rating`, `value`; `-` reverses |
 | `page`, `pageSize` | pagination |
+
+Each sort key runs in the direction a collector means by it: `acquired`,
+`cleaned`, `grade`, `rating` and `value` put newest/highest first, `title` and
+`catalog` run A–Z and 1–n. `-` reverses whichever that is. Rows missing the
+sorted value sort last either way. An unknown sort key falls back to `acquired`
+rather than erroring. `defect` matches a defect that has been noted on the copy
+whether or not it is marked resolved.
 
 **CollectionItemSummary**:
 
@@ -293,8 +328,12 @@ The full item: every summary field plus `images` (full array), `cleanings`
   "personalNotes": "…", "defects": [ { "defectTypeId": 2, "severity": 2, "location": "rim" } ] }
 ```
 
-Returns 201 and the full item. `PATCH /api/collection/:id` edits, `DELETE`
-removes it along with its images, defects and cleaning log.
+Any other CollectionItemSummary field may be sent alongside, plus
+`collectionId` or `collectionSlug` to file the copy on a shelf other than the
+default. Returns 201 and the full item. `PATCH /api/collection/:id` edits,
+`DELETE` returns 204 and removes the copy along with its images, defects,
+cleaning log and play log. Every `DELETE` in this section answers 204 with no
+body, and 404 if there was nothing to delete.
 
 ### Defects
 
@@ -329,7 +368,17 @@ app exists partly to prevent:
 The warning does not block the write; the collector may have done it already
 and be recording history.
 
-- `PATCH /api/cleanings/:cleaningId` · `DELETE /api/cleanings/:cleaningId`
+The material is resolved through the copy's catalog record and that record's
+series. A copy that is not matched to the catalog has no known material and can
+never raise a warning, and neither can a free-text `methodOther`. Only
+`method_unsafe_for_material` is emitted; `warnings` is absent, not empty, when
+there is nothing to say.
+
+- `PATCH /api/cleanings/:cleaningId` — accepts the same body and returns
+  `data` plus a freshly recomputed `warnings`, so changing the method warns
+  exactly as logging it would.
+- `DELETE /api/cleanings/:cleaningId` — 204, and the derived `cleaning`
+  summary on the item follows it down.
 
 ### Images
 
@@ -341,8 +390,34 @@ and be recording history.
   created image objects. On a duplicate it returns the existing image and sets
   `"duplicate": true` on it rather than erroring.
 - `POST /api/catalog/:idOrSlug/images` — the same, for shared catalog imagery.
+  `view` is accepted for symmetry but not stored: the shared gallery has no
+  per-view column, so these images come back with `"view": null`.
 - `PATCH /api/images/:imageId` — `caption`, `altText`, `view`, `sortOrder`, `isPrimary`.
-- `DELETE /api/images/:imageId` — removes the row and the file.
+- `DELETE /api/images/:imageId` — 204; removes the row and both files.
+
+Details the front end can rely on:
+
+- **Format is read from the file's own bytes**, never from the supplied
+  mimetype or extension. A file that cannot be decoded as an image is 422,
+  whatever it claims to be, as is a decodable format outside the accepted list.
+  HEIC (and the HEIF container generally) is transcoded to JPEG on the way in,
+  since no browser renders it reliably; the returned `mimeType` says so.
+- **EXIF is stripped**, with the orientation applied first. `width`/`height`
+  are the dimensions after that rotation, so they describe the file as served.
+  Any GPS tag a phone stamped into the photograph is gone.
+- Files are stored as `/uploads/YYYY/MM/<sha256>.<ext>` with the thumbnail
+  alongside as `…_thumb.<ext>`, bounded to 480px on its longer edge. The names
+  are content-derived because `/uploads` is served immutable.
+- Over 25 MB is 413; a request with no file is 422.
+- The first image attached to an owner that has no primary becomes its primary.
+- `isPrimary` is exclusive per owner, so promoting one demotes the other in the
+  same transaction. Because a de-duplicated image can hang off more than one
+  owner, `PATCH` applies `view`, `sortOrder` and `isPrimary` to every owner the
+  image is attached to, and reports the first (collection items before catalog
+  records).
+- Deleting a collection item deletes the photographs that belonged only to that
+  copy, and unlinks their files. One shared with another copy or with a catalog
+  record survives.
 
 Image objects:
 
@@ -379,15 +454,38 @@ Powers the dashboard.
   "byDecade":   [ { "decade":1910, "count":61 } ],
   "topDefects": [ { "code":"grime", "label":"Dirt / grime", "count":18 } ],
   "recentlyAcquired": [ /* 5 CollectionItemSummary */ ],
-  "recentlyCleaned":  [ /* 5, with the cleaning event attached */ ],
-  "catalogCoverage": { "catalogTotal": 412, "owned": 88, "percent": 21.4 }
+  "recentlyCleaned":  [ /* 5 CollectionItemSummary, newest cleaning first;
+                           the `cleaning` object carries the event */ ],
+  "catalogCoverage": { "catalogTotal": 412, "owned": 83, "percent": 20.1 }
 } }
 ```
+
+How the counts are defined:
+
+- `distinctTitles` counts distinct catalog records among matched copies, plus
+  one for every unmatched copy — there is nothing in the catalog to collapse an
+  unmatched copy against. `duplicates` is `totalItems - distinctTitles`.
+- `catalogCoverage.owned` counts only distinct **catalog** records owned, since
+  an unmatched copy cannot cover a catalog entry. `percent` is that over
+  `catalogTotal`, to one decimal place, and 0 when the catalog is empty.
+- `cleanedThisYear` counts copies cleaned since 1 January of the current year.
+- `needsAttention` counts copies carrying an unresolved defect that is terminal
+  or of severity 4 or 5.
+- `averageGradeScore` is null when nothing has been graded.
+- Accepts `?collection=` like the list route.
 
 ### Wishlist
 
 `GET`/`POST /api/wishlist`, `PATCH`/`DELETE /api/wishlist/:id`.
-Body: `recordId` or `freeText`, `priority` 1–5, `maxPrice`, `notes`.
+Body: `recordId` (or `recordSlug`) or `freeText`, `priority` 1–5, `maxPrice`,
+`notes`. `GET` is paginated like any list and sorts by priority, then newest.
+
+```jsonc
+{ "id": 3, "collectionId": 1,
+  "record": { /* abridged CatalogSummary, or null */ },
+  "freeText": null, "displayTitle": "The Whistling Coon",
+  "priority": 2, "maxPrice": 40.00, "notes": "…", "createdAt": "…" }
+```
 
 ---
 
@@ -395,4 +493,11 @@ Body: `recordId` or `freeText`, `priority` 1–5, `maxPrice`, `notes`.
 
 - `GET /api/health` → `{ "data": { "status": "ok", "database": "ok", "records": 412 } }`
 - `POST /api/admin/reindex` → rebuilds the search index; `{ "data": { "reindexed": 412 } }`
-- `GET /api/export/collection?format=json|csv` → downloadable export of the shelf.
+- `GET /api/export/collection?format=json|csv` → downloadable export of the
+  shelf, sent with `Content-Disposition: attachment`. It takes the same filters
+  and `sort` as `GET /api/collection` but is never paginated, so an export is
+  the whole shelf or the whole of whatever was filtered. `json` returns the
+  usual `data` array of CollectionItemSummary plus `count` and `exportedAt`;
+  `csv` is one flat row per copy, with defects as a `;`-separated list of codes
+  and the derived cleaning summary in its last three columns. An unsupported
+  `format` is 400.

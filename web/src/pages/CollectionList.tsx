@@ -136,6 +136,10 @@ export default function CollectionList() {
   const seriesList = lookups.data?.series ?? [];
   const makerList = lookups.data?.makers ?? [];
 
+  // Nothing to search or sort until there is something on the shelf: the
+  // first thing a new collector sees should be the invitation, not a form.
+  const shelfIsEmpty = !loading && !error && !!data && data.total === 0 && activeFilters === 0;
+
   const labelFor = (list: { slug: string; name: string }[], slug: string) =>
     list.find((entry) => entry.slug === slug)?.name ?? slug;
 
@@ -166,6 +170,7 @@ export default function CollectionList() {
       </header>
 
       {/* ------------------------------------------------------ search & filters */}
+      {!shelfIsEmpty && (
       <section className="plate no-print" aria-label="Search and filter the shelf">
         <div className="cx-search">
           <TextField
@@ -428,8 +433,10 @@ export default function CollectionList() {
           </div>
         )}
       </section>
+      )}
 
       {/* ------------------------------------------------------------- results */}
+      {!shelfIsEmpty && (
       <div className="spread" style={{ margin: 'var(--space-5) 0 var(--space-3)' }}>
         <p className="label-type" style={{ margin: 0 }} aria-live="polite">
           {loading && !data ? 'Counting the shelf…' : data
@@ -441,6 +448,7 @@ export default function CollectionList() {
         </p>
         {needsCleaning && <Badge tone="warn">Needing cleaning</Badge>}
       </div>
+      )}
 
       {error != null && <ErrorState error={error} onRetry={reload} />}
 

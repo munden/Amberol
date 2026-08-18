@@ -129,10 +129,12 @@ export function seriesLine(series: SeriesRef | null | undefined): string {
 
 export function materialTone(material: CylinderMaterial | null | undefined,
                              colour: string | null | undefined) {
+  // Oxblood is the register's alarm colour, so a material never borrows it:
+  // a series badge must not read like the "uncertain" mark beside it.
   const cls = cylinderClass(material, colour);
   if (cls === 'cylinder-purple') return 'purple' as const;
   if (cls === 'cylinder-blue') return 'blue' as const;
-  if (cls === 'cylinder-brown' || cls === 'cylinder-wax') return 'oxblood' as const;
+  if (cls === 'cylinder-brown') return 'warn' as const;
   return 'brass' as const;
 }
 
@@ -279,7 +281,15 @@ export function RecordCard({ record }: { record: CatalogSummary }) {
   return (
     <article
       className="plate"
-      style={{ padding: 'var(--space-4)', display: 'grid', gap: 'var(--space-3)' }}
+      style={{
+        padding: 'var(--space-4)',
+        display: 'grid',
+        // Same reason as the list container: the track must be allowed to
+        // shrink below its content, or a long title widens the whole card.
+        gridTemplateColumns: 'minmax(0, 1fr)',
+        gap: 'var(--space-3)',
+        overflowWrap: 'anywhere',
+      }}
     >
       <div style={{ display: 'flex', gap: 'var(--space-3)', alignItems: 'flex-start' }}>
         <CylinderMotif
@@ -325,16 +335,14 @@ export function RecordCard({ record }: { record: CatalogSummary }) {
         <p style={{ margin: 0, color: 'var(--fg-soft)', fontSize: 'var(--text-sm)' }}>{blurb}</p>
       )}
 
-      <div className="row" style={{ gap: 'var(--space-2)', fontSize: 'var(--text-sm)' }}>
-        {record.series && (
-          <span className="label-type">{seriesLine(record.series)}</span>
-        )}
-        {record.genre && <span className="label-type">{record.genre}</span>}
-        {record.linkCount > 0 && (
-          <span className="label-type">
-            {record.linkCount} link{record.linkCount === 1 ? '' : 's'}
-          </span>
-        )}
+      <div className="label-type" style={{ fontSize: 'var(--text-xs)' }}>
+        {[
+          record.series ? seriesLine(record.series) : null,
+          record.genre,
+          record.linkCount > 0
+            ? `${record.linkCount} link${record.linkCount === 1 ? '' : 's'}`
+            : null,
+        ].filter(Boolean).join(' · ')}
       </div>
     </article>
   );
@@ -344,7 +352,15 @@ export function RecordCard({ record }: { record: CatalogSummary }) {
 export function RecordLedger({ records }: { records: CatalogSummary[] }) {
   return (
     <div className="table-scroll">
-      <table className="ledger">
+      <table className="ledger" style={{ minWidth: '38rem' }}>
+        <colgroup>
+          <col style={{ width: '5rem' }} />
+          <col style={{ width: '40%' }} />
+          <col style={{ width: '17%' }} />
+          <col style={{ width: '17%' }} />
+          <col style={{ width: '7rem' }} />
+          <col style={{ width: '8rem' }} />
+        </colgroup>
         <thead>
           <tr>
             <th scope="col">No.</th>
@@ -357,13 +373,13 @@ export function RecordLedger({ records }: { records: CatalogSummary[] }) {
         </thead>
         <tbody>
           {records.map((record) => {
-            const blurb = excerpt(record.description, 130);
+            const blurb = excerpt(record.description, 118);
             return (
               <tr key={record.id}>
                 <td className="stamp-type" style={{ whiteSpace: 'nowrap' }}>
                   {record.catalogNumber}
                 </td>
-                <td style={{ minWidth: '16rem' }}>
+                <td>
                   <Link to={`/catalog/${record.slug}`} style={{ fontWeight: 600 }}>
                     {record.title}
                   </Link>
@@ -389,7 +405,7 @@ export function RecordLedger({ records }: { records: CatalogSummary[] }) {
                     </div>
                   )}
                 </td>
-                <td className="hide-mobile" style={{ color: 'var(--fg-soft)', maxWidth: '16rem' }}>
+                <td className="hide-mobile" style={{ color: 'var(--fg-soft)' }}>
                   {record.performers || '—'}
                   {record.genre && (
                     <div className="label-type" style={{ marginTop: 'var(--space-1)' }}>
@@ -397,7 +413,7 @@ export function RecordLedger({ records }: { records: CatalogSummary[] }) {
                     </div>
                   )}
                 </td>
-                <td className="hide-mobile" style={{ maxWidth: '14rem' }}>
+                <td className="hide-mobile">
                   {record.series ? (
                     <>
                       <Link to={`/series/${record.series.slug}`}>{record.series.name}</Link>

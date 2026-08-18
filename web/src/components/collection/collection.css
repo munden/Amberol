@@ -48,12 +48,13 @@
   margin-top: var(--space-1);
 }
 
-/* A filter value, on or off. Reads as a rubber-stamped mark. */
+/* A filter value, on or off. Reads as a rubber-stamped mark, and is a full
+   44px target because it is tapped with a thumb at the shelf. */
 .cx-chip {
   display: inline-flex;
   align-items: center;
   gap: var(--space-1);
-  min-height: 34px;
+  min-height: var(--touch);
   padding: 0 var(--space-2);
   font-family: var(--font-ui);
   font-size: var(--text-sm);
@@ -74,7 +75,6 @@
   border-color: color-mix(in srgb, var(--accent) 70%, black);
 }
 .cx-chip-remove {
-  min-height: 34px;
   padding: 0 var(--space-1) 0 var(--space-2);
 }
 
@@ -185,13 +185,21 @@
   line-height: var(--leading-tight);
 }
 
+.cx-ledger { min-width: 56rem; }
 .cx-ledger td { vertical-align: middle; }
 .cx-ledger .cx-thumb { width: 74px; height: 42px; }
+/* Room for the things read most often: the title, the faults and the cleaned
+   stamp. Anything narrower and the badges break mid-word. */
+.cx-ledger td:nth-child(2) { min-width: 13rem; }
+.cx-ledger td:nth-child(4) { min-width: 6rem; }
+.cx-ledger td:nth-child(6) { min-width: 9rem; }
+.cx-ledger td:nth-child(7) { min-width: 10rem; }
+.cx-ledger .badge { white-space: nowrap; }
 
 .cx-sortlink {
   background: none;
   border: 0;
-  padding: 0;
+  padding: var(--space-1) 0;
   font: inherit;
   color: inherit;
   letter-spacing: inherit;
@@ -216,7 +224,30 @@
 .cx-section { margin-top: var(--space-6); }
 .cx-section > h2 {
   padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
   border-bottom: 3px double var(--rule);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* A section heading with something beside it — a button, or the cleaned
+   stamp. It wraps rather than colliding on a narrow screen. */
+.cx-sectionhead {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
+  border-bottom: 3px double var(--rule);
+}
+.cx-sectionhead > h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-family: var(--font-display);
   font-size: var(--text-xl);
   letter-spacing: 0.08em;
@@ -227,7 +258,7 @@
 
 .cx-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
   gap: var(--space-3);
 }
 .cx-shot {
@@ -270,6 +301,10 @@
   flex-wrap: wrap;
   gap: var(--space-1);
   padding: var(--space-1) var(--space-2) var(--space-2);
+}
+/* Thumb-sized on a phone, where these are used one-handed. */
+@media (max-width: 47.99em) {
+  .cx-shot-tools .btn { min-height: var(--touch); flex: 1 1 6rem; }
 }
 
 /* ------------------------------------------------------------- uploading */
@@ -379,10 +414,12 @@
 
 /* ----------------------------------------------------------- defect cards */
 
+/* Slightly lifted off the sunken tone so the small badges inside keep their
+   contrast in both themes. */
 .cx-defect {
   padding: var(--space-3);
   border-left: 4px solid var(--rule-strong);
-  background: var(--bg-sunken);
+  background: color-mix(in srgb, var(--bg-sunken) 55%, var(--bg-raised));
   border-radius: var(--radius-sm);
 }
 .cx-defect + .cx-defect { margin-top: var(--space-3); }
@@ -500,8 +537,6 @@
 .cx-result:hover { background: color-mix(in srgb, var(--brass-pale) 22%, transparent); }
 
 .cx-sticky-actions {
-  position: sticky;
-  bottom: 0;
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
@@ -511,6 +546,11 @@
   background: var(--bg-raised);
   border-top: 3px double var(--rule);
   box-shadow: var(--shadow-md);
+}
+/* Within reach of a thumb on a phone or tablet; a plain bar on a wide screen,
+   where the whole form is in view anyway. */
+@media (max-width: 63.99em) {
+  .cx-sticky-actions { position: sticky; bottom: 0; }
 }
 @media (max-width: 47.99em) {
   .cx-sticky-actions { bottom: var(--tabbar-h); }

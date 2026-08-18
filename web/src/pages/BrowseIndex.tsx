@@ -341,6 +341,15 @@ export default function BrowseIndex() {
                                 {person.fullName}
                               </div>
                             )}
+                            {/* Entries file under their sort name, as in a printed
+                                index; say so when that is not the obvious letter. */}
+                            {person.sortName
+                              && person.sortName.charAt(0).toUpperCase() !== person.name.charAt(0).toUpperCase()
+                              && (
+                              <div style={{ color: 'var(--fg-faint)', fontSize: 'var(--text-sm)' }}>
+                                filed as {person.sortName}
+                              </div>
+                            )}
                             {person.aliases?.length > 0 && (
                               <div className="label-type" style={{ textTransform: 'none' }}>
                                 also: {person.aliases.join(' · ')}

@@ -266,7 +266,7 @@ function catalogOrderBy(sortParam, hasQuery) {
  * counted over the entire filtered set — not the page — without re-running the
  * filters five times.
  */
-function buildCatalogListQuery(reqQuery, { mode, page, pageSize, offset }) {
+function buildCatalogListQuery(reqQuery, { mode, pageSize, offset }) {
   const p = new Params();
   const where = [];
   let rankExpr = 'NULL::real';
@@ -286,7 +286,13 @@ function buildCatalogListQuery(reqQuery, { mode, page, pageSize, offset }) {
     // `%>` is the commutator of `<%`, written with the indexed column on the
     // left so the gin_trgm_ops index on haystack can be used.
     where.push(`cs.haystack %> ${qp}`);
-    rankExpr = `word_similarity(${qp}, cs.haystack)`;
+    // Ranked on the mean of the loose and the word-aligned similarity.
+    // word_similarity alone scores any run of characters, so a coincidental
+    // sequence spanning two words can outscore the actual near-miss;
+    // strict_word_similarity only measures against whole words, and averaging
+    // the two floats the intended record — `feding` → *Feeding* — to the top.
+    rankExpr = `((word_similarity(${qp}, cs.haystack)
+                  + strict_word_similarity(${qp}, cs.haystack)) / 2)`;
   }
 
   const makerCond = refCondition('v.maker_id', 'v.maker_slug', asArray(reqQuery.maker), p);
@@ -377,7 +383,7 @@ function buildCatalogListQuery(reqQuery, { mode, page, pageSize, offset }) {
                  FROM filtered WHERE year_value IS NOT NULL GROUP BY 1) t) AS decade_facets
   `;
 
-  return { text, values: p.values, sortKey: order.key, q, page, pageSize };
+  return { text, values: p.values, sortKey: order.key };
 }
 
 function shapeListResult(row, { sortKey }) {

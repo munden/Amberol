@@ -9,6 +9,7 @@
  * Dates are always rendered at the precision they are actually known to.
  */
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import type { ReactNode } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import {
   Badge, Button, ButtonLink, DataList, DataPair, EmptyState, ErrorState, Fleuron,
@@ -16,7 +17,7 @@ import {
 } from '../components/ui';
 import { Markdown } from '../components/Markdown';
 import {
-  CONFIDENCE_TEXT, ConfidenceBadge, CylinderMotif, ExternalLink, LinkGroups,
+  CONFIDENCE_TEXT, ConfidenceBadge, CylinderMotif, LinkGroups,
   OwnedMark, ROLE_LABELS, ROLE_ORDER, RecordRefList, SectionHeading,
   materialTone, seriesLine, useMediaQuery,
 } from '../components/catalog/parts';
@@ -135,61 +136,77 @@ export default function RecordDetail() {
   const audioLinks = record.links?.filter((l) => l.kind === 'audio') ?? [];
   const heroImage = record.images?.find((i) => i.isPrimary) ?? record.images?.[0] ?? null;
 
+  /**
+   * The specification plate. A printed plate lists what is known; a column of
+   * em dashes tells the collector nothing, so a field with no value is dropped
+   * unless it is one of the few that must always be stated.
+   */
+  const specRows: { label: string; value: ReactNode; stamp?: boolean; always?: boolean }[] = [
+    { label: 'Maker', always: true,
+      value: maker ? <Link to={`/makers/${maker.slug}`}>{maker.name}</Link> : null },
+    { label: 'Series', always: true,
+      value: series ? <Link to={`/series/${series.slug}`}>{series.name}</Link> : null },
+    { label: 'Material', always: true,
+      value: series
+        ? `${MATERIAL_LABELS[series.material] ?? 'Unknown'}${series.colour ? ` · ${series.colour}` : ''}`
+        : null },
+    { label: 'Playing time',
+      value: series?.playMinutes ? `${series.playMinutes} minutes (nominal)` : null },
+    { label: 'Catalog number', stamp: true, always: true, value: record.catalogNumber },
+    { label: 'Matrix number', stamp: true, value: record.matrixNumber },
+    { label: 'Take', stamp: true, value: record.take },
+    { label: 'Recorded',
+      value: record.recordedOn ? formatDate(record.recordedOn, record.recordedPrecision) : null },
+    { label: 'Recorded at', value: record.recordedPlace },
+    { label: 'Released', always: true,
+      value: record.releasedOn ? formatDate(record.releasedOn, record.releasedPrecision) : null },
+    { label: 'Supplement', value: record.releaseSupplement },
+    { label: 'Withdrawn',
+      value: record.withdrawnOn ? formatDate(record.withdrawnOn, 'month') : null },
+    { label: 'Genre',
+      value: record.genre
+        ? <Link to={`/catalog?genre=${encodeURIComponent(record.genre)}`}>{record.genre}</Link>
+        : null },
+    { label: 'Type of work', value: record.workType },
+    { label: 'Language', value: record.language },
+    { label: 'Duration', stamp: true,
+      value: record.durationSeconds ? duration(record.durationSeconds) : null },
+    { label: 'Credit line', value: record.creditLine },
+    { label: 'Words and music', value: record.authors },
+    { label: 'Provenance', value: record.provenance },
+    { label: 'Certainty', always: true,
+      value: record.confidence[0].toUpperCase() + record.confidence.slice(1) },
+    { label: 'Last edited', value: formatDateTime(record.updatedAt) },
+  ];
+
   const specPlate = (
     <div className="plate" style={{ padding: 'var(--space-4)' }}>
       <h2 className="label-type" style={{ margin: '0 0 var(--space-3)', fontSize: 'var(--text-sm)' }}>
         Specification
       </h2>
-      <CylinderMotif
-        series={series}
-        imageUrl={heroImage?.url ?? null}
-        alt={heroImage?.altText ?? ''}
-        style={{ marginBottom: 'var(--space-4)' }}
-      />
+      {/* The masthead already carries the motif; only a real photograph earns
+          a second showing here. */}
+      {heroImage && (
+        <CylinderMotif
+          series={series}
+          imageUrl={heroImage.url}
+          alt={heroImage.altText ?? ''}
+          style={{ marginBottom: 'var(--space-4)' }}
+        />
+      )}
       <DataList columns={1}>
-        <DataPair label="Maker">
-          {maker ? <Link to={`/makers/${maker.slug}`}>{maker.name}</Link> : '—'}
-        </DataPair>
-        <DataPair label="Series">
-          {series ? <Link to={`/series/${series.slug}`}>{series.name}</Link> : '—'}
-        </DataPair>
-        <DataPair label="Material">
-          {series ? MATERIAL_LABELS[series.material] ?? 'Unknown' : '—'}
-          {series?.colour ? ` · ${series.colour}` : ''}
-        </DataPair>
-        <DataPair label="Playing time">
-          {series?.playMinutes ? `${series.playMinutes} minutes (nominal)` : '—'}
-        </DataPair>
-        <DataPair label="Catalog number" stamp>{record.catalogNumber}</DataPair>
-        <DataPair label="Matrix number" stamp>{record.matrixNumber ?? '—'}</DataPair>
-        <DataPair label="Take" stamp>{record.take ?? '—'}</DataPair>
-        <DataPair label="Recorded">
-          {record.recordedOn ? formatDate(record.recordedOn, record.recordedPrecision) : '—'}
-        </DataPair>
-        <DataPair label="Recorded at">{record.recordedPlace ?? '—'}</DataPair>
-        <DataPair label="Released">
-          {record.releasedOn ? formatDate(record.releasedOn, record.releasedPrecision) : '—'}
-        </DataPair>
-        <DataPair label="Supplement">{record.releaseSupplement ?? '—'}</DataPair>
-        {record.withdrawnOn && (
-          <DataPair label="Withdrawn">{formatDate(record.withdrawnOn, 'month')}</DataPair>
-        )}
-        <DataPair label="Genre">
-          {record.genre
-            ? <Link to={`/catalog?genre=${encodeURIComponent(record.genre)}`}>{record.genre}</Link>
-            : '—'}
-        </DataPair>
-        <DataPair label="Type of work">{record.workType ?? '—'}</DataPair>
-        <DataPair label="Language">{record.language ?? '—'}</DataPair>
-        <DataPair label="Duration" stamp>{duration(record.durationSeconds)}</DataPair>
-        <DataPair label="Credit line">{record.creditLine ?? '—'}</DataPair>
-        <DataPair label="Authors">{record.authors ?? '—'}</DataPair>
-        <DataPair label="Provenance">{record.provenance ?? '—'}</DataPair>
-        <DataPair label="Certainty">
-          {record.confidence[0].toUpperCase() + record.confidence.slice(1)}
-        </DataPair>
-        <DataPair label="Last edited">{formatDateTime(record.updatedAt)}</DataPair>
+        {specRows
+          .filter((row) => row.always || (row.value !== null && row.value !== undefined && row.value !== ''))
+          .map((row) => (
+            <DataPair key={row.label} label={row.label} stamp={row.stamp}>
+              {row.value ?? '—'}
+            </DataPair>
+          ))}
       </DataList>
+      <p className="field-hint" style={{ marginTop: 'var(--space-3)' }}>
+        Fields with nothing recorded are not listed.{' '}
+        <Link to={`/catalog/${record.slug}/edit`}>Fill one in</Link>.
+      </p>
     </div>
   );
 
@@ -307,11 +324,13 @@ export default function RecordDetail() {
             </div>
           </div>
 
+          {/* On a phone the motif leads, small, so the title is not pushed
+              below the fold by a decorative band. */}
           <CylinderMotif
             series={series}
             imageUrl={heroImage?.url ?? null}
             alt={heroImage?.altText ?? ''}
-            style={isWide ? undefined : { maxWidth: '14rem' }}
+            style={isWide ? undefined : { maxWidth: '9rem', order: -1 }}
           />
         </div>
       </header>
@@ -336,7 +355,7 @@ export default function RecordDetail() {
           alignItems: 'start',
         }}
       >
-        <main style={{ minWidth: 0 }}>
+        <div style={{ minWidth: 0 }}>
           {record.description ? (
             <Markdown text={record.description} dropcap />
           ) : (
@@ -543,7 +562,7 @@ export default function RecordDetail() {
             Entry created {formatDateTime(record.createdAt)} ·
             {' '}{record.revisionCount} recorded edit{record.revisionCount === 1 ? '' : 's'}
           </p>
-        </main>
+        </div>
 
         {/* ------------------------------------------------------- aside */}
         <aside style={{ display: 'grid', gap: 'var(--space-5)', minWidth: 0 }}>

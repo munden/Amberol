@@ -192,7 +192,7 @@ export default function PersonDetail() {
           alignItems: 'start',
         }}
       >
-        <main style={{ minWidth: 0 }}>
+        <div style={{ minWidth: 0 }}>
           {person.biography ? (
             <Markdown text={person.biography} dropcap />
           ) : (
@@ -233,7 +233,7 @@ export default function PersonDetail() {
               </p>
             )}
           </section>
-        </main>
+        </div>
 
         <aside style={{ display: 'grid', gap: 'var(--space-5)', minWidth: 0 }}>
           <div className="plate" style={{ padding: 'var(--space-4)' }}>
@@ -292,6 +292,7 @@ export default function PersonDetail() {
         title={`Edit ${person.name}`}
         fields={FIELDS}
         initial={initial}
+        links={person.links ?? []}
         onClose={() => setEditing(false)}
         onSave={save}
       />

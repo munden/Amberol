@@ -65,11 +65,6 @@ class Problems {
     return this;
   }
 
-  check(condition, field, message) {
-    if (!condition) this.add(field, message);
-    return this;
-  }
-
   throwIfAny(message) {
     if (Object.keys(this.details).length) throw ApiError.unprocessable(message, this.details);
   }
@@ -823,9 +818,12 @@ async function safetyWarnings(itemId, methodId, client = { query }) {
   const material = await materialForItem(itemId, client);
   if (!material) return [];
 
-  const { rows } = await client.query('SELECT label, safe_for FROM cleaning_methods WHERE id = $1', [
-    methodId,
-  ]);
+  // safe_for is `cylinder_material[]`; pg has no parser for an enum array, so
+  // it is cast to text[] to arrive as a JS array rather than as `{a,b,c}`.
+  const { rows } = await client.query(
+    'SELECT label, safe_for::text[] AS safe_for FROM cleaning_methods WHERE id = $1',
+    [methodId],
+  );
   if (!rows.length) return [];
   const { label, safe_for: safeFor } = rows[0];
   if (Array.isArray(safeFor) && safeFor.includes(material)) return [];
@@ -847,7 +845,7 @@ async function loadCleanings(itemId, client = { query }) {
             ce.duration_minutes, ce.outcome, ce.notes, ce.created_at,
             ce.before_image_id, ce.after_image_id,
             cm.id AS m_id, cm.code AS m_code, cm.label AS m_label, cm.description AS m_description,
-            cm.safe_for AS m_safe_for, cm.is_risky AS m_is_risky, cm.sort_order AS m_sort_order
+            cm.safe_for::text[] AS m_safe_for, cm.is_risky AS m_is_risky, cm.sort_order AS m_sort_order
        FROM cleaning_events ce
        LEFT JOIN cleaning_methods cm ON cm.id = ce.method_id
       WHERE ce.item_id = $1
@@ -863,7 +861,7 @@ async function loadCleaning(cleaningId, client = { query }) {
             ce.duration_minutes, ce.outcome, ce.notes, ce.created_at,
             ce.before_image_id, ce.after_image_id,
             cm.id AS m_id, cm.code AS m_code, cm.label AS m_label, cm.description AS m_description,
-            cm.safe_for AS m_safe_for, cm.is_risky AS m_is_risky, cm.sort_order AS m_sort_order
+            cm.safe_for::text[] AS m_safe_for, cm.is_risky AS m_is_risky, cm.sort_order AS m_sort_order
        FROM cleaning_events ce
        LEFT JOIN cleaning_methods cm ON cm.id = ce.method_id
       WHERE ce.id = $1`,

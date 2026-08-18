@@ -26,7 +26,10 @@
 
   --ink:            #221a11;
   --ink-soft:       #4d3c29;
-  --ink-faint:      #7a6647;
+  /* Darker than it looks like it wants to be. This token carries field labels
+     and table headers at small sizes, and it has to clear 4.5:1 on the sunken
+     paper as well as the raised — the earlier #7a6647 managed only 3.87 there. */
+  --ink-faint:      #6b5838;
 
   --rule:           #bfa77c;
   --rule-strong:    #9c7f4d;
@@ -539,7 +542,12 @@ select.field { cursor: pointer; }
   text-transform: uppercase;
   border: 1px solid currentColor;
   border-radius: var(--radius-sm);
-  white-space: nowrap;
+  /* Badges must be allowed to wrap: some series names are long enough
+     ("Columbia Indestructible Record (two-minute)") that holding them on one
+     line pushes the whole page sideways on a phone. Short badges still sit on
+     a single line because they fit. */
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 .badge-blue    { color: var(--amberol-blue); }
 .badge-purple  { color: var(--royal-purple); }
@@ -656,8 +664,17 @@ select.field { cursor: pointer; }
 .ledger td { padding: var(--space-3); border-bottom: 1px solid var(--rule); vertical-align: top; }
 .ledger tbody tr:hover { background: color-mix(in srgb, var(--brass-pale) 22%, transparent); }
 
-/* Wide tables scroll inside their own box; the page never scrolls sideways. */
-.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* Wide tables scroll inside their own box; the page never scrolls sideways.
+   `position: relative` is load-bearing: a visually-hidden cell label inside a
+   wide table is absolutely positioned, and without a containing block here it
+   resolves against the page instead — escaping the scroll box and widening the
+   document by however far along the table it sat. */
+.table-scroll {
+  position: relative;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
 
 /* ===================================================================
    Responsive

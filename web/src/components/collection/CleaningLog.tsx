@@ -32,11 +32,11 @@ const OUTCOME_LABELS: Record<CleaningOutcome, string> = {
   unknown: 'Not yet judged',
 };
 
-const OUTCOME_TONE: Record<CleaningOutcome, 'green' | 'brass' | 'danger'> = {
+const OUTCOME_TONE: Record<CleaningOutcome, 'green' | 'blue' | 'danger'> = {
   improved: 'green',
-  no_change: 'brass',
+  no_change: 'blue',
   worsened: 'danger',
-  unknown: 'brass',
+  unknown: 'blue',
 };
 
 interface FormState {
@@ -219,6 +219,7 @@ export default function CleaningLog({
 
       {open && (
         <form
+          noValidate
           className="plate stack"
           onSubmit={(e) => { e.preventDefault(); void submit(); }}
         >

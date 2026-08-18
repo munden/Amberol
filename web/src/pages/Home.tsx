@@ -111,63 +111,79 @@ export default function Home() {
       {/* ------------------------------------------------------- the cover */}
       <Plate className="cover">
         <div className="cover__keyline">
-          <p className="cover__imprint">Supplement of four-minute records</p>
+          <div className="cover__page">
+            <p className="cover__imprint">Supplement of four-minute records</p>
 
-          <div className="oxford-rule" aria-hidden="true" />
+            <div className="oxford-rule" aria-hidden="true" />
 
-          <h1 className="cover__title">
-            <span>The</span>
-            Amberola Cylinder Register
-          </h1>
+            <h1 className="cover__title">
+              <span>The</span>
+              Amberola Cylinder Register
+            </h1>
 
-          <div className="oxford-rule oxford-rule--under" aria-hidden="true" />
+            <div className="oxford-rule oxford-rule--under" aria-hidden="true" />
 
-          <p className="cover__byline">Compiled, corrected and kept by hand</p>
+            <p className="cover__byline">Compiled, corrected and kept by hand</p>
 
-          <p className="cover__standfirst">
-            A working catalogue of the four-minute cylinder: what was issued, by whom,
-            on which series and in what material — and, kept alongside it, a record of
-            the copies on your own shelf, their condition and their care.
-          </p>
-
-          {/* The order coupon. The one control this page exists for. */}
-          <form className="coupon" role="search" onSubmit={onSearch}>
-            <label className="coupon__label" htmlFor="cover-search">
-              Search the register
-            </label>
-            <div className="coupon__row">
-              <input
-                id="cover-search"
-                className="field coupon__input"
-                type="search"
-                name="q"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Casey Jones, 28123, Ada Jones…"
-                autoComplete="off"
-                aria-describedby="cover-search-hint"
-              />
-              <Button type="submit" variant="primary" className="coupon__submit">
-                Search
-              </Button>
-            </div>
-            <p className="coupon__hint" id="cover-search-hint">
-              Titles, catalogue numbers, performers, composers and first lines.
+            <p className="cover__standfirst dropcap">
+              A working catalogue of the four-minute cylinder — what was issued, by whom,
+              on which series and in what material — and, kept alongside it, a record of
+              the copies standing on your own shelf: how they are graded, what ails them,
+              when they were last cleaned and when they were last played.
             </p>
-          </form>
 
-          {/* A labelled figure, as a catalogue illustration would be. */}
-          <figure className="specimen">
-            <div
-              className="cylinder cylinder-blue specimen__body"
-              role="img"
-              aria-label="A Blue Amberol celluloid cylinder shown side on, its bore at the left"
-            />
-            <div className="specimen__mandrel" aria-hidden="true" />
-            <figcaption>
-              Fig. 1 — Blue Amberol celluloid, 200 threads to the inch, four minutes at 160 r.p.m.
-            </figcaption>
-          </figure>
+            {/* The order coupon. The one control this page exists for. */}
+            <form className="coupon" role="search" onSubmit={onSearch}>
+              <label className="coupon__label" htmlFor="cover-search">
+                Search the register
+              </label>
+              <div className="coupon__row">
+                <input
+                  id="cover-search"
+                  className="field coupon__input"
+                  type="search"
+                  name="q"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                  placeholder="Casey Jones, 28123, Ada Jones…"
+                  autoComplete="off"
+                  aria-describedby="cover-search-hint"
+                />
+                <Button type="submit" variant="primary" className="coupon__submit">
+                  Search
+                </Button>
+              </div>
+              <p className="coupon__hint" id="cover-search-hint">
+                Titles, catalogue numbers, performers, composers and first lines.
+              </p>
+            </form>
+
+            {/* A catalogue plate, drawn entirely by the .cylinder motif. */}
+            <figure className="specimen">
+              <div className="specimen__rack">
+                <div
+                  className="cylinder cylinder-blue specimen__cyl"
+                  role="img"
+                  aria-label="A Blue Amberol celluloid cylinder, side on, bore at the left"
+                />
+                <div
+                  className="cylinder cylinder-purple specimen__cyl"
+                  role="img"
+                  aria-label="A Royal Purple celluloid cylinder, side on"
+                />
+                <div
+                  className="cylinder cylinder-gold specimen__cyl"
+                  role="img"
+                  aria-label="A Gold Moulded wax cylinder, side on"
+                />
+              </div>
+              <div className="specimen__shelf" aria-hidden="true" />
+              <figcaption>
+                Fig. 1 — Blue Amberol, Royal Purple and Gold Moulded, as they stand in
+                the drawer. Four minutes at 160 r.p.m., 200 threads to the inch.
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </Plate>
 
@@ -207,8 +223,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <Fleuron />
     </div>
   );
 }

@@ -217,7 +217,7 @@ export default function CollectionItemDetail() {
         <main>
           {/* -------------------------------------------------------- photographs */}
           <section className="cx-section" aria-labelledby="h-photos">
-            <div className="spread">
+            <div className="cx-sectionhead">
               <h2 id="h-photos">Photographs</h2>
               <Button
                 className="no-print"
@@ -295,7 +295,7 @@ export default function CollectionItemDetail() {
 
           {/* -------------------------------------------------------- cleaning log */}
           <section className="cx-section" aria-labelledby="h-cleaning">
-            <div className="spread">
+            <div className="cx-sectionhead">
               <h2 id="h-cleaning">Cleaning log</h2>
               <CleanedStamp cleaning={item.cleaning} withTime />
             </div>
@@ -318,7 +318,7 @@ export default function CollectionItemDetail() {
 
           {/* ------------------------------------------------------------ play log */}
           <section className="cx-section" aria-labelledby="h-plays">
-            <div className="spread">
+            <div className="cx-sectionhead">
               <h2 id="h-plays">Play log</h2>
               <Button className="no-print" variant="ghost" onClick={() => setPlayOpen((v) => !v)}>
                 {playOpen ? 'Cancel' : 'Log a play'}

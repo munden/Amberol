@@ -21,17 +21,23 @@ type Theme = 'light' | 'dark';
 /** The lid colour that the browser chrome should match, per theme. */
 const CHROME_COLOUR: Record<Theme, string> = { light: '#3c2415', dark: '#1c120d' };
 
-function readTheme(): Theme {
-  if (typeof document === 'undefined') return 'light';
-  const applied = document.documentElement.dataset.theme;
-  if (applied === 'light' || applied === 'dark') return applied;
+/** The reader's own choice, if they have made one. */
+function storedTheme(): Theme | null {
   try {
     const stored = localStorage.getItem(THEME_KEY);
     if (stored === 'light' || stored === 'dark') return stored;
   } catch {
     /* Private browsing can refuse storage; the system preference still works. */
   }
+  return null;
+}
+
+function systemTheme(): Theme {
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function setChrome(theme: Theme) {
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', CHROME_COLOUR[theme]);
 }
 
 // ------------------------------------------------------------------- marks
@@ -119,21 +125,37 @@ const SECTIONS: Section[] = [
 // ------------------------------------------------------------------ layout
 
 export function Layout({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(readTheme);
+  const [chosen, setChosen] = useState(() => storedTheme() !== null);
+  const [theme, setTheme] = useState<Theme>(() => storedTheme() ?? systemTheme());
   const [records, setRecords] = useState<number | null>(null);
   const [reachable, setReachable] = useState(true);
 
+  /* Only a deliberate choice is written down. Until one is made no theme
+     attribute is set at all, so tokens.css keeps following the room and a
+     later change of system preference is still obeyed. */
   useEffect(() => {
+    if (!chosen) return;
     document.documentElement.dataset.theme = theme;
+    setChrome(theme);
     try {
       localStorage.setItem(THEME_KEY, theme);
     } catch {
       /* Refusing to store is not worth failing the page over. */
     }
-    document
-      .querySelector('meta[name="theme-color"]')
-      ?.setAttribute('content', CHROME_COLOUR[theme]);
-  }, [theme]);
+  }, [theme, chosen]);
+
+  useEffect(() => {
+    if (chosen) return undefined;
+    const query = window.matchMedia('(prefers-color-scheme: dark)');
+    const follow = () => {
+      const current = query.matches ? 'dark' : 'light';
+      setTheme(current);
+      setChrome(current);
+    };
+    follow();
+    query.addEventListener('change', follow);
+    return () => query.removeEventListener('change', follow);
+  }, [chosen]);
 
   /* The colophon quotes the size of the register. The shell must print
      with or without the press, so a failure only removes the figure. */
@@ -147,6 +169,7 @@ export function Layout({ children }: { children: ReactNode }) {
   }, []);
 
   const toggleTheme = useCallback(() => {
+    setChosen(true);
     setTheme((current) => (current === 'dark' ? 'light' : 'dark'));
   }, []);
 

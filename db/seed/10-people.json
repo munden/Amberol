@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "slug": "john-j-kimmel",
+      "slug": "john-kimmel",
       "name": "John J. Kimmel",
       "full_name": "John J. Kimmel",
       "sort_name": "Kimmel, John J.",
@@ -2048,6 +2048,258 @@
       "links": [
         { "kind": "encyclopedia", "label": "Stephen Foster on Wikipedia", "url": "https://en.wikipedia.org/wiki/Stephen_Foster", "source_name": "Wikipedia" }
       ]
+    },
+    {
+      "slug": "frieda-hempel",
+      "name": "Frieda Hempel",
+      "full_name": "Frieda Hempel",
+      "sort_name": "Hempel, Frieda",
+      "is_group": false,
+      "birth_year": 1885,
+      "death_year": 1955,
+      "nationality": "German",
+      "voice_or_instrument": "coloratura soprano",
+      "summary": "German coloratura soprano of the Berlin Royal Opera and the Metropolitan, and one of the biggest names Edison secured for the Royal Purple Amberol series.",
+      "biography": "Frieda Hempel was born in Leipzig in 1885, trained in Berlin, and sang at the Berlin Royal Opera before joining the Metropolitan Opera in 1912, where she remained until 1919. Her voice was a light, brilliant, technically immaculate coloratura, and she was equally admired in Mozart and in the florid Italian repertoire.\n\nIn the 1920s she reinvented herself with a series of Jenny Lind commemorative concerts, appearing in period costume and reproducing the Swedish Nightingale's programmes — an early and very successful piece of historical performance as popular entertainment.\n\nShe recorded for Odeon, Victor and Edison. Her Edison sides were issued on Diamond Disc and on Blue Amberol, including in the Royal Purple range, and represent the format at its most ambitious: a genuine international opera star on a four-minute celluloid cylinder. She died in Berlin in 1955.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Frieda Hempel on Wikipedia", "url": "https://en.wikipedia.org/wiki/Frieda_Hempel", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "alessandro-bonci",
+      "name": "Alessandro Bonci",
+      "full_name": "Alessandro Bonci",
+      "sort_name": "Bonci, Alessandro",
+      "is_group": false,
+      "birth_year": 1870,
+      "death_year": 1940,
+      "nationality": "Italian",
+      "voice_or_instrument": "tenor",
+      "summary": "Italian lyric tenor, once talked of as Caruso's chief rival, whose Edison recordings anchor the top of the Royal Purple Amberol series.",
+      "biography": "Alessandro Bonci was born in Cesena in 1870 and made his debut in 1896. He was the outstanding lyric tenor of his generation in the bel canto repertoire — Donizetti, Bellini, the lighter Verdi — and was brought to New York in 1906 by Oscar Hammerstein's Manhattan Opera Company explicitly as a counterweight to Caruso at the Metropolitan. He later sang at the Met himself.\n\nWhere Caruso was baritonal and overwhelming, Bonci was elegant, exact and subtle, with a mastery of legato and messa di voce that critics considered the last authentic survival of the old Italian school. He recorded for Fonotipia, Columbia and Edison; the Edison sides appear on Diamond Disc and on Blue Amberol cylinder in the Royal Purple series, where his *L'elisir d'amore* is among the most prized items.\n\nHe returned to Italy and died there in 1940.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Alessandro Bonci on Wikipedia", "url": "https://en.wikipedia.org/wiki/Alessandro_Bonci", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "albert-spalding",
+      "name": "Albert Spalding",
+      "full_name": "Albert Spalding",
+      "sort_name": "Spalding, Albert",
+      "is_group": false,
+      "birth_year": 1888,
+      "death_year": 1953,
+      "nationality": "American",
+      "voice_or_instrument": "violin",
+      "summary": "The first American-born violinist to win an international reputation, and an Edison recording artist before he moved to Victor.",
+      "biography": "Albert Spalding was born in Chicago in 1888 into the sporting-goods family, studied in Italy and Paris, and made his debut in Paris in 1905. He became the first American violinist to be accepted as a peer of the great European soloists, touring internationally for four decades.\n\nHe recorded for Edison from the mid-1910s — the company's exclusive classical roster was one of its principal selling points — and his violin solos with orchestra appear on Diamond Disc and on Blue Amberol cylinder, including in the Royal Purple series. He later recorded for Victor.\n\nSpalding served in both world wars, wrote an autobiography and a novel about Tartini, and died in 1953. Violin records are among the harder acoustic recordings to love, but a Spalding cylinder is a good place to hear what the process could manage with a first-rate player.",
+      "links": [
+        { "kind": "encyclopedia", "label": "Albert Spalding on Wikipedia", "url": "https://en.wikipedia.org/wiki/Albert_Spalding_(violinist)", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "cesare-sodero",
+      "name": "Cesare Sodero",
+      "full_name": "Cesare Sodero",
+      "sort_name": "Sodero, Cesare",
+      "is_group": false,
+      "birth_year": 1886,
+      "death_year": 1947,
+      "nationality": "Italian-American",
+      "voice_or_instrument": "conductor",
+      "summary": "Edison's musical director for more than a decade, conducting a large share of the company's orchestral and operatic recordings, and later a Metropolitan Opera conductor.",
+      "biography": "Cesare Sodero was born in Naples in 1886, studied at the conservatory there, and emigrated to the United States in 1906. From about 1911 he was musical director for Thomas A. Edison, Inc., a post he held for more than a decade — which means his hand is on an enormous proportion of the orchestral, operatic and accompaniment work in the Edison catalogue, on Diamond Disc and on Blue Amberol cylinder alike.\n\nHe conducted the house orchestra and his own band, arranged, and composed operas and orchestral music of his own. After leaving Edison he became one of the pioneers of radio opera, conducting for NBC through the 1930s, and in 1942 joined the Metropolitan Opera, where he conducted the Italian repertoire until his death in 1947.\n\nFor cylinder collectors he is the single most important behind-the-scenes musician of the Blue Amberol era: the man who decided how those records would actually sound."
+    },
+    {
+      "slug": "soderos-band",
+      "name": "Sodero's Band",
+      "full_name": "Sodero's Band",
+      "sort_name": "Sodero's Band",
+      "aliases": ["Sodero's Military Band"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "Edison band billing directed by the company's musical director Cesare Sodero, recording marches, operatic transcriptions and novelty numbers.",
+      "biography": "Sodero's Band was the Edison studio band operating under the name of Cesare Sodero, the company's musical director. It recorded across the usual band territory — marches, operatic transcriptions and paraphrases, popular medleys and novelty pieces such as ragged versions of familiar classics.\n\nAs with Edison's other band credits, the personnel came from the same pool of New York players used for the Edison Concert Band and the New York Military Band; what the Sodero billing signals is the conductor rather than a distinct organisation. Its records appear on Blue Amberol cylinder and Diamond Disc through the 1910s and 1920s."
+    },
+    {
+      "slug": "united-states-marine-band",
+      "name": "United States Marine Band",
+      "full_name": "United States Marine Band",
+      "sort_name": "United States Marine Band",
+      "aliases": ["U.S. Marine Band", "The President's Own"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "'The President's Own', founded in 1798, and one of the first musical organisations ever to be recorded commercially.",
+      "biography": "The United States Marine Band was established by act of Congress in 1798 and is the oldest continuously active professional musical organisation in the country. It plays for the President — hence \"The President's Own\" — and under John Philip Sousa's leadership from 1880 to 1892 it became a national institution.\n\nIt was also among the first ensembles ever recorded for sale. In the early 1890s the Columbia Phonograph Company, based in Washington, made hundreds of brown wax cylinders of the band, and those records were the backbone of the earliest commercial catalogues — a band was one of the very few things the primitive recording process could capture at all.\n\nMarine Band recordings and re-recordings continued into the four-minute era, appearing on Edison Amberol and Blue Amberol cylinders in marches and standard band repertoire. The credit is printed variously as United States Marine Band and U.S. Marine Band.",
+      "links": [
+        { "kind": "encyclopedia", "label": "United States Marine Band on Wikipedia", "url": "https://en.wikipedia.org/wiki/United_States_Marine_Band", "source_name": "Wikipedia" }
+      ]
+    },
+    {
+      "slug": "us-marine-band",
+      "name": "U.S. Marine Band",
+      "full_name": "United States Marine Band",
+      "sort_name": "U.S. Marine Band",
+      "aliases": ["United States Marine Band", "The President's Own"],
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "The abbreviated form of the United States Marine Band credit as printed on some cylinder labels.",
+      "biography": "U.S. Marine Band is the shortened form in which the United States Marine Band's name appears on a number of cylinder labels, including Blue Amberol issues of standard marches such as \"Semper Fidelis.\"\n\nThe entry is kept separate because cataloguing practice here is to record the credit as printed rather than silently normalise it; readers should follow it to the United States Marine Band for the full history of the organisation.",
+      "notes": "Same organisation as united-states-marine-band; retained as a distinct entry because both forms appear on labels."
+    },
+    {
+      "slug": "national-military-band",
+      "name": "National Military Band",
+      "full_name": "National Military Band",
+      "sort_name": "National Military Band",
+      "is_group": true,
+      "nationality": "American",
+      "voice_or_instrument": "military band",
+      "summary": "Edison band credit of the Amberol years, used for marches, overtures and light orchestral transcriptions.",
+      "biography": "National Military Band is one of the band billings Edison used on Amberol cylinders, alongside the Edison Concert Band, the Edison Military Band and the New York Military Band. Records under the name cover the standard band catalogue: marches, opera overtures such as \"The Crown Diamonds,\" descriptive pieces and popular transcriptions.\n\nAs with the company's other house-band names, the billing reflects catalogue organisation rather than a separate ensemble — the players were the same New York freelances who staffed Edison's other instrumental sessions.",
+      "notes": "Treated as an Edison house-band billing; the exact relationship between Edison's several band credits is not consistently documented."
+    },
+    {
+      "slug": "golden-and-hughes",
+      "name": "Golden and Hughes",
+      "full_name": "Golden and Hughes",
+      "sort_name": "Golden and Hughes",
+      "aliases": ["Billy Golden and Joe Hughes"],
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Billy Golden and Joe Hughes, one of the first two-man blackface comedy teams to record, in partnership from 1907.",
+      "biography": "Golden and Hughes was formed in 1907 when the veteran minstrel comedian Billy Golden took on Joe Hughes as a partner. They were among the first two-man teams to record blackface dialogue and dialect comedy, and they worked the vaudeville circuits with the same routines they put on record.\n\nTheir output — comic dialogues, laughing records, dialect songs — was issued on Edison Amberol and Blue Amberol, on Indestructible and on U-S Everlasting, and the four-minute format suited a sketch far better than two minutes had. The material is minstrelsy and reads badly today; it was also, commercially, one of the more reliable categories in the cylinder trade."
+    },
+    {
+      "slug": "empire-vaudeville-company",
+      "name": "Empire Vaudeville Company",
+      "full_name": "Empire Vaudeville Company",
+      "sort_name": "Empire Vaudeville Company",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Edison studio billing for its vaudeville sketch records, in which a group of house artists performed a short comic playlet with songs and effects.",
+      "biography": "The Empire Vaudeville Company was the name Edison put on its multi-performer vaudeville sketch records — miniature comic playlets with dialogue, songs, instrumental interludes and sound effects, performed by a group drawn from the company's regular studio artists.\n\nThe descriptive specialty and the vaudeville sketch were among the most characteristic products of the cylinder, and they benefited more than any other category from the arrival of the four-minute Amberol in 1908: a sketch that had to be crammed into two minutes could now develop a situation, land a joke and finish with a song. Titles such as \"The Traveling Salesman\" show the form.\n\nMembership was not fixed and was rarely itemised on the label, which is why the ensemble billing survives where the individual names generally do not.",
+      "notes": "Personnel varied by session and is not consistently documented on labels or in supplements."
+    },
+    {
+      "slug": "criterion-quartet",
+      "name": "Criterion Quartet",
+      "full_name": "Criterion Quartet",
+      "sort_name": "Criterion Quartet",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Male vocal quartet of the late 1910s and 1920s, used by Edison for backing and part-song work as well as its own records.",
+      "biography": "The Criterion Quartet was one of the male vocal groups working in the New York studios in the years around 1918 and after, recording for Edison and other companies. It appears both on records of its own and as support behind soloists — the credit \"Soprano with male quartet and orchestra\" on Royal Purple Amberols of \"Aloha Oe\" and \"My Old Kentucky Home\" is typical of the role.\n\nAs with the Knickerbocker, Shannon and Orpheus groups, the name should be read as a studio identity rather than a fixed touring act; the same handful of singers moved between quartet names depending on the label and the contract."
+    },
+    {
+      "slug": "crescent-trio",
+      "name": "Crescent Trio",
+      "full_name": "Crescent Trio",
+      "sort_name": "Crescent Trio",
+      "is_group": true,
+      "nationality": "American",
+      "summary": "Vocal trio recording for Edison in the late 1910s and 1920s, in ballads and close-harmony arrangements.",
+      "biography": "The Crescent Trio was an Edison vocal group of the later Blue Amberol period, singing three-part arrangements of ballads and popular songs. Trios gave a lighter, more transparent texture than the quartets and were much used for sentimental material where four voices would have sounded heavy.\n\nLike Edison's other small-ensemble billings, its membership was drawn from the company's regular studio singers and is not consistently itemised in the supplements."
+    },
+    {
+      "slug": "lou-chiha-friscoe",
+      "name": "Lou Chiha \"Frisco\"",
+      "full_name": "Lou Chiha",
+      "sort_name": "Chiha, Lou",
+      "aliases": ["Frisco", "Friscoe", "Lou Chiha Frisco"],
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "xylophone",
+      "summary": "Xylophone virtuoso billed as 'Frisco', a vaudeville headliner and Edison recording artist of the ragtime and early jazz years.",
+      "biography": "Lou Chiha performed as \"Frisco\" — the name is spelled Frisco and Friscoe on different labels — and was one of the outstanding xylophone showmen of the vaudeville era, playing at high speed with a theatrical flair that made him a headliner.\n\nHe recorded for Edison, and his xylophone solos with orchestra were issued on Diamond Disc and on Blue Amberol cylinder. The xylophone recorded superbly by the acoustic process, so novelty numbers such as \"The Kangaroo Hop\" survive with a brightness and attack that much of the rest of the catalogue cannot match.",
+      "notes": "The billing appears variously as Frisco and Friscoe; details of his life outside the vaudeville and recording trade are poorly documented."
+    },
+    {
+      "slug": "frank-coombs",
+      "name": "Frank Coombs",
+      "full_name": "Frank Coombs",
+      "sort_name": "Coombs, Frank",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "baritone",
+      "summary": "Baritone heard on Indestructible and Columbia Indestructible four-minute cylinders in ballads and old favourites.",
+      "biography": "Frank Coombs was one of the singers the Indestructible Record Company used for its four-minute celluloid cylinders, recording sentimental ballads and old favourites of the kind that formed the backbone of the catalogue — \"When You and I Were Young, Maggie\" is characteristic.\n\nIndestructible's roster overlapped heavily with the New York studio pool that served every other company, and its issues were also sold under the Columbia Indestructible name after Columbia took on distribution in 1908.",
+      "notes": "Little biographical detail is documented for Coombs beyond his recording credits."
+    },
+    {
+      "slug": "frederic-h-potter",
+      "name": "Frederic H. Potter",
+      "full_name": "Frederic H. Potter",
+      "sort_name": "Potter, Frederic H.",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "tenor",
+      "summary": "Tenor whose recordings of popular ballads appear on Edison cylinders of the Amberol and Blue Amberol years.",
+      "biography": "Frederic H. Potter was one of the tenors Edison recorded in popular ballads and Indian-flavoured novelty songs of the sort that were fashionable around 1910 — \"Red Wing\" is typical of the repertoire. His records appear on Edison cylinders including Blue Amberol.\n\nHe belongs to the large class of working recording singers of the period whose voices are well preserved and whose lives are not: the label credit is often all that survives.",
+      "notes": "Biographical detail is not reliably documented; the entry is based on recording credits alone."
+    },
+    {
+      "slug": "mrs-clarence-eddy",
+      "name": "Mrs. Clarence Eddy",
+      "full_name": "Mrs. Clarence Eddy",
+      "sort_name": "Eddy, Mrs. Clarence",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "soprano",
+      "summary": "Concert singer billed on Edison labels under her husband's name, the organist Clarence Eddy; recorded Irish and sentimental ballads.",
+      "biography": "Mrs. Clarence Eddy was recorded by Edison in sentimental and Irish ballads such as \"Kathleen Mavourneen,\" and appears on cylinder labels under that billing — a common practice of the period, in which a married woman performer was identified by her husband's name rather than her own. Her husband was the celebrated American concert organist Clarence Eddy.\n\nThe billing is a small but telling piece of social history in a record catalogue, and it is the reason her own name is comparatively hard to trace.",
+      "notes": "Identified on labels only by her married billing; her given name is not established here."
+    },
+    {
+      "slug": "glen-ellison",
+      "name": "Glen Ellison",
+      "full_name": "Glen Ellison",
+      "sort_name": "Ellison, Glen",
+      "is_group": false,
+      "nationality": "Scottish",
+      "voice_or_instrument": "baritone",
+      "summary": "Scottish singer and entertainer who recorded Scots songs and comic numbers in the Harry Lauder vein.",
+      "biography": "Glen Ellison recorded Scottish songs and comic material of the kind Harry Lauder had made internationally popular — \"It's Nice to Get Up in the Mornin'\" is one of Lauder's own numbers — and his records were issued on Edison, reaching cylinder buyers on Blue Amberol.\n\nScottish material was a substantial and durable category in the four-minute catalogues on both sides of the Atlantic, and Ellison is one of the several singers who worked it after Lauder had created the market.",
+      "notes": "Biographical detail is thin; the entry rests on recording credits and repertoire."
+    },
+    {
+      "slug": "james-doherty",
+      "name": "James Doherty",
+      "full_name": "James Doherty",
+      "sort_name": "Doherty, James",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "vocalist",
+      "summary": "Singer of Irish-American comic and popular songs on Edison records of the 1920s.",
+      "biography": "James Doherty recorded Irish-American comic and popular songs for Edison in the 1920s, in the vein of light novelty numbers such as \"Take a Look at Molly.\" His material was issued on Diamond Disc and dubbed to Blue Amberol cylinder in the format's last years.\n\nIrish-themed comedy and sentiment remained one of the most commercially dependable categories in American recording right through the cylinder era, and Doherty is one of its later practitioners.",
+      "notes": "Little is documented about him beyond his Edison recording credits."
+    },
+    {
+      "slug": "al-weston",
+      "name": "Al Weston",
+      "full_name": "Al Weston",
+      "sort_name": "Weston, Al",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "comedian",
+      "summary": "Vaudeville comedian who recorded rural comedy sketches for Edison with his partner Irene Young.",
+      "biography": "Al Weston worked in vaudeville with Irene Young, and the pair recorded comedy sketches for Edison in the 1920s — rural and small-town material such as \"Country Days,\" built on the same appetite for country humour that Cal Stewart had served twenty years earlier.\n\nTheir records were issued on Diamond Disc and on Blue Amberol cylinder, and they are among the last comedy acts to appear on the four-minute format before it was discontinued in 1929.",
+      "notes": "Documented chiefly through the Weston and Young recording credits."
+    },
+    {
+      "slug": "irene-young",
+      "name": "Irene Young",
+      "full_name": "Irene Young",
+      "sort_name": "Young, Irene",
+      "is_group": false,
+      "nationality": "American",
+      "voice_or_instrument": "comedienne",
+      "summary": "Vaudeville comedienne, Al Weston's partner in the rural comedy sketches Edison recorded in the 1920s.",
+      "biography": "Irene Young performed in vaudeville with Al Weston and recorded comedy sketches with him for Edison in the 1920s. The act worked in rural and small-town comedy — \"Country Days\" is representative — with the two playing off one another in dialogue rather than delivering a monologue in the older Cal Stewart manner.\n\nThe records were issued on Diamond Disc and on Blue Amberol cylinder in the last years of the four-minute format.",
+      "notes": "Documented chiefly through the Weston and Young recording credits."
     }
   ]
 }

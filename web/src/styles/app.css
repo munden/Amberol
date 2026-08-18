@@ -89,9 +89,9 @@
   padding: var(--space-2) var(--space-3);
 }
 
-/* The nameplate holds the left; everything else is pushed to the right,
-   whether or not the nav is showing at this width. */
-.nameplate { margin-right: auto; }
+/* The nameplate holds the left and is never squeezed by the nav; everything
+   else is pushed to the right, whether or not the nav shows at this width. */
+.nameplate { margin-right: auto; flex: 0 0 auto; }
 
 /* ------------------------------------------------------------ nameplate */
 
@@ -158,6 +158,7 @@
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+  white-space: nowrap;
   color: var(--brass-bright);
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -278,7 +279,7 @@
    ===================================================================== */
 
 .colophon {
-  margin-top: var(--space-8);
+  margin-top: var(--space-7);
   border-top: 3px double var(--rule);
   background: var(--bg-sunken);
 }
@@ -336,6 +337,10 @@
 
 .plate.cover { padding: var(--space-2); }
 
+/* The plate's corner brackets and the engraved keyline are two answers to
+   the same question. On the cover the keyline wins and the brackets go. */
+.plate.cover::before, .plate.cover::after { display: none; }
+
 /* An engraved double keyline inside the plate's corner brackets — the
    border a period advertisement would have been set inside. Thick outside,
    hairline within, with the paper showing between. */
@@ -391,12 +396,17 @@
   margin-bottom: 0.5em;
 }
 
+/* The byline answers the imprint line above the title in the same gold, so
+   the masthead is framed top and bottom by one second colour. Oxblood then
+   belongs to the drop capital and the primary control alone — one red on
+   the page, as a two-colour press would have allowed. It also keeps this
+   line above AA: lamplight oxblood measures 4.35:1 at running-text size. */
 .cover__byline {
   margin: var(--space-3) 0 0;
   font-family: var(--font-title);
   font-style: italic;
   font-size: var(--text-lg);
-  color: var(--accent);
+  color: var(--gold-moulded);
 }
 
 /* The announcement paragraph. Set left and opened with a drop capital, as
@@ -484,6 +494,23 @@
   border-radius: var(--radius-sm);
 }
 
+/* At this size the motif's flat bore band stops reading as a cylinder, so
+   the near rim is drawn instead: an elliptical end with the bore dark
+   inside it, which is what you see looking down a cylinder on a shelf. */
+.cylinder.specimen__cyl::after {
+  inset: 0 auto 0 0;
+  width: 17%;
+  border: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(ellipse 52% 40% at 52% 50%,
+      rgba(0, 0, 0, 0.85) 0 88%, transparent 89%),
+    linear-gradient(96deg,
+      color-mix(in srgb, var(--cyl-body) 50%, black),
+      color-mix(in srgb, var(--cyl-body) 88%, white));
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.55);
+}
+
 /* The oak shelf the drawer's cylinders rest on. */
 .specimen__shelf {
   height: 9px;
@@ -532,12 +559,14 @@
   color: var(--fg-soft);
 }
 
+/* The leader sits on the baseline of the figure it runs out to, so it stays
+   put when a long name wraps to a second line on a narrow screen. */
 .figure__leader {
   flex: 1 1 var(--space-4);
   min-width: var(--space-4);
-  align-self: center;
+  align-self: baseline;
+  height: 0.42em;
   border-bottom: 1px dotted var(--rule-strong);
-  transform: translateY(0.15em);
 }
 
 .figure__value {
@@ -589,16 +618,34 @@
   border-color: var(--rule-strong);
 }
 
-/* The cylinder itself is the card's spine, in the colour of the celluloid
-   that section is about — blue for the register, purple for the shelf. */
-.department__cylinder {
+/* A sliver of the cylinder motif as the entry's coloured edge, in the
+   celluloid that section is about — blue for the register, purple for the
+   shelf. Kept to a rule's depth: this is a coding mark on a divider, not a
+   panel of colour, and the page stays quiet because of it. */
+.cylinder.department__cylinder {
   aspect-ratio: auto;
-  height: 2.4rem;
+  height: 0.9rem;
   border-radius: 0;
   flex: none;
 }
 
-.department__body { padding: var(--space-4); }
+/* Celluloid does not change colour by lamplight, but the tokens do. The
+   motif is dimmed back so a real pigment never glows off a dark page. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .cylinder.department__cylinder,
+  :root:not([data-theme='light']) .cylinder.specimen__cyl { filter: brightness(0.72) saturate(0.88); }
+}
+:root[data-theme='dark'] .cylinder.department__cylinder,
+:root[data-theme='dark'] .cylinder.specimen__cyl { filter: brightness(0.72) saturate(0.88); }
+
+/* The body fills the card so the call to action rules off at the same
+   height across the row, however long the blurb runs. */
+.department__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: var(--space-4);
+}
 
 .department__name {
   margin: 0 0 var(--space-2);
@@ -609,12 +656,15 @@
 
 .department__blurb {
   margin: 0;
+  flex: 1 1 auto;
   font-size: var(--text-base);
   color: var(--fg-soft);
 }
 
 .department__go {
   margin: var(--space-3) 0 0;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--rule);
   font-family: var(--font-ui);
   font-size: var(--text-sm);
   font-weight: 700;
@@ -647,6 +697,7 @@
   max-width: 52ch;
   color: var(--fg-soft);
   font-size: var(--text-base);
+  text-wrap: balance;
 }
 
 /* =====================================================================
@@ -669,10 +720,11 @@
   font-size: var(--text-xl);
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  /* Oxblood measures 4.35:1 in lamplight, which clears AA at this size
-     only because the stamp is set large; it is never used at label size. */
-  color: var(--accent);
-  border: 3px double var(--accent);
+  /* The rejection red rather than the accent oxblood: it is the right
+     meaning for a struck-out enquiry, and it holds 7.4:1 in daylight and
+     6.1:1 in lamplight, where oxblood would fall to 4.35:1 at this size. */
+  color: var(--danger);
+  border: 3px double var(--danger);
   border-radius: var(--radius-sm);
   transform: rotate(-3deg);
   opacity: 0.9;
@@ -694,14 +746,18 @@
   /* The word would crowd the nameplate at 375px; the glyph carries it. */
   .theme-toggle__word { display: none; }
 
-  .cover__keyline { padding: var(--space-5) var(--space-3) var(--space-4); }
+  .cover__page { padding: var(--space-5) var(--space-3) var(--space-4); }
+
+  /* The colophon stands clear of the tab bar for the whole shell, so the
+     page above it need not reserve that height a second time. */
+  .shell__main .page { padding-bottom: var(--space-6); }
   .colophon__inner { padding-bottom: calc(var(--tabbar-h) + var(--space-6)); }
-  .specimen__body { height: 4rem; }
+  .specimen__rack { gap: var(--space-2); }
 }
 
 @media (min-width: 48em) {
   .site-head__inner { padding: var(--space-2) var(--space-5); }
-  .cover__keyline { padding: var(--space-8) var(--space-6) var(--space-7); }
+  .cover__page { padding: var(--space-7) var(--space-6) var(--space-6); }
 
   .coupon__row { flex-direction: row; align-items: stretch; }
   .coupon__submit { flex: none; padding-inline: var(--space-6); }
@@ -714,6 +770,18 @@
   /* Two columns means two first rows, and neither takes a top rule. */
   .figures .figure:nth-child(1),
   .figures .figure:nth-child(2) { border-top: 0; }
+}
+
+/* The tablet band is the tightest the header ever is: four sections, the
+   nameplate and the lamp all on one rule. The decal drops to the word on
+   the lid alone, and the nav is set a size smaller — as a running head
+   would be — so nothing wraps across the nameplate. */
+@media (min-width: 48em) and (max-width: 63.99em) {
+  .site-head__inner { gap: var(--space-3); padding: var(--space-2) var(--space-4); }
+  .nameplate__sub { display: none; }
+  .nameplate__title { font-size: var(--text-lg); }
+  .head-nav__link { padding: 0 var(--space-2); font-size: var(--text-xs); letter-spacing: 0.07em; }
+  .theme-toggle__word { display: none; }
 }
 
 @media (min-width: 64em) {

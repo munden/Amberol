@@ -161,6 +161,7 @@ export function DefectDraftEditor({
                 {type?.isTerminal && <> <Badge tone="danger">Terminal</Badge></>}
               </strong>
               <Button
+                type="button"
                 size="sm"
                 variant="ghost"
                 onClick={() => onChange(value.filter((d) => d.key !== draft.key))}

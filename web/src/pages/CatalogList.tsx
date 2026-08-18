@@ -258,7 +258,12 @@ export default function CatalogList() {
             <ButtonLink to="/catalog/new" variant="brass" size="sm">Add a record</ButtonLink>
           </div>
         </div>
-        <p style={{ color: 'var(--fg-soft)', maxWidth: 'var(--measure)', marginTop: 'var(--space-2)' }}>
+        {/* On a phone the search box must be within thumb's reach at the shelf,
+            so the long preamble is kept for the desk. */}
+        <p
+          className="hide-mobile"
+          style={{ color: 'var(--fg-soft)', maxWidth: 'var(--measure)', marginTop: 'var(--space-2)' }}
+        >
           Every known four-minute cylinder in the register. Search reaches titles,
           catalog and matrix numbers, performers and their pseudonyms, series, places,
           descriptions, notes, lyrics and provenance.
@@ -292,6 +297,9 @@ export default function CatalogList() {
             </Button>
           )}
         </div>
+        <div className="field-hint">
+          Every field is searched, descriptions, notes, lyrics and provenance included.
+        </div>
 
         <div
           className="row"
@@ -319,6 +327,7 @@ export default function CatalogList() {
               variant="ghost"
               className="hide-desktop"
               aria-expanded={filtersOpen}
+              aria-controls="catalog-filters"
               onClick={() => setFiltersOpen((v) => !v)}
             >
               Filters{activeCount ? ` (${activeCount})` : ''}
@@ -352,7 +361,7 @@ export default function CatalogList() {
         }}
       >
         {/* ------------------------------------------------------- results */}
-        <main style={{ minWidth: 0 }}>
+        <div style={{ minWidth: 0 }}>
           <div
             aria-live="polite"
             className="label-type"
@@ -405,7 +414,14 @@ export default function CatalogList() {
               {view === 'table' ? (
                 <RecordLedger records={records} />
               ) : (
-                <div style={{ display: 'grid', gap: 'var(--space-4)' }}>
+                <div style={{
+                  display: 'grid',
+                  // minmax(0, 1fr) rather than a bare auto track: an auto track
+                  // takes its minimum from its content, so one long unbroken
+                  // title pushes every card wider than the phone.
+                  gridTemplateColumns: 'minmax(0, 1fr)',
+                  gap: 'var(--space-4)',
+                }}>
                   {records.map((record) => <RecordCard key={record.id} record={record} />)}
                 </div>
               )}
@@ -419,11 +435,12 @@ export default function CatalogList() {
               />
             </div>
           )}
-        </main>
+        </div>
 
         {/* ------------------------------------------------------- filters */}
         {showFilterPanel && (
           <aside
+            id="catalog-filters"
             className="plate no-print"
             aria-label="Filters"
             style={{ padding: 'var(--space-4)', order: isDesktop ? 0 : -1 }}

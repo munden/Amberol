@@ -600,18 +600,10 @@ router.delete(
 );
 
 /**
- * Deletes image rows by id and unlinks their files. Used by the collection
- * router when an item is removed and takes its private photographs with it.
+ * Unlinks stored files after the transaction that removed their rows has
+ * committed. Used by the collection router when a copy is deleted and takes
+ * the photographs that belonged only to it with it.
  */
-export async function deleteImageRows(client, imageIds) {
-  if (!imageIds.length) return [];
-  const { rows } = await client.query('DELETE FROM images WHERE id = ANY($1::bigint[]) RETURNING storage_path', [
-    imageIds,
-  ]);
-  return rows.map((r) => r.storage_path);
-}
-
-/** Unlinks stored files after the transaction that removed their rows committed. */
 export async function unlinkStoredFiles(storagePaths) {
   for (const rel of storagePaths) {
     await quietUnlink(path.join(UPLOAD_DIR, rel));
