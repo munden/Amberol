@@ -4,7 +4,7 @@
   "private": true,
   "description": "A register of four-minute phonograph cylinders for the Edison Amberola",
   "scripts": {
-    "setup": "bash scripts/setup.sh",
+    "setup": "node scripts/setup.mjs",
     "start": "npm run build --prefix web && npm start --prefix server",
     "dev": "node scripts/dev.js",
     "dev:server": "npm run dev --prefix server",

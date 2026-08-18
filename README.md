@@ -16,16 +16,31 @@ standing at a shelf and the reading happens in a chair.
 
 ## Getting started
 
-Requires PostgreSQL 14 or newer and Node 20 or newer.
+Requires PostgreSQL 14 or newer and Node 20 or newer. Works on Windows, macOS
+and Linux — `npm run setup` is a Node script, not a shell script.
 
 ```bash
 git clone <this repository>
 cd Amberol
-npm run setup      # creates the database, migrates, and loads the master catalog
+npm run setup      # installs dependencies, creates the database, loads the catalog
 npm start          # builds the front end and serves everything on :4310
 ```
 
 Then open <http://localhost:4310>.
+
+Setup may ask for your PostgreSQL **superuser password** — the one chosen when
+PostgreSQL was installed — so that it can create the `amberola` role and
+database. To avoid the prompt, set `PGPASSWORD` first. It is safe to re-run.
+
+### On Windows
+
+`psql` must be on your `PATH`. The installer does not always add it, so if
+setup reports that psql was not found, add the PostgreSQL `bin` folder — for
+example `C:\Program Files\PostgreSQL\17\bin` — to your PATH and open a new
+terminal.
+
+If the database cannot be created automatically, setup prints the two SQL
+statements to run by hand and stops; run them, then run `npm run setup` again.
 
 For development, with hot reloading and the API on a separate port:
 

@@ -13,6 +13,7 @@ import {
 } from '../components/ui';
 import { Markdown } from '../components/Markdown';
 import { ArticleHeader, EntityEditor, type EntityValues } from '../components/catalog/EntityPage';
+import { RevisionHistory } from '../components/catalog/RevisionHistory';
 import {
   LinkGroups, ROLE_LABELS, RecordLedger, SectionHeading, useMediaQuery,
 } from '../components/catalog/parts';
@@ -286,6 +287,8 @@ export default function PersonDetail() {
           )}
         </aside>
       </div>
+
+      <RevisionHistory kind="person" slug={person.slug} />
 
       <EntityEditor
         open={editing}

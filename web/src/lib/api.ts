@@ -424,6 +424,8 @@ export const api = {
     update: (idOrSlug: string | number, body: Record<string, unknown>) =>
       unwrap(patch<{ data: Maker }>(`/makers/${idOrSlug}`, body)),
     create: (body: Record<string, unknown>) => unwrap(post<{ data: Maker }>('/makers', body)),
+    revisions: (idOrSlug: string | number) =>
+      unwrap(get<{ data: Revision[] }>(`/makers/${idOrSlug}/revisions`)),
   },
 
   series: {
@@ -432,6 +434,8 @@ export const api = {
     update: (idOrSlug: string | number, body: Record<string, unknown>) =>
       unwrap(patch<{ data: Series }>(`/series/${idOrSlug}`, body)),
     create: (body: Record<string, unknown>) => unwrap(post<{ data: Series }>('/series', body)),
+    revisions: (idOrSlug: string | number) =>
+      unwrap(get<{ data: Revision[] }>(`/series/${idOrSlug}/revisions`)),
   },
 
   people: {
@@ -440,6 +444,8 @@ export const api = {
     update: (idOrSlug: string | number, body: Record<string, unknown>) =>
       unwrap(patch<{ data: Person }>(`/people/${idOrSlug}`, body)),
     create: (body: Record<string, unknown>) => unwrap(post<{ data: Person }>('/people', body)),
+    revisions: (idOrSlug: string | number) =>
+      unwrap(get<{ data: Revision[] }>(`/people/${idOrSlug}/revisions`)),
   },
 
   collection: {

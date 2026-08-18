@@ -9,6 +9,7 @@ import {
 } from '../components/ui';
 import { Markdown } from '../components/Markdown';
 import { ArticleHeader, EntityEditor, type EntityValues } from '../components/catalog/EntityPage';
+import { RevisionHistory } from '../components/catalog/RevisionHistory';
 import {
   CylinderMotif, LinkGroups, RecordLedger, SectionHeading, materialTone, useMediaQuery,
 } from '../components/catalog/parts';
@@ -223,6 +224,8 @@ export default function SeriesDetail() {
           )}
         </aside>
       </div>
+
+      <RevisionHistory kind="series" slug={series.slug} />
 
       <EntityEditor
         open={editing}

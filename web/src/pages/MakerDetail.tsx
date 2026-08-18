@@ -9,6 +9,7 @@ import {
 } from '../components/ui';
 import { Markdown } from '../components/Markdown';
 import { ArticleHeader, EntityEditor, type EntityValues } from '../components/catalog/EntityPage';
+import { RevisionHistory } from '../components/catalog/RevisionHistory';
 import {
   LinkGroups, RecordLedger, SectionHeading, materialTone, seriesLine, useMediaQuery,
 } from '../components/catalog/parts';
@@ -246,6 +247,8 @@ export default function MakerDetail() {
           )}
         </aside>
       </div>
+
+      <RevisionHistory kind="maker" slug={maker.slug} />
 
       <EntityEditor
         open={editing}
