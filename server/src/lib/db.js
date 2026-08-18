@@ -84,8 +84,14 @@ export function describeDatabaseFault(err) {
       return {
         state: 'not_running',
         message:
-          'Nothing is listening for PostgreSQL on that host and port. Start ' +
-          'the PostgreSQL service, then try again.',
+          'Nothing is listening for PostgreSQL on that host and port. ' +
+          (process.platform === 'win32'
+            ? 'Start the service from an Administrator PowerShell: ' +
+              'Start-Service -Name "postgresql*"  (list them first with ' +
+              'Get-Service -Name "postgresql*").'
+            : process.platform === 'darwin'
+              ? 'Start it with "brew services start postgresql@16", or open Postgres.app.'
+              : 'Start it with "sudo service postgresql start".'),
       };
     case 'ENOTFOUND':
       return {
