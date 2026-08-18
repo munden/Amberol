@@ -13,6 +13,8 @@
     "seed": "npm run seed --prefix server",
     "reset": "npm run reset --prefix server",
     "build": "npm run build --prefix web",
-    "verify-links": "npm run verify-links --prefix server"
+    "verify-links": "npm run verify-links --prefix server",
+    "doctor": "npm run doctor --prefix server",
+    "reindex": "npm run reindex --prefix server"
   }
 }

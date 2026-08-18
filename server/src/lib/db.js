@@ -43,3 +43,56 @@ export async function transaction(fn) {
 export async function closePool() {
   await pool.end();
 }
+
+/**
+ * Turns a database-level failure into something a person can act on.
+ *
+ * These are the states a new installation actually lands in, and each has a
+ * different fix. Reporting them all as "something went wrong" sends people
+ * looking for a bug in the application when the answer is one command.
+ *
+ * Returns null for anything that is not a setup problem, so ordinary query
+ * errors keep their normal handling.
+ */
+export function describeDatabaseFault(err) {
+  if (!err) return null;
+
+  switch (err.code) {
+    case '42P01': // undefined_table
+      return {
+        state: 'no_schema',
+        message:
+          'The database exists but has no tables yet. Run "npm run migrate" ' +
+          'to create them, then "npm run seed" to load the master catalog.',
+      };
+    case '3D000': // invalid_catalog_name
+      return {
+        state: 'no_database',
+        message:
+          'That database does not exist. Run "npm run setup" to create it, ' +
+          'or correct DATABASE_URL in server/.env.',
+      };
+    case '28P01': // invalid_password
+    case '28000': // invalid_authorization_specification
+      return {
+        state: 'bad_credentials',
+        message:
+          'PostgreSQL refused those credentials. Check the user and password ' +
+          'in DATABASE_URL in server/.env.',
+      };
+    case 'ECONNREFUSED':
+      return {
+        state: 'not_running',
+        message:
+          'Nothing is listening for PostgreSQL on that host and port. Start ' +
+          'the PostgreSQL service, then try again.',
+      };
+    case 'ENOTFOUND':
+      return {
+        state: 'bad_host',
+        message: 'That database host could not be resolved. Check DATABASE_URL in server/.env.',
+      };
+    default:
+      return null;
+  }
+}

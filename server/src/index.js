@@ -5,7 +5,7 @@ import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
 
-import { pool } from './lib/db.js';
+import { pool, describeDatabaseFault } from './lib/db.js';
 import { ApiError } from './lib/http.js';
 import catalogRouter from './routes/catalog.js';
 import wikiRouter from './routes/wiki.js';
@@ -39,10 +39,24 @@ app.use(
 app.get('/api/health', async (_req, res) => {
   try {
     const { rows } = await pool.query('SELECT count(*)::int AS n FROM catalog_records');
-    res.json({ data: { status: 'ok', database: 'ok', records: rows[0].n } });
+    res.json({
+      data: {
+        status: 'ok',
+        database: 'ok',
+        records: rows[0].n,
+        // An empty catalog is a working install that has not been seeded, not
+        // a fault; the front end says so rather than showing an error.
+        seeded: rows[0].n > 0,
+      },
+    });
   } catch (err) {
+    const fault = describeDatabaseFault(err);
     res.status(503).json({
-      error: { code: 'server_error', message: 'Database unavailable: ' + err.message },
+      error: {
+        code: 'database_unavailable',
+        message: fault ? fault.message : 'Database unavailable: ' + err.message,
+        details: { state: fault?.state ?? 'error' },
+      },
     });
   }
 });
@@ -104,6 +118,21 @@ app.use((err, req, res, next) => {
   if (err?.code === '22P02' || err?.code === '22007') {
     return res.status(400).json({
       error: { code: 'bad_request', message: 'A value was not in the expected format.' },
+    });
+  }
+
+  // A database that is missing, unreachable or unmigrated is a setup problem,
+  // not a bug. Say which one it is and what fixes it, rather than letting the
+  // generic 500 below send someone hunting through the application.
+  const fault = describeDatabaseFault(err);
+  if (fault) {
+    console.error(`[database] ${fault.state}: ${err.message}`);
+    return res.status(503).json({
+      error: {
+        code: 'database_unavailable',
+        message: fault.message,
+        details: { state: fault.state },
+      },
     });
   }
 

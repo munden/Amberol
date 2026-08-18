@@ -12,7 +12,9 @@
     "seed": "node src/scripts/seed.js",
     "reset": "node src/scripts/migrate.js --reset && node src/scripts/seed.js",
     "test": "node --test test/*.test.js",
-    "verify-links": "node src/scripts/verify-links.js"
+    "verify-links": "node src/scripts/verify-links.js",
+    "doctor": "node src/scripts/doctor.mjs",
+    "reindex": "node -e \"import('./src/lib/db.js').then(async m=>{const r=await m.query('SELECT rebuild_all_catalog_search() AS n');console.log('[reindex] '+r.rows[0].n+' records');await m.closePool()})\""
   },
   "dependencies": {
     "cors": "^2.8.5",

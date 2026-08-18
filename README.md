@@ -61,6 +61,22 @@ The Vite dev server binds to all interfaces, so a phone or tablet on the same
 network can reach it at `http://<your-machine>:5310` — which is the sensible way
 to try the mobile screens.
 
+### If something is wrong
+
+```bash
+npm run doctor
+```
+
+It walks the chain from configuration to seeded data, stops at the first thing
+that is broken, and prints the command that fixes it. The commonest case is a
+database that was created but never migrated — the register loads, and then
+every page reports that it cannot read anything:
+
+```bash
+npm run migrate    # create the tables
+npm run seed       # load the master catalog
+```
+
 ### Configuration
 
 `server/.env`, written by the setup script:
