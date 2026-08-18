@@ -108,9 +108,13 @@ function createDatabase() {
   const asSuperuser = (sql) =>
     run('psql', ['-U', 'postgres', '-h', DB_HOST, '-p', DB_PORT, '-d', 'postgres', '-c', sql]);
 
-  // Either statement may fail because that half already exists, which is fine;
+  // Any of these may fail because that piece already exists, which is fine;
   // the connection check below is what actually decides whether this worked.
   asSuperuser(`CREATE ROLE ${DB_USER} LOGIN PASSWORD '${DB_PASS}' SUPERUSER;`);
+  // Run unconditionally, because the interesting failure is a role that
+  // already exists with a different password — CREATE would just report
+  // "already exists" and leave the credentials still mismatched.
+  asSuperuser(`ALTER ROLE ${DB_USER} WITH LOGIN SUPERUSER PASSWORD '${DB_PASS}';`);
   asSuperuser(`CREATE DATABASE ${DB_NAME} OWNER ${DB_USER};`);
 
   if (canConnect()) {
