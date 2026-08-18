@@ -39,6 +39,20 @@ through the same PostgreSQL driver the server uses, because the Windows
 installer routinely leaves `psql` unavailable. Installing PostgreSQL and
 having its service running is enough.
 
+Check the service is running with:
+
+```powershell
+Get-Service -Name "postgresql*"
+```
+
+If it is missing entirely, no PostgreSQL **server** is installed — only the
+client tools. If it is listed but stopped, start it from an Administrator
+PowerShell with `Start-Service -Name "postgresql*"`.
+
+If the database still cannot be created automatically, setup prints the two
+SQL statements to run by hand and stops; run them in pgAdmin, then run
+`npm run setup` again.
+
 ### A note on install scripts
 
 npm 12 blocks package install scripts unless a project approves them. Two
@@ -48,10 +62,9 @@ processing. Both are approved in the `allowScripts` field of the respective
 `package.json`, so installing works without any prompt. Nothing else in the
 tree is allowed to run an install script.
 
-If the database cannot be created automatically, setup prints the two SQL
-statements to run by hand and stops; run them, then run `npm run setup` again.
+## Development
 
-For development, with hot reloading and the API on a separate port:
+For hot reloading, with the API on a separate port:
 
 ```bash
 npm run dev        # API on :4310, front end on :5310
