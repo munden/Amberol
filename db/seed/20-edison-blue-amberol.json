@@ -29,7 +29,10 @@
       "name": "W. Van Brunt",
       "full_name": "Walter Van Brunt",
       "sort_name": "Van Brunt, Walter",
-      "aliases": ["Walter Van Brunt", "Walter Scanlan"],
+      "aliases": [
+        "Walter Van Brunt",
+        "Walter Scanlan"
+      ],
       "is_group": false,
       "nationality": "American",
       "voice_or_instrument": "tenor",
@@ -115,7 +118,9 @@
       "slug": "new-york-military-band",
       "name": "New York Military Band",
       "sort_name": "New York Military Band",
-      "aliases": ["Edison Military Band"],
+      "aliases": [
+        "Edison Military Band"
+      ],
       "is_group": true,
       "nationality": "American",
       "summary": "Edison's house military band, previously billed as the Edison Military Band, and the source of most of the marches and dance numbers in the Blue Amberol catalogue."
@@ -133,7 +138,11 @@
       "slug": "american-quartet",
       "name": "Premier Quartet",
       "sort_name": "American Quartet",
-      "aliases": ["American Quartet", "Premier Quartette", "Premier American Quartet"],
+      "aliases": [
+        "American Quartet",
+        "Premier Quartette",
+        "Premier American Quartet"
+      ],
       "is_group": true,
       "nationality": "American",
       "summary": "The male vocal quartet led by Billy Murray, billed by Edison as the Premier Quartet and by other companies as the American Quartet.",
@@ -152,7 +161,11 @@
       "name": "Irving Gillette",
       "full_name": "Henry Burr",
       "sort_name": "Burr, Henry",
-      "aliases": ["Henry Burr", "Irving Gillette", "Harry McClaskey"],
+      "aliases": [
+        "Henry Burr",
+        "Irving Gillette",
+        "Harry McClaskey"
+      ],
       "is_group": false,
       "nationality": "Canadian",
       "voice_or_instrument": "tenor",
@@ -247,7 +260,9 @@
       "name": "Vernon Dalhart",
       "full_name": "Marion Try Slaughter",
       "sort_name": "Dalhart, Vernon",
-      "aliases": ["Marion Try Slaughter"],
+      "aliases": [
+        "Marion Try Slaughter"
+      ],
       "is_group": false,
       "birth_year": 1883,
       "death_year": 1948,
@@ -297,13 +312,14 @@
       "slug": "lou-chiha-friscoe",
       "name": "Lou Chiha \"Friscoe\"",
       "sort_name": "Chiha, Lou",
-      "aliases": ["Friscoe"],
+      "aliases": [
+        "Friscoe"
+      ],
       "is_group": false,
       "voice_or_instrument": "xylophone",
       "summary": "Vaudeville xylophone virtuoso who performed under the single name Friscoe."
     }
   ],
-
   "records": [
     {
       "slug": "edison-blue-amberol-1508",
@@ -319,7 +335,12 @@
       "description": "One of the first few dozen Blue Amberols ever issued, and a good illustration of why Edison put an instrumental novelty so near the head of a brand-new series. \"Light as a Feather\" is a bright, fast schottische-style piece by Thomas H. Rollinson, a prolific American band arranger and composer whose catalogue of light instrumental numbers was a staple of publishers' band and orchestra lists around the turn of the century.\n\nCharles Daab plays it on orchestra bells against a small studio orchestra. Tuned percussion was a gift to acoustic recording: a struck bar produces a hard attack and a clean, decaying tone with very little of the low-frequency energy that overloaded a recording horn, so a bell solo comes off the cylinder with a clarity that a violin or a cello simply could not manage in 1912. Edison knew this, and the early Blue Amberol numbers are correspondingly thick with bells and xylophone.\n\nFor a collector this is an accessible record — it turns up regularly, it plays well, and it is a genuinely pleasant demonstration piece for an Amberola.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "charles-daab", "role": "instrumentalist", "detail": "orchestra bells", "billing_order": 1 }
+        {
+          "person_slug": "charles-daab",
+          "role": "instrumentalist",
+          "detail": "orchestra bells",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -349,7 +370,11 @@
       "description": "Sebastián Yradier's \"La Paloma\" was written in the 1860s after the Basque composer's visit to Cuba, and it is one of the most widely travelled melodies of the nineteenth century — a habanera that took root in Mexico, in Spain, in Germany and eventually everywhere a band played. By 1912 it was less a Spanish song than a piece of universal band repertoire, and its inclusion this early in the Blue Amberol series says a good deal about what Edison expected the new celluloid cylinder to sell.\n\nThe Edison Concert Band plays it as a band arrangement, with the melody carried on cornet over the rocking habanera bass that gives the piece its identity. Band records were the backbone of every cylinder catalogue: a brass ensemble was loud enough to drive a recording horn hard, which meant a band cylinder played back with more volume and presence than almost anything else available.\n\nAn early number, and a common one — this is a record most Amberola owners eventually acquire without trying.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "edison-concert-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "edison-concert-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -378,8 +403,18 @@
       "notes": "Label credits the tenor as Irving Gillette, Henry Burr's Edison pseudonym.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "albert-campbell", "role": "vocalist", "detail": "tenor", "billing_order": 1 },
-        { "person_slug": "henry-burr", "role": "vocalist", "detail": "tenor, billed as Irving Gillette", "billing_order": 2 }
+        {
+          "person_slug": "albert-campbell",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "detail": "tenor, billed as Irving Gillette",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -401,8 +436,17 @@
       "description": "\"Red Wing\" was published in 1907, with music by Kerry Mills and words by Thurland Chattaway, and it became one of the most durable songs of its decade. Mills lifted the melody of the chorus more or less directly from Schumann's \"The Happy Farmer\", a borrowing that has never seriously bothered anyone; the tune outlived the argument and passed into American fiddle and old-time repertoire, where it is still played.\n\nThe song belongs to the \"Indian song\" fashion that ran through American popular music from about 1903 to 1910 — a vogue of sentimental numbers about doomed Native American maidens, written by white Tin Pan Alley professionals with no interest in and little knowledge of the peoples they were writing about. \"Red Wing\" is the genre's most successful survivor, and a modern collector should hear it as an artefact of that fashion rather than as anything approaching a document of Native American music.\n\nThis Blue Amberol pairs the tenor Frederic H. Potter with the New York Military Band rather than an orchestra, which gives the accompaniment considerably more weight than a song record of this vintage usually carries.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "frederic-h-potter", "role": "vocalist", "detail": "tenor", "billing_order": 1 },
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 2 }
+        {
+          "person_slug": "frederic-h-potter",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -425,7 +469,12 @@
       "notes": "Sourced from a single discographic database entry; no UCSB catalogue record for this number was located, so the attribution of the title to this catalog number is well-supported but not independently confirmed.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -449,7 +498,12 @@
       "description": "Mozart wrote a glockenspiel into Die Zauberflöte for Papageno's magic bells, and the instrument's few minutes in that opera became, a century later, a standing excuse for every recording company with a bell player on staff to issue a novelty solo. This is Edison's, played by Charles Daab.\n\nWhat is on the cylinder is not opera in any meaningful sense; it is the bell material extracted and worked up as a display piece with orchestra, in the way that Victorian and Edwardian concert programmes routinely treated opera as a quarry for tunes. Taken on those terms it is charming, and it is superbly recorded by the standards of 1912 — the glockenspiel's hard attack and long clean decay were close to ideal for the acoustic process.\n\nA very early Blue Amberol, issued in the series' first months, and one of a run of Daab instrumental novelties that Edison used to show off the new celluloid surface. The quiet background of a good celluloid cylinder flatters this kind of material enormously.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "charles-daab", "role": "instrumentalist", "detail": "orchestra bells", "billing_order": 1 }
+        {
+          "person_slug": "charles-daab",
+          "role": "instrumentalist",
+          "detail": "orchestra bells",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -471,7 +525,12 @@
       "description": "A waltz song of the early 1910s sung by Charles W. Harrison, one of the busiest concert tenors in the American recording studios of the period.\n\nThe waltz song was a fixed commercial category rather than a description: a lyric in three-four whose chorus could be danced to, aimed squarely at the parlour and at the sheet-music counter. Harrison's delivery is the straight, well-schooled concert-tenor manner that Edison favoured for this repertoire — no vaudeville mannerisms, a clean legato, and the tune delivered without editorial comment.\n\nAn early Blue Amberol from the first year of the series.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "charles-w-harrison", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "charles-w-harrison",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -497,7 +556,12 @@
       "description": "\"She Was Bred in Old Kentucky\" dates from 1898, words by Harry Braisted and music by Stanley Carter, and it was already an old song by the time Edison put it on a Blue Amberol in 1912. That is not unusual for the first year of the series: a new format needs a catalogue immediately, and the fastest way to build one is to re-record proven sellers whose popularity has already been demonstrated.\n\nManuel Romain sings it. Romain came out of the minstrel stage and had an exceptionally high, light tenor — a voice that strikes modern ears as almost boyish, and which was much prized in the 1900s for exactly this sort of nostalgic ballad. The arrangement puts a mixed chorus behind him on the refrain, which was Edison's standard way of giving a sentimental number some weight at the end.\n\nThe song belongs to a large family of American \"old home\" ballads whose subject is a South remembered rather than observed — an idealised Kentucky of white columns and faithful memory that had a great deal to do with Northern sentiment and very little to do with the actual place.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "manuel-romain", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "manuel-romain",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -518,16 +582,20 @@
       "slug": "edison-blue-amberol-1574",
       "series_slug": "edison-blue-amberol",
       "catalog_number": "1574",
-      "title": "War Time Selections",
+      "title": "Medley of War Songs",
       "work_type": "Band medley",
       "genre": "Patriotic",
       "released_on": "1912-01-01",
       "released_precision": "year",
       "description": "A medley of American Civil War songs played by the New York Military Band, taking in \"The Vacant Chair\", \"Marching Through Georgia\", \"Tramp! Tramp! Tramp!\", \"The Battle Cry of Freedom\" and \"Kingdom Coming\".\n\nIn 1912 this was living memory, not history. Veterans of both armies were still attending reunions, the fiftieth anniversary of Gettysburg was a year away, and a medley of war songs was a reliable seller aimed at an audience that had sung these tunes as children or heard them sung by men who had marched to them. The selection is entirely Union: Root's \"Battle Cry of Freedom\" and \"Tramp! Tramp! Tramp!\", Work's \"Marching Through Georgia\" and \"Kingdom Coming\", and the Root-and-Washburn \"Vacant Chair\" for the sentimental centre of the sequence.\n\n\"Kingdom Coming\" deserves a word of warning. Henry Clay Work wrote it in 1862 as an abolitionist song, but he wrote it in stage-minstrel dialect, and it is performed here as period band repertoire without comment. Its politics were anti-slavery; its idiom was blackface.\n\nBand medleys of this kind were ideal cylinder material — loud, varied, and structured so that a four-minute record never sits on one tune long enough to tire.",
-      "notes": "The exact title as printed on the label could not be confirmed; the constituent tunes are taken from the archive's catalogue description of this issue, and the title given here is a normalised form.",
+      "notes": "The exact title as printed on the label could not be confirmed; the constituent tunes are taken from the archive's catalogue description of this issue, and the title given here is a normalised form.\n\nListed as \"Medley of War Songs\" in the collector's Blue Amberol checklist (Wikipedia Popular-series list); earlier sources here had it as \"War Time Selections\".",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -553,9 +621,24 @@
       "notes": "The archive's catalogue description names the accompanying ensemble as the Venetian Instrumental Quartet. The credit line given here is a normalised form and has not been read off the label itself.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "elizabeth-spencer", "role": "vocalist", "detail": "soprano", "billing_order": 1 },
-        { "person_slug": "harry-anthony", "role": "vocalist", "detail": "tenor", "billing_order": 2 },
-        { "person_slug": "james-f-harrison", "role": "vocalist", "detail": "baritone", "billing_order": 3 }
+        {
+          "person_slug": "elizabeth-spencer",
+          "role": "vocalist",
+          "detail": "soprano",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "harry-anthony",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        },
+        {
+          "person_slug": "james-f-harrison",
+          "role": "vocalist",
+          "detail": "baritone",
+          "billing_order": 3
+        }
       ],
       "links": [
         {
@@ -585,7 +668,12 @@
       "description": "A ragtime novelty song of 1912 sung by the quartet Edison billed as the Premier Quartet — the same four men that Victor issued as the American Quartet, with Billy Murray singing lead.\n\nThe title is pure period formula. \"Syncopated\" was the advertising word for ragtime, and by 1912 publishers were attaching it to anything with a dotted rhythm; the nonsense coinage \"boogie boo\" belongs to the same fashion for songs about dances that did not really exist, invented so that a chorus could instruct the listener to do them. The genre had perhaps three more years to run before the fox trot swept the field.\n\nThe quartet treatment is close male harmony with an orchestra behind it, the arrangement built to let the syncopation land on the ensemble consonants — the effect that made vocal ragtime work at all on acoustic records.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "american-quartet", "role": "ensemble", "detail": "billed as Premier Quartet", "billing_order": 1 }
+        {
+          "person_slug": "american-quartet",
+          "role": "ensemble",
+          "detail": "billed as Premier Quartet",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -614,7 +702,11 @@
       "notes": "Title recorded as printed. The record is blackface minstrel material and its title contains a racial slur; it is retained here in its published form for accurate identification.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "golden-and-hughes", "role": "comedian", "billing_order": 1 }
+        {
+          "person_slug": "golden-and-hughes",
+          "role": "comedian",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -638,8 +730,18 @@
       "description": "Irving Berlin wrote \"When the Midnight Choo-Choo Leaves for Alab'am\" in 1912, the year after \"Alexander's Ragtime Band\" had made him the most talked-about songwriter in America, and it works the same territory: a syncopated chorus, a railway, and a South that exists mainly as a destination in a song title.\n\nCollins and Harlan had the hit recording of it, and this Blue Amberol carries their version. The duo's method is on full display — Collins's baritone and Harlan's tenor trading and then locking together, with the imitation of a train pulling out worked into the accompaniment. It is a genuinely well-made record, and it is one of the numbers that made Berlin's reputation as a writer of songs that sounded modern.\n\nThe song is also part of a very large body of Northern popular music that treats the South as a sentimental idea, and Collins and Harlan performed it, as they performed most of their repertoire, in dialect. The tune has outlasted the idiom — Judy Garland and Fred Astaire sang it in *Easter Parade* in 1948, by which point the dialect had quietly disappeared.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "detail": "baritone", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "detail": "baritone",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -668,7 +770,11 @@
       "notes": "The performer is credited on the label only as \"Mrs. Clarence Eddy\"; her own given name was not established from the sources consulted.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "mrs-clarence-eddy", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "mrs-clarence-eddy",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -690,7 +796,11 @@
       "description": "Albert Von Tilzer wrote the music and Junie McCree the words in 1910, for the show *Madame Sherry*, and the song became one of the biggest sellers of its year. It has never really gone away: it turns up in *In the Good Old Summertime* four decades later, and the chorus is still recognisable to people who could not name the song.\n\nAda Jones sings it here. She was the obvious choice — the lyric is a woman's direct, faintly scandalous invitation, and Jones had built a career on putting exactly that kind of forwardness across without letting it curdle. Her diction is broad and characterful where a concert soprano would have been decorous, and the record is much better for it.\n\nJones was by this point among the most recorded women in the world, and her Blue Amberols are common enough that a collector can be choosy about condition.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -712,8 +822,17 @@
       "description": "A duet by Ada Jones and Billy Murray, the most successful vocal partnership in American records. \"Rainbow\" is one of the \"Indian\" novelty songs of the period — Percy Wenrich's melody of 1908, later fitted with words by Alfred Bryan — and it belongs to the same short-lived fashion that produced \"Red Wing\" and a hundred imitations.\n\nWhat makes the Jones-and-Murray records work is that they are performances rather than recitals. The two voices are strongly characterised and completely unalike, and they play off each other in a way that sounds like two people rather than one arrangement, which is rarer on acoustic records than one might expect.\n\nThis one has been digitised as part of the UCSB cylinder preservation project, so a collector can hear it before deciding whether to chase a copy.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -735,8 +854,17 @@
       "description": "Fred Fisher's music and Alfred Bryan's words, published in 1910 — seven years after Kitty Hawk, and at the exact moment when aviation stopped being a rumour and became a public spectacle. The song is the best-known of a whole flock of aeroplane numbers written while flying was still astonishing, and its premise is a courtship conducted at altitude, the flying machine standing in for every other conveyance in which a young man had ever proposed a ride.\n\nAda Jones and Billy Murray sing it with a chorus behind them. The pairing is doing something specific here: the lyric is a dialogue, with Josephine's nervousness answered by the pilot's coaxing, and giving it to two singers who could act turns a novelty song into a small comic scene.\n\nThe song has had an unexpectedly long afterlife, most conspicuously in *Titanic* in 1997, where it is sung on deck — a choice that is very nearly period-correct, the ship having sunk in 1912 with the song at the height of its popularity.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -759,8 +887,18 @@
       "notes": "Label credits the tenor as Irving Gillette, Henry Burr's Edison pseudonym.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "albert-campbell", "role": "vocalist", "detail": "tenor", "billing_order": 1 },
-        { "person_slug": "henry-burr", "role": "vocalist", "detail": "tenor, billed as Irving Gillette", "billing_order": 2 }
+        {
+          "person_slug": "albert-campbell",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "henry-burr",
+          "role": "vocalist",
+          "detail": "tenor, billed as Irving Gillette",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -783,8 +921,17 @@
       "notes": "Title and performer taken from a dealer listing rather than an institutional catalogue; the pairing of this title with this catalog number is not independently confirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "ada-jones", "role": "vocalist", "billing_order": 1 },
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "vocalist",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -809,7 +956,12 @@
       "description": "A comic song of 1913 credited to Joe Goodwin, sung by Billy Murray with the usual studio orchestra.\n\nGoodwin was a working Tin Pan Alley lyricist of the second rank — a writer of the enormous middle of the popular catalogue that sold steadily without ever producing a standard. Records like this one are the bulk of what the Blue Amberol series actually consisted of: current songs, competently written, given to the best comic singer in the business and put on sale within a few months of publication.\n\nMurray's value to Edison lay precisely here. A comic song lives or dies on whether the listener catches the joke, and on an acoustic cylinder that was a real technical problem. Murray's over-articulated delivery, which can sound mannered out of context, was an entirely practical solution to it.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -837,7 +989,12 @@
       "notes": "The recording date is taken from the archive catalogue entry for this issue rather than from the label.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -872,7 +1029,11 @@
       "notes": "Title taken from a dealer listing rather than an institutional catalogue; the pairing of this title with this catalog number is not independently confirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "peerless-quartet", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "peerless-quartet",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -898,8 +1059,16 @@
       "provenance": "Reissued from the earlier Edison four-minute wax Amberol 133.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "ada-jones", "role": "performer", "billing_order": 1 },
-        { "person_slug": "len-spencer", "role": "performer", "billing_order": 2 }
+        {
+          "person_slug": "ada-jones",
+          "role": "performer",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "len-spencer",
+          "role": "performer",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -927,7 +1096,12 @@
       "description": "A nonsense novelty of the mid-1910s, sung by Billy Murray: an undersea costume ball, with the fish and the mermaids given comic business in the verses.\n\nThe fantastical-party song was a small standing genre of the period — a pretext for a list lyric in which each chorus introduces another absurd guest. It asks nothing of the listener and was not meant to; records of this kind were the reliable filler of every popular catalogue, and Edison issued them steadily alongside the ballads and the band numbers.\n\nMurray is doing what he always did with this material, which is to make the words audible and let the silliness carry itself.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -949,7 +1123,12 @@
       "description": "Irving Berlin wrote \"This Is the Life\" in 1914, and the joke is a countryman's discovery of the city: a farm boy arrives in town, finds cabarets and dancing and noise, and decides that this, rather than the farm, is living.\n\nIt is a period piece about a real migration. The years around 1914 were exactly when American popular culture became a city culture — cabaret dancing, ragtime, the whole nightlife economy that the fox trot was about to organise — and a song celebrating the move from country to town was reporting on something its audience was doing.\n\nBilly Murray sings it with a chorus. The performance has been digitised by the UCSB cylinder project and is freely available, which makes this one of the easier Blue Amberols to sample before buying.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -974,8 +1153,18 @@
       "description": "Words by Arthur Fields, music by Walter Donovan, published by Leo Feist in 1914. Collins and Harlan made the first recording, and this Blue Amberol carries it.\n\nThe song is a nonsense number about the courtship of a monkey and a chimpanzee, its chorus built almost entirely on the syllables \"aba daba\" — a piece of pure vocal percussion that anticipates the scat and nonsense choruses of the next decade. It is the sort of thing that either delights a listener immediately or does not, and enough people were delighted in 1914 to make it a substantial hit.\n\nIt then did something very unusual for a 1914 novelty: it came back. Debbie Reynolds and Carleton Carpenter sang it in *Two Weeks with Love* in 1950, and their recording became a million-seller, which means this small comic cylinder is the ancestor of a genuine mid-century pop hit.\n\nThe record itself is a good example of Collins and Harlan at their most efficient — the two voices swapping the nonsense syllables back and forth at speed, which is far harder to bring off cleanly than it sounds. It has been digitised several times and is easy to hear.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "arthur-collins", "role": "vocalist", "detail": "baritone", "billing_order": 1 },
-        { "person_slug": "byron-g-harlan", "role": "vocalist", "detail": "tenor", "billing_order": 2 }
+        {
+          "person_slug": "arthur-collins",
+          "role": "vocalist",
+          "detail": "baritone",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "byron-g-harlan",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1014,8 +1203,16 @@
       "description": "A ragtime treatment of operatic themes, played by the Edison studio band under Cesare Sodero.\n\nThe \"operatic rag\" was a recognised novelty form in the 1910s: familiar opera melodies — usually Verdi, usually the ones everyone could hum — put through a syncopated arrangement. The humour lay in the incongruity, and the appeal lay in the fact that both halves of the joke were popular. It also let a record company sell ragtime to customers who thought they disapproved of it.\n\nThat this one is played by Sodero's Band is a nice irony. Cesare Sodero was a conservatory-trained Italian conductor who went on to conduct at the Metropolitan Opera, and he spent a good part of the 1910s and 1920s as Edison's musical director, turning his hand to whatever the catalogue required — including ragging the operas he would later conduct straight.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "soderos-band", "role": "band", "billing_order": 1 },
-        { "person_slug": "cesare-sodero", "role": "conductor", "billing_order": 2 }
+        {
+          "person_slug": "soderos-band",
+          "role": "band",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "cesare-sodero",
+          "role": "conductor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1037,7 +1234,12 @@
       "description": "An Irish comic song sung by Billy Murray. The premise is a stock one of the period — a man of no particular importance is mistaken for, or presumes to be, the O'Reilly, head of the clan — and the joke turns on the gap between the pretension and the reality.\n\nIrish-American comic material was one of the largest categories in the American record catalogue, sustained by an audience of millions who were themselves Irish-descended. It ranges from affectionate self-caricature to something considerably rougher, and this sort of clan-and-pretension song sits at the gentler end of it.\n\nThe cylinder has been digitised by the UCSB preservation project and can be heard without hunting for a copy.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1065,8 +1267,16 @@
       "notes": "Collectors should be aware of a persistent confusion around this number. Blue Amberol 2848 is this Sodero's Band operatic selection; the Walter Van Brunt recording of \"Don't Bite the Hand That's Feeding You\", with which 2848 is often conflated, is Blue Amberol 2948. The exact form of the title as printed on the label has not been confirmed and is given here in normalised form.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "soderos-band", "role": "band", "billing_order": 1 },
-        { "person_slug": "cesare-sodero", "role": "conductor", "billing_order": 2 }
+        {
+          "person_slug": "soderos-band",
+          "role": "band",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "cesare-sodero",
+          "role": "conductor",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1094,7 +1304,12 @@
       "notes": "The recording and release dates are taken from a dealer's transcription of the catalogue data rather than from an institutional record, and the performer attribution is not independently confirmed.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "lou-chiha-friscoe", "role": "instrumentalist", "detail": "xylophone", "billing_order": 1 }
+        {
+          "person_slug": "lou-chiha-friscoe",
+          "role": "instrumentalist",
+          "detail": "xylophone",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1121,7 +1336,12 @@
       "provenance": "Dubbed from an Edison Diamond Disc master; the archive catalogue gives the Diamond Disc matrix as 4686.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "walter-van-brunt", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "walter-van-brunt",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1161,7 +1381,11 @@
       "description": "A Scots comic song in the Harry Lauder manner, sung by Glen Ellison. Lauder's own \"It's Nice to Get Up in the Mornin'\" — with its punchline that it is nicer to stay in bed — was one of the most popular music-hall songs in the English-speaking world, and singers who could manage the accent found steady work recording the repertoire.\n\nThe Scots character song was a fixed international genre in the 1910s: a kilted comedian, a broad accent, jokes about thrift and whisky and early mornings, performed for audiences in Glasgow, London, New York and Sydney alike. Lauder was one of the highest-paid entertainers alive on the strength of it.\n\nEllison's Blue Amberols are the Edison end of that trade. This is a Blue Amberol from the later 1910s, when the series had settled into a routine of drawing on whatever repertoire was selling.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "glen-ellison", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "glen-ellison",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1182,7 +1406,11 @@
       "description": "\"Li'l Liza Jane\" is a traditional American song of uncertain and much-argued origin, in circulation well before it was ever copyrighted, and printed in 1916 in an arrangement by Countess Ada de Lachau that carried it into the commercial catalogue. It has since gone in every direction at once — into jazz, into folk revival, into brass-band repertoire — and it remains one of the most persistently played American tunes.\n\nThis is a dance treatment by Jaudas' Society Orchestra, Edison's house dance band of the mid-1910s under Eugene A. Jaudas. The society orchestra was a particular kind of ensemble, assembled to play for dancing in hotels and ballrooms, and its records were sold explicitly as dance music at a moment when social dancing had become a national preoccupation. Vernon and Irene Castle had turned the fox trot and the one-step into a mass activity, and every record company suddenly needed a dance band.\n\nThe tempo on records like this is steady and unhurried by later standards, because it was meant to be danced to in a domestic room rather than listened to.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "jaudas-society-orchestra", "role": "orchestra", "billing_order": 1 }
+        {
+          "person_slug": "jaudas-society-orchestra",
+          "role": "orchestra",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1204,7 +1432,11 @@
       "notes": "Title and performer taken from a dealer listing rather than an institutional catalogue; the pairing of this title with this catalog number is not independently confirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "new-york-military-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "new-york-military-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1231,7 +1463,12 @@
       "provenance": "Dubbed from Edison Diamond Disc matrix 6119.",
       "confidence": "verified",
       "credits": [
-        { "person_slug": "billy-murray", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-murray",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1252,7 +1489,11 @@
       "description": "John Philip Sousa composed \"Semper Fidelis\" in 1888, while he was leader of the United States Marine Band, and dedicated it to the Corps. It has been the official march of the Marine Corps ever since, and Sousa himself reportedly thought it his best — a judgement most band musicians would dispute in favour of \"The Stars and Stripes Forever\", but not one to be dismissed.\n\nWhat sets it apart structurally is the drum feature: the trio is built over a field-drum figure rather than the usual sustained harmony, which gives it a hard, martial character quite different from Sousa's more lyrical trios. It is a march written by a man who knew exactly what a military field band sounded like on the move.\n\nHaving it played by the Marine Band itself gives this cylinder a documentary value beyond the music. Band records were also the loudest thing a cylinder could carry, which made them perennial sellers to people who wanted their phonograph to fill a room.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "us-marine-band", "role": "band", "billing_order": 1 }
+        {
+          "person_slug": "us-marine-band",
+          "role": "band",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1274,7 +1515,11 @@
       "description": "A vocal trio number by the Crescent Trio, one of Edison's house vocal groups of the post-war years.\n\nThe flower-and-state song was a durable Tin Pan Alley formula — a girl's name, a place name, and a waltz or a slow fox trot — and it survived the war and the dance craze more or less untouched. Records of this kind were the ballast of the popular catalogue: not hits, not filler either, but the steady middle of what a record shop sold.\n\nThe Crescent Trio's records date from the period when the Blue Amberol had become a secondary format, kept alive for the substantial number of customers who still owned Amberolas and were not going to replace them. Almost everything issued at this point was dubbed from Diamond Disc masters.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "crescent-trio", "role": "ensemble", "billing_order": 1 }
+        {
+          "person_slug": "crescent-trio",
+          "role": "ensemble",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1296,8 +1541,16 @@
       "description": "A comic sketch by the vaudeville pair Al Weston and Irene Young — a male-and-female cross-talk act of the kind that filled the middle of every variety bill in the 1910s and 1920s.\n\nThe recorded comedy sketch was a genre in its own right, distinct from the comic song: two performers, a thin situation, and a run of gags timed to fill a side. Because there is no melody to carry the record, everything depends on delivery and on the pair's timing, which is why the successful acts on record tended to be established stage partnerships rather than assembled studio casts.\n\nThis is a 1920s Blue Amberol, from the last stretch of the series, and like nearly everything issued at that stage it would have reached the cylinder by way of a Diamond Disc master.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "al-weston", "role": "comedian", "billing_order": 1 },
-        { "person_slug": "irene-young", "role": "comedian", "billing_order": 2 }
+        {
+          "person_slug": "al-weston",
+          "role": "comedian",
+          "billing_order": 1
+        },
+        {
+          "person_slug": "irene-young",
+          "role": "comedian",
+          "billing_order": 2
+        }
       ],
       "links": [
         {
@@ -1319,7 +1572,12 @@
       "description": "A comic song by Billy Jones, best known as one half of The Happiness Boys with Ernest Hare — the duo who became, on radio from 1921, one of the first genuinely national broadcasting acts in the United States.\n\nThe song is a satire on suburban politeness: a catalogue of the neighbours' failings, each item followed by the insistence that they are, nevertheless, such nice people. It is a well-built joke of a kind that dates hardly at all.\n\nJones's Edison work sits at the point where the record business and radio began to overlap. The Happiness Boys were being heard by audiences far larger than any record could reach, and their popularity on the air fed straight back into their record sales — a dynamic that within a few years would help finish off the cylinder and a good deal else besides.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "billy-jones", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "billy-jones",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1342,7 +1600,11 @@
       "notes": "Title and performer taken from a dealer listing rather than an institutional catalogue; the pairing of this title with this catalog number is not independently confirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "james-doherty", "role": "vocalist", "billing_order": 1 }
+        {
+          "person_slug": "james-doherty",
+          "role": "vocalist",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1364,7 +1626,12 @@
       "description": "\"New River Train\" is a traditional Appalachian song, named for the New River that runs north through Virginia and West Virginia, and built on the endlessly extendable verse formula — riding on that New River train, darling you can't love but one — that made it a natural for both string bands and singalongs.\n\nVernon Dalhart recorded it with a small backing group billed as \"and Company\", usually meaning the guitar-and-harmonica accompanists who worked with him through his country period. Dalhart had trained as a light-opera tenor and sang this material in a plainly artificial rural manner, which purists have complained about ever since; it is also the reason it sold, because his diction and phrasing made unfamiliar rural repertoire legible to a mass audience.\n\nThat this exists as a Blue Amberol matters more than the performance does. Edison kept the cylinder in production until 1929, which means the format outlived the acoustic era and caught the first commercial wave of country music. A collector holding this cylinder is holding one of the very few points where the oldest surviving recorded format meets the newest commercial genre.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "vernon-dalhart", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "vernon-dalhart",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1387,7 +1654,12 @@
       "notes": "Title taken from a dealer listing rather than an institutional catalogue; the pairing of this title with this catalog number is not independently confirmed.",
       "confidence": "uncertain",
       "credits": [
-        { "person_slug": "vernon-dalhart", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "vernon-dalhart",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1409,7 +1681,12 @@
       "description": "Charles Lindbergh landed at Le Bourget on 21 May 1927, and within days American publishers were racing out songs about it. Something like a hundred Lindbergh songs were copyrighted that year. This is one of them, and Vernon Dalhart — by then the acknowledged master of the topical event song — recorded it for Edison.\n\nThe event song was a genuine commercial category and Dalhart had more or less invented its modern form with \"The Wreck of the Old 97\" and \"The Prisoner's Song\" in 1924. The formula was fixed: take a disaster or a triumph in the news, set the facts to a simple modal tune, record it within weeks, and sell it to an audience that wanted the story sung. It is the direct ancestor of the topical folk song of the 1940s and after.\n\nAs an artefact this cylinder is unusually easy to date, which is rare and useful. It cannot predate the flight, and Edison's cylinder line had only two years left to run. It is a late Blue Amberol, made for a shrinking market, and it catches the exact moment when the most famous man in the world was a pilot.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "vernon-dalhart", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "vernon-dalhart",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
@@ -1450,7 +1727,12 @@
       "description": "One of the most important American folk songs ever committed to a cylinder, and very nearly the last thing anyone would expect to find on one.\n\n\"The Big Rock Candy Mountains\" is a hobo song — a vision of a tramp's paradise where the hens lay soft-boiled eggs, the cops have wooden legs and the jails are made of tin. Harry McClintock, a genuine railroad worker and Wobbly organiser who performed as Haywire Mac, claimed and copyrighted it, and recorded it himself in 1928; the song plainly draws on older material circulating among hoboes, some of it considerably darker than the version that became famous. The published lyric is a sanitised one, with the original's account of an older tramp recruiting a boy removed.\n\nVernon Dalhart and Company recorded this Edison version. Catalog number 5652 places it within the last hundred or so Blue Amberols ever issued — the series ended at 5719 in October 1929, when Edison left the record business entirely. That makes this both an important song and a genuinely late cylinder, pressed in small quantities for a market that was almost gone.\n\nThe song's afterlife has been long: Burl Ives made it a children's standard, and it opened *O Brother, Where Art Thou?* in 2000 in McClintock's own 1928 recording. A collector who finds this cylinder has one of the more remarkable objects the series produced.",
       "confidence": "probable",
       "credits": [
-        { "person_slug": "vernon-dalhart", "role": "vocalist", "detail": "tenor", "billing_order": 1 }
+        {
+          "person_slug": "vernon-dalhart",
+          "role": "vocalist",
+          "detail": "tenor",
+          "billing_order": 1
+        }
       ],
       "links": [
         {
